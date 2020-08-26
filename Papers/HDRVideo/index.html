@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Motion Aware Exposure Bracketing for HDR Video</title>
+<!-- TemplateEndEditable -->
+
+<link rel="SHORTCUT ICON" href="http://www.mpii.mpg.de/favicon.ico"/>
+<link rel="stylesheet" type="text/css" media="screen" href="mpii.css"/>
+<link rel="stylesheet" type="text/css" media="print" href="http://www.mpii.mpg.de/c/print.css"/>
+
+<!-- TemplateBeginEditable name="head" -->
+<style type="text/css" media="screen">
+a#n4-departments, a:link#n1-departments, a:visited#n1-departments {color: #fff;}
+a#n2-departments, a:link#n2-departments, a:visited#n2-departments {background: rgb(80%,85%,90%);}
+a#d4-homepage, a:link#d4-homepage, a:visited#d4-homepage {background: rgb(80%,85%,90%);}
+a#d4-people, a:link#d4-people, a:visited#d4-people {background: rgb(80%,85%,90%);}
+li.hps {margin-top:10px;}
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover{color: red;}
+.excelIcon {background-image:url(../../img/icons/excelIcon.png); width: 38px; height: 38px;}
+</style>
+<!-- TemplateEndEditable -->
+
+</head>
+
+<body>
+<center>
+
+<div id="head2o2">
+	<div id="mpiitext">max planck institut informatik</div>
+	<img id="mpiilogo" src="http://people.mpi-inf.mpg.de/g/mpii.jpg" alt="mpii" usemap="#Map" width="300" height="100"/>
+	<map name="Map" id="Map">
+		<area shape="rect" coords="97,14,296,70" href="/" alt="mpii logo" />
+		<area shape="circle" coords="41,49,40" href="http://www.mpg.de/" alt="Minerva of the Max Planck Society" />
+	</map>
+</div>
+	
+<div id="headerspacer"></div>
+
+<div id="">
+<div id="col2o2content">
+
+
+<center>
+
+<h1 id="EGSR15">
+	<b>Motion Aware Exposure Bracketing for HDR Video</b><br/>
+	<a href="http://egsr2015.gcc.tu-darmstadt.de/">&#64; 26th Eurographics Symposium on Rendering (EGSR 2015)</a>
+</h1>
+<br/>
+<h3>
+	<a href="http://people.mpi-inf.mpg.de/~jgryadit/">Yulia Gryaditskaya<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="http://taniapouli.co.uk/index.html">Tania Pouli<sup>2</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="http://www.erikreinhard.com/about.html">Erik Reinhard<sup>2</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="https://people.mpi-inf.mpg.de/~karol/">Karol Myszkowski<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="http://people.mpi-inf.mpg.de/~hpseidel/">Hans-Peter Seidel<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<br/>
+	<sup>1</sup>MPI Informatik&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<sup>2</sup>Technicolor R&D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</h3>
+
+<div style="width:540px; margin-top:20px; padding:0px; text-align:justify;">
+	<img style="float:none; margin:0px; margin-top:5px; margin-bottom:15px; max-width:100%; max-height:100%;" src="flowchart_v2_rasterized.png" alt="2015"/>
+	<br/>
+	<span style="font-style:italic">
+	Our metering algorithm determines the optimal exposure
+	time for every frame as a function of scene motion and its
+	dynamic range. Our algorithm analyses previous frames to
+determine capture settings for the current frame. In particular,
+it gathers motion information from the two recent frames
+to divide the image into regions of local scene motion (local
+motion regions, or LMRs) and their counterparts, dominant
+motion regions (DMRs). The separation is performed to ensure
+that the number of well exposed pixels in DMRs in both
+frames is sufficient for dominant motion vector estimation.
+Its estimation precision influences the appearance of overexposed
+regions after reconstruction. It is also important to
+ensure that the number of correctly exposed pixels in the
+LMRs is sufficient for its correct reconstruction.
+The normalized histograms of each of these areas, as well as
+that of the full frame are then computed (normalized meaning
+that the sum of the values in the histogram bins is one).
+By examining the extreme bins of these three histograms
+(full, LMR, DMR) we can assess how well we have captured
+the dynamic range of the full scene and of the motion regions
+separately, and therefore decide how the next frame should
+be exposed.
+	</span>
+</div>
+
+<br/>
+<br/>
+
+</center>
+
+<h1>Abstract</h1>
+<p style="padding:10.0px 20.0px 10.0px 20.0px; text-align:justify;">
+Mobile phones and tablets are rapidly gaining significance as omnipresent image and video capture devices.
+In this context we present an algorithm that allows such devices to capture high dynamic range (HDR) video.
+The design of the algorithm was informed by a perceptual study that assesses the relative importance of motion
+and dynamic range. We found that ghosting artefacts are more visually disturbing than a reduction in dynamic
+range, even if a comparable number of pixels is affected by each. We incorporated these findings into a real-time,
+adaptive metering algorithm that seamlessly adjusts its settings to take exposures that will lead to minimal visual
+artefacts after recombination into an HDR sequence. It is uniquely suitable for real-time selection of exposure
+settings. Finally, we present an off-line HDR reconstruction algorithm that is matched to the adaptive nature of
+our real-time metering approach.
+</p>
+
+
+
+
+
+
+<h1>Downloads</h1>
+<br/>
+
+
+<table align="center">
+	<tr>
+		<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href=""><img src="../../img/icons/pdfIcon.png" alt="2014" width="40px"/></a></td>
+		<td style="vertical-align:middle; padding:0px;"><a href="https://drive.google.com/file/d/1rT6mU5Q_PQIW0iUpxn2JQTqdrgtZVC2t/view?usp=sharing"><b>Paper<br/>(6 MB)</b></a></td>
+		
+		<td style="width:30px;"></td>
+		
+		<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href=""><img src="../../img/icons/pdfIcon.png" alt="2014" width="40px"/></a></td>
+		<td style="vertical-align:middle; padding:0px;"><a href="https://drive.google.com/file/d/1TQ-rSOflWNUf8-v8v3xTKyp6hJmfoNuX/view?usp=sharing">Supplemental<br/>(9 MB)</a></td>
+		
+		<td style="width:30px;"></td>
+		
+		<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href=""><img src="../../img/icons/AVI.png" height="50px" alt="2014"/></a></td>
+		<td style="vertical-align:middle; padding:0px;"><a href="https://www.youtube.com/watch?v=5_gq8xK--18">Video<br/>(498 MB)</a></td>
+		
+		<td style="width:30px;"></td>
+		
+		<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href=""><img src="../../img/icons/pptxIcon.png" height="40px" alt="2014"/></a></td>
+		<td style="vertical-align:middle; padding:0px;"><a href="https://drive.google.com/file/d/1cKuGmuGN7CBrgkF4Watpz4I_QkGp9sbV/view?usp=sharing">Slides<br/>(600 MB)</a></td>
+		
+		<td style="width:30px;"></td>
+		
+		<!--<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href=""><img src="../../img/icons/zipIcon.png" alt="2014"/></a></td>
+		<td style="vertical-align:middle; padding:0px;"><a href="">Calibrated HDR Images<br/>(399 MB)</a></td>-->
+		
+	</tr>
+</table>
+
+<h1>Citation</h1>
+<div style = "padding:0px 0px 0px 0px;">
+	<table><tr>
+		<td><img src="LMRframe15.png" height="80px" alt="2014"/></td>
+		<td>
+		<i>Yulia Gryaditskaya, Tania Pouli, Erik Reinhard, Karol Myszkowski, Hans-Peter Seidel</i><br/>
+		<b>Motion Aware Exposure Bracketing for HDR Video</b><br/>
+		Computer Graphics Forum (Proc. EGSR), 2015<br/>
+		
+		</td>
+	</tr></table>
+	<div style = "padding: 0px 0px 0px 30px;">
+	<pre>
+<code>@ARTICLE{CGF:Gryad:15,
+journal = {Computer Graphics Forum (Proc. EGSR)},
+title = {{Motion Aware Exposure Bracketing for HDR Video}},
+author = {Gryaditskaya, Yulia and Pouli, Tania and Reinhard, Erik and Myszkowski, Karol and Seidel, Hans-Peter},
+year = {2015},
+publisher = {The Eurographics Association and John Wiley & Sons Ltd.},
+DOI = {10.1111/cgf.12684}
+}
+</code>
+	</pre>
+	</div>
+</div>
+
+
+	
+<div id="footer">Copyright 2014 by <a href="/" title="Home Page of the Max-Planck-Institute Informatik">Max-Planck-Institut&nbsp;Informatik</a> | <a href="/impressum.html" title="Impressum and legal notices, Umsatzsteuer ID, Swift Code, BIC">Impressum</a><br />
+<!-- hhmts start -->Last modified:<!-- hhmts end -->
+<!--#echo var="LAST_MODIFIED" -->
+</div>
+
+</div>
+</div>
+
+</center>
+
+</body>
+</html>
