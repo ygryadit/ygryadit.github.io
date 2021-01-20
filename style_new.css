@@ -95,6 +95,23 @@ a:active {
 }
 
 
+.thumbD {
+	padding-top: 10px;
+	text-align:left;
+	position: relative;
+	float: left;
+	padding: 3px;
+    padding-bottom: 0px;
+    margin: 0px;
+	margin-right: 20px;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.15), 0 4px 4px 0 rgba(0, 0, 0, 0.14); 
+}
+
+.thumbD img{
+	border: thin;
+}
+
+
 .authors,.conf
 {
 	color: #2E2E2E;
@@ -113,7 +130,21 @@ a:active {
 }
 
 .ref{
-	height: 120px;
+	height: 120px; 
+	padding-top: 10px;
+    text-align:left;
+    line-height: 1.5;
+}
+
+.refS{
+	height: 90px; 
+	padding-top: 10px;
+    text-align:left;
+    line-height: 1.5;
+}
+
+.refB{
+	height: 140px; 
 	padding-top: 10px;
     text-align:left;
     line-height: 1.5;
