@@ -127,7 +127,7 @@ layout: main
 				
 				<div class='data'>
 					<img class='doc' src='img/icons/pdfIcon.png' width='19' height='19' alt='' /><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9272370"> paper </a> |				
-					<a href='./Papers/ProSketch/cite.bib')> bibtex </a> |
+					<a href="./Papers/ProSketch/cite.bib"> bibtex </a> |
 					<a href=" "> code </a> 
 				</div>				
 				
