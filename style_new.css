@@ -363,6 +363,13 @@ a:hover {
 	font-weight: 400;
 }
 
+#hobbies {
+	text-align: left;
+}
+
+#activities {
+	text-align: left;
+}
 
 ul{
 	text-align: left;
