@@ -4,7 +4,7 @@ title: 'Home'
 layout: main
 ---
 
-
+<div id='content'>
 	<div class="main">
 		<div id="info">
 		
@@ -68,15 +68,15 @@ layout: main
 							<center>
 								<table>
 									<tr>
-										<td align="left"> <img src="img/icons/pdfIcon.png"/ style="width:25px;"> <a href="Gryaditskaya_cv.pdf">Curriculum Vitae (108 KB)</a></td>
-										<td width="20px">
-										<td align="right"> <img src="img/icons/pdfIcon.png"/ style="width:25px;"> <a href="https://diglib.eg.org/bitstream/handle/10.2312/2631883/thesis_gryaditskaya_compressed.pdf?sequence=1&isAllowed=y">PhD dissertation (410 MB)</a></td>
+										<td align="left"> <img src="img/icons/pdfIcon.png" style="width:25px;" /> <a href="Gryaditskaya_cv.pdf">Curriculum Vitae (108 KB)</a></td>
+										<td width="20px"> </td>
+										<td align="right"> <img src="img/icons/pdfIcon.png" style="width:25px;" /> <a href="https://diglib.eg.org/bitstream/handle/10.2312/2631883/thesis_gryaditskaya_compressed.pdf?sequence=1&isAllowed=y">PhD dissertation (410 MB)</a></td>
 										
 									</tr>
 									<tr>
-										<td align="left"> <img src="img/icons/scholar.svg"/ style="width:20px;">  <a href="https://scholar.google.co.uk/citations?user=cBB96b4AAAAJ">Google Scholar</a> </td>										
-										<td width="20px">
-										<td align="right"> <img src="img/icons/lindein.PNG"/ style="width:20px;"><a href="https://www.linkedin.com/in/yulia-gryaditskaya-64a8164b/">LinkedIn</a></td>										
+										<td align="left"> <img src="img/icons/scholar.svg" style="width:20px;" />  <a href="https://scholar.google.co.uk/citations?user=cBB96b4AAAAJ">Google Scholar</a> </td>										
+										<td width="20px"> </td>
+										<td align="right"> <img src="img/icons/lindein.PNG" style="width:20px;" /><a href="https://www.linkedin.com/in/yulia-gryaditskaya-64a8164b/">LinkedIn</a></td>										
 									</tr>
 								</table>
 							</center>
@@ -104,14 +104,14 @@ layout: main
 			<!------->
 		
 			<div class='thumb'>
-				<img src="./Papers/ProSketch/preview.png" width = '100px'/></a>
+				<img src="./Papers/ProSketch/preview.png" width = '100px'/>
 			</div>
             
             <div class='ref'>
                 <div class='title'>
                     <a href="https://ieeexplore.ieee.org/document/9272370">
                         Towards Practical Sketch-based 3D ShapeGeneration: The Role of Professional Sketches
-                    </a> &nbsp; 
+                    </a> 
                     
                 </div>
                 <div class='authors'>					
@@ -136,7 +136,7 @@ layout: main
 			<!------->
 			
 			<div class='thumb'>
-				<img src="./Papers/3DV/Sketch3D/preview.png" width = '100px'/></a>
+				<img src="./Papers/3DV/Sketch3D/preview.png" width = '100px'/>
 			</div>
             
 			
@@ -165,7 +165,7 @@ layout: main
 			<!------->
 		
 			<div class='thumb'>
-				<img src="./Papers/3DV/DeepSketch/preview.png" width = '100px'/></a>
+				<img src="./Papers/3DV/DeepSketch/preview.png" width = '100px'/>
 			</div>
             
             <div class='ref'>
@@ -190,7 +190,7 @@ layout: main
 			<!------->
 			
 			<div class='thumb'>
-				<img src="./Papers/Lift3D/preview.png" width = '100px'/></a>
+				<img src="./Papers/Lift3D/preview.png" width = '100px'/>
 			</div>
             
             <div class='ref'>
@@ -215,7 +215,7 @@ layout: main
 			<!------->
 
 			<div class='thumb'>
-                <img src='./Papers/Pixelor/preview.jpg' width = '100px'/></a>
+                <img src='./Papers/Pixelor/preview.jpg' width = '100px'/>
             </div>
             
             <div class='ref'>
@@ -245,7 +245,7 @@ layout: main
 			
 			
 			<div class='thumb'>
-                <img src='./Papers/OpenSketch/preview_open_sketch.png' width = '100px'  alt='OpenSketch'/></a>
+                <img src='./Papers/OpenSketch/preview_open_sketch.png' width = '100px'  alt='OpenSketch'/>
             </div>
             
             <div class='ref'>
@@ -274,7 +274,7 @@ layout: main
 			
 			
 			<div class='thumb'>
-                <img src="./Papers/BitmapVector/preview.png" width = '100px'  alt='Bitmap or Vector?'/></a>
+                <img src="./Papers/BitmapVector/preview.png" width = '100px'  alt='Bitmap or Vector?'/>
             </div>
             
             <div class='ref'>
@@ -301,7 +301,7 @@ layout: main
                 <!-- <img src='./Patents/HDR/front_page.png' width = '100px'  alt='OpenSketch'/></a> -->
             <!-- </div> -->
             <div class='thumb'>
-                <img src='./Thesis/preview.png' width = '100px'  alt='Thesis'/></a>
+                <img src='./Thesis/preview.png' width = '100px'  alt='Thesis'/>
             </div>
             
             <div class='ref'>
@@ -328,7 +328,7 @@ layout: main
                 <!-- <img src='./Patents/HDR/front_page.png' width = '100px'  alt='OpenSketch'/></a> -->
             <!-- </div> -->
             <div class='thumb'>
-                <img src='./Patents/HDR/preview.png' width = '100px'  alt='OpenSketch'/></a>
+                <img src='./Patents/HDR/preview.png' width = '100px'  alt='OpenSketch'/>
             </div>
             
             <div class='ref'>
@@ -358,7 +358,7 @@ layout: main
 			<div class='publ_year'> 2016 </div>
 			
            <div class='thumb'>
-                <img src='Papers/GlossEditing/preview.png' height = '100px'  alt='GlossEditing'/></a>
+                <img src='Papers/GlossEditing/preview.png' height = '100px'  alt='GlossEditing'/>
             </div>
             <div class='ref'>
                 <div class='title'>
@@ -388,7 +388,7 @@ layout: main
 			<div class='publ_year'> 2015 </div>
 			
             <div class='thumb'>
-                <img src='Papers/HDRVideo/preview.png' width = '100px'  alt='HDRVideo'/></a>
+                <img src='Papers/HDRVideo/preview.png' width = '100px'  alt='HDRVideo'/>
             </div>
             
             <div class='ref'>
@@ -420,7 +420,7 @@ layout: main
 			<div class='publ_year'> 2014 </div>
 			
             <div class='thumb'>
-                <img src='Papers/LightMetering/preview.png' width = '100px'  alt='LightMetering'/></a>
+                <img src='Papers/LightMetering/preview.png' width = '100px'  alt='LightMetering'/>
             </div>
             
             <div class='ref'>
@@ -623,7 +623,7 @@ layout: main
 		</div>
 		
 	</div>
-	
+</div>	
 	
 	
 			
