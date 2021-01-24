@@ -4,48 +4,6 @@ title: 'Home'
 layout: main
 ---
 
-<html lang="en">
-
-<head>
-	
-	<link rel="stylesheet" type="text/css" media="screen" href="style_new.css" />	
-	<link rel="stylesheet" type="text/css" media="screen" href="menu.css" />
-
-
-	<meta name="keywords" content="Max-Planck-Institut,
-	Max Planck Institute,
-	MPII,
-	MPI,
-	Yulia Gryaditskaya,
-	Yulia Gryaditskya,
-	Inria,
-	Computer Graphics,
-	HDR Video,
-	High Dynamic Range,
-	HDR dataset,
-	calibrated HDR,
-	sketch-based modelling,
-	sketch-based modeling,
-	concept sketch,
-	OpenSketch,
-	CVSSP,
-	Sketch-X
-	">
-
-	<title>Yulia Gryaditskaya</title>
-
-	<meta name="generator" content="Jekyll v3.9.0" />
-	<meta property="og:locale" content="en_US" />
-	<meta name="description" content="website" />
-	<meta property="og:description" content="website" />
-	<link rel="canonical" href="https://yulia.gryadistakay.com/" />
-	<meta property="og:url" content="https://yulia.gryadistakay.com" />
-	<meta property="og:site_name" content="Yulia Gryaditskaya" />
-</head>
-
-
-<body>
-<center>
 
 	<div class="main">
 		<div id="info">
@@ -671,7 +629,6 @@ layout: main
 			
 	
 
-</center>
 
-</body>
-</html>
+
+
