@@ -7,8 +7,6 @@ layout: main
 <div id='content'>
 	<div class="main">
 		
-		
-		
 		<div id="info">
 			<table>
 				<tr>
