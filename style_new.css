@@ -314,6 +314,28 @@ a:hover {
 
 
 
+/* Bio links */
+
+#bio a{
+	text-decoration: none;
+	color: var(--link_data);
+}
+
+#bio a:link{
+	text-decoration: none;
+	color: var(--link_data);
+}
+
+#bio a:visited {
+	text-decoration: none;
+	color: var(--link_data);
+}
+
+#bio a:hover {
+	text-decoration: none;
+	color: var(--link_hover);
+}
+
 
 
 
