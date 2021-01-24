@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+---
+permalink: /
+title: 'Home'
+layout: main
+---
+
 <html lang="en">
 
 <head>
