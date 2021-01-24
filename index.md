@@ -6,33 +6,8 @@ layout: main
 
 <div id='content'>
 	<div class="main">
-		<div id="info">
 		
-			<h2>Dr. Yulia Gryaditskaya</h2>
-						
-						
-			<h3>Senior Research Fellow at <a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing"> CVSSP, UK </a><br/></h3>
-		   
-	
-			Email address:
-			<script src="myaddress.js" type="text/javascript"></script>
-					
-       
-		</div>
 		
-		<hr />
-		
-		<nav role="navigation" class="primary-navigation">
-		  <ul>
-			<li><a href="#bio">About</a></li>
-			<li><a href="#publications">Publications</a></li>
-			<li><a href="#datasets">Released dataset</a></li>
-			<li><a href="#activities">Professional Activities</a></li>
-			<li><a href="#hobbies">Hobbies</a></li>
-		  </ul>
-		</nav>
-		
-		<hr />
 		
 		<div id="info">
 			<table>
@@ -91,361 +66,77 @@ layout: main
 			
 		<hr />
 	
-			
 		
-		
+		<!-- Load publication  -->
+		{% assign publications_all = site.data.publications  | sort : 'publ_id' %}
+		{% assign year_curr = 0 %}
+		<!-- Print publications list -->
 		
 		<div id="publications">
-        	<h2> Publications</h2>
+			<h2> Publications</h2>
             
-
-			<div class='publ_year'> 2020 </div>
-			
-			<!------->
-		
-			<div class='thumb'>
-				<img src="./Papers/ProSketch/preview.png" width = '100px'/>
-			</div>
-            
-            <div class='ref'>
-                <div class='title'>
-                    <a href="https://ieeexplore.ieee.org/document/9272370">
-                        Towards Practical Sketch-based 3D ShapeGeneration: The Role of Professional Sketches
-                    </a> 
-                    
-                </div>
-                <div class='authors'>					
-					Yue Zhong,
-					Yonggang Qi,
-                   	<b>Yulia Gryaditskaya</b>,
-					Honggang Zhang,
-					Yi-Zhe Song
-                </div>
-                <div class='conf'>
-				IEEE Transactions on Circuits and Systems for Video Technology, 2020.
-                </div>
+			{% for publ in publications_all reversed %}
 				
-				<div class='data'>
-					<img class='doc' src='img/icons/pdfIcon.png' width='19' height='19' alt='' /><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9272370"> paper </a> |				
-					<a href="./Papers/ProSketch/cite.bib"> bibtex </a> |
-					<a href=" "> code </a> 
-				</div>				
+				{% if year_curr != publ.year %}
+					<!-- Year -->
+					<div class='publ_year'> {{publ.year}} </div>
+					{% assign year_curr = publ.year %}
+				{% endif %}
 				
-            </div>
-			
-			<!------->
-			
-			<div class='thumb'>
-				<img src="./Papers/3DV/Sketch3D/preview.png" width = '100px'/>
-			</div>
-            
-			
-			
-			
-			
-            <div class='ref'>
-                <div class='title'>
-                    <a href="https://tinyurl.com/3DSketch3DV">
-                        Towards 3D VR-Sketch to 3D Shape Retrieval
-                    </a> &nbsp; 
-                    <a href="https://rowl1ng.com/assets/pdf/3DV_VRSketch.pdf"><img class='doc' src='img/icons/pdfIcon.png' width='19' height='19' alt='' /></a>
-                </div>
-                <div class='authors'>					
-					Ling Luo,
-                   	<b>Yulia Gryaditskaya</b>,
-					Yongxin Yang,
-					Tao Xiang,
-					Yi-Zhe Song
-                </div>
-                <div class='conf'>
-                    Proceedings of International Conference on 3D Vision (3DV) - (Oral), 2020.
-                </div>
-            </div>
-			
-			<!------->
+				{% if publ.preview_img_link != "" %}
+					
+					<div class='thumb'>
+						<img src="{{publ.preview_img_link}}" width = '{{publ.img_width}}'/>
+					</div>
+					
+					<div class='ref'>
+						<!-- Title -->
+						<div class='title'>
+							<a href="{{publ.title_link}}">
+								{{publ.title}}
+							</a> 
+						</div>						
+						
+						<!-- Authors -->
+						<div class='authors'>					
+							{{publ.authors}}
+						</div>
+						
+						<!-- Venue -->
+						<div class='conf'>
+							{{publ.venue}}, {{publ.year}}.
+						</div>
+				
+						<!-- Data -->
+						<div class='data'>
+							{% if publ.paper_link and publ.paper_link  != "" %}
+								<img class='doc' src='img/icons/pdfIcon.png' width='19' height='19' alt='' />
+									<a href="{{publ.paper_link}}"> paper 
+									</a> |				
+							{% endif %}
+							{% if publ.project_link and publ.project_link  != "" %}
+								<a href="{{publ.project_link}}"> project_page </a> |
+							{% endif %}
+						
+							{% if publ.code and publ.code  != "" %}
+								<a href="{{publ.code}}"> code </a> |
+							{% endif %}
+							
+							{% if publ.bibtex_link and publ.bibtex_link  != ""  %}
+								<a href="{{publ.bibtex_link}}"> bibtex </a> 
+							{% endif %}
+						</div>	
+				
+					</div>
+				
+				
+				{% endif %}
+				
+			{% endfor %}
 		
-			<div class='thumb'>
-				<img src="./Papers/3DV/DeepSketch/preview.png" width = '100px'/>
-			</div>
-            
-            <div class='ref'>
-                <div class='title'>
-                    <a href="https://tinyurl.com/DeepSketchModeling">
-                        Deep Sketch-Based Modeling: Tips and Tricks
-                    </a> &nbsp; 
-                    <a href="https://arxiv.org/pdf/2011.06133.pdf"><img class='doc' src='img/icons/pdfIcon.png' width='19' height='19' alt='' /></a>
-                </div>
-                <div class='authors'>					
-					Yue Zhong,
-                   	<b>Yulia Gryaditskaya</b>,
-					Honggang Zhang,
-					Yi-Zhe Song
-                </div>
-                <div class='conf'>
-                    
-		Proceedings of International Conference on 3D Vision (3DV) - (Spotlight), 2020.
-                </div>
-            </div>
-			
-			<!------->
-			
-			<div class='thumb'>
-				<img src="./Papers/Lift3D/preview.png" width = '100px'/>
-			</div>
-            
-            <div class='ref'>
-                <div class='title'>
-                    <a href="https://ns.inria.fr/d3/Lift3D">
-                        Lifting Freehand Concept Sketches into 3D
-                    </a> &nbsp; 
-                    <a href="https://repo-sam.inria.fr/d3/Lift3D/Gryaditskaya_SigAsia20_Lifting%20_Freehand_Concept_Sketches_into_3D.pdf"><img class='doc' src='img/icons/pdfIcon.png' width='19' height='19' alt='' /></a>
-                </div>
-                <div class='authors'>
-                   <a href="http://yulia.gryaditskaya.com/"><b>Yulia Gryaditskaya</b></a>,
-                   Felix Hähnlein,
-		   <a href='https://www.cs.ubc.ca/~chenxil/'>Chenxi Liu</a>,			
-                   <a href='https://www.cs.ubc.ca/~sheffa/'>Alla Sheffer</a>,
-                   <a href='http://www-sop.inria.fr/members/Adrien.Bousseau/'>Adrien Bousseau</a>
-                </div>
-                <div class='conf'>
-                    ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia), 2020.
-                </div>
-            </div>
-			
-			<!------->
-
-			<div class='thumb'>
-                <img src='./Papers/Pixelor/preview.jpg' width = '100px'/>
-            </div>
-            
-            <div class='ref'>
-                <div class='title'>
-                    <a href="http://sketchx.ai/pixelor">
-                        Pixelor: A Competitive Sketching AI Agent. So you think you can beat me?
-                    </a> &nbsp; 
-                    <a href=""><img class='doc' src='img/icons/pdfIcon.png' width='19' height='19' alt='' /></a>
-                </div>
-                <div class='authors'>
-					<a href="">Ayan Kumar Bhunia</a>,
-					<a href="">Ayan Das</a>,
-					<a href="">Umar Riaz Muhammad</a>,
-					<a href="">Yongxin Yang</a>,
-					<a href="">Timothy Hospedales</a>,
-					<a href="">Tao Xiang</a>,
-					<a href="http://yulia.gryaditskaya.com/"><b>Yulia Gryaditskaya</b></a>,
-					<a href="">Yi-Zhe Song</a>
-                </div>
-                <div class='conf'>
-                    ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia), 2020.
-                </div>
-            </div>			
-
-			
-			<div class='publ_year'> 2019 </div>
-			
-			
-			<div class='thumb'>
-                <img src='./Papers/OpenSketch/preview_open_sketch.png' width = '100px'  alt='OpenSketch'/>
-            </div>
-            
-            <div class='ref'>
-                <div class='title'>
-                    <a href="https://ns.inria.fr/d3/OpenSketch/">
-                        OpenSketch: A Richly-Annotated Dataset of Product Design Sketches
-                    </a> &nbsp; 
-                    <a href="https://repo-sam.inria.fr/d3/OpenSketch/Gryaditskaya_OpenSketch_AuthorsVersion.pdf"><img class='doc' src='img/icons/pdfIcon.png' width='19' height='19' alt='open_sketch.pdf' /></a>
-                </div>
-                <div class='authors'>
-                   <a href="http://yulia.gryaditskaya.com/"><b>Yulia Gryaditskaya</b></a>,
-                   <a href='https://www.marksypesteyn.com/'>Mark Sypesteyn</a>,
-                   <a href='https://www.linkedin.com/in/janwillemhoftijzer'>Jan Willem Hoftijzer</a>,
-                   <a href='https://www.tudelft.nl/en/ide/about-ide/personal-profiles/professors/pont-sc/'>Sylvia Pont</a>,
-                   <a href='http://people.csail.mit.edu/fredo/'>Fr&eacute;do Durand</a>,
-                   <a href='http://www-sop.inria.fr/members/Adrien.Bousseau/'>Adrien Bousseau</a>
-                </div>
-                <div class='conf'>
-                    ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia), 2019.
-                </div>
-            </div>
-			
-			
-			
-			
-			
-			
-			<div class='thumb'>
-                <img src="./Papers/BitmapVector/preview.png" width = '100px'  alt='Bitmap or Vector?'/>
-            </div>
-            
-            <div class='ref'>
-                <div class='title'>
-                    <a href="https://hal.inria.fr/hal-02922043/">
-                        Bitmap or Vector? A study on sketch representations for deep stroke segmentation
-                    </a> &nbsp; 
-                    <a href="https://hal.inria.fr/hal-02922043/document"><img class='doc' src='img/icons/pdfIcon.png' width='19' height='19'/></a>
-                </div>
-                <div class='authors'>
-					Felix Hähnlein,
-					<a href="http://yulia.gryaditskaya.com/"><b>Yulia Gryaditskaya</b></a>,
-					<a href='http://www-sop.inria.fr/members/Adrien.Bousseau/'>Adrien Bousseau</a>
-                </div>
-                <div class='conf'>
-                    Journées Françaises d’Informatique Graphique et de Réalité Virtuelle, 2019.
-                </div>
-            </div>
-			
-			
-            <div class='publ_year'> 2017 </div>
-            <!-- Thesis  -->
-            <!-- <div class='thumb'> -->
-                <!-- <img src='./Patents/HDR/front_page.png' width = '100px'  alt='OpenSketch'/></a> -->
-            <!-- </div> -->
-            <div class='thumb'>
-                <img src='./Thesis/preview.png' width = '100px'  alt='Thesis'/>
-            </div>
-            
-            <div class='ref'>
-                <div class='title'>
-                    <a href="https://diglib.eg.org/handle/10.2312/2631883">
-                        High Dynamic Range Imaging:
-                        Problems of Video Exposure Bracketing,
-                        Luminance Calibration and
-                        Gloss Editing
-                    </a> &nbsp; 
-                    <a href="https://diglib.eg.org/bitstream/handle/10.2312/2631883/thesis_gryaditskaya_compressed.pdf?sequence=1&isAllowed=y"><img class='doc' src='img/icons/pdfIcon.png' width='19' height='19' /></a>
-                </div>
-                <div class='authors'>
-                   <a href='http://yulia.gryaditskaya.com/'><b>Yulia Gryaditskaya</b></a>
-                </div>
-                <div class='conf'>
-                    PhD Thesis, Faculty of Mathematics and Computer Science of Saarland University, 2017.
-                </div>
-            </div>
-            <!-- Thesis end-->
-            
-            <!-- Patent_HDR  -->
-            <!-- <div class='thumb'> -->
-                <!-- <img src='./Patents/HDR/front_page.png' width = '100px'  alt='OpenSketch'/></a> -->
-            <!-- </div> -->
-            <div class='thumb'>
-                <img src='./Patents/HDR/preview.png' width = '100px'  alt='OpenSketch'/>
-            </div>
-            
-            <div class='ref'>
-                <div class='title'>
-                    <a href="https://patents.google.com/patent/US9648251B2/en">
-                        Method for generating an HDR image of a scene based on a tradeoff between brightness distribution and motion
-                    </a> &nbsp; 
-                    <a href="https://patentimages.storage.googleapis.com/2b/ad/42/80ccb95a05cef0/US9648251.pdf"><img class='doc' src='img/icons/pdfIcon.png' width='19' height='19' /></a>
-                </div>
-                <div class='authors'>
-                   <a href="http://taniapouli.me/">Foteini Tania Pouli</a>,
-                   <a href='hhttp://erikreinhard.com/about.html'>Erik Reinhard</a>,
-                   <a href='http://yulia.gryaditskaya.com/'><b>Yulia Gryaditskaya</b></a>
-                </div>
-                <div class='conf'>
-                    US Patent 9,648,251, 2017.
-                </div>
-            </div>
-            <!-- Patent_HDR end-->
-
-            
-            <!-- GlossEditing  -->
-            <!-- <div class='thumb'> -->
-                <!-- <img src='Papers/GlossEditing/front_page_preview.png' width = '100px'  alt='OpenSketch'/></a> -->
-            <!-- </div> -->
-			
-			<div class='publ_year'> 2016 </div>
-			
-           <div class='thumb'>
-                <img src='Papers/GlossEditing/preview.png' height = '100px'  alt='GlossEditing'/>
-            </div>
-            <div class='ref'>
-                <div class='title'>
-                    <a href="Papers/GlossEditing/index.html#vmv1">
-                        Gloss Editing in Light Fields
-                    </a> &nbsp; 
-                    <a href="Papers/GlossEditing/2016_Gryaditskaya_GlossEditingLF.pdf"><img class='doc' src='img/icons/pdfIcon.png' width='19' height='19' /></a>
-                </div>
-                <div class='authors'>
-			<a href='http://yulia.gryaditskaya.com/'><b>Yulia Gryaditskaya</b></a>,
-                   <a href='http://webdiis.unizar.es/~bmasia/'>Belen Masia</a>,
-                   <a href='https://www.pdf.inf.usi.ch/people/piotr/'>Piotr Didyk</a>,
-                   <a href='https://people.mpi-inf.mpg.de/~karol/'>Karol Myszkowski</a>,
-                   <a href='https://people.mpi-inf.mpg.de/~hpseidel/'>Hans-Peter Seidel</a>
-                </div>
-                <div class='conf'>
-                    Proc. International Workshop on Vision, Modeling and Visualization (VMV), 2016.
-                </div>
-            </div>
-            <!-- GlossEditing end-->
-            
-            <!-- HDRVideo  -->
-            <!-- <div class='thumb'> -->
-                <!-- <img src='Papers/HDRVideo/front_page_preview.png' width = '100px'  alt='HDRVideo'/></a> -->
-            <!-- </div> -->
-			
-			<div class='publ_year'> 2015 </div>
-			
-            <div class='thumb'>
-                <img src='Papers/HDRVideo/preview.png' width = '100px'  alt='HDRVideo'/>
-            </div>
-            
-            <div class='ref'>
-                <div class='title'>
-                    <a href="Papers/HDRVideo/index.html#egsr15">
-                        Motion Aware Exposure Bracketing for HDR Video
-                    </a> &nbsp; 
-                    <a href="Papers/HDRVideo/ExposureBracketingHDRVideo.pdf"><img class='doc' src='img/icons/pdfIcon.png' width='19' height='19' /></a>
-                </div>
-                <div class='authors'>
-                   <a href='http://yulia.gryaditskaya.com/'><b>Yulia Gryaditskaya</b></a>,
-                   <a href="http://taniapouli.me/">Foteini Tania Pouli</a>,
-                   <a href='hhttp://erikreinhard.com/about.html'>Erik Reinhard</a>,
-                   <a href='https://people.mpi-inf.mpg.de/~karol/'>Karol Myszkowski</a>,
-                   <a href='https://people.mpi-inf.mpg.de/~hpseidel/'>Hans-Peter Seidel</a>
-                </div>
-                <div class='conf'>
-                    Computer Graphics Forum (Proc. EGSR), 2015.
-                </div>
-            </div>
-            <!-- HDRVideo end-->
-            
-            
-            <!-- LightMetering  -->
-            <!-- <div class='thumb'> -->
-                <!-- <img src='Papers/LightMetering/front_page_preview.png' width = '100px'  alt='LightMetering'/></a> -->
-            <!-- </div> -->
-			
-			<div class='publ_year'> 2014 </div>
-			
-            <div class='thumb'>
-                <img src='Papers/LightMetering/preview.png' width = '100px'  alt='LightMetering'/>
-            </div>
-            
-            <div class='ref'>
-                <div class='title'>
-                    <a href="Papers/LightMetering/index.html#pg14">
-                        Sky Based Light Metering for High Dynamic Range Images
-                    </a> &nbsp; 
-                    <a href="Papers/LightMetering/LM_Supp.pdf"><img class='doc' src='img/icons/pdfIcon.png' width='19' height='19' /></a>
-                </div>
-                <div class='authors'>
-                   <a href='http://yulia.gryaditskaya.com/'><b>Yulia Gryaditskaya</b></a>,
-                   <a href="http://taniapouli.me/">Foteini Tania Pouli</a>,
-                   <a href='hhttp://erikreinhard.com/about.html'>Erik Reinhard</a>,
-                   <a href='https://people.mpi-inf.mpg.de/~hpseidel/'>Hans-Peter Seidel</a>
-                </div>
-                <div class='conf'>
-                    Computer Graphics Forum (Proc. Pacific Graphics), 2014
-                </div>
-                <div class='materials'>
-                     <a href="Papers/LightMetering/index.html#pg14#downloads">Callibrated HDR Dataset.</a>
-                </div>
-            </div>
-            <!-- LightMetering end-->
-            
-        </div>
+		</div>
+		
+	
 		<hr/>
 		<div id="datasets">
 			<h3> Released datasets </h3>
