@@ -20,16 +20,19 @@ layout: main
 								I am a Graphics and Vision Researcher, focusing at the moment on leveraging Graphics in Deep Learning for 2D and 3D sketch-related applications.
 							</p>
 							<p>
-								As a Senior Research Fellow at <a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing"> CVSSP, UK</a>,
-								I am currently advising and co-advising PhD students in Vision and Deep Learning.
+								As a Senior Research Fellow at <a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing"> CVSSP, UK</a>, at <a href='https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en'>SketchX</a> group, 
+								lead by <a href='http://sketchx.eecs.qmul.ac.uk/'>Yi-Zhe Song</a>.
+								I am currently co-advising PhD students in Vision and Deep Learning.
 							</p>
 							
 							<p>
-								As a postdoctoral researcher at Inria, <a href="https://team.inria.fr/graphdeco/">GraphDeco </a> group, I studied concept sketching techniques and worked on sketch-based modeling.
+								As a postdoctoral researcher at Inria, <a href="https://team.inria.fr/graphdeco/">GraphDeco </a> group under <a href ='http://www-sop.inria.fr/members/Adrien.Bousseau/'>Adrien Bousseau</a>, I studied concept sketching techniques and worked on sketch-based modeling.
 							</p>
 							<p>
-								I got my PhD at <a href="https://www.mpi-inf.mpg.de/">MPI Informatik</a>, Germany. As a part of my PhD, I spent 
-								half a year in Color and HDR group in <a href="https://www.technicolor.com/contact/research-and-innovation"> Technicolor R&D</a>, Rennes, France. 
+								I got my PhD at <a href="https://www.mpi-inf.mpg.de/">MPI Informatik</a>, 
+								Germany, advised by <a href='https://people.mpi-inf.mpg.de/~karol/'>Karol Myszkowski</a> 
+								and <a href='https://scholar.google.de/citations?user=s2Ibok8AAAAJ&hl=en'>Hans-Peter Seidel</a>. As a part of my PhD, I spent 
+								half a year in Color and HDR group in <a href="https://www.technicolor.com/contact/research-and-innovation"> Technicolor R&D</a>, Rennes, France, under <a href='http://www.erikreinhard.com/about.html'> Erik Reinhard</a>. 
 								I obtained my diploma in 
 								<a href="http://www.msu.ru/en/info/struct/depts/vmc.html">Applied Mathematics and Computer Science</a>  with a specialization in Operation Research and System Analysis
 								from <a href="http://www.msu.ru/en/info/">MSU Lomonosov</a>, Russia.  
