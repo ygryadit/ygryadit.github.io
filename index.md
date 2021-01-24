@@ -188,7 +188,7 @@ layout: main
 			<div class='refS'>
 			
 				<div class = 'title'>
-					<a href='https://drive.google.com/file/d/1FkKZfWt7O4xMy4ir5kCYcmwZLPk1uBcZ/view?usp=sharing'>3D VR sketch-3D Shape Chairs</a>
+					<a href='https://drive.google.com/file/d/1FkKZfWt7O4xMy4ir5kCYcmwZLPk1uBcZ/view?usp=sharing'>3D VR sketch-3D Shape pairs</a>
 				</div>
 				
 				<div class = 'DatasetDesc'>
