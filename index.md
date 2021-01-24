@@ -2,9 +2,8 @@
 <html lang="en">
 
 <head>
-	# CSS
-	<link rel="stylesheet" type="text/css" media="screen" href="style_new.css" />
-	# <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="style_new.css" />	
 	<link rel="stylesheet" type="text/css" media="screen" href="menu.css" />
 
 

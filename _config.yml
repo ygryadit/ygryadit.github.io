@@ -1,0 +1,27 @@
+# Site settings
+title: "Yulia Gryaditskaya"
+tagline: ""
+
+
+# Handling Reading
+safe: true
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Build settings
+permalink: /:categories/:title/
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+
+# Contact
+email: "yulia.gryaditskaya@gmail.com"
+
+# Use this for production
+sass:
+    style: compressed
+exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
+
+theme: jekyll-theme-slate
