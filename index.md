@@ -1,41 +1,44 @@
----
-permalink: /
----
+<!DOCTYPE html>
+<html lang="en">
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<!--#include virtual="/fileadmin/inf/layout.inc" -->
+	# CSS
+	<link rel="stylesheet" type="text/css" media="screen" href="style_new.css" />
+	# <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="screen" href="menu.css" />
 
 
-<!-- Color your subsite - choose one: Either: -->
-<link rel="stylesheet" type="text/css" media="screen" href="style_new.css" />
-<link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" media="screen" href="menu.css" />
+	<meta name="keywords" content="Max-Planck-Institut,
+	Max Planck Institute,
+	MPII,
+	MPI,
+	Yulia Gryaditskaya,
+	Yulia Gryaditskya,
+	Inria,
+	Computer Graphics,
+	HDR Video,
+	High Dynamic Range,
+	HDR dataset,
+	calibrated HDR,
+	sketch-based modelling,
+	sketch-based modeling,
+	concept sketch,
+	OpenSketch,
+	CVSSP,
+	Sketch-X
+	">
 
+	<title>Yulia Gryaditskaya</title>
 
-<meta name="keywords" content="Max-Planck-Institut,
-Max Planck Institute,
-MPII,
-MPI,
-Yulia Gryaditskaya,
-Yulia Gryaditskya,
-Inria,
-Computer Graphics,
-HDR Video,
-High Dynamic Range,
-HDR dataset,
-calibrated HDR,
-sketch-based modelling,
-sketch-based modeling,
-concept sketch,
-OpenSketch,
-CVSSP,
-Sketch-X
-">
-
-<title>Yulia Gryaditskaya</title>
-
+	<meta name="generator" content="Jekyll v3.9.0" />
+	<meta property="og:locale" content="en_US" />
+	<meta name="description" content="website" />
+	<meta property="og:description" content="website" />
+	<link rel="canonical" href="https://yulia.gryadistakay.com/" />
+	<meta property="og:url" content="https://yulia.gryadistakay.com" />
+	<meta property="og:site_name" content="Yulia Gryaditskaya" />
 </head>
+
 
 <body>
 <center>
@@ -168,6 +171,7 @@ Sketch-X
 				
             </div>
 			
+			<!------->
 			
 			<div class='thumb'>
 				<img src="./Papers/3DV/Sketch3D/preview.png" width = '100px'/></a>
@@ -175,7 +179,7 @@ Sketch-X
             
 			
 			
-			<!------->
+			
 			
             <div class='ref'>
                 <div class='title'>
