@@ -140,7 +140,7 @@ layout: main
 	
 		<hr/>
 		<div id="datasets">
-			<h3> Released datasets </h3>
+			<h2> Released datasets </h2>
 			
 			<!-- ---- -->
 			<div class='publ_year'> 2020 </div>
@@ -263,22 +263,22 @@ layout: main
 		<hr/>
 		
 		<div id="activities">
-			<h3> Professional Activities </h3>
+			<h2> Professional Activities </h2>
              <p>
-				<h4>PC Member:</h4> 
+				<h3>PC Member:</h3> 
                 <ul>
                 <li><a href="http://iccvm.org/2020/committee.htm"> 2020 CVM </a></li>
                 </ul>
             </p>  
             
 			<p>
-				<h4>Reviewer:</h4> 
+				<h3>Reviewer:</h3> 
 				ACM TOG, SIGGRAPH, SIGGRAPH Asia, Eurographics, Pacific Graphics, TVCG, Computers & Graphics, VMV, JEI, TIP, JVIP, Multimedia Systems
 				</ul>
 			</p>
              
 			<p>
-				<h4>Students:</h4>
+				<h3>Students:</h3>
 				<ul>
 					<li> Anran Qi, ongoing (coadvised with Yi-Zhe Song)
 						PhD student</li>
@@ -298,7 +298,7 @@ layout: main
 			</p>
 			
 			<p>
-				<h4>Teaching:</h4> 
+				<h3>Teaching:</h3> 
 				<a href="https://graphics.cg.uni-saarland.de/courses/ris-2018/"> Realistic Image Synthesis </a> : HDR & Tone Mapping 2015,2016 at <a href="https://www.uni-saarland.de"> Saarland University </a>
 			</p>
 		</div>
@@ -306,7 +306,7 @@ layout: main
 		<div id ="hobbies">
 			<hr />
 			<p>
-				<h3>Hobbies:</h3> 
+				<h2>Hobbies:</h2> 
 				<ul>
 					Drawing (<a href="http://illustrators.ru/users/wonderland/portfolio">personal page</a>), sports and world discovering.
 				</ul>
