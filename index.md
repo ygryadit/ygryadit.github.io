@@ -7,7 +7,8 @@
 
 <!-- Color your subsite - choose one: Either: -->
 <link rel="stylesheet" type="text/css" media="screen" href="style_new.css" />
-
+<link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" media="screen" href="menu.css" />
 
 
 <meta name="keywords" content="Max-Planck-Institut,
@@ -51,6 +52,18 @@ Sketch-X
 					
        
 		</div>
+		
+		<hr />
+		
+		<nav role="navigation" class="primary-navigation">
+		  <ul>
+			<li><a href="#bio">About</a></li>
+			<li><a href="#publications">Publications</a></li>
+			<li><a href="#datasets">Released dataset</a></li>
+			<li><a href="#activities">Professional Activities</a></li>
+			<li><a href="#hobbies">Hobbies</a></li>
+		  </ul>
+		</nav>
 		
 		<hr />
 		
@@ -108,10 +121,14 @@ Sketch-X
 		</div>
 		
 		
+			
 		<hr />
+	
+			
 		
 		
-		<div class='papers'>
+		
+		<div id="publications">
         	<h2> Publications</h2>
             
 
@@ -128,7 +145,7 @@ Sketch-X
                     <a href="https://ieeexplore.ieee.org/document/9272370">
                         Towards Practical Sketch-based 3D ShapeGeneration: The Role of Professional Sketches
                     </a> &nbsp; 
-                    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9272370"><img class='doc' src='img/icons/pdfIcon.png' width='19' height='19' alt='' /></a>
+                    
                 </div>
                 <div class='authors'>					
 					Yue Zhong,
@@ -140,6 +157,13 @@ Sketch-X
                 <div class='conf'>
 				IEEE Transactions on Circuits and Systems for Video Technology, 2020.
                 </div>
+				
+				<div class='data'>
+					<img class='doc' src='img/icons/pdfIcon.png' width='19' height='19' alt='' /><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9272370"> paper </a> |				
+					<a href='./Papers/ProSketch/cite.bib')> bibtex </a> |
+					<a href=" "> code </a> 
+				</div>				
+				
             </div>
 			
 			
@@ -455,7 +479,7 @@ Sketch-X
             
         </div>
 		<hr/>
-		<div id="info">
+		<div id="datasets">
 			<h3> Released datasets </h3>
 			
 			<!-- ---- -->
@@ -578,7 +602,7 @@ Sketch-X
 		
 		<hr/>
 		
-		<div id="info">
+		<div id="activities">
 			<h3> Professional Activities </h3>
              <p>
 				<h4>PC Member:</h4> 

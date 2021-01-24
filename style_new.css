@@ -1,11 +1,19 @@
-
+:root {  
+  --paper_title: #0099cc;
+  --paper_title_hover: #33ccff;
+  --link_hover: #33ccff;
+  --link_authors: #000000;
+  --link_data: #8c8c8c;
+  --datasets_title: #0099cc;
+}
 
 a,body,h1,h2,h3,table,td,th,p {
 	color:#14140f;
-	font-size:14px;
+	/* font-size:14px; */
 	margin:0;
 	padding:0;
 }
+
 h1,table,td ,th {
 	text-align:center;
 }
@@ -55,25 +63,27 @@ h4{
 }
 
 a {
-	text-decoration:none;
-/* 	font-weight:700; */
-}
+	text-decoration:none;  	
+} 
 
 a:link {
 	text-decoration:none;
 	color: rgb(100, 100, 100);
 }
-a:visited {
-	text-decoration:none;
-	color: rgb(100, 100, 100);
-}
+
+/* a:visited { */
+	/* text-decoration:none; */
+	/* color: rgb(100, 100, 100); */
+/* } */
+
 a:hover {
 	text-decoration:none;
-	color: rgb(0, 146, 166);
-	}
-a:active {
-	text-decoration:none;
+	color: var(--link_hover);
 }
+	
+/* a:active { */
+	/* text-decoration:none; */
+/* } */
 
 .main{
     margin: 10px;
@@ -87,7 +97,7 @@ a:active {
     padding-bottom: 0px;
     margin: 0px;
 	margin-right: 20px;
-    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.15), 0 4px 4px 0 rgba(0, 0, 0, 0.14); 
+    /* box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.15), 0 4px 4px 0 rgba(0, 0, 0, 0.14);  */
 }
 
 .thumb img{
@@ -130,7 +140,7 @@ a:active {
 }
 
 .ref{
-	height: 120px; 
+	height: 130px; 
 	padding-top: 10px;
     text-align:left;
     line-height: 1.5;
@@ -150,25 +160,7 @@ a:active {
     line-height: 1.5;
 }
 
-.materials{
-    color:#b80a00;
-}
 
-/* .materials a:hover { */
-    /* color:#ff1400; */
-/* } */
-
-.materials a:visited {
-    text-decoration:none;
-	font-weight:700;  
-    color:#b80a00;
-}
-
-.materials a {
-    text-decoration:none;
-	font-weight:700;  
-    color:#b80a00;
-}
 
 .publ_year{
 	text-align: left;
@@ -220,27 +212,112 @@ a:active {
 	font-style: italic;
 }
 
-
-
-
-
-
-
-
-
-#publications a:link{
+#publications a{
 	text-decoration: none;
-	color: rgb(36, 143, 36);
-	
 }
-#publications a:visited {
+
+/* Publications Title */
+
+#publications .title a{
 	text-decoration: none;
-	color: rgb(36, 143, 36);
+	color: var(--paper_title);
 }
-#publications a:hover {
+
+#publications .title a:link{
 	text-decoration: none;
-	color: rgb(112, 219, 112);
+	color: var(--paper_title);
 }
+
+#publications .title a:visited {
+	text-decoration: none;
+	color: var(--paper_title);
+}
+
+#publications .title a:hover {
+	text-decoration: none;
+	color: var(--paper_title_hover);
+}
+
+/* Datasets Title */
+#datasets .title{
+	font-size: 16px;
+}
+
+#datasets .title a{
+	text-decoration: none;
+	color: var(--datasets_title);
+}
+
+#datasets .title a:link{
+	text-decoration: none;
+	color: var(--datasets_title);
+}
+
+#datasets .title a:visited {
+	text-decoration: none;
+	color: var(--datasets_title);
+}
+
+#datasets .title a:hover {
+	text-decoration: none;
+	color: var(--link_hover);
+}
+
+
+
+
+/* Authors */
+
+#publications .authors a{
+	text-decoration: none;
+	color: var(--link_authors);
+}
+
+#publications .authors a:link{
+	text-decoration: none;
+	color: var(--link_authors);
+}
+
+#publications .authors a:visited {
+	text-decoration: none;
+	color: var(--link_authors);
+}
+
+#publications .authors a:hover {
+	text-decoration: none;
+	color: var(--link_hover);
+}
+
+
+
+/* Data */
+
+#publications .data a{
+	text-decoration: none;
+	color: var(--link_data);
+}
+
+#publications .data a:link{
+	text-decoration: none;
+	color: var(--link_data);
+}
+
+#publications .data a:visited {
+	text-decoration: none;
+	color: var(--link_data);
+}
+
+#publications .data a:hover {
+	text-decoration: none;
+	color: var(--link_hover);
+}
+
+
+
+
+
+
+
 
 #hobbies a:link{
 	text-decoration: none;
@@ -259,39 +336,9 @@ a:active {
 }
 
 
-.publicationLinkText {
-	padding-left: 0px; 
-	padding-right: 10px;
-	text-align: left;
-	vertical-align:middle;
-	}
-	
 ul{
 	text-align: left;
 }
-
-.publication {
-	width: 3cm;
-	text-align: left;
-	margin: 00px 10em 00em 10em; 
-	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15), 0 4px 6px 0 rgba(0, 0, 0, 0.14); 
-}
-
-.publication img{ 
-	width: 100%;
-
- } 
-
-.publicationData{
-	padding-left: 2em;
-}
-
-.publicationsAuthors {font-style: italic;}
-.publicationsTitle {
-				font-weight: bold; 
-				vertical-align: text-top;
-				margin: 0px 0px 10px 0px;}
-
 
 
 .pdfIcon {background-image:url("img/icons/pdfIcon.png"); height: 35px;}
