@@ -274,7 +274,6 @@ layout: main
 			<p>
 				<h3>Reviewer:</h3> 
 				ACM TOG, SIGGRAPH, SIGGRAPH Asia, Eurographics, Pacific Graphics, TVCG, Computers & Graphics, VMV, JEI, TIP, JVIP, Multimedia Systems
-				</ul>
 			</p>
              
 			<p>
