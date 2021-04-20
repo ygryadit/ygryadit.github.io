@@ -272,8 +272,16 @@ layout: main
             </p>  
             
 			<p>
+				<h3>Organizer:</h3> 
+                <ul>
+                <li><a href=""> 1st Workshop on Sketching for Human Expressivity (SHE) ICCV 2021 </a></li>
+                </ul>
+            </p> 
+			
+			
+			<p>
 				<h3>Reviewer:</h3> 
-				ACM TOG, SIGGRAPH, SIGGRAPH Asia, Eurographics, Pacific Graphics, TVCG, Computers & Graphics, VMV, JEI, TIP, JVIP, Multimedia Systems
+				ACM TOG, SIGGRAPH, SIGGRAPH Asia, Eurographics, Pacific Graphics, ICCV, TVCG, Computers & Graphics, VMV, JEI, TIP, JVIP, Multimedia Systems
 			</p>
              
 			<p>
