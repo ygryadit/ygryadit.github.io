@@ -275,7 +275,7 @@ layout: main
 			<p>
 				<h3>Organizer:</h3> 
                 <ul>
-                <li><a href=""> 1st Workshop on Sketching for Human Expressivity (SHE) ICCV 2021 </a></li>
+                <li><a href="https://she-iccv21.github.io/"> 1st Workshop on Sketching for Human Expressivity (SHE) ICCV 2021 </a></li>
                 </ul>
             </p> 
 			
