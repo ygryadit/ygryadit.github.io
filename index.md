@@ -267,7 +267,8 @@ layout: main
              <p>
 				<h3>Program/Paper Committee Member:</h3> 
                 <ul>
-		<li><a href="https://sa2021.siggraph.org/en/"> 2021 SIGGRAPH Asia </a></li>
+				<li><a href="https://sa2021.siggraph.org/en/"> 2021 SIGGRAPH Asia </a></li>
+				<li><a href="https://3dv2021.surrey.ac.uk/"> 2021 3DV </a></li>
                 <li><a href="http://iccvm.org/2020/committee.htm"> 2020 CVM </a></li>
                 </ul>
             </p>  

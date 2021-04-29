@@ -371,6 +371,29 @@ a:hover {
 	text-align: left;
 }
 
+
+#activities a{
+	text-decoration: none;
+	color: var(--link_data);
+}
+
+#activities a:link{
+	text-decoration: none;
+	color: var(--link_data);
+}
+
+#activities a:visited {
+	text-decoration: none;
+	color: var(--link_data);
+}
+
+#activities a:hover {
+	text-decoration: none;
+	color: var(--link_hover);
+}
+
+
+
 ul{
 	text-align: left;
 }
