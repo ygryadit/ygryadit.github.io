@@ -265,8 +265,9 @@ layout: main
 		<div id="activities">
 			<h2> Professional Activities </h2>
              <p>
-				<h3>PC Member:</h3> 
+				<h3>Program/Paper Committee Member:</h3> 
                 <ul>
+		<li><a href="https://sa2021.siggraph.org/en/"> 2021 SIGGRAPH Asia </a></li>
                 <li><a href="http://iccvm.org/2020/committee.htm"> 2020 CVM </a></li>
                 </ul>
             </p>  
@@ -274,7 +275,7 @@ layout: main
 			<p>
 				<h3>Organizer:</h3> 
                 <ul>
-                <li><a href=""> 1st Workshop on Sketching for Human Expressivity (SHE) ICCV 2021 </a></li>
+                <li><a href="https://she-iccv21.github.io/"> 1st Workshop on Sketching for Human Expressivity (SHE) ICCV 2021 </a></li>
                 </ul>
             </p> 
 			
