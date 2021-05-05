@@ -283,7 +283,12 @@ layout: main
 			
 			<p>
 				<h3>Reviewer:</h3> 
-				ACM TOG, SIGGRAPH, SIGGRAPH Asia, Eurographics, Pacific Graphics, ICCV, TVCG, Computers & Graphics, VMV, JEI, TIP, JVIP, Multimedia Systems
+				<h2>Conferences:</h2> 				
+				SIGGRAPH, SIGGRAPH Asia, Eurographics, Pacific Graphics, ICCV, VMV
+				
+				<h2>Journals:</h2> 
+				ACM TOG, CAVW, Computers & Graphics, JEI, JVIP, Multimedia Systems, TCSVT, TIP, TVCG
+
 			</p>
              
 			<p>
