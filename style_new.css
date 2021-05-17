@@ -7,6 +7,10 @@
   --datasets_title: #0099cc;
 }
 
+#main-downloads{
+	margin-top: 2em;
+}
+
 a,body,h1,h2,h3,table,td,th,p {
 	color:#14140f;
 	/* font-size:14px; */
@@ -26,7 +30,6 @@ p {
 
 
 body {
-	width:1100px;
 	padding-top:60px;
 	margin-left:auto;
 	margin-right:auto;
@@ -204,11 +207,11 @@ a:hover {
 	margin: 0px 00px 00px 00px; 
 }
 
-#bio {
-	text-align: left;
-	vertical-align: text-top;
-	margin: 0px 0px 0px 30px; 
-}
+/* #bio { */
+	/* text-align: left; */
+	/* vertical-align: text-top; */
+	/* margin: 0px 0px 0px 30px;  */
+/* } */
 
 
 #address {

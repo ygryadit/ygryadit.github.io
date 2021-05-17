@@ -5,29 +5,32 @@
 
 {% include head.html %}
 
-<body>
+<main role="main">
 	{% include navbar.html %}
-	<div class="main">
-	
-		<h2>Dr. Yulia Gryaditskaya</h2>
-					
-					
-		<h3>Senior Research Fellow at <a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing"> CVSSP, UK </a><br/></h3>
-	   
-
-		Email address:
-		<script src="myaddress.js" type="text/javascript"></script>
+	<div class="album py-5 bg-light">
+		<div class="container">
+			<div id="about" class="row align-items-center">
 				
-   
-	</div>
-	
-	<hr>
-	<center>
+					<h2>Dr. Yulia Gryaditskaya</h2>
+								
+								
+					<h3>Senior Research Fellow at <a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing"> CVSSP, UK </a><br/></h3>
+				   
 
-		
-		{{ content }}	
+					Email address:
+					<script src="myaddress.js" type="text/javascript"></script>
+				
+			</div>
+  
+			<hr>
+	
+	
+			{{ content }}	
 		
 			
-	</center>	
-</body>
+		
+		</div>
+	</div>
+</main>
+
 </html>
