@@ -1,7 +1,7 @@
   
 - title: ""
   preview_img_link: ""
-  img_width: '110px'  
+  img_width: '130px'  
   title_link: ""
   authors: ""
   venue: ""
@@ -19,7 +19,7 @@
   year: 2020  
   paper_link: "ttps://ieeexplore.ieee.org/document/9272370"
   preview_img_link: "./Papers/ProSketch/preview.png"
-  img_width: '110px'
+  img_width: '130px'
   bibtex_link: "./Papers/ProSketch/zhong2020towards.bib"
   abstract: "In this paper, for the first time, we investigate the problem of generating 3D shapes from professional 2D sketches via deep learning. We target sketches done by professional artists, as these sketches are likely to contain more details than the ones produced by novices, and thus the reconstruction from such sketches poses a higher demand on the level of detail in the reconstructed models. This is importantly different to previous work, where the training and testing was conducted on either synthetic sketches or sketches done by novices. Novices sketches often depict shapes that are physically unrealistic, while models trained with synthetic sketches could not cope with the level of abstraction and style found in real sketches. To address this problem, we collected the first large-scale dataset of professional sketches, where each sketch is paired with a reference 3D shape, with a total of 1,500 professional sketches collected across 500 3D shapes. The dataset is available at http://sketchx.ai/downloads/. We introduce two bespoke designs within a deep adversarial network to tackle the imprecision of human sketches and the unique figure/ground ambiguity problem inherent to sketch-based reconstruction. We show that existing 3D shapes generation methods designed for images fail to be naively applied to our problem, and demonstrate the effectiveness of our method both qualitatively and quantitatively."
   publ_id: "2020_5"
@@ -91,7 +91,7 @@
   img_width: '110px'  
   title_link: "https://hal.inria.fr/hal-02922043/"
   authors: "Felix Hähnlein, <a href='http://yulia.gryaditskaya.com/'><b>Yulia Gryaditskaya</b></a>, <a href='http://www-sop.inria.fr/members/Adrien.Bousseau/'>Adrien Bousseau</a>"
-  venue: "Journ&‌eacute;es Françaises d’Informatique Graphique et de R&‌eacute; alit&‌eacute;  Virtuelle"
+  venue: "Journées Francaises d'Informatique Graphique et de Réalité virtuelle"
   year: 2019  
   paper_link: "https://hal.inria.fr/hal-02922043/document"
   project_link: ""

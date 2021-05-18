@@ -1,0 +1,40 @@
+/* a { */
+	/* text-decoration:none;  	 */
+/* }  */
+
+/* a:link { */
+	/* text-decoration:none; */
+	/* color: rgb(100, 100, 100); */
+/* } */
+
+/* a:hover { */
+	/* text-decoration:none; */
+	/* color: var(--link_hover); */
+/* } */
+
+#photo{	
+	max-width: 320px;
+	width:100%;
+}
+
+/* Authors */
+
+#publications .authors a{
+	text-decoration: none;
+	color: var(--link_authors);
+}
+
+#publications .authors a:link{
+	text-decoration: none;
+	color: var(--link_authors);
+}
+
+#publications .authors a:visited {
+	text-decoration: none;
+	color: var(--link_authors);
+}
+
+#publications .authors a:hover {
+	text-decoration: none;
+	color: var(--link_hover);
+}
