@@ -39,7 +39,7 @@ layout: main
 					<img src="img/icons/lindein.PNG" style="width:20px;" /> <a href="https://www.linkedin.com/in/yulia-gryaditskaya-64a8164b/">LinkedIn</a>
 				</div>
 				<div class="col-sm-2 ">			
-					<img src="img/icons/githubIcon.PNG" style="width:20px;" /> <a href="https://github.com/ygryadit/">GitHub</a>
+					<img src="img/icons/githubIcon.png" style="width:20px;" /> <a href="https://github.com/ygryadit/">GitHub</a>
 				</div>
 			</div>
 			
