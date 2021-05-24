@@ -12,6 +12,30 @@
 	/* color: var(--link_hover); */
 /* } */
 
+@font-face {
+  font-family: "atlandsketchesbb_ital";
+  src: 	url('/fonts/atlandsketchesbb_ital.ttf') format('truetype');
+		/* url('_includes/fonts/atlandsketchesbb_reg.ttf') format('truetype');  */
+}
+
+@font-face {
+  font-family: "atlandsketchesbb_reg";
+  src: 	url('/fonts/atlandsketchesbb_reg.ttf') format('truetype');
+		/* url('_includes/fonts/atlandsketchesbb_reg.ttf') format('truetype');  */
+}
+
+.navbar-brand
+{
+  font-family: 'atlandsketchesbb_reg';
+  font-size: 200%;
+}
+
+h3
+{
+  font-family: 'atlandsketchesbb_reg';
+  font-size: 300%;
+}
+
 #photo{	
 	max-width: 320px;
 	width:100%;

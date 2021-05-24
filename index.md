@@ -55,7 +55,7 @@ layout: main
 	<!-- Bio -->
 	<div id="bio" class="col-sm-12" >
 		
-				<h4> About: </h4>
+				<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 300%;"> About </h4>
 				<p>
 					I am a Graphics and Vision Researcher, focusing on leveraging Graphics in Deep Learning for 2D and 3D sketch-related applications.
 				</p>
@@ -382,7 +382,7 @@ layout: main
 <div id ="hobbies">
 	<hr />
 	<p>
-		<h4>Hobbies:</h4> 
+		<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 250%;">Hobbies</h4> 
 		<ul>
 			Drawing (<a href="http://illustrators.ru/users/wonderland/portfolio">personal page</a>), sports and world discovering.
 		</ul>
