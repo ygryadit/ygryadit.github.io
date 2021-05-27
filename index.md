@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: 'Yuli Gryaditskaya'
+title: 'Yulia Gryaditskaya'
 layout: main
 ---
 
@@ -12,7 +12,7 @@ layout: main
 	
 	<div class="col-sm-8">			
 		<div id = "info" >
-		<h4>Dr. Yulia Gryaditskaya</h4>
+		<h4 >Dr. Yulia Gryaditskaya</h4>
 
 		<h5>Senior Research Fellow at <a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing"> CVSSP, UK </a><br/></h5>
 
@@ -48,10 +48,12 @@ layout: main
 
 	</div>
 </div>
-  
+
+
 <hr>
-<section>			
-<div id="about" class="row align-items-center">			
+
+<section id="about">			
+<div class="row align-items-center">			
 	<!-- Bio -->
 	<div id="bio" class="col-sm-12" >
 		
@@ -91,9 +93,9 @@ layout: main
 
 
 <hr >
-
+<section id="publications" >
 <div class="album py-5 bg-light">
-    <div id="publications" class="container">	
+    <div class="container">	
 
 		<!-- Load publication  -->
 		{% assign publications_all = site.data.publications  | sort : 'publ_id' %}
@@ -169,11 +171,12 @@ layout: main
 			{% endfor %}
 	</div>	
 </div>
-		
+</section>	
 <hr>
 
+<section  id="datasets">
 <div class="album py-5 bg-light">
-	<div id="datasets" class="container">		
+	<div class="container">		
 			<h3> Released datasets </h3>
 			
 			<!-- ---- -->
@@ -318,12 +321,13 @@ layout: main
 			
 	</div>	
 </div>	
-          	
+</section>       	
 		
 <hr>
 
+<section id="activities">
 <div class="album py-5 bg-light">		
-	<div id="activities">
+	
 			<h3> Professional Activities </h3>
              <p>
 				<h4>Program/Paper Committee Member:</h4> 
@@ -376,10 +380,11 @@ layout: main
 				<h4>Teaching:</h4> 
 				<a href="https://graphics.cg.uni-saarland.de/courses/ris-2018/"> Realistic Image Synthesis </a> : HDR & Tone Mapping 2015,2016 at <a href="https://www.uni-saarland.de"> Saarland University </a>
 			</p>
-	</div>
 </div>
-		
-<div id ="hobbies">
+</section>		
+
+<section id ="hobbies">
+<div >
 	<hr />
 	<p>
 		<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 250%;">Hobbies</h4> 
@@ -389,4 +394,4 @@ layout: main
 	</p>	
 
 </div>
-	
+</section>

@@ -1,7 +1,7 @@
 # Site settings
 title: "Yulia Gryaditskaya"
 tagline: ""
-
+description: "I am a Senior Research Fellow at CVSSP, UK."
 
 # Handling Reading
 safe: true
@@ -18,6 +18,9 @@ plugins:
 
 # Contact
 email: "yulia.gryaditskaya@gmail.com"
+
+
+
 
 # Use this for production
 sass:
