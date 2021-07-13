@@ -390,7 +390,7 @@ layout: main
 	<p>
 		<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 250%;">Hobbies</h4> 
 		<ul>
-			Drawing (<a href="http://illustrators.ru/users/wonderland/portfolio">personal page</a>), sports and world discovering.
+			Sketching and painting (<a href="http://illustrators.ru/users/wonderland/portfolio">personal page</a>), architecture, city planning, traveling, hiking, sports.
 		</ul>
 	</p>	
 
