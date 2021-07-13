@@ -342,7 +342,7 @@ layout: main
 				<h4>Organizer:</h4> 
                 <ul>
                 <li><a href="https://she-iccv21.github.io/"> 1st Workshop on Sketching for Human Expressivity (SHE) ICCV 2021 </a></li>
-				<li> Weekly SketchX group meetings. </li> 
+				<li> Weekly SketchX group meetings, 2021 </li> 
                 </ul>
             </p> 
 			
