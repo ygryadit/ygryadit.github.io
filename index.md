@@ -197,6 +197,47 @@ layout: main
 							
 							<div class = 'DatasetDesc card-text' >
 								1700 sketches from 12 participants of 20 categories, where the participants were asked to target early sketch recognition.
+								
+								This datset is a part of the paper:
+													
+								<div style="color:grey">
+								Pixelor: A Competitive Sketching AI Agent. So you think you can sketch? <br>
+								Ayan Kumar Bhunia, Ayan Das, Umar Riaz Muhammad, Yongxin Yang, Timothy Hospedales, Tao Xiang, Yulia Gryaditskaya, Yi-Zhe Song <br>
+								ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia), 2020.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- ---- -->
+			<!-- <div class='publ_year'> 2020 </div> -->
+			<div class="row mt-3 mb-1">
+				
+				
+				<div class='thumbD card justify-content-center' >
+					<img src='DatasetsThumbs/ProSketch-3DChair.jpg'  width = '200px'  />
+				</div>
+				
+				<div class='refB refS col-sm-9'>
+					<div class="card">
+						<div class="card-body">
+							<div class = 'title card-title'>
+								<a href='http://personal.ee.surrey.ac.uk/Personal/Y.Song/ProSketch-3Dchair.zip'> ProSketch-3DChair </a>
+							</div>
+							
+							<div class = 'DatasetDesc card-text'>
+								A dataset of 1500 chair sketches by professional artists: front, side and 3/4 viewpoints.
+								
+								This datset is a part of the paper:
+													
+								<div style="color:grey">
+								Towards Practical Sketch-based 3D ShapeGeneration: The Role of Professional Sketches <br>
+								Yue Zhong, Yonggang Qi, Yulia Gryaditskaya, Honggang Zhang, Yi-Zhe Song <br>
+								IEEE Transactions on Circuits and Systems for Video Technology, 2020.
+								</div>
+								
 							</div>
 						</div>
 					</div>
@@ -207,33 +248,43 @@ layout: main
 			<!-- <div class='publ_year'> 2020 </div> -->
 			<div class="row mt-3 mb-1">
 				<div class='thumbD card justify-content-center' >
-					<img src='DatasetsThumbs/ProSketch-3DChair.jpg'  width = '200px'  />
+					<img src='DatasetsThumbs/SChairSketch.png'  width = '200px'  />
 				</div>
 				
 				<div class='refB refS col-sm-9'>
 					<div class="card">
 					<div class="card-body">
 						<div class = 'title card-title'>
-							<a href='http://personal.ee.surrey.ac.uk/Personal/Y.Song/ProSketch-3Dchair.zip'> ProSketch-3DChair </a>
+							<a href='https://cvssp.org/data/SyntheticChairSketch/'> SyntheticChairSketch </a>
 						</div>
 						
 						<div class = 'DatasetDesc card-text'>
-							A dataset of 1500 chair sketches by professional artists: front, side and 3/4 viewpoints
+							The datset contains NPR sketches for a chair category of the ShapeNetCore dataset in two styles. 
+							This datset is a part of the paper:
+							
+							<div style="color:grey">
+							Deep Sketch-Based Modeling: Tips and Tricks <br>
+							Yue Zhong, Yulia Gryaditskaya, Honggang Zhang, Yi-Zhe Song <br>
+							Proceedings of International Conference on 3D Vision (3DV) - (Spotlight), 2020.
+							</div>
 						</div>
 					</div>
 					</div>
 				</div>
 			</div>
 			
+			
+			
+			
 			<!-- ---- -->
 			
 			<!-- <div class='publ_year'> 2020 </div> -->
 			<div class="row mt-3 mb-1">
-				<div class='thumbD card' >
+				<div class='thumbD card justify-content-center' >
 					<img src='DatasetsThumbs/3DVR.png'  width = '200px'  />
 				</div>
 				
-				<div class='refS col-sm-9'>
+				<div class='refB refS col-sm-9'>
 					<div class="card">
 					<div class="card-body">
 						<div class = 'title card-title'>
@@ -242,6 +293,13 @@ layout: main
 					
 						<div class = 'DatasetDesc card-text'>
 							139 chair and 28 bathtub 3D VR sketches by novices.
+							This datset is a part of the paper:
+													
+								<div style="color:grey">
+								Towards 3D VR-Sketch to 3D Shape Retrieval <br>
+								Ling Luo, Yulia Gryaditskaya, Yongxin Yang, Tao Xiang, Yi-Zhe Song <br>
+								Proceedings of International Conference on 3D Vision (3DV) - (Oral), 2020.
+								</div>
 						</div>
 					</div>
 					</div>
@@ -252,11 +310,11 @@ layout: main
 			
 			<!-- <div class='publ_year'> 2020 </div> -->
 			<div class="row mt-3 mb-1">
-				<div class='thumbD card' >
+				<div class='thumbD card justify-content-center' >
 					<img src='DatasetsThumbs/OpenSketch++.png'  width = '200px'  />
 				</div>
 				
-				<div class='ref col-sm-9'>
+				<div class='refB refS col-sm-9'>
 					<div class="card">
 					<div class="card-body">
 						<div class = 'title card-title'>
@@ -265,6 +323,14 @@ layout: main
 						
 						<div class = 'DatasetDesc'>
 							16 Vector concept sketches by 2 designers, collected in addtion to the skecthes in the OpenSketch dataset.
+							This datset is a part of the paper:
+													
+								<div style="color:grey">
+								
+								Lifting Freehand Concept Sketches into 3D <br>
+								Yulia Gryaditskaya, Felix Hähnlein, Chenxi Liu, Alla Sheffer, Adrien Bousseau <br>
+								ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia), 2020.
+								</div>
 						</div>
 					</div>
 					</div>
@@ -289,6 +355,14 @@ layout: main
 							
 							<div class = 'DatasetDesc'>
 								A richly-annotated dataset of more than 400 product design sketches.
+								This datset is a part of the paper:
+													
+								<div style="color:grey">
+								
+								OpenSketch: A Richly-Annotated Dataset of Product Design Sketches <br>
+								Yulia Gryaditskaya, Mark Sypesteyn, Jan Willem Hoftijzer, Sylvia Pont, Frédo Durand, Adrien Bousseau <br>
+								ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia), 2019.
+								</div>
 							</div>
 						</div>
 					</div>
@@ -312,6 +386,14 @@ layout: main
 							
 							<div class = 'DatasetDesc'>
 								A set of calibrated HDR images, with visible sky regions and color checker.
+								
+								This datset is a part of the paper:
+													
+								<div style="color:grey">
+									Sky Based Light Metering for High Dynamic Range Images <br>
+									Yulia Gryaditskaya, Foteini Tania Pouli, Erik Reinhard, Hans-Peter Seidel <br>
+									Computer Graphics Forum (Proc. Pacific Graphics), 2014.
+								</div>
 							</div>
 						</div>
 					</div>
