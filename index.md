@@ -412,12 +412,11 @@ layout: main
 	
 			<h3> Professional Activities </h3>
              <p>
+				<h4> Arial Chair/Technical Papers Committee Member:</h4> 
+				<a href="https://sa2021.siggraph.org/en/"> SIGGRAPH Asia'21 </a>,<a href=""> SIGGRAPH'22 </a>
+				
 				<h4>Program/Paper Committee Member:</h4> 
-                <ul>
-				<li><a href="https://sa2021.siggraph.org/en/"> 2021 SIGGRAPH Asia </a></li>
-				<li><a href="https://3dv2021.surrey.ac.uk/"> 2021 3DV </a></li>
-                <li><a href="http://iccvm.org/2020/committee.htm"> 2020 CVM </a></li>
-                </ul>
+				<a href="https://3dv2021.surrey.ac.uk/">CVM'20</a>, <a href="http://iccvm.org/2020/committee.htm">3DV'21</a>
             </p>  
             
 			<p>
