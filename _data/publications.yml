@@ -48,7 +48,7 @@
   img_width: '130px'
   bibtex_link: "./Papers/ProSketch/zhong2020towards.bib"
   abstract: "In this paper, for the first time, we investigate the problem of generating 3D shapes from professional 2D sketches via deep learning. We target sketches done by professional artists, as these sketches are likely to contain more details than the ones produced by novices, and thus the reconstruction from such sketches poses a higher demand on the level of detail in the reconstructed models. This is importantly different to previous work, where the training and testing was conducted on either synthetic sketches or sketches done by novices. Novices sketches often depict shapes that are physically unrealistic, while models trained with synthetic sketches could not cope with the level of abstraction and style found in real sketches. To address this problem, we collected the first large-scale dataset of professional sketches, where each sketch is paired with a reference 3D shape, with a total of 1,500 professional sketches collected across 500 3D shapes. The dataset is available at http://sketchx.ai/downloads/. We introduce two bespoke designs within a deep adversarial network to tackle the imprecision of human sketches and the unique figure/ground ambiguity problem inherent to sketch-based reconstruction. We show that existing 3D shapes generation methods designed for images fail to be naively applied to our problem, and demonstrate the effectiveness of our method both qualitatively and quantitatively."
-  publ_id: "2020_5"
+  publ_id: "2020_1"
   
 - title: "Towards 3D VR-Sketch to 3D Shape Retrieval"
   title_link: "https://tinyurl.com/3DSketch3DV"
@@ -60,7 +60,7 @@
   img_width: '110px'  
   project_link: "https://tinyurl.com/3DSketch3DV"
   bibtex_link: "./Papers/3DV/DeepSketch/luo2020towards.bib"  
-  publ_id: "2020_4"
+  publ_id: "2020_2"
   
 - title: "Deep Sketch-Based Modeling: Tips and Tricks"
   preview_img_link: "./Papers/3DV/DeepSketch/preview.png"
@@ -84,7 +84,7 @@
   paper_link: "https://repo-sam.inria.fr/d3/Lift3D/Gryaditskaya_SigAsia20_Lifting%20_Freehand_Concept_Sketches_into_3D.pdf"
   project_link: "https://ns.inria.fr/d3/Lift3D"
   bibtex_link: "./Papers/Lift3D/gryaditskaya2020lifting.bib"
-  publ_id: "2020_2"
+  publ_id: "2020_5"
   
 - title: "Pixelor: A Competitive Sketching AI Agent. So you think you can beat me?"
   preview_img_link: "./Papers/Pixelor/preview.jpg"
@@ -96,7 +96,7 @@
   paper_link: "https://dl.acm.org/doi/pdf/10.1145/3414685.3417840"
   project_link: "http://sketchx.ai/pixelor"
   bibtex_link: "./Papers/Pixelor/bhunia2020pixelor.bib"
-  publ_id: "2020_1"
+  publ_id: "2020_4"
   
   
   
