@@ -11,6 +11,32 @@
   bibtex_link: ""
   publ_id: "2021_1"  
 
+  title: "Towards Fine-Grained Sketch-Based 3D ShapeRetrieval"
+  title_link: ""
+  authors: "Anran Qi, <b>Yulia Gryaditskaya</b>, Jifei Song, Yongxin Yang, Yonggang Qi, Timothy M. Hospedales, Tao Xiang, Yi-Zhe Song"
+  
+  venue: "IEEE Transactions on Image Processing"
+  year: 2021  
+  paper_link: ""
+  preview_img_link: "./Papers/TIP_Retrieval/preview.png"
+  img_width: '130px'
+  bibtex_link: "./Papers/TIP_Retrieval/qi2021Retrieval.bib"
+  abstract: "In this paper we study, for the first time, the problem1of fine-grained sketch-based 3D shape retrieval. We advocate the use  of  sketches  as  a  fine-grained  input  modality  to  retrieve  3D shapes  at  instance-level
+  –  e.g.,  given  a  sketch  of  a  chair,  we  set out to retrieve a specific chair from a gallery of all chairs. 
+  Fine-grained sketch-based 3D shape retrieval (FG-SBSR) has not been possible till now due to a lack of datasets that exhibit one-to-one 
+  sketch-3D  correspondences.  The  first  key  contribution  of  this 
+  paper  is  two  new  datasets,  consisting  a  total  of  4,680  sketch-3D  
+  pairings  from  two  object  categories.  Even  with  the  datasets, 
+  FG-SBSR  is  still  highly  challenging  because  (i)  the  inherent 
+  domain  gap  between  2D  sketch  and  3D  shape  is  large,  and  
+  (ii) retrieval  needs  to  be  conducted  at  the  instance  level  instead  of 
+  the coarse category level matching as in traditional SBSR. 
+  Thus, the  second  contribution  of  the  paper  is  the  first  cross-modal deep  
+  embedding  model  for  FG-SBSR,  which  specifically  tackles the  unique  challenges  
+  presented  by  this  new  problem.  Core  to the deep embedding model is a novel cross-modal view attention 
+  module  which  automatically  computes  the  optimal  combination
+  of  2D  projections  of  a  3D  shape  given  a  query  sketch."
+  publ_id: "2021_1"
 
 - title: "Towards Practical Sketch-based 3D ShapeGeneration: The Role of Professional Sketches"
   title_link: "https://ieeexplore.ieee.org/document/9272370"
