@@ -1,18 +1,7 @@
   
-- title: ""
-  preview_img_link: ""
-  img_width: '130px'  
-  title_link: ""
-  authors: ""
-  venue: ""
-  year: 2020  
-  paper_link: ""
-  project_link: ""
-  bibtex_link: ""
-  publ_id: "2022_1"  
   
 - title: "Towards 3D VR-Sketch to 3D Shape Retrieval"
-  title_link: "https://tinyurl.com/3DSketch3DV"
+  title_link: ""
   authors: "Ling Luo, <b>Yulia Gryaditskaya</b>, Yongxin Yang, Tao Xiang, Yi-Zhe Song"
   venue: "Proceedings of International Conference on 3D Vision (3DV)"
   year: 2021  
