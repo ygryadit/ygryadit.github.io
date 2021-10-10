@@ -9,7 +9,20 @@
   paper_link: ""
   project_link: ""
   bibtex_link: ""
-  publ_id: "2021_1"  
+  publ_id: "2022_1"  
+  
+- title: "Towards 3D VR-Sketch to 3D Shape Retrieval"
+  title_link: "https://tinyurl.com/3DSketch3DV"
+  authors: "Ling Luo, <b>Yulia Gryaditskaya</b>, Yongxin Yang, Tao Xiang, Yi-Zhe Song"
+  venue: "Proceedings of International Conference on 3D Vision (3DV)"
+  year: 2021  
+  paper_link: ""
+  preview_img_link: "./Papers/3DV_21/preview.PNG"
+  img_width: '110px'  
+  project_link: "https://tinyurl.com/VRSketch3DV21"
+  bibtex_link: "./Papers/3DV_21/luo2021FineGrainedVR.bib"  
+  publ_id: "2021_2"
+  
 
   title: "Towards Fine-Grained Sketch-Based 3D Shape Retrieval"
   title_link: ""
@@ -59,7 +72,7 @@
   preview_img_link: "./Papers/3DV/Sketch3D/preview.png"
   img_width: '110px'  
   project_link: "https://tinyurl.com/3DSketch3DV"
-  bibtex_link: "./Papers/3DV/DeepSketch/luo2020towards.bib"  
+  bibtex_link: "./Papers/3DV/Sketch3D/luo2020towards.bib"  
   publ_id: "2020_2"
   
 - title: "Deep Sketch-Based Modeling: Tips and Tricks"
