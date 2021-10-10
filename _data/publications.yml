@@ -2,7 +2,7 @@
   
 
 
-  title: "Towards Fine-Grained Sketch-Based 3D Shape Retrieval"
+ - title: "Towards Fine-Grained Sketch-Based 3D Shape Retrieval"
   title_link: ""
   authors: "Anran Qi, <b>Yulia Gryaditskaya</b>, Jifei Song, Yongxin Yang, Yonggang Qi, Timothy M. Hospedales, Tao Xiang, Yi-Zhe Song"
   
@@ -29,7 +29,7 @@
   of  2D  projections  of  a  3D  shape  given  a  query  sketch."
   publ_id: "2021_1"
   
-  title: "Towards 3D VR-Sketch to 3D Shape Retrieval"
+ - title: "Towards 3D VR-Sketch to 3D Shape Retrieval"
   title_link: ""
   authors: "Ling Luo, <b>Yulia Gryaditskaya</b>, Yongxin Yang, Tao Xiang, Yi-Zhe Song"
   venue: "Proceedings of International Conference on 3D Vision (3DV)"
