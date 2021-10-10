@@ -412,7 +412,7 @@ layout: main
 	
 			<h3> Professional Activities </h3>
              <p>
-				<h4> Arial Chair/Technical Papers Committee Member:</h4> 
+				<h4> Area Chair/Technical Papers Committee Member:</h4> 
 				<a href="https://sa2021.siggraph.org/en/"> SIGGRAPH Asia'21 </a>,<a href=""> SIGGRAPH'22 </a>
 				
 				<h4>Program/Paper Committee Member:</h4> 
