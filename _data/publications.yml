@@ -32,7 +32,7 @@
   year: 2021  
   paper_link: ""
   preview_img_link: "./Papers/3DV_21/preview.PNG"
-  img_width: '110px'  
+  img_width: '140px'  
   project_link: "https://tinyurl.com/VRSketch3DV21"
   bibtex_link: "./Papers/3DV_21/luo2021FineGrainedVR.bib"  
   publ_id: "2021_2"
