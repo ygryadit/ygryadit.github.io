@@ -4,7 +4,7 @@
   authors: "Anran Qi, <b>Yulia Gryaditskaya</b>, Jifei Song, Yongxin Yang, Yonggang Qi, Timothy M. Hospedales, Tao Xiang, Yi-Zhe Song"
   venue: "IEEE Transactions on Image Processing"
   year: 2021  
-  paper_link: ""
+  paper_link: "https://ieeexplore.ieee.org/document/9573376?source=authoralert"
   preview_img_link: "./Papers/TIP_Retrieval/preview.png"
   img_width: '130px'
   bibtex_link: "./Papers/TIP_Retrieval/qi2021Retrieval.bib"
