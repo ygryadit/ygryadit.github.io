@@ -477,22 +477,24 @@ layout: main
 
 			</p>
              
-			<p>
+			<p id = "students">
 				<h4>Students:</h4>
 				<ul>
-					<li> Anran Qi, ongoing (coadvised with Yi-Zhe Song)
+					<li> 2021 -- ongoing, Pinaki Nath Chowdhury (coadvised with Yi-Zhe Song)
 						PhD student</li>
-					<li> Ling Luo, ongoing (coadvised with Yi-Zhe Song)
+					<li> 2020 -- ongoing, Ling Luo (coadvised with Yi-Zhe Song)
 						PhD student</li>
-					<li> Yue Zhong, ongoing (coadvised with Yi-Zhe Song)
+					<li> 2020 -- ongoing, Yue Zhong (coadvised with Yi-Zhe Song)
 						PhD student</li>			
-                    <li> Felix Hahnlein, 2019 (coadvised with Adrien Bousseau)
+					<li> 2020 -- 2021, <a href="https://dblp.org/pid/226/4981.html">Anran Qi</a> (coadvised with Yi-Zhe Song)
+						PhD student </li>
+                    <li> 2019, Felix Hahnlein (coadvised with Adrien Bousseau)
 						Research Internship: 'Sketch segmentation with geometric deep learning'</li>
-					<li> Adele Saint-Denis, 2018 (coadvised with Adrien Bousseau)
+					<li> 2018, Adele Saint-Denis (coadvised with Adrien Bousseau)
 						Research Internship: 'Non-photorealistic rendering'</li>
-					<li> Marina Menghetti, 2017 (main adviser Adrien Bousseau)
+					<li> 2017, Marina Menghetti  (main adviser Adrien Bousseau)
 						Research Internship: 'Strokes extraction from input video'</li>
-					<li> Juliette Pelletier, 2015
+					<li> 2015, Juliette Pelletier
 						Engineering Internship: 'HDR Video Capture on a Mobile Device'</li>
 				</ul>
 			</p>

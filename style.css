@@ -79,3 +79,24 @@ h3
 	text-decoration: none;
 	color: var(--link_hover);
 }
+
+
+#students  a{
+	text-decoration: none;
+	color: #758ca3;
+}
+
+#students  a:link{
+	text-decoration: none;
+	color: #758ca3;
+}
+
+#students  a:visited {
+	text-decoration: none;
+	color: #758ca3;
+}
+
+#students  a:hover {
+	text-decoration: none;
+	color: #758ca3;
+}
