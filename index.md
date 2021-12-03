@@ -86,6 +86,9 @@ layout: main
 				
 				</p>
 				
+				<p>
+					<a href="https://www.rsipvision.com/ICCV2021-Friday/20/"> Interview at ICCV Daily </a>
+				</p>
 
 	</div>
 </div>
@@ -100,11 +103,28 @@ layout: main
 		<!-- Load publication  -->
 		{% assign publications_all = site.data.publications  | sort : 'publ_id' %}
 		{% assign year_curr = 0 %}
+		{% assign j = 0 %}
+		{% assign c = 0 %}
+		{% assign d = 0 %}
+		
+		{% assign tj = 0 %}
+		{% assign tc = 0 %}
+		
 		<!-- Print publications list -->
 		
 		
 			<h3> Publications </h3>
             
+			{% for publ in publications_all reversed %}
+				{% if publ.type == "j" %}
+					{% assign tj = tj | plus: 1%}					
+				{% elsif publ.type == "c" %}
+					{%assign tc = tc | plus: 1%}					
+				{% endif %}	
+			
+			{% endfor %}
+			
+			
 			{% for publ in publications_all reversed %}
 				
 				{% if year_curr != publ.year %}
@@ -127,9 +147,17 @@ layout: main
 							<div class="card-body">
 								<!-- Title -->
 								<div class='title card-title'>
-									<a href="{{publ.title_link}}">
-										{{publ.title}}
-									</a> 
+									<!-- <a href="{{publ.title_link}}"> -->
+										{% if publ.type == "j" %}
+											{% assign j = j | plus: 1%}
+											<span style="color:#ffa64d;">[{{publ.type}}{{tj | minus: j | plus: 1}}]</span>
+										{% elsif publ.type == "c" %}
+											{%assign c = c | plus: 1%}
+											<span style="color:#a64dff;">[{{publ.type}}{{tc | minus: c | plus: 1}}]</span>
+										{% endif %}	
+										
+										<span style="text-transform: uppercase;">{{publ.title}}</span>
+									<!-- </a>  -->
 								</div>						
 								
 								<!-- Authors -->
@@ -146,7 +174,12 @@ layout: main
 								<div class='data'>
 									{% if publ.paper_link and publ.paper_link  != "" %}
 										<img class='doc' src='img/icons/pdfIcon.png' width='19' height='19' alt='' />
-											<a href="{{publ.paper_link}}"> paper 
+											<a href="{{publ.paper_link}}"> 
+											{% if publ.type != "d" %}
+											paper 
+											{% else %}
+											thesis
+											{% endif %}	
 											</a> |				
 									{% endif %}
 									{% if publ.project_link and publ.project_link  != "" %}
@@ -427,6 +460,12 @@ layout: main
                 </ul>
             </p> 
 			
+			<p>
+				<h4>Invited talks</h4>
+				06/2021 Autodesk, UK <br>
+				02/2021 University of Bath, UK <br>
+				12/2020 Christmas Colloquium on Computer Vision, Skolkovo, Moscow, Russia 
+			</p> 
 			
 			<p>
 				<h4>Reviewer:</h4> 

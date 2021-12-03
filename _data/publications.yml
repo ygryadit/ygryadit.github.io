@@ -24,8 +24,9 @@
   module  which  automatically  computes  the  optimal  combination
   of  2D  projections  of  a  3D  shape  given  a  query  sketch."
   publ_id: "2021_1"
+  type: "j"
   
-- title: "Fine-Grained VR Sketching: Dataset and Insights."
+- title: "Fine-Grained VR Sketching: Dataset and Insights"
   title_link: ""
   authors: "Ling Luo, <b>Yulia Gryaditskaya</b>, Yongxin Yang, Tao Xiang, Yi-Zhe Song"
   venue: "Proceedings of International Conference on 3D Vision (3DV)"
@@ -36,6 +37,7 @@
   project_link: "https://tinyurl.com/VRSketch3DV21"
   bibtex_link: "./Papers/3DV_21/luo2021FineGrainedVR.bib"  
   publ_id: "2021_2"
+  type: "c"
   
 
 - title: "Towards Practical Sketch-based 3D ShapeGeneration: The Role of Professional Sketches"
@@ -49,6 +51,7 @@
   bibtex_link: "./Papers/ProSketch/zhong2020towards.bib"
   abstract: "In this paper, for the first time, we investigate the problem of generating 3D shapes from professional 2D sketches via deep learning. We target sketches done by professional artists, as these sketches are likely to contain more details than the ones produced by novices, and thus the reconstruction from such sketches poses a higher demand on the level of detail in the reconstructed models. This is importantly different to previous work, where the training and testing was conducted on either synthetic sketches or sketches done by novices. Novices sketches often depict shapes that are physically unrealistic, while models trained with synthetic sketches could not cope with the level of abstraction and style found in real sketches. To address this problem, we collected the first large-scale dataset of professional sketches, where each sketch is paired with a reference 3D shape, with a total of 1,500 professional sketches collected across 500 3D shapes. The dataset is available at http://sketchx.ai/downloads/. We introduce two bespoke designs within a deep adversarial network to tackle the imprecision of human sketches and the unique figure/ground ambiguity problem inherent to sketch-based reconstruction. We show that existing 3D shapes generation methods designed for images fail to be naively applied to our problem, and demonstrate the effectiveness of our method both qualitatively and quantitatively."
   publ_id: "2020_1"
+  type: "j"
   
 - title: "Towards 3D VR-Sketch to 3D Shape Retrieval"
   title_link: "https://tinyurl.com/3DSketch3DV"
@@ -61,6 +64,7 @@
   project_link: "https://tinyurl.com/3DSketch3DV"
   bibtex_link: "./Papers/3DV/Sketch3D/luo2020towards.bib"  
   publ_id: "2020_2"
+  type: "c"
   
 - title: "Deep Sketch-Based Modeling: Tips and Tricks"
   preview_img_link: "./Papers/3DV/DeepSketch/preview.png"
@@ -73,6 +77,7 @@
   project_link: "https://tinyurl.com/DeepSketchModeling"
   bibtex_link: "./Papers/3DV/DeepSketch/zhong2020deep.bib"
   publ_id: "2020_3"
+  type: "c"
   
 - title: "Lifting Freehand Concept Sketches into 3D"
   preview_img_link: "./Papers/Lift3D/preview.png"
@@ -85,6 +90,7 @@
   project_link: "https://ns.inria.fr/d3/Lift3D"
   bibtex_link: "./Papers/Lift3D/gryaditskaya2020lifting.bib"
   publ_id: "2020_5"
+  type: "j"
   
 - title: "Pixelor: A Competitive Sketching AI Agent. So you think you can beat me?"
   preview_img_link: "./Papers/Pixelor/preview.jpg"
@@ -97,7 +103,7 @@
   project_link: "http://sketchx.ai/pixelor"
   bibtex_link: "./Papers/Pixelor/bhunia2020pixelor.bib"
   publ_id: "2020_4"
-  
+  type: "j"
   
   
 - title: "OpenSketch: A Richly-Annotated Dataset of Product Design Sketches"
@@ -111,6 +117,7 @@
   project_link: "https://ns.inria.fr/d3/OpenSketch/"
   bibtex_link: "./Papers/OpenSketch/gryaditskaya2019opensketch.bib"
   publ_id: "2019_2"
+  type: "j"
   
 - title: "Bitmap or Vector? A study on sketch representations for deep stroke segmentation"
   preview_img_link: "./Papers/BitmapVector/preview.png"
@@ -123,6 +130,7 @@
   project_link: ""
   bibtex_link: "./Papers/BitmapVectorhahnlein2019bitmap.bib"
   publ_id: "2019_1"
+  type: "c"
 
 - title: "High Dynamic Range Imaging: Problems of Video Exposure Bracketing, Luminance Calibration and Gloss Editing"
   preview_img_link: "./Thesis/preview.png"
@@ -135,6 +143,7 @@
   project_link: ""
   bibtex_link: "./Thesis/gryaditskaya2017thesis.bib"
   publ_id: "2017_1"
+  type: "d"
   
 - title: "Gloss Editing in Light Fields"
   preview_img_link: "Papers/GlossEditing/preview.png"
@@ -147,6 +156,7 @@
   project_link: "Papers/GlossEditing/index.html#vmv1"
   bibtex_link: "Papers/GlossEditing/gryaditskaya2016gloss.bib"
   publ_id: "2016_1"
+  type: "c"
 
 - title: "Motion Aware Exposure Bracketing for HDR Video"
   preview_img_link: "Papers/HDRVideo/preview.png"
@@ -159,6 +169,7 @@
   project_link: "Papers/HDRVideo/index.html#egsr15"
   bibtex_link: "Papers/HDRVideo/gryaditskaya2015motion.bib"
   publ_id: "2015_1"
+  type: "j"
 
 - title: "Sky Based Light Metering for High Dynamic Range Images"
   preview_img_link: "Papers/LightMetering/preview.png"
@@ -171,3 +182,4 @@
   project_link: "Papers/LightMetering/index.html#pg14"
   bibtex_link: "Papers/LightMetering/gryaditskaya2014sky.bib"
   publ_id: "2014_1"  
+  type: "j"
