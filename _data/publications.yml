@@ -41,11 +41,11 @@
   
 
 - title: "Towards Practical Sketch-based 3D ShapeGeneration: The Role of Professional Sketches"
-  title_link: "https://ieeexplore.ieee.org/document/9272370"
+  title_link: ""
   authors: "Yue Zhong, Yonggang Qi, <b>Yulia Gryaditskaya</b>, Honggang Zhang, Yi-Zhe Song"
   venue: "IEEE Transactions on Circuits and Systems for Video Technology"
   year: 2020  
-  paper_link: "ttps://ieeexplore.ieee.org/document/9272370"
+  paper_link: "https://openresearch.surrey.ac.uk/esploro/outputs/journalArticle/Towards-Practical-Sketch-based-3D-Shape-Generation/99526523602346"
   preview_img_link: "./Papers/ProSketch/preview.png"
   img_width: '130px'
   bibtex_link: "./Papers/ProSketch/zhong2020towards.bib"
