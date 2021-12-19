@@ -446,37 +446,45 @@ layout: main
 			<h3> Professional Activities </h3>
              <p>
 				<h4> Area Chair/Technical Papers Committee Member:</h4> 
-				<a href="https://sa2021.siggraph.org/en/"> SIGGRAPH Asia'21 </a>,<a href=""> SIGGRAPH'22 </a>
-				
-				<h4>Program/Paper Committee Member:</h4> 
-				<a href="https://3dv2021.surrey.ac.uk/">CVM'20</a>, <a href="http://iccvm.org/2020/committee.htm">3DV'21</a>
+				<ul>
+				<li><a href="https://s2022.siggraph.org/"> SIGGRAPH North America'22 </a> <br></li>
+				<li><a href="https://sa2021.siggraph.org/en/"> SIGGRAPH Asia'21 </a></li>
+				</ul>
             </p>  
             
 			<p>
 				<h4>Organizer:</h4> 
                 <ul>
+				<li><a href=""> CVMP 2022: Short papers and demos chair </a></li>
                 <li><a href="https://she-iccv21.github.io/"> 1st Workshop on Sketching for Human Expressivity (SHE) ICCV 2021 </a></li>
 				<li> Weekly SketchX group meetings, 2021 </li> 
                 </ul>
             </p> 
 			
+			
+			
+			<p>
+				<h4>Reviewer:</h4> 
+				<h6>Program/Paper Committee Member:</h6> 
+				CVPR'22, 
+				ICCV'21, 
+				<a href="http://iccvm.org/2020/committee.htm">3DV'21</a>,
+				<a href="https://3dv2021.surrey.ac.uk/">CVM'20</a>
+				
+				<h6>Conferences:</h6> 				
+				SIGGRAPH, SIGGRAPH Asia, Eurographics, Pacific Graphics, VMV
+				
+				<h6>Journals:</h6> 
+				ACM TOG, CAVW, Computers & Graphics, JEI, JVIP, Multimedia Systems, TCSVT, TIP, TVCG
+			</p>
+            
 			<p>
 				<h4>Invited talks</h4>
 				06/2021 Autodesk, UK <br>
 				02/2021 University of Bath, UK <br>
-				12/2020 Christmas Colloquium on Computer Vision, Skolkovo, Moscow, Russia 
+				12/2020 <a href="https://www.youtube.com/watch?v=TixJu8p9QZQ"> Christmas Colloquium on Computer Vision, Skolkovo, Moscow, Russia</a> 
 			</p> 
 			
-			<p>
-				<h4>Reviewer:</h4> 
-				<h6>Conferences:</h6> 				
-				SIGGRAPH, SIGGRAPH Asia, Eurographics, Pacific Graphics, ICCV, VMV
-				
-				<h6>Journals:</h6> 
-				ACM TOG, CAVW, Computers & Graphics, JEI, JVIP, Multimedia Systems, TCSVT, TIP, TVCG
-
-			</p>
-             
 			<p id = "students">
 				<h4>Students:</h4>
 				<ul>
