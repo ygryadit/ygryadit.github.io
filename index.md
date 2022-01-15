@@ -59,42 +59,68 @@ layout: main
 		
 				<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 300%;"> About </h4>
 				<p>
-					I am a Graphics and Vision Researcher, focusing on leveraging Graphics in Deep Learning for 2D and 3D sketch-related applications.
+					I am a Graphics and Vision Researcher, focusing on leveraging Graphics and Deep Learning for 2D and 3D sketch-related applications. 
+					I am primarily interested in <i>AI and sketching for content creation and creativity</i>.
 				</p>
 				<p>
-					As a Senior Research Fellow at <a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing"> CVSSP, UK</a>, at <a href='https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en'>SketchX</a> group, 
-					lead by <a href='http://sketchx.eecs.qmul.ac.uk/'>Yi-Zhe Song</a>,
-					I am co-advising PhD students in Vision and Deep Learning.
+					As a Senior Research Fellow at <a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing"> CVSSP, UK</a>, at the <a href='https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en'>SketchX</a> group, 
+					led by <a href='http://sketchx.eecs.qmul.ac.uk/'>Yi-Zhe Song</a>, I am co-advising PhD students in Vision and Deep Learning, 
+					I focus on applying deep learning to a variety of sketching tasks (sketch-based modeling, retrieval, segmentation, and sketch-generation), 
+					working with sketches by novices and professionals.
 				</p>
 				
-				<p>
-					As a postdoctoral researcher at Inria, <a href="https://team.inria.fr/graphdeco/">GraphDeco </a> group under <a href ='http://www-sop.inria.fr/members/Adrien.Bousseau/'>Adrien Bousseau</a>, I studied concept sketching techniques and worked on sketch-based modeling.
+				<p>					
+					Before joining CVSSP, I was a postdoctoral researcher (2017-2020) at Inria, 
+					<a href="https://team.inria.fr/graphdeco/">GraphDeco</a>, under the guidance of <a href ='http://www-sop.inria.fr/members/Adrien.Bousseau/'>Adrien Bousseau</a>, 
+					where I studied concept sketching techniques and worked on sketch-based modeling.
 				</p>
 				<p>
-					I got my PhD at <a href="https://www.mpi-inf.mpg.de/">MPI Informatik</a>, 
+					I received my PhD (2012-2016) from <a href="https://www.mpi-inf.mpg.de/">MPI Informatik</a>, 
 					Germany, advised by <a href='https://people.mpi-inf.mpg.de/~karol/'>Karol Myszkowski</a> 
-					and <a href='https://scholar.google.de/citations?user=s2Ibok8AAAAJ&hl=en'>Hans-Peter Seidel</a>. As a part of my PhD, I spent 
-					half a year in Color and HDR group in <a href="https://www.technicolor.com/contact/research-and-innovation"> Technicolor R&D</a>, Rennes, France, under <a href='http://www.erikreinhard.com/about.html'> Erik Reinhard</a>. 
-					I obtained my diploma in 
-					<a href="http://www.msu.ru/en/info/struct/depts/vmc.html">Applied Mathematics and Computer Science</a>  with a specialization in Operation Research and System Analysis
-					from <a href="http://www.msu.ru/en/info/">MSU Lomonosov</a>, Russia.  
+					and <a href='https://scholar.google.de/citations?user=s2Ibok8AAAAJ&hl=en'>Hans-Peter Seidel</a>. 
+					My PhD focused on High Dynamic Range (HDR) image calibration, capturing HDR video on a mobile device, 
+					tone mapping of HDR content, structured light fields, and editing materials in such light fields.
+					While working on my PhD, I spent half a year in the Color and HDR group in 
+					<a href="https://www.technicolor.com/contact/research-and-innovation"> Technicolor R&D</a>, Rennes, France, 
+					under the guidance of <a href='http://www.erikreinhard.com/about.html'> Erik Reinhard</a>. 
+					I received a degree (2007-2012) in <a href="http://www.msu.ru/en/info/struct/depts/vmc.html">Applied Mathematics and Computer Science</a>  with a specialization in Operation Research and System Analysis
+					from <a href="http://www.msu.ru/en/info/">Lomonosov Moscow State University</a>, Russia.  
 				</p>
 				
-				<p>
-					My research interests cover sketch-based modeling, sketch beautification, geometric deep learning, sketch classification, sketch generation, high dynamic range image and video capture, tone-mapping and calibration, 
-					depth estimation from the structured light-fields, materials representation and editing.	
+				<!-- <p> -->
+					<!-- My research interests cover sketch-based modeling, sketch beautification, geometric deep learning, sketch classification, sketch generation, high dynamic range image and video capture, tone-mapping and calibration,  -->
+					<!-- depth estimation from the structured light-fields, materials representation and editing.	 -->
 				
-				</p>
+				<!-- </p> -->
 				
 				<p>
 					<a href="https://www.rsipvision.com/ICCV2021-Friday/20/"> Interview at ICCV Daily </a>
 				</p>
-
+				
+				
+				
 	</div>
 </div>
 </section>
 
+<hr >
 
+<section id="news">			
+<div class="row align-items-center">			
+	<!-- Bio -->
+	<div class="col-sm-12" >
+		<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 300%; color:#2fb673"> News </h4>
+		<p>
+			We have one fully funded PhD position open at CVSSP (to be started by July 2022) with a PhD topic retlated to "AI and sketching for content creation and creativity".
+			If you are interested, please send me your CV and cover letter.  
+		</p>
+	
+	</div>
+</div>
+</section>
+	
+	
+	
 <hr >
 <section id="publications" >
 <div class="album py-5 bg-light">
@@ -135,19 +161,25 @@ layout: main
 				
 				{% if publ.preview_img_link != "" %}
 				<div class="row mt-3 mb-1">
-					<div class='col-sm-2 mt-3'>
-						<div class="card align-items-center">	
-							<img src="{{publ.preview_img_link}}" width = '{{publ.img_width}}'/>
-						</div>	
+					
+					<!-- <div class='col-sm-2 mt-3'> -->
+						<!-- <div class="card align-items-center">	 -->
+							<!-- <img src="{{publ.preview_img_link}}" width = '{{publ.img_width}}'/> -->
+						<!-- </div>	 -->
+					<!-- </div> -->
+					<div class="col-sm-2 align-items-stretch d-flex align-items-stretch">
+						<div class="card align-items-center justify-content-center w-100">		
+							<img src="{{publ.preview_img_link}}" width = '99%' />						
+						</div>
 					</div>
 					
-					<div class='col-sm-10'>
-						<div class="card">	
-							
+					<div class="col-sm-10 align-items-stretch d-flex align-items-stretch">
+						<div class="card w-100">								
 							<div class="card-body">
 								<!-- Title -->
 								<div class='title card-title'>
 									<!-- <a href="{{publ.title_link}}"> -->
+										
 										{% if publ.type == "j" %}
 											{% assign j = j | plus: 1%}
 											<span style="color:#ffa64d;">[{{publ.type}}{{tj | minus: j | plus: 1}}]</span>
@@ -156,7 +188,10 @@ layout: main
 											<span style="color:#a64dff;">[{{publ.type}}{{tc | minus: c | plus: 1}}]</span>
 										{% endif %}	
 										
-										<span style="text-transform: uppercase;">{{publ.title}}</span>
+										<!-- <span style="text-transform: uppercase;">{{publ.title}}</span> -->
+										
+										<span style="font-size: 110%;">{{publ.title}}</span>
+										
 									<!-- </a>  -->
 								</div>						
 								
@@ -199,6 +234,7 @@ layout: main
 					</div>
 				</div>
 				
+				
 				{% endif %}
 				
 			{% endfor %}
@@ -217,12 +253,14 @@ layout: main
 			
 			<div class="row mt-3 mb-1">
 			
-				<div class="card justify-content-center">	
-					<img src='DatasetsThumbs/SlowSketch.png'  width = '200px'  />
+				<div class="col-sm-3 align-items-stretch d-flex align-items-stretch">
+					<div class="card align-items-center justify-content-center w-100">		
+						<img src='DatasetsThumbs/SlowSketch.png'  width = '99%'  />
+					</div>
 				</div>
 				
-				<div class='refS col-sm-9'>
-					<div class="card">	
+				<div class="col-sm-9 align-items-stretch d-flex align-items-stretch">
+						<div class="card w-100">	
 						<div class="card-body">
 							<div class = 'title card-title'>
 								<a href='https://drive.google.com/file/d/1mWEY7vFkOw790DwUtqcTX8fHzNBP_b1J/view?usp=sharing'> SlowSketch </a>
@@ -249,12 +287,14 @@ layout: main
 			<div class="row mt-3 mb-1">
 				
 				
-				<div class='thumbD card justify-content-center' >
-					<img src='DatasetsThumbs/ProSketch-3DChair.jpg'  width = '200px'  />
+				<div class="col-sm-3 align-items-stretch d-flex align-items-stretch">
+					<div class="card align-items-center justify-content-center w-100">		
+					<img src='DatasetsThumbs/ProSketch-3DChair.jpg'  width = '88%'  />
+					</div>
 				</div>
 				
-				<div class='refB refS col-sm-9'>
-					<div class="card">
+				<div class="col-sm-9 align-items-stretch d-flex align-items-stretch">
+					<div class="card w-100">	
 						<div class="card-body">
 							<div class = 'title card-title'>
 								<a href='http://personal.ee.surrey.ac.uk/Personal/Y.Song/ProSketch-3Dchair.zip'> ProSketch-3DChair </a>
@@ -280,12 +320,14 @@ layout: main
 			<!-- ---- -->
 			<!-- <div class='publ_year'> 2020 </div> -->
 			<div class="row mt-3 mb-1">
-				<div class='thumbD card justify-content-center' >
-					<img src='DatasetsThumbs/SChairSketch.png'  width = '200px'  />
+				<div class="col-sm-3 align-items-stretch d-flex align-items-stretch">
+					<div class="card align-items-center justify-content-center w-100">	
+					<img src='DatasetsThumbs/SChairSketch.png'  width = '99%'  />
+					</div>
 				</div>
 				
-				<div class='refB refS col-sm-9'>
-					<div class="card">
+					<div class="col-sm-9 align-items-stretch d-flex align-items-stretch">
+					<div class="card w-100">
 					<div class="card-body">
 						<div class = 'title card-title'>
 							<a href='https://cvssp.org/data/SyntheticChairSketch/'> SyntheticChairSketch </a>
@@ -313,12 +355,14 @@ layout: main
 			
 			<!-- <div class='publ_year'> 2020 </div> -->
 			<div class="row mt-3 mb-1">
-				<div class='thumbD card justify-content-center' >
-					<img src='DatasetsThumbs/3DVR.png'  width = '200px'  />
+				<div class="col-sm-3 align-items-stretch d-flex align-items-stretch">
+					<div class="card align-items-center justify-content-center w-100">	
+					<img src='DatasetsThumbs/3DVR.png'  width = '99%'  />
+					</div>
 				</div>
 				
-				<div class='refB refS col-sm-9'>
-					<div class="card">
+				<div class="col-sm-9 align-items-stretch d-flex align-items-stretch">
+					<div class="card w-100">
 					<div class="card-body">
 						<div class = 'title card-title'>
 						<a href='https://drive.google.com/file/d/1FkKZfWt7O4xMy4ir5kCYcmwZLPk1uBcZ/view?usp=sharing'>3D VR sketch-3D Shape pairs</a>
@@ -343,12 +387,14 @@ layout: main
 			
 			<!-- <div class='publ_year'> 2020 </div> -->
 			<div class="row mt-3 mb-1">
-				<div class='thumbD card justify-content-center' >
-					<img src='DatasetsThumbs/OpenSketch++.png'  width = '200px'  />
+				<div class="col-sm-3 align-items-stretch d-flex align-items-stretch">
+					<div class="card align-items-center justify-content-center w-100">	
+					<img src='DatasetsThumbs/OpenSketch++.png'  width = '99%'  />
+					</div>
 				</div>
 				
-				<div class='refB refS col-sm-9'>
-					<div class="card">
+				<div class="col-sm-9 align-items-stretch d-flex align-items-stretch">
+					<div class="card w-100">
 					<div class="card-body">
 						<div class = 'title card-title'>
 							<a href='https://repo-sam.inria.fr/d3/Lift3D/OpenSketch++.zip'>OpenSketch++</a>
@@ -375,12 +421,14 @@ layout: main
 			<div class='publ_year'> 2019 </div>
 			
 			<div class="row mt-3 mb-1">
-				<div class='thumbD card justify-content-center' >
-					<img src='DatasetsThumbs/OpenSketch.png'  width = '200px'  />
+				<div class="col-sm-3 align-items-stretch d-flex align-items-stretch">
+					<div class="card align-items-center justify-content-center w-100">	
+					<img src='DatasetsThumbs/OpenSketch.png'  width = '99%'  />
+					</div>
 				</div>
 				
-				<div class='refS col-sm-9'>
-					<div class="card">
+				<div class="col-sm-9 align-items-stretch d-flex align-items-stretch">
+					<div class="card w-100">
 						<div class="card-body">
 							<div class = 'title card-title'>
 								<a href='https://repo-sam.inria.fr/d3/OpenSketch/'>OpenSketch</a>
@@ -405,13 +453,14 @@ layout: main
 			<div class='publ_year'> 2014 </div>
 			
 			<div class="row mt-3 mb-1">
-				<div class='thumbD card  justify-content-center' >
-					<img src='DatasetsThumbs/HDR.png'  width = '200px'  />
+				<div class="col-sm-3 align-items-stretch d-flex align-items-stretch">
+					<div class="card align-items-center justify-content-center w-100">	
+					<img src='DatasetsThumbs/HDR.png'  width = '99%'  />
+					</div>
 				</div>
 				
-				<div class='refS col-sm-9'>
-				
-					<div class="card">
+				<div class="col-sm-9 align-items-stretch d-flex align-items-stretch">
+					<div class="card w-100">
 						<div class="card-body">
 							<div class = 'title card-title'>
 								<a href='https://drive.google.com/file/d/12qovT3CuJIVHVdM2wtA4RXi62-4sVoDO/view?usp=sharing'>Calibrated HDR Images</a>
@@ -466,10 +515,18 @@ layout: main
 			<p>
 				<h4>Reviewer:</h4> 
 				<h6>Program/Paper Committee Member:</h6> 
-				CVPR'22, 
-				ICCV'21, 
-				<a href="http://iccvm.org/2020/committee.htm">3DV'21</a>,
-				<a href="https://3dv2021.surrey.ac.uk/">CVM'20</a>
+				<ul>
+				<li> Eurographics Symposium on Rendering (<a href="https://egsr.eu/2022/">EGSR 2022</a>), 
+				</li>
+				<li> IEEE/CVF Conference on Computer Vision and Pattern Recognition (<a href="https://cvpr2022.thecvf.com/">CVPR 2022</a>), 
+				</li>
+				<li> International Conference on Computer Vision (<a href="https://iccv2021.thecvf.com/home">ICCV 2021</a>), 
+				</li>
+				<li> International Conference on 3D Vision (<a href="http://iccvm.org/2020/committee.htm">3DV 2021</a>),
+				</li>
+				<li> International Conference on Computational Visual Media (<a href="http://iccvm.org/2020/committee.htm">CVM 2020</a>)
+				</li>
+				</ul>
 				
 				<h6>Conferences:</h6> 				
 				SIGGRAPH, SIGGRAPH Asia, Eurographics, Pacific Graphics, VMV
@@ -488,11 +545,11 @@ layout: main
 			<p id = "students">
 				<h4>Students:</h4>
 				<ul>
-					<li> 2021 -- ongoing, Pinaki Nath Chowdhury (coadvised with Yi-Zhe Song)
+					<li> 2021 -- ongoing, <a href="https://scholar.google.co.in/citations?hl=en&user=HE2nfp0AAAAJ&view_op=list_works&sortby=pubdate&inst=15262737669262836719">Pinaki Nath Chowdhury</a> (coadvised with Yi-Zhe Song)
 						PhD student</li>
-					<li> 2020 -- ongoing, Ling Luo (coadvised with Yi-Zhe Song)
+					<li> 2020 -- ongoing, <a href="https://rowl1ng.com/">Ling Luo</a> (coadvised with Yi-Zhe Song)
 						PhD student</li>
-					<li> 2020 -- ongoing, Yue Zhong (coadvised with Yi-Zhe Song)
+					<li> 2020 -- ongoing, <a href="https://www.researchgate.net/scientific-contributions/Yue-Zhong-2149391947">Yue Zhong</a> (coadvised with Yi-Zhe Song)
 						PhD student</li>			
 					<li> 2020 -- 2021, <a href="https://dblp.org/pid/226/4981.html">Anran Qi</a> (coadvised with Yi-Zhe Song)
 						PhD student </li>
