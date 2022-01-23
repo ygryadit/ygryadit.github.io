@@ -60,29 +60,29 @@ layout: main
 				<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 300%;"> About </h4>
 				<p>
 					I am a Graphics and Vision Researcher, focusing on leveraging Graphics and Deep Learning for 2D and 3D sketch-related applications. 
-					I am primarily interested in <i>AI and sketching for content creation and creativity</i>.
+					I am primarily interested in <i>AI and sketching for creation and creativity</i>.
 				</p>
 				<p>
 					As a Senior Research Fellow at <a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing"> CVSSP, UK</a>, at the <a href='https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en'>SketchX</a> group, 
-					led by <a href='http://sketchx.eecs.qmul.ac.uk/'>Yi-Zhe Song</a>, I am co-advising PhD students in Vision and Deep Learning, 
+					led by <a href='http://sketchx.eecs.qmul.ac.uk/'>Prof. Yi-Zhe Song</a>, I am co-advising PhD students in Vision and Deep Learning, 
 					I focus on applying deep learning to a variety of sketching tasks (sketch-based modeling, retrieval, segmentation, and sketch-generation), 
 					working with sketches by novices and professionals.
 				</p>
 				
 				<p>					
 					Before joining CVSSP, I was a postdoctoral researcher (2017-2020) at Inria, 
-					<a href="https://team.inria.fr/graphdeco/">GraphDeco</a>, under the guidance of <a href ='http://www-sop.inria.fr/members/Adrien.Bousseau/'>Adrien Bousseau</a>, 
+					<a href="https://team.inria.fr/graphdeco/">GraphDeco</a>, under the guidance of <a href ='http://www-sop.inria.fr/members/Adrien.Bousseau/'>Dr. Adrien Bousseau</a>, 
 					where I studied concept sketching techniques and worked on sketch-based modeling.
 				</p>
 				<p>
 					I received my PhD (2012-2016) from <a href="https://www.mpi-inf.mpg.de/">MPI Informatik</a>, 
-					Germany, advised by <a href='https://people.mpi-inf.mpg.de/~karol/'>Karol Myszkowski</a> 
-					and <a href='https://scholar.google.de/citations?user=s2Ibok8AAAAJ&hl=en'>Hans-Peter Seidel</a>. 
+					Germany, advised by <a href='https://people.mpi-inf.mpg.de/~karol/'>Prof. Karol Myszkowski</a> 
+					and <a href='https://scholar.google.de/citations?user=s2Ibok8AAAAJ&hl=en'>Prof. Hans-Peter Seidel</a>. 
 					My PhD focused on High Dynamic Range (HDR) image calibration, capturing HDR video on a mobile device, 
 					tone mapping of HDR content, structured light fields, and editing materials in such light fields.
 					While working on my PhD, I spent half a year in the Color and HDR group in 
 					<a href="https://www.technicolor.com/contact/research-and-innovation"> Technicolor R&D</a>, Rennes, France, 
-					under the guidance of <a href='http://www.erikreinhard.com/about.html'> Erik Reinhard</a>. 
+					under the guidance of <a href='http://www.erikreinhard.com/about.html'>Dr. Erik Reinhard</a>. 
 					I received a degree (2007-2012) in <a href="http://www.msu.ru/en/info/struct/depts/vmc.html">Applied Mathematics and Computer Science</a>  with a specialization in Operation Research and System Analysis
 					from <a href="http://www.msu.ru/en/info/">Lomonosov Moscow State University</a>, Russia.  
 				</p>
@@ -111,7 +111,10 @@ layout: main
 	<div class="col-sm-12" >
 		<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 300%; color:#2fb673"> News </h4>
 		<p>
-			We have one fully funded PhD position open at CVSSP (to be started by July 2022) with a PhD topic retlated to "AI and sketching for content creation and creativity".
+			I am starting as an assistant professor (lecturer) at Centre for Vision, Speech and Signal Processing (CVSSP) and the <a href="https://www.surrey.ac.uk/artificial-intelligence/about">Surrey Institute for People-Centred AI</a>.
+		</p>
+		<p>
+			We have one fully-funded PhD position (3-4 years) open at CVSSP (to be started by July 2022) with a PhD topic related to "AI and sketching for creation and creativity".
 			If you are interested, please send me your CV and cover letter.  
 		</p>
 	
