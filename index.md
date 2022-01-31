@@ -14,7 +14,11 @@ layout: main
 		<div id = "info" >
 		<h4 >Dr. Yulia Gryaditskaya</h4>
 
-		<h5>Senior Research Fellow at <a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing"> CVSSP, UK </a><br/></h5>
+		<h5>Assistant Professor (Lecturer) in Artificial Intelligence at 
+			<a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing">CVSSP</a> and 
+			<a href ="https://www.surrey.ac.uk/artificial-intelligence">Surrey Institute for People-Centred AI</a>, UK
+			<br/>
+		</h5>
 
 		Email address:
 		<script src="myaddress.js" type="text/javascript"></script>
@@ -60,11 +64,11 @@ layout: main
 				<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 300%;"> About </h4>
 				<p>
 					I am a Graphics and Vision Researcher, focusing on leveraging Graphics and Deep Learning for 2D and 3D sketch-related applications. 
-					I am primarily interested in <i>AI and sketching for creation and creativity</i>.
+					I am primarily interested in <i>AI, sketching and CAD for creation and creativity</i>.
 				</p>
 				<p>
-					As a Senior Research Fellow at <a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing"> CVSSP, UK</a>, at the <a href='https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en'>SketchX</a> group, 
-					led by <a href='http://sketchx.eecs.qmul.ac.uk/'>Prof. Yi-Zhe Song</a>, I am co-advising PhD students in Vision and Deep Learning, 
+					As a Senior Research Fellow (2020-2022) at <a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing"> CVSSP, UK</a>, at the <a href='https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en'>SketchX</a> group, 
+					led by <a href='http://sketchx.eecs.qmul.ac.uk/'>Prof. Yi-Zhe Song</a>, I was co-advising PhD students in Vision and Deep Learning, 
 					I focus on applying deep learning to a variety of sketching tasks (sketch-based modeling, retrieval, segmentation, and sketch-generation), 
 					working with sketches by novices and professionals.
 				</p>
