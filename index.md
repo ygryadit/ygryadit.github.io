@@ -256,6 +256,41 @@ layout: main
 			<h3> Released datasets </h3>
 			
 			<!-- ---- -->
+			<div class='publ_year'> 2021 </div>
+			
+			<div class="row mt-3 mb-1">
+			
+				<div class="col-sm-3 align-items-stretch d-flex align-items-stretch">
+					<div class="card align-items-center justify-content-center w-100">		
+						<img src='DatasetsThumbs/VR21.png'  width = '99%'  />
+					</div>
+				</div>
+				
+				<div class="col-sm-9 align-items-stretch d-flex align-items-stretch">
+						<div class="card w-100">	
+						<div class="card-body">
+							<div class = 'title card-title'>
+								<a href='https://cvssp.org/data/VRChairSketch/'> 3D VR chair sketches by non professionals </a>
+							</div>
+							
+							<div class = 'DatasetDesc card-text' >
+								We present the first fine-grained dataset of 1,497 3D VR sketch and 3D shape pairs for 1,005 chair shapes with large shapes diversity from the ShapeNetCore dataset from 50 participants.
+								
+								This datset is a part of the paper:
+													
+								<div style="color:grey">
+								Fine-Grained VR Sketching: Dataset and Insights <br>
+								Ling Luo, Yulia Gryaditskaya, Yongxin Yang, Tao Xiang, Yi-Zhe Song <br>
+								Proceedings of International Conference on 3D Vision (3DV), 2021.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<!-- ---- -->
 			<div class='publ_year'> 2020 </div>
 			
 			<div class="row mt-3 mb-1">
@@ -337,7 +372,7 @@ layout: main
 					<div class="card w-100">
 					<div class="card-body">
 						<div class = 'title card-title'>
-							<a href='https://cvssp.org/data/SyntheticChairSketch/'> SyntheticChairSketch </a>
+							<a href='https://cvssp.org/data/SyntheticChairSketch/'> Synthetic Chair Sketches </a>
 						</div>
 						
 						<div class = 'DatasetDesc card-text'>

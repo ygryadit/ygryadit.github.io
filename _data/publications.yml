@@ -71,6 +71,7 @@
   venue: "IEEE Transactions on Circuits and Systems for Video Technology"
   year: 2020  
   paper_link: "https://openresearch.surrey.ac.uk/esploro/outputs/journalArticle/Towards-Practical-Sketch-based-3D-Shape-Generation/99526523602346"
+  project_link: "https://github.com/Yueeey/sketcch3D"
   preview_img_link: "./Papers/ProSketch/preview.png"
   img_width: '130px'
   bibtex_link: "./Papers/ProSketch/zhong2020towards.bib"
