@@ -538,6 +538,7 @@ layout: main
              <p>
 				<h4> Area Chair/Technical Papers Committee Member:</h4> 
 				<ul>
+				<li><a href="https://sa2022.siggraph.org/en/"> SIGGRAPH Asia'22 </a></li>
 				<li><a href="https://s2022.siggraph.org/"> SIGGRAPH North America'22 </a> <br></li>
 				<li><a href="https://sa2021.siggraph.org/en/"> SIGGRAPH Asia'21 </a></li>
 				</ul>
