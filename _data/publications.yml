@@ -1,26 +1,26 @@
 - title: "A Study of Deep Single Sketch-Based Modeling: View/Style Invariance, Sparsity and Latent Space Disentanglement"
   authors: "Yue Zhong, <b>Yulia Gryaditskaya</b>, Honggang Zhang, Yi-Zhe Song"
-  venue: "A preprint article"
+  venue: "Preprint"
   year: 2022  
   paper_link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3999114"
   preview_img_link: "./Papers/22_SBM_journal/preview.png"
   img_width: '130px'
   bibtex_link: "./Papers/22_SBM_journal/22_SBM_journal.bib"
   abstract: "Deep image-based modeling has received a lot of attention in recent years. Sketch-based modeling in particular has gained popularity given the ubiquitous nature of touchscreen devices. In this paper, we (i) study and compare diverse single-image reconstruction methods on sketch input, comparing the different 3D shape representations: multi-view, voxel- and point-cloud-based, mesh-based and implicit ones; and (ii) analyze the main challenges and requirements of sketch-based modeling systems. We introduce the regression loss and provide two variants of its formulation for the two most promising 3D shape representations: point clouds and signed distance functions. We show that this loss can increase general reconstruction accuracy, and the view- and style-robustness of the reconstruction methods. Moreover, we demonstrate that this loss can benefit the disentanglement of latent space to view-invariant and view-specific information, resulting in further improved performance. To address the figure-ground ambiguity typical for sparse human sketches, we propose a two-branch architecture that exploits sparse user labeling. We hope that our work will inform future research on sketch-based modeling. We will release our datasets and their splits to establish the first benchmark in sketch- based modeling."
-  publ_id: "2022_1"
+  publ_id: "2022_2"
   type: "p"
 
 - title: "One Sketch for All: One-Shot Personalized Sketch Segmentation"
   authors: "Anran Qi, <b>Yulia Gryaditskaya</b>, Tao Xiang, Yi-Zhe Song"
-  venue: "A preprint article: arXiv:2112.10838"
-  year: 2021  
+  venue: "IEEE Transactions on Image Processing"
+  year: 2022  
   paper_link: "https://arxiv.org/abs/2112.10838"
   preview_img_link: "./Papers/22_Sketch_Segmentation/preview.png"
   img_width: '130px'
   bibtex_link: "./Papers/22_Sketch_Segmentation/qi2021OneSketch4All.bib"
   abstract: "We present the first one-shot personalized sketch segmentation method. We aim to segment all sketches belonging to the same category provisioned with a single sketch with a given part annotation while (i) preserving the parts semantics embedded in the exemplar, and (ii) being robust to input style and abstraction. We refer to this scenario as personalized. With that, we importantly enable a much-desired personalization capability for downstream fine-grained sketch analysis tasks. To train a robust segmentation module, we deform the exemplar sketch to each of the available sketches of the same category. Our method generalizes to sketches not observed during training. Our central contribution is a sketch-specific hierarchical deformation network. Given a multi-level sketch-strokes encoding obtained via a graph convolutional network, our method estimates rigid-body transformation from the reference to the exemplar, on the upper level. Finer deformation from the exemplar to the globally warped reference sketch is further obtained through stroke-wise deformations, on the lower level. Both levels of deformation are guided by mean squared distances between the keypoints learned without supervision, ensuring that the stroke semantics are preserved. We evaluate our method against the state-of-the-art segmentation and perceptual grouping baselines re-purposed for the one-shot setting and against two few-shot 3D shape segmentation methods. We show that our method outperforms all the alternatives by more than 10% on average. Ablation studies further demonstrate that our method is robust to personalization: changes in input part semantics and style differences."
-  publ_id: "2021_3"
-  type: "p"
+  publ_id: "2022_1"
+  type: "j"
   
 - title: "Fine-Grained VR Sketching: Dataset and Insights"
   title_link: ""

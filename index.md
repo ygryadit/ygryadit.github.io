@@ -45,6 +45,9 @@ layout: main
 				<div class="col-sm-2 ">			
 					<img src="img/icons/githubIcon.png" style="width:20px;" /> <a href="https://github.com/ygryadit/">GitHub</a>
 				</div>
+				<div class="col-sm-2 ">			
+					<img src="img/icons/orcid.logo.icon.svg" style="width:20px;" /> <a href="https://orcid.org/0000-0002-1951-6475">ORCID</a>
+				</div>
 			</div>
 			
 	
@@ -114,11 +117,9 @@ layout: main
 	<!-- Bio -->
 	<div class="col-sm-12" >
 		<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 300%; color:#2fb673"> News </h4>
+		
 		<p>
-			I am starting as an assistant professor (lecturer) at Centre for Vision, Speech and Signal Processing (CVSSP) and the <a href="https://www.surrey.ac.uk/artificial-intelligence/about">Surrey Institute for People-Centred AI</a>.
-		</p>
-		<p>
-			We have one fully-funded PhD position (3-4 years) open at CVSSP (to be started by July 2022) with a PhD topic related to "AI and sketching for creation and creativity".
+			I have one fully-funded PhD position (3-4 years) open at CVSSP (to be started by July 2022) with a PhD topic related to "AI and sketching for creation and creativity".
 			If you are interested, please send me your CV and cover letter.  
 		</p>
 	
