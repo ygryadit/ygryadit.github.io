@@ -119,8 +119,8 @@ layout: main
 		<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 300%; color:#2fb673"> News </h4>
 		
 		<p>
-			I have one fully-funded PhD position (3-4 years) open at CVSSP (to be started by July 2022) with a PhD topic related to "AI and sketching for creation and creativity".
-			If you are interested, please send me your CV and cover letter.  
+			I have open PhD positions (3-4 years) at CVSSP (to be started by July 2022) with a PhD topic related to "AI and sketching for creation and creativity".
+			<a href="./calls/PhD_call.pdf">Details</a>.
 		</p>
 	
 	</div>
