@@ -588,6 +588,8 @@ layout: main
             
 			<p>
 				<h4>Invited talks</h4>
+				10/2022 ECCV 2022 workshop: "Drawings and abstract Imagery: Representations and Analysis" (DIRA) <br>
+				06/2022 CogSci 2022 Workshop "From Images to Symbols: Drawing as a Window into the Mind" <br>				
 				06/2021 Autodesk, UK <br>
 				02/2021 University of Bath, UK <br>
 				12/2020 <a href="https://www.youtube.com/watch?v=TixJu8p9QZQ"> Christmas Colloquium on Computer Vision, Skolkovo, Moscow, Russia</a> 
