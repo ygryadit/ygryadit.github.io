@@ -119,8 +119,14 @@ layout: main
 		<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 300%; color:#2fb673"> News </h4>
 		
 		<p>
-			I have open PhD positions (3-4 years) at CVSSP (to be started by July 2022) with a PhD topic related to "AI and sketching for creation and creativity".
-			<a href="./calls/PhD_call.pdf">Details</a>.
+			I will serve as an invited speaker at ECCV 2022 workshop: "Drawings and abstract Imagery: Representations and Analysis" (DIRA).
+		</p>
+		<p>
+			I will serve as an invited speaker at CogSci 2022 Workshop "From Images to Symbols: Drawing as a Window into the Mind"
+		</p>
+		<p>
+			I am looking for highly motivated PhD students. The positions are fully funded and are based at CVSSP (to be started by July 2022) with a PhD topic related to "AI and sketching for creation and creativity".
+			<a href="./calls/PhD_call.pdf">Details</a>. 
 		</p>
 	
 	</div>
