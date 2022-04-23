@@ -7,7 +7,7 @@ layout: main
 <div id="about" class="row align-items-center">
 	<!-- Image -->
 	<div class="col-sm-3">
-		<img id="photo" src="Me.png" alt="Yulia Gryaditskaya"/>		
+		<img id="photo" src="Me_new.jpg" alt="Yulia Gryaditskaya"/>		
 	</div>
 	
 	<div class="col-sm-8">			
