@@ -117,7 +117,9 @@ layout: main
 	<!-- Bio -->
 	<div class="col-sm-12" >
 		<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 300%; color:#2fb673"> News </h4>
-		
+		<p>
+			Our paper is accepted to SIGGRAPH North America 2022. More details are coming soon!
+		</p>
 		<p>
 			I will serve as an invited speaker at ECCV 2022 workshop: "Drawings and abstract Imagery: Representations and Analysis" (DIRA).
 		</p>
@@ -611,7 +613,7 @@ layout: main
 						Research Internship: 'Sketch segmentation with geometric deep learning'</li>
 					<li> 2018, Adele Saint-Denis (coadvised with Adrien Bousseau)
 						Research Internship: 'Non-photorealistic rendering'</li>
-					<li> 2017, Marina Menghetti  (main adviser Adrien Bousseau)
+					<li> 2017, Marina Menghetti  (main advisor Adrien Bousseau)
 						Research Internship: 'Strokes extraction from input video'</li>
 					<li> 2015, Juliette Pelletier
 						Engineering Internship: 'HDR Video Capture on a Mobile Device'</li>
