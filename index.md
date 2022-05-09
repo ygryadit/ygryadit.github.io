@@ -117,9 +117,7 @@ layout: main
 	<!-- Bio -->
 	<div class="col-sm-12" >
 		<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 300%; color:#2fb673"> News </h4>
-		<p>
-			Our paper is accepted to SIGGRAPH North America 2022. More details are coming soon!
-		</p>
+		
 		<p>
 			I will serve as an invited speaker at ECCV 2022 workshop: "Drawings and abstract Imagery: Representations and Analysis" (DIRA).
 		</p>
@@ -127,7 +125,7 @@ layout: main
 			I will serve as an invited speaker at CogSci 2022 Workshop "From Images to Symbols: Drawing as a Window into the Mind"
 		</p>
 		<p>
-			I am looking for highly motivated PhD students. The positions are fully funded and are based at CVSSP (to be started by July 2022) with a PhD topic related to "AI and sketching for creation and creativity".
+			<i>I am looking for highly motivated PhD students with strong technical background. The positions are fully funded and are based at CVSSP (to be started between July and December 2022) with PhD topics related to "AI and sketching/CAD for creation and creativity".</i>
 			<a href="./calls/PhD_call.pdf">Details</a>. 
 		</p>
 	
