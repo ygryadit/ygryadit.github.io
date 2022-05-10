@@ -606,7 +606,7 @@ layout: main
 					<li> 2020 -- ongoing, <a href="https://www.researchgate.net/scientific-contributions/Yue-Zhong-2149391947">Yue Zhong</a> (coadvised with Yi-Zhe Song)
 						PhD student</li>			
 					<li> 2020 -- 2021, <a href="https://dblp.org/pid/226/4981.html">Anran Qi</a> (coadvised with Yi-Zhe Song)
-						PhD student </li>
+						PhD student, <i>has defended her PhD thesis on 8th November 2021</i> <img src="img/icons/clap.svg" style="width:15px;"/> </li>
                     <li> 2019, Felix Hahnlein (coadvised with Adrien Bousseau)
 						Research Internship: 'Sketch segmentation with geometric deep learning'</li>
 					<li> 2018, Adele Saint-Denis (coadvised with Adrien Bousseau)
