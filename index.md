@@ -117,9 +117,11 @@ layout: main
 	<!-- Bio -->
 	<div class="col-sm-12" >
 		<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 300%; color:#2fb673"> News </h4>
-		
 		<p>
-			I will serve as an invited speaker at ECCV 2022 workshop: "Drawings and abstract Imagery: Representations and Analysis" (DIRA).
+			<a href="http://drawingforproductdesigners.com/about/">Kevin Henry</a>, an Associate Professor of Design at Columbia College Chicago, will be visiting our group on 10th June 2022, and will give a talk: "Sketching Fast and Slow: Cognition, Heuristics, and the Challenge of Intuitive Workflows".
+		</p>
+		<p>
+			I will serve as an invited speaker at ECCV 2022 workshop: <a href="https://sites.google.com/view/eccv-dira">"Drawings and abstract Imagery: Representations and Analysis" (DIRA) </a>.
 		</p>
 		<p>
 			I will serve as an invited speaker at CogSci 2022 Workshop "From Images to Symbols: Drawing as a Window into the Mind"
@@ -606,7 +608,7 @@ layout: main
 					<li> 2020 -- ongoing, <a href="https://www.researchgate.net/scientific-contributions/Yue-Zhong-2149391947">Yue Zhong</a> (coadvised with Yi-Zhe Song)
 						PhD student</li>			
 					<li> 2020 -- 2021, <a href="https://dblp.org/pid/226/4981.html">Anran Qi</a> (coadvised with Yi-Zhe Song)
-						PhD student, <i>has defended her PhD thesis on 8th November 2021</i> <img src="img/icons/clap.svg" style="width:15px;"/> </li>
+						PhD student, <i>has defended her PhD thesis on 8th November 2021</i> <img src="img/icons/clap.svg" style="width:15px;"/>, Now: Postdoctoral Researcher at The University of Tokyo</li> 
                     <li> 2019, Felix Hahnlein (coadvised with Adrien Bousseau)
 						Research Internship: 'Sketch segmentation with geometric deep learning'</li>
 					<li> 2018, Adele Saint-Denis (coadvised with Adrien Bousseau)
