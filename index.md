@@ -121,10 +121,10 @@ layout: main
 			<a href="http://drawingforproductdesigners.com/about/">Kevin Henry</a>, an Associate Professor of Design at Columbia College Chicago, will be visiting our group on 10th June 2022, and will give a talk: "Sketching Fast and Slow: Cognition, Heuristics, and the Challenge of Intuitive Workflows".
 		</p>
 		<p>
-			I will serve as an invited speaker at ECCV 2022 workshop: <a href="https://sites.google.com/view/eccv-dira">"Drawings and abstract Imagery: Representations and Analysis" (DIRA) </a>.
+			I will serve as an invited speaker at ECCV 2022 workshop: <a href="https://sites.google.com/view/eccv-dira">"Drawings and abstract Imagery: Representations and Analysis" (DIRA)</a>.
 		</p>
 		<p>
-			I will serve as an invited speaker at CogSci 2022 Workshop "From Images to Symbols: Drawing as a Window into the Mind"
+			I will serve as an invited speaker at CogSci 2022 Workshop <a href="https://images2symbols.github.io/schedule/">"From Images to Symbols: Drawing as a Window into the Mind"</a>
 		</p>
 		<p>
 			<i>I am looking for highly motivated PhD students with strong technical background. The positions are fully funded and are based at CVSSP (to be started between July and December 2022) with PhD topics related to "AI and sketching/CAD for creation and creativity".</i>
@@ -590,9 +590,9 @@ layout: main
             
 			<p>
 				<h4>Invited talks</h4>
-				10/2022 ECCV 2022 workshop: "Drawings and abstract Imagery: Representations and Analysis" (DIRA) <br>
-				06/2022 CogSci 2022 workshop "From Images to Symbols: Drawing as a Window into the Mind" <br>		
-				06/2022 <a href="https://complightlab.com/seminars/">Virtual Environments and Computer Graphics'</a> (VECG's) seminar series on 1 June 2022 <br>						
+				10/2022 ECCV 2022 workshop: <a href="https://sites.google.com/view/eccv-dira">"Drawings and abstract Imagery: Representations and Analysis" (DIRA)</a> <br>
+				06/2022 CogSci 2022 workshop <a href="https://images2symbols.github.io/schedule/">"From Images to Symbols: Drawing as a Window into the Mind"</a> <br>		
+				01/06/2022 <a href="https://complightlab.com/seminars/">Virtual Environments and Computer Graphics'</a> (VECG's) seminar series at UCL<br>						
 				06/2021 Autodesk, UK <br>
 				02/2021 University of Bath, UK <br>
 				12/2020 <a href="https://www.youtube.com/watch?v=TixJu8p9QZQ"> Christmas Colloquium on Computer Vision, Skolkovo, Moscow, Russia</a> 
