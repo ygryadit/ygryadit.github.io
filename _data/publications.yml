@@ -3,13 +3,16 @@
   authors: "Felix Hähnlein, <b>Yulia Gryaditskaya</b>, Alla Sheffer, Adrien Bousseau"
   venue: "SIGGRAPH North America"
   year: 2022  
-  paper_link: ""
+  paper_link: "https://repo-sam.inria.fr/d3/SymmetrySketch/symmetry_sketch.pdf"
   preview_img_link: "./Papers/22_siggraph_symmetry/papers_442s3.jpg"
   img_width: '130px'
+  project_link: "https://ns.inria.fr/d3/SymmetrySketch/"
   bibtex_link: ""
   abstract: ""
   publ_id: "2022_3"
   type: "c"
+  
+  
 
 - title: "A Study of Deep Single Sketch-Based Modeling: View/Style Invariance, Sparsity and Latent Space Disentanglement"
   authors: "Yue Zhong, <b>Yulia Gryaditskaya</b>, Honggang Zhang, Yi-Zhe Song"
