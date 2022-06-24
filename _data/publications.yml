@@ -16,14 +16,15 @@
 
 - title: "A Study of Deep Single Sketch-Based Modeling: View/Style Invariance, Sparsity and Latent Space Disentanglement"
   authors: "Yue Zhong, <b>Yulia Gryaditskaya</b>, Honggang Zhang, Yi-Zhe Song"
-  venue: "Computers&amp;Graphics"
+  venue: "Computers &amp; Graphics"
   year: 2022  
-  paper_link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3999114"
+  paper_link: "https://www.sciencedirect.com/science/article/pii/S0097849322001078"
   preview_img_link: "./Papers/22_SBM_journal/preview.png"
   img_width: '130px'
   bibtex_link: "./Papers/22_SBM_journal/22_SBM_journal.bib"
   abstract: "Deep image-based modeling has received a lot of attention in recent years. Sketch-based modeling in particular has gained popularity given the ubiquitous nature of touchscreen devices. In this paper, we (i) study and compare diverse single-image reconstruction methods on sketch input, comparing the different 3D shape representations: multi-view, voxel- and point-cloud-based, mesh-based and implicit ones; and (ii) analyze the main challenges and requirements of sketch-based modeling systems. We introduce the regression loss and provide two variants of its formulation for the two most promising 3D shape representations: point clouds and signed distance functions. We show that this loss can increase general reconstruction accuracy, and the view- and style-robustness of the reconstruction methods. Moreover, we demonstrate that this loss can benefit the disentanglement of latent space to view-invariant and view-specific information, resulting in further improved performance. To address the figure-ground ambiguity typical for sparse human sketches, we propose a two-branch architecture that exploits sparse user labeling. We hope that our work will inform future research on sketch-based modeling. We will release our datasets and their splits to establish the first benchmark in sketch- based modeling."
   publ_id: "2022_1"
+  doi: "https://doi.org/10.1016/j.cag.2022.06.005"
   type: "j"
 
 - title: "One Sketch for All: One-Shot Personalized Sketch Segmentation"
