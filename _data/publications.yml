@@ -1,4 +1,16 @@
-
+- title: "FS-COCO: Towards Understanding of Freehand Sketches of Common Objects in Context"
+  authors: "Pinaki Nath Chowdhury, Aneeshan Sain, Ayan Kumar Bhunia, Tao Xiang, <b>Yulia Gryaditskaya</b>, Yi-Zhe Song"
+  venue: "ECCV"
+  year: 2022  
+  paper_link: ""
+  preview_img_link: "./Papers/22_ECCV/thumb.png"
+  img_width: '130px'
+  project_link: ""
+  bibtex_link: ""
+  abstract: ""
+  publ_id: "2022_4"
+  type: "c"
+  
 - title: "Symmetry-driven 3D Reconstruction From Concept Sketches"
   authors: "Felix Hähnlein, <b>Yulia Gryaditskaya</b>, Alla Sheffer, Adrien Bousseau"
   venue: "SIGGRAPH North America"
@@ -12,7 +24,18 @@
   publ_id: "2022_3"
   type: "c"
   
-  
+
+- title: "One Sketch for All: One-Shot Personalized Sketch Segmentation"
+  authors: "Anran Qi, <b>Yulia Gryaditskaya</b>, Tao Xiang, Yi-Zhe Song"
+  venue: "IEEE Transactions on Image Processing"
+  year: 2022  
+  paper_link: "https://arxiv.org/abs/2112.10838"
+  preview_img_link: "./Papers/22_Sketch_Segmentation/preview.png"
+  img_width: '130px'
+  bibtex_link: "./Papers/22_Sketch_Segmentation/qi2021OneSketch4All.bib"
+  abstract: "We present the first one-shot personalized sketch segmentation method. We aim to segment all sketches belonging to the same category provisioned with a single sketch with a given part annotation while (i) preserving the parts semantics embedded in the exemplar, and (ii) being robust to input style and abstraction. We refer to this scenario as personalized. With that, we importantly enable a much-desired personalization capability for downstream fine-grained sketch analysis tasks. To train a robust segmentation module, we deform the exemplar sketch to each of the available sketches of the same category. Our method generalizes to sketches not observed during training. Our central contribution is a sketch-specific hierarchical deformation network. Given a multi-level sketch-strokes encoding obtained via a graph convolutional network, our method estimates rigid-body transformation from the reference to the exemplar, on the upper level. Finer deformation from the exemplar to the globally warped reference sketch is further obtained through stroke-wise deformations, on the lower level. Both levels of deformation are guided by mean squared distances between the keypoints learned without supervision, ensuring that the stroke semantics are preserved. We evaluate our method against the state-of-the-art segmentation and perceptual grouping baselines re-purposed for the one-shot setting and against two few-shot 3D shape segmentation methods. We show that our method outperforms all the alternatives by more than 10% on average. Ablation studies further demonstrate that our method is robust to personalization: changes in input part semantics and style differences."
+  publ_id: "2022_2"
+  type: "j"  
 
 - title: "A Study of Deep Single Sketch-Based Modeling: View/Style Invariance, Sparsity and Latent Space Disentanglement"
   authors: "Yue Zhong, <b>Yulia Gryaditskaya</b>, Honggang Zhang, Yi-Zhe Song"
@@ -27,17 +50,6 @@
   doi: "https://doi.org/10.1016/j.cag.2022.06.005"
   type: "j"
 
-- title: "One Sketch for All: One-Shot Personalized Sketch Segmentation"
-  authors: "Anran Qi, <b>Yulia Gryaditskaya</b>, Tao Xiang, Yi-Zhe Song"
-  venue: "IEEE Transactions on Image Processing"
-  year: 2022  
-  paper_link: "https://arxiv.org/abs/2112.10838"
-  preview_img_link: "./Papers/22_Sketch_Segmentation/preview.png"
-  img_width: '130px'
-  bibtex_link: "./Papers/22_Sketch_Segmentation/qi2021OneSketch4All.bib"
-  abstract: "We present the first one-shot personalized sketch segmentation method. We aim to segment all sketches belonging to the same category provisioned with a single sketch with a given part annotation while (i) preserving the parts semantics embedded in the exemplar, and (ii) being robust to input style and abstraction. We refer to this scenario as personalized. With that, we importantly enable a much-desired personalization capability for downstream fine-grained sketch analysis tasks. To train a robust segmentation module, we deform the exemplar sketch to each of the available sketches of the same category. Our method generalizes to sketches not observed during training. Our central contribution is a sketch-specific hierarchical deformation network. Given a multi-level sketch-strokes encoding obtained via a graph convolutional network, our method estimates rigid-body transformation from the reference to the exemplar, on the upper level. Finer deformation from the exemplar to the globally warped reference sketch is further obtained through stroke-wise deformations, on the lower level. Both levels of deformation are guided by mean squared distances between the keypoints learned without supervision, ensuring that the stroke semantics are preserved. We evaluate our method against the state-of-the-art segmentation and perceptual grouping baselines re-purposed for the one-shot setting and against two few-shot 3D shape segmentation methods. We show that our method outperforms all the alternatives by more than 10% on average. Ablation studies further demonstrate that our method is robust to personalization: changes in input part semantics and style differences."
-  publ_id: "2022_2"
-  type: "j"
   
 - title: "Fine-Grained VR Sketching: Dataset and Insights"
   title_link: ""
