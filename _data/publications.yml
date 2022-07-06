@@ -147,7 +147,7 @@
   publ_id: "2020_5"
   type: "j"
   
-- title: "Pixelor: A Competitive Sketching AI Agent. So you think you can beat me?"
+- title: "Pixelor: A Competitive Sketching AI Agent. So you think you can sketch?"
   preview_img_link: "./Papers/Pixelor/preview.jpg"
   img_width: '110px'  
   title_link: "http://sketchx.ai/pixelor"
