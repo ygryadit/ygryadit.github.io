@@ -70,11 +70,11 @@ layout: main
 					I am primarily interested in <i>AI, sketching and CAD for creation and creativity</i>.
 				</p>
 				<p>
-					As a Senior Research Fellow (2020-2022) at <a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing"> CVSSP, UK</a>, at the <a href='https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en'>SketchX</a> group, 
-					led by <a href='http://sketchx.eecs.qmul.ac.uk/'>Prof. Yi-Zhe Song</a>, I was co-advising PhD students in Vision and Deep Learning, 
-					I focus on applying deep learning to a variety of sketching tasks (sketch-based modeling, retrieval, segmentation, and sketch-generation), 
-					working with sketches by novices and professionals.
-				</p>
+					I am a lecturer (Assitant Professor) in Artificial Intelligence at CVSSP and Surrey Institute for People-Centred AI, UK, and I am co-director of the <a href='http://sketchx.ai/'>SketchX</a> group. 
+					In 2020, I joined CVSSP and the SketchX group, 
+					led by <a href='https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en'>Prof. Yi-Zhe Song</a> as a Senior Research Fellow (2020-2022).
+					Since then I have been co-advising PhD students working on sketch-based modeling, retrieval, segmentation and sketch-generation for professional and quick 2D or 3D sketches. 
+			</p>
 				
 				<p>					
 					Before joining CVSSP, I was a postdoctoral researcher (2017-2020) at Inria, 
