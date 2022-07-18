@@ -601,12 +601,14 @@ layout: main
 			<p id = "students">
 				<h4>Students:</h4>
 				<ul>
+					<li> 2022, July - 2022, December <a href="https://www.unibo.it/sitoweb/gianluca.berardi3/en">Gianluca Berardi</a> visiting PhD student from the University of Bologna
+						</li>
 					<li> 2021 -- ongoing, <a href="https://scholar.google.co.in/citations?hl=en&user=HE2nfp0AAAAJ&view_op=list_works&sortby=pubdate&inst=15262737669262836719">Pinaki Nath Chowdhury</a> (coadvised with Yi-Zhe Song)
 						PhD student</li>
 					<li> 2020 -- ongoing, <a href="https://rowl1ng.com/">Ling Luo</a> (coadvised with Yi-Zhe Song)
 						PhD student</li>
-					<li> 2020 -- ongoing, <a href="https://www.researchgate.net/scientific-contributions/Yue-Zhong-2149391947">Yue Zhong</a> (coadvised with Yi-Zhe Song)
-						PhD student</li>			
+					<li> 2020 -- 2022, <a href="https://www.researchgate.net/scientific-contributions/Yue-Zhong-2149391947">Yue Zhong</a> (coadvised with Yi-Zhe Song)
+						PhD student, <i>PhD thesis under review</i> </li>			
 					<li> 2020 -- 2021, <a href="https://dblp.org/pid/226/4981.html">Anran Qi</a> (coadvised with Yi-Zhe Song)
 						PhD student, <i>has defended her PhD thesis on 8th November 2021</i> <img src="img/icons/clap.svg" style="width:15px;"/>, Now: Postdoctoral Researcher at The University of Tokyo</li> 
                     <li> 2019, Felix Hahnlein (coadvised with Adrien Bousseau)
@@ -621,8 +623,12 @@ layout: main
 			</p>
 			
 			<p>
-				<h4>Teaching:</h4> 
-				<a href="https://graphics.cg.uni-saarland.de/courses/ris-2018/"> Realistic Image Synthesis </a> : HDR & Tone Mapping 2015,2016 at <a href="https://www.uni-saarland.de"> Saarland University </a>
+				<h4>Teaching:</h4>
+				<ul>
+					<li>2023 Semester 1, VR/AR and Metaverse, Department of Electrical and Electronic Engineering, University of Surrey</li>
+					<li>2022 Semester 2, EEE2041 Computer Vision and Graphics, Department of Electrical and Electronic Engineering, University of Surrey</li>
+					<li>2015,2016, <a href="https://graphics.cg.uni-saarland.de/courses/ris-2018/"> Realistic Image Synthesis </a> : HDR & Tone Mapping  at <a href="https://www.uni-saarland.de"> Saarland University </a></li>
+				</ul>				
 			</p>
 </div>
 </section>		
