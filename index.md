@@ -117,18 +117,18 @@ layout: main
 	<!-- Bio -->
 	<div class="col-sm-12" >
 		<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 300%; color:#2fb673"> News </h4>
-		<p>
-			<a href="http://drawingforproductdesigners.com/about/">Kevin Henry</a>, an Associate Professor of Design at Columbia College Chicago, will be visiting our group on 10th June 2022, and will give a talk: "Sketching Fast and Slow: Cognition, Heuristics, and the Challenge of Intuitive Workflows".
-		</p>
+		<!-- <p> -->
+			<!-- <a href="http://drawingforproductdesigners.com/about/">Kevin Henry</a>, an Associate Professor of Design at Columbia College Chicago, will be visiting our group on 10th June 2022, and will give a talk: "Sketching Fast and Slow: Cognition, Heuristics, and the Challenge of Intuitive Workflows". -->
+		<!-- </p> -->
 		<p>
 			I will serve as an invited speaker at ECCV 2022 workshop: <a href="https://sites.google.com/view/eccv-dira">"Drawings and abstract Imagery: Representations and Analysis" (DIRA)</a>.
 		</p>
+		<!-- <p> -->
+			<!-- I will serve as an invited speaker at CogSci 2022 Workshop <a href="https://images2symbols.github.io/schedule/">"From Images to Symbols: Drawing as a Window into the Mind"</a> -->
+		<!-- </p> -->
 		<p>
-			I will serve as an invited speaker at CogSci 2022 Workshop <a href="https://images2symbols.github.io/schedule/">"From Images to Symbols: Drawing as a Window into the Mind"</a>
-		</p>
-		<p>
-			<i>I am looking for highly motivated PhD students with strong technical background. The positions are fully funded and are based at CVSSP (to be started between July and December 2022) with PhD topics related to "AI and sketching/CAD for creation and creativity".</i>
-			<a href="./calls/PhD_call.pdf">Details</a>. 
+			<i>I am looking for highly motivated PhD and master students with strong technical background. PhD positions are fully funded and are based at CVSSP with PhD topics related to "AI, sketching, CAD and creativity".</i>
+			At the moment, all available PhD vacancies with start dates for the fall are filled, but there will be new calls soon <a href="./calls/PhD_call.pdf">Details</a>, do not hesitate to contact me in advance. 
 		</p>
 	
 	</div>
@@ -183,13 +183,13 @@ layout: main
 							<!-- <img src="{{publ.preview_img_link}}" width = '{{publ.img_width}}'/> -->
 						<!-- </div>	 -->
 					<!-- </div> -->
-					<div class="col-sm-2 align-items-stretch d-flex align-items-stretch">
+					<div class="col-md-2 align-items-stretch d-flex align-items-stretch">
 						<div class="card align-items-center justify-content-center w-100">		
 							<img src="{{publ.preview_img_link}}" width = '99%' />						
 						</div>
 					</div>
 					
-					<div class="col-sm-10 align-items-stretch d-flex align-items-stretch">
+					<div class="col-md-10 align-items-stretch d-flex align-items-stretch">
 						<div class="card w-100">								
 							<div class="card-body">
 								<!-- Title -->
@@ -231,25 +231,57 @@ layout: main
 											{% else %}
 											thesis
 											{% endif %}	
-											</a> |				
+											</a> 				
 									{% endif %}
 									{% if publ.project_link and publ.project_link  != "" %}
-										<a href="{{publ.project_link}}"> project_page </a> |
+										| <a href="{{publ.project_link}}"> project_page </a> 
 									{% endif %}
 								
 									{% if publ.code and publ.code  != "" %}
-										<a href="{{publ.code}}"> code </a> |
+										| <a href="{{publ.code}}"> code </a> 
 									{% endif %}
 									
+									<!-- {% if publ.bibtex_link and publ.bibtex_link  != ""  %} -->
+										<!-- | <a href="{{publ.bibtex_link}}"> bibtex </a>  -->
+									<!-- {% endif %} -->
+									
 									{% if publ.bibtex_link and publ.bibtex_link  != ""  %}
-										<a href="{{publ.bibtex_link}}"> bibtex </a> 
+										| <button onclick="showAbstract(this.value)" type="button" name="abstract_btn" value="bib{{publ.publ_id}}">bibtex</button> 										
 									{% endif %}
+									
+									{% if publ.abstract and publ.abstract  != ""  %}
+										| <button onclick="showAbstract(this.value)" type="button" name="abstract_btn" value="ab{{publ.publ_id}}">abstract</button> 
+										
+									{% endif %}
+									
 								</div>	
 							</div>
 						</div>
+						
 					</div>
 				</div>
+
 				
+				<div class="row mt-1 mb-1" id="ab{{publ.publ_id}}" style="display: none;">
+					<div class="col-md-10 ml-auto" >
+					<div class="card w-100">								
+						<div class="card-body">
+							<b>Abstract</b>: {{publ.abstract}}
+						</div>	
+					</div>
+					</div>				
+				</div>
+				
+				<div class="row mt-1 mb-1" id="bib{{publ.publ_id}}" style="display: none;">
+					<div class="col-md-10 ml-auto" >
+					<div class="card w-100">								
+						<div class="card-body">
+							<object type="text/plain" data="{{publ.bibtex_link}}" width="100%">
+							</object>							
+						</div>	
+					</div>
+					</div>				
+				</div>
 				
 				{% endif %}
 				
@@ -263,6 +295,41 @@ layout: main
 <div class="album py-5 bg-light">
 	<div class="container">		
 			<h3> Released datasets </h3>
+			
+			<!-- ---- -->
+			<div class='publ_year'> 2022 </div>
+			
+			<div class="row mt-3 mb-1">
+			
+				<div class="col-sm-3 align-items-stretch d-flex align-items-stretch">
+					<div class="card align-items-center justify-content-center w-100">		
+						<img src='./Papers/22_ECCV/thumb.png'  width = '99%'  />
+					</div>
+				</div>
+				
+				<div class="col-sm-9 align-items-stretch d-flex align-items-stretch">
+						<div class="card w-100">	
+						<div class="card-body">
+							<div class = 'title card-title'>
+								<a href='cvssp.org/data/fscoco'>FS-COCO: Scene sketches</a> <br>
+								<a href='http://cvssp.org/data/fscoco/fscoco.tar.gz'>fscoco.tar.gz (2.2 GB)</a>
+							</div>
+							
+							<div class = 'DatasetDesc card-text' >
+								Our dataset	comprises 10, 000 freehand scene vector sketches with per point space-time information by 100 non-expert individuals, offering both object-and scene-level abstraction. Each sketch is augmented with its text description.
+								
+								This datset is a part of the paper:
+													
+								<div style="color:grey">
+								FS-COCO: Towards Understanding of Freehand Sketches of Common Objects in COntext <br>
+								Pinaki Nath Chowdhury, Aneeshan Sain, Ayan Kumar Bhunia, Tao Xiang, Yulia Gryaditskaya, Yi-Zhe Song <br>
+								ECCV, 2022.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 			
 			<!-- ---- -->
 			<div class='publ_year'> 2021 </div>
@@ -547,6 +614,7 @@ layout: main
              <p>
 				<h4> Area Chair/Technical Papers Committee Member:</h4> 
 				<ul>
+				<li><a href="https://s2023.siggraph.org/"> SIGGRAPH North America'23 </a></li>
 				<li><a href="https://sa2022.siggraph.org/en/"> SIGGRAPH Asia'22 </a></li>
 				<li><a href="https://s2022.siggraph.org/"> SIGGRAPH North America'22 </a> <br></li>
 				<li><a href="https://sa2021.siggraph.org/en/"> SIGGRAPH Asia'21 </a></li>
@@ -581,17 +649,20 @@ layout: main
 				</li>
 				</ul>
 				
+				<div>
 				<h6>Conferences:</h6> 				
 				SIGGRAPH, SIGGRAPH Asia, Eurographics, Pacific Graphics, VMV
-				
+				</div>
+				<div>
 				<h6>Journals:</h6> 
 				ACM TOG, CAVW, Computers & Graphics, JEI, JVIP, Multimedia Systems, TCSVT, TIP, TVCG
+				</div>
 			</p>
             
 			<p>
 				<h4>Invited talks</h4>
 				10/2022 ECCV 2022 workshop: <a href="https://sites.google.com/view/eccv-dira">"Drawings and abstract Imagery: Representations and Analysis" (DIRA)</a> <br>
-				06/2022 CogSci 2022 workshop <a href="https://images2symbols.github.io/schedule/">"From Images to Symbols: Drawing as a Window into the Mind"</a> <br>		
+				07/2022 CogSci 2022 workshop <a href="https://images2symbols.github.io/schedule/">"From Images to Symbols: Drawing as a Window into the Mind"</a> <br>		
 				01/06/2022 <a href="https://complightlab.com/seminars/">Virtual Environments and Computer Graphics'</a> (VECG's) seminar series at UCL<br>						
 				06/2021 Autodesk, UK <br>
 				02/2021 University of Bath, UK <br>

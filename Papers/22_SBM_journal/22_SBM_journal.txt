@@ -1,0 +1,12 @@
+@article{ZHONG2022237,
+	title = {A study of deep single sketch-based modeling: View/style invariance, sparsity and latent space disentanglement},
+	journal = {Computers & Graphics},
+	volume = {106},
+	pages = {237-247},
+	year = {2022},
+	issn = {0097-8493},
+	doi = {https://doi.org/10.1016/j.cag.2022.06.005},
+	url = {https://www.sciencedirect.com/science/article/pii/S0097849322001078},
+	author = {Yue Zhong and Yulia Gryaditskaya and Honggang Zhang and Yi-Zhe Song},
+	keywords = {Deep sketch-based modeling, Single-view reconstruction},
+}

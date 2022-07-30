@@ -2,17 +2,17 @@
   authors: "Pinaki Nath Chowdhury, Aneeshan Sain, Ayan Kumar Bhunia, Tao Xiang, <b>Yulia Gryaditskaya</b>, Yi-Zhe Song"
   venue: "ECCV"
   year: 2022  
-  paper_link: ""
+  paper_link: "https://arxiv.org/pdf/2203.02113.pdf"
   preview_img_link: "./Papers/22_ECCV/thumb.png"
   img_width: '130px'
-  project_link: ""
+  project_link: "https://fscoco.github.io/"
   bibtex_link: ""
-  abstract: ""
+  abstract: "We advance sketch research to scenes with the first dataset of freehand scene sketches, FS-COCO. With practical applications in mind, we collect sketches that convey scene content well but can be sketched within a few minutes by a person with any sketching skills. Our dataset comprises 10, 000 freehand scene vector sketches with per point spacetime information by 100 non-expert individuals, offering both objectand scene-level abstraction. Each sketch is augmented with its text description. Using our dataset, we study for the first time the problem of fine-grained image retrieval from freehand scene sketches and sketch captions. We draw insights on: (i) Scene salience encoded in sketches using the strokes temporal order; (ii) Performance comparison of image retrieval from a scene sketch and an image caption; (iii) Complementarity of information in sketches and image captions, as well as the potential benefit of combining the two modalities. In addition, we extend a popular vector sketch LSTM-based encoder to handle sketches with larger complexity than was supported by previous work. Namely, we propose a hierarchical sketch decoder, which we leverage at a sketch-specific “pretext” task. Our dataset enables for the first time research on freehand scene sketch understanding and its practical applications. We release the dataset under CC BY-NC 4.0 license."
   publ_id: "2022_4"
   type: "c"
   
 - title: "Symmetry-driven 3D Reconstruction From Concept Sketches"
-  authors: "Felix Hähnlein, <b>Yulia Gryaditskaya</b>, Alla Sheffer, Adrien Bousseau"
+  authors: "Felix Hahnlein, <b>Yulia Gryaditskaya</b>, Alla Sheffer, Adrien Bousseau"
   venue: "SIGGRAPH North America"
   year: 2022  
   paper_link: "https://repo-sam.inria.fr/d3/SymmetrySketch/symmetry_sketch.pdf"
@@ -20,7 +20,7 @@
   img_width: '130px'
   project_link: "https://ns.inria.fr/d3/SymmetrySketch/"
   bibtex_link: ""
-  abstract: ""
+  abstract: "Concept sketches, ubiquitously used in industrial design, are inherently imprecise yet highly effective at communicating 3D shape to human observers. We present a new symmetry-driven algorithm for recovering designer-intended 3D geometry from concept sketches. We observe that most concept sketches of human-made shapes are structured around locally symmetric building blocks, defined by triplets of orthogonal symmetry planes. We identify potential building blocks using a combination of 2D symmetries and drawing order. We reconstruct each such building block by leveraging a combination of perceptual cues and observations about designer drawing choices. We cast this reconstruction as an integer programming problem where we seek to identify, among the large set of candidate symmetry correspondences formed by approximate pen strokes, the subset that results in the most symmetric and well-connected shape.We demonstrate the robustness of our approach by reconstructing 82 sketches, which exhibit significant over-sketching, inaccurate perspective, partial symmetry, and other imperfections. In a comparative study, participants judged our results as superior to the state-of-the-art by a ratio of 2:1."
   publ_id: "2022_3"
   type: "c"
   
@@ -32,7 +32,7 @@
   paper_link: "https://arxiv.org/abs/2112.10838"
   preview_img_link: "./Papers/22_Sketch_Segmentation/preview.png"
   img_width: '130px'
-  bibtex_link: "./Papers/22_Sketch_Segmentation/qi2021OneSketch4All.bib"
+  bibtex_link: "./Papers/22_Sketch_Segmentation/qi2021OneSketch4All.txt"
   abstract: "We present the first one-shot personalized sketch segmentation method. We aim to segment all sketches belonging to the same category provisioned with a single sketch with a given part annotation while (i) preserving the parts semantics embedded in the exemplar, and (ii) being robust to input style and abstraction. We refer to this scenario as personalized. With that, we importantly enable a much-desired personalization capability for downstream fine-grained sketch analysis tasks. To train a robust segmentation module, we deform the exemplar sketch to each of the available sketches of the same category. Our method generalizes to sketches not observed during training. Our central contribution is a sketch-specific hierarchical deformation network. Given a multi-level sketch-strokes encoding obtained via a graph convolutional network, our method estimates rigid-body transformation from the reference to the exemplar, on the upper level. Finer deformation from the exemplar to the globally warped reference sketch is further obtained through stroke-wise deformations, on the lower level. Both levels of deformation are guided by mean squared distances between the keypoints learned without supervision, ensuring that the stroke semantics are preserved. We evaluate our method against the state-of-the-art segmentation and perceptual grouping baselines re-purposed for the one-shot setting and against two few-shot 3D shape segmentation methods. We show that our method outperforms all the alternatives by more than 10% on average. Ablation studies further demonstrate that our method is robust to personalization: changes in input part semantics and style differences."
   publ_id: "2022_2"
   type: "j"  
@@ -43,16 +43,15 @@
   year: 2022  
   paper_link: "https://www.sciencedirect.com/science/article/pii/S0097849322001078"
   preview_img_link: "./Papers/22_SBM_journal/preview.png"
+  project_link: "https://github.com/Yueeey/deepsketchSDFs"
   img_width: '130px'
-  bibtex_link: "./Papers/22_SBM_journal/22_SBM_journal.bib"
+  bibtex_link: "./Papers/22_SBM_journal/22_SBM_journal.txt"
   abstract: "Deep image-based modeling has received a lot of attention in recent years. Sketch-based modeling in particular has gained popularity given the ubiquitous nature of touchscreen devices. In this paper, we (i) study and compare diverse single-image reconstruction methods on sketch input, comparing the different 3D shape representations: multi-view, voxel- and point-cloud-based, mesh-based and implicit ones; and (ii) analyze the main challenges and requirements of sketch-based modeling systems. We introduce the regression loss and provide two variants of its formulation for the two most promising 3D shape representations: point clouds and signed distance functions. We show that this loss can increase general reconstruction accuracy, and the view- and style-robustness of the reconstruction methods. Moreover, we demonstrate that this loss can benefit the disentanglement of latent space to view-invariant and view-specific information, resulting in further improved performance. To address the figure-ground ambiguity typical for sparse human sketches, we propose a two-branch architecture that exploits sparse user labeling. We hope that our work will inform future research on sketch-based modeling. We will release our datasets and their splits to establish the first benchmark in sketch- based modeling."
   publ_id: "2022_1"
   doi: "https://doi.org/10.1016/j.cag.2022.06.005"
   type: "j"
-
   
 - title: "Fine-Grained VR Sketching: Dataset and Insights"
-  title_link: ""
   authors: "Ling Luo, <b>Yulia Gryaditskaya</b>, Yongxin Yang, Tao Xiang, Yi-Zhe Song"
   venue: "Proceedings of International Conference on 3D Vision (3DV)"
   year: 2021  
@@ -60,7 +59,8 @@
   preview_img_link: "./Papers/3DV_21/preview.PNG"
   img_width: '160px'  
   project_link: "https://tinyurl.com/VRSketch3DV21"
-  bibtex_link: "./Papers/3DV_21/luo2021FineGrainedVR.bib"  
+  bibtex_link: "./Papers/3DV_21/luo2021FineGrainedVR.txt"  
+  abstract: "We present the first fine-grained dataset of 1,497 3D VR sketch and 3D shape pairs of a chair category with large shapes diversity. Our dataset supports the recent trend in the sketch community on fine-grained data analysis, and extends it to an actively developing 3D domain. We argue for the most convenient sketching scenario where the sketch consists of sparse lines and does not require any sketching skills, prior training or time-consuming accurate drawing. We then, for the first time, study the scenario of fine-grained 3D VR sketch to 3D shape retrieval, as a novel VR sketching application and a proving ground to drive out generic insights to inform future research. By experimenting with carefully selected combinations of design factors on this new problem, we draw important conclusions to help follow-on work. We hope our dataset will enable other novel applications, especially those that require a fine-grained angle such as fine-grained 3D shape reconstruction."
   publ_id: "2021_2"
   type: "c"
   
@@ -72,22 +72,8 @@
   paper_link: "https://ieeexplore.ieee.org/document/9573376?source=authoralert"
   preview_img_link: "./Papers/TIP_Retrieval/preview.png"
   img_width: '130px'
-  bibtex_link: "./Papers/TIP_Retrieval/qi2021Retrieval.bib"
-  abstract: "In this paper we study, for the first time, the problem1of fine-grained sketch-based 3D shape retrieval. We advocate the use  of  sketches  as  a  fine-grained  input  modality  to  retrieve  3D shapes  at  instance-level
-  –  e.g.,  given  a  sketch  of  a  chair,  we  set out to retrieve a specific chair from a gallery of all chairs. 
-  Fine-grained sketch-based 3D shape retrieval (FG-SBSR) has not been possible till now due to a lack of datasets that exhibit one-to-one 
-  sketch-3D  correspondences.  The  first  key  contribution  of  this 
-  paper  is  two  new  datasets,  consisting  a  total  of  4,680  sketch-3D  
-  pairings  from  two  object  categories.  Even  with  the  datasets, 
-  FG-SBSR  is  still  highly  challenging  because  (i)  the  inherent 
-  domain  gap  between  2D  sketch  and  3D  shape  is  large,  and  
-  (ii) retrieval  needs  to  be  conducted  at  the  instance  level  instead  of 
-  the coarse category level matching as in traditional SBSR. 
-  Thus, the  second  contribution  of  the  paper  is  the  first  cross-modal deep  
-  embedding  model  for  FG-SBSR,  which  specifically  tackles the  unique  challenges  
-  presented  by  this  new  problem.  Core  to the deep embedding model is a novel cross-modal view attention 
-  module  which  automatically  computes  the  optimal  combination
-  of  2D  projections  of  a  3D  shape  given  a  query  sketch."
+  bibtex_link: "./Papers/TIP_Retrieval/qi2021Retrieval.txt"
+  abstract: "In this paper we study, for the first time, the problem1of fine-grained sketch-based 3D shape retrieval. We advocate the use of sketches as a fine-grained input modality to retrieve 3D shapes at instance-level e.g., given a sketch of a chair, we set out to retrieve a specific chair from a gallery of all chairs. Fine-grained sketch-based 3D shape retrieval (FG-SBSR) has not been possible till now due to a lack of datasets that exhibit one-to-one sketch-3D correspondences. The first key contribution of this paper is two new datasets, consisting a total of 4,680 sketch-3D pairings from two object categories. Even with the datasets, FG-SBSR is still highly challenging because (i) the inherent domain gap between 2D sketch and 3D shape is large, and (ii) retrieval needs to be conducted at the instance level instead of the coarse category level matching as in traditional SBSR. Thus, the second contribution of the paper is the first cross-modal deep embedding model for FG-SBSR, which specifically tackles the unique challenges presented by this new problem. Core to the deep embedding model is a novel cross-modal view attention module which automatically computes the optimal combination of 2D projections of a 3D shape given a query sketch."
   publ_id: "2021_1"
   type: "j"
   
@@ -103,7 +89,7 @@
   project_link: "https://github.com/Yueeey/sketcch3D"
   preview_img_link: "./Papers/ProSketch/preview.png"
   img_width: '130px'
-  bibtex_link: "./Papers/ProSketch/zhong2020towards.bib"
+  bibtex_link: "./Papers/ProSketch/zhong2020towards.txt"
   abstract: "In this paper, for the first time, we investigate the problem of generating 3D shapes from professional 2D sketches via deep learning. We target sketches done by professional artists, as these sketches are likely to contain more details than the ones produced by novices, and thus the reconstruction from such sketches poses a higher demand on the level of detail in the reconstructed models. This is importantly different to previous work, where the training and testing was conducted on either synthetic sketches or sketches done by novices. Novices sketches often depict shapes that are physically unrealistic, while models trained with synthetic sketches could not cope with the level of abstraction and style found in real sketches. To address this problem, we collected the first large-scale dataset of professional sketches, where each sketch is paired with a reference 3D shape, with a total of 1,500 professional sketches collected across 500 3D shapes. The dataset is available at http://sketchx.ai/downloads/. We introduce two bespoke designs within a deep adversarial network to tackle the imprecision of human sketches and the unique figure/ground ambiguity problem inherent to sketch-based reconstruction. We show that existing 3D shapes generation methods designed for images fail to be naively applied to our problem, and demonstrate the effectiveness of our method both qualitatively and quantitatively."
   publ_id: "2020_1"
   type: "j"
@@ -117,8 +103,24 @@
   preview_img_link: "./Papers/3DV/Sketch3D/preview.png"
   img_width: '110px'  
   project_link: "https://tinyurl.com/3DSketch3DV"
-  bibtex_link: "./Papers/3DV/Sketch3D/luo2020towards.bib"  
+  bibtex_link: "./Papers/3DV/Sketch3D/luo2020towards.txt"  
   publ_id: "2020_2"
+  abstract: "Growing free online 3D shapes collections dictated research on 3D retrieval. Active debate has however been had
+on (i) what the best input modality is to trigger retrieval,
+and (ii) the ultimate usage scenario for such retrieval. In
+this paper, we offer a different perspective towards answering these questions – we study the use of 3D sketches as
+an input modality and advocate a VR-scenario where retrieval is conducted. Thus, the ultimate vision is that users
+can freely retrieve a 3D model by air-doodling in a VR environment. As a first stab at this new 3D VR-sketch to 3D
+shape retrieval problem, we make four contributions. First,
+we code a VR utility to collect 3D VR-sketches and conduct
+retrieval. Second, we collect the first set of 167 3D VRsketches on two shape categories from ModelNet. Third, we
+propose a novel approach to generate a synthetic dataset of
+human-like 3D sketches of different abstract levels to train
+deep networks. At last, we compare the common multi-view
+and volumetric approaches: We show that, in contrast to
+3D shape to 3D shape retrieval, volumetric point-based approaches exhibit superior performance on 3D sketch to 3D
+shape retrieval due to the sparse and abstract nature of
+3D VR-sketches. We believe these contributions will collectively serve as enablers for future attempts at this problem."
   type: "c"
   
 - title: "Deep Sketch-Based Modeling: Tips and Tricks"
@@ -130,8 +132,9 @@
   year: 2020  
   paper_link: "https://arxiv.org/pdf/2011.06133.pdf"
   project_link: "https://tinyurl.com/DeepSketchModeling"
-  bibtex_link: "./Papers/3DV/DeepSketch/zhong2020deep.bib"
+  bibtex_link: "./Papers/3DV/DeepSketch/zhong2020deep.txt"
   publ_id: "2020_3"
+  abstract: "Deep image-based modeling received lots of attention in recent years, yet the parallel problem of sketch-based modeling has only been briefly studied, often as a potential application. In this work, for the first time, we identify the main differences between sketch and image inputs: (i) style variance, (ii) imprecise perspective, and (iii) sparsity. We discuss why each of these differences can pose a challenge, and even make a certain class of image-based methods inapplicable. We study alternative solutions to address each of the difference. By doing so, we drive out a few important insights: (i) sparsity commonly results in an incorrect prediction of foreground versus background, (ii) diversity of human styles, if not taken into account, can lead to very poor generalization properties, and finally (iii) unless a dedicated sketching interface is used, one can not expect sketches to match a perspective of a fixed viewpoint. Finally, we compare a set of representative deep single-image modeling solutions and show how their performance can be improved to tackle sketch input by taking into consideration the identified critical differences."
   type: "c"
   
 - title: "Lifting Freehand Concept Sketches into 3D"
@@ -143,8 +146,21 @@
   year: 2020  
   paper_link: "https://repo-sam.inria.fr/d3/Lift3D/Gryaditskaya_SigAsia20_Lifting%20_Freehand_Concept_Sketches_into_3D.pdf"
   project_link: "https://ns.inria.fr/d3/Lift3D"
-  bibtex_link: "./Papers/Lift3D/gryaditskaya2020lifting.bib"
+  bibtex_link: "./Papers/Lift3D/gryaditskaya2020lifting.txt"
   publ_id: "2020_5"
+  abstract: "We present the first algorithm capable of automatically lifting real-world, vector-format, industrial design sketches into 3D. Targeting real-world sketches raises numerous challenges due to inaccuracies, use of overdrawn strokes, and construction lines. In particular, while construction lines convey important 3D information, they add significant clutter and introduce multiple accidental 2D intersections. Our algorithm exploits the geometric cues
+provided by the construction lines and lifts them to 3D by computing their
+intended 3D intersections and depths. Once lifted to 3D, these lines provide
+valuable geometric constraints that we leverage to infer the 3D shape of
+other artist drawn strokes. The core challenge we address is inferring the
+3D connectivity of construction and other lines from their 2D projections by
+separating 2D intersections into 3D intersections and accidental occlusions.
+We efficiently address this complex combinatorial problem using a dedicated
+search algorithm that leverages observations about designer drawing preferences, and uses those to explore only the most likely solutions of the 3D
+intersection detection problem. We demonstrate that our separator outputs
+are of comparable quality to human annotations, and that the 3D structures
+we recover enable a range of design editing and visualization applications,
+including novel view synthesis and 3D-aware scaling of the depicted shape."
   type: "j"
   
 - title: "Pixelor: A Competitive Sketching AI Agent. So you think you can sketch?"
@@ -156,7 +172,25 @@
   year: 2020  
   paper_link: "https://dl.acm.org/doi/pdf/10.1145/3414685.3417840"
   project_link: "http://sketchx.ai/pixelor"
-  bibtex_link: "./Papers/Pixelor/bhunia2020pixelor.bib"
+  bibtex_link: "./Papers/Pixelor/bhunia2020pixelor.txt"
+  abstract: "We present the first competitive drawing agent Pixelor that exhibits humanlevel performance at a Pictionary-like sketching game, where the participant
+whose sketch is recognized first is a winner. Our AI agent can autonomously
+sketch a given visual concept, and achieve a recognizable rendition as quickly
+or faster than a human competitor. The key to victory for the agent’s goal
+is to learn the optimal stroke sequencing strategies that generate the most
+recognizable and distinguishable strokes first. Training Pixelor is done in two
+steps. First, we infer the stroke order that maximizes early recognizability of
+human training sketches. Second, this order is used to supervise the training
+of a sequence-to-sequence stroke generator. Our key technical contributions
+are a tractable search of the exponential space of orderings using neural
+sorting; and an improved Seq2Seq Wasserstein (S2S-WAE) generator that
+uses an optimal-transport loss to accommodate the multi-modal nature of the
+optimal stroke distribution. Our analysis shows that Pixelor is better than the
+human players of the Quick, Draw! game, under both AI and human judging
+of early recognition. To analyze the impact of human competitors’ strategies,
+we conducted a further human study with participants being given unlimited
+thinking time and training in early recognizability by feedback from an AI
+judge. The study shows that humans do gradually improve their strategies with training, but overall Pixelor still matches human performance."
   publ_id: "2020_4"
   type: "j"
   
@@ -170,7 +204,25 @@
   year: 2019  
   paper_link: "https://repo-sam.inria.fr/d3/OpenSketch/Gryaditskaya_OpenSketch_AuthorsVersion.pdf"
   project_link: "https://ns.inria.fr/d3/OpenSketch/"
-  bibtex_link: "./Papers/OpenSketch/gryaditskaya2019opensketch.bib"
+  bibtex_link: "./Papers/OpenSketch/gryaditskaya2019opensketch.txt"
+  abstract: "We present the first competitive drawing agent Pixelor that exhibits humanlevel performance at a Pictionary-like sketching game, where the participant
+whose sketch is recognized first is a winner. Our AI agent can autonomously
+sketch a given visual concept, and achieve a recognizable rendition as quickly
+or faster than a human competitor. The key to victory for the agents goal
+is to learn the optimal stroke sequencing strategies that generate the most
+recognizable and distinguishable strokes first. Training Pixelor is done in two
+steps. First, we infer the stroke order that maximizes early recognizability of
+human training sketches. Second, this order is used to supervise the training
+of a sequence-to-sequence stroke generator. Our key technical contributions
+are a tractable search of the exponential space of orderings using neural
+sorting; and an improved Seq2Seq Wasserstein (S2S-WAE) generator that
+uses an optimal-transport loss to accommodate the multi-modal nature of the
+optimal stroke distribution. Our analysis shows that Pixelor is better than the
+human players of the Quick, Draw! game, under both AI and human judging
+of early recognition. To analyze the impact of human competitors strategies,
+we conducted a further human study with participants being given unlimited
+thinking time and training in early recognizability by feedback from an AI
+judge. The study shows that humans do gradually improve their strategies with training, but overall Pixelor still matches human performance."
   publ_id: "2019_2"
   type: "j"
   
@@ -183,7 +235,7 @@
   year: 2019  
   paper_link: "https://hal.inria.fr/hal-02922043/document"
   project_link: ""
-  bibtex_link: "./Papers/BitmapVectorhahnlein2019bitmap.bib"
+  # bibtex_link: "./Papers/BitmapVectorhahnlein2019bitmap.txt"
   publ_id: "2019_1"
   type: "c"
 
@@ -196,7 +248,7 @@
   year: 2017  
   paper_link: "https://diglib.eg.org/bitstream/handle/10.2312/2631883/thesis_gryaditskaya_compressed.pdf?sequence=1&isAllowed=y"
   project_link: ""
-  bibtex_link: "./Thesis/gryaditskaya2017thesis.bib"
+  # bibtex_link: "./Thesis/gryaditskaya2017thesis.txt"
   publ_id: "2017_1"
   type: "d"
   
@@ -209,7 +261,7 @@
   year: 2016  
   paper_link: "Papers/GlossEditing/2016_Gryaditskaya_GlossEditingLF.pdf"
   project_link: "Papers/GlossEditing/index.html#vmv1"
-  bibtex_link: "Papers/GlossEditing/gryaditskaya2016gloss.bib"
+  bibtex_link: "Papers/GlossEditing/gryaditskaya2016gloss.txt"
   publ_id: "2016_1"
   type: "c"
 
@@ -222,7 +274,7 @@
   year: 2015  
   paper_link: "Papers/HDRVideo/ExposureBracketingHDRVideo.pdf"
   project_link: "Papers/HDRVideo/index.html#egsr15"
-  bibtex_link: "Papers/HDRVideo/gryaditskaya2015motion.bib"
+  bibtex_link: "Papers/HDRVideo/gryaditskaya2015motion.txt"
   publ_id: "2015_1"
   type: "j"
 
@@ -235,6 +287,6 @@
   year: 2014  
   paper_link: "Papers/LightMetering/LM_Supp.pdf"
   project_link: "Papers/LightMetering/index.html#pg14"
-  bibtex_link: "Papers/LightMetering/gryaditskaya2014sky.bib"
+  bibtex_link: "Papers/LightMetering/gryaditskaya2014sky.txt"
   publ_id: "2014_1"  
   type: "j"

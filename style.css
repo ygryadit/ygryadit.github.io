@@ -54,7 +54,7 @@ h3
 }
 
 html {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 #photo{	
@@ -102,5 +102,20 @@ html {
 
 #students  a:hover {
 	text-decoration: none;
+	color: #758ca3;
+}
+
+button[name="abstract_btn"]
+{
+	background: none;
+	border: none;
+	padding: 0;			
+	text-decoration: none;
+	cursor: pointer;
+	color: #758ca3;
+}
+
+button[name="abstract_btn"]:hover{
+	text-decoration: underline;
 	color: #758ca3;
 }
