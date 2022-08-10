@@ -206,7 +206,7 @@ layout: main
 										
 										<!-- <span style="text-transform: uppercase;">{{publ.title}}</span> -->
 										
-										<span style="font-size: 110%;">{{publ.title}}</span>
+										<span style="font-size: 110%; color:#3e709e; font-weight: 600;">{{publ.title}}</span>
 										
 									<!-- </a>  -->
 								</div>						
@@ -223,15 +223,21 @@ layout: main
 						
 								<!-- Data -->
 								<div class='data'>
-									{% if publ.paper_link and publ.paper_link  != "" %}
-										<img class='doc' src='img/icons/pdfIcon.png' width='19' height='19' alt='' />
-											<a href="{{publ.paper_link}}"> 
-											{% if publ.type != "d" %}
-											paper 
-											{% else %}
-											thesis
-											{% endif %}	
-											</a> 				
+									{% if publ.paper_link %}
+										{% if publ.paper_link  != "" %}
+											<img class='doc' src='img/icons/pdfIcon.png' width='19' height='19' alt='' />
+												<a href="{{publ.paper_link}}"> 
+												{% if publ.type != "d" %}
+												paper 
+												{% else %}
+												thesis
+												{% endif %}	
+												</a> 				
+										{% else %}
+											<img class='doc' src='img/icons/pdfIcon.png' width='19' height='19' alt='' />
+												Coming soon!
+										{% endif %}
+										
 									{% endif %}
 									{% if publ.project_link and publ.project_link  != "" %}
 										| <a href="{{publ.project_link}}"> project_page </a> 
