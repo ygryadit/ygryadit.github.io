@@ -1,3 +1,44 @@
+- title: "Garment Ideation: Iterative View-Aware Sketch-Based Garment Modeling"
+  authors: "Pinaki Nath Chowdhury, Tuanfeng Wang, Duygu Ceylan, Yi-Zhe Song, <b>Yulia Gryaditskaya</b>"
+  venue: "Proceedings of International Conference on 3D Vision (3DV) (oral)"
+  year: 2022  
+  paper_link: ""
+  preview_img_link: "./Papers/22_3DV/Garment/preview.png"
+  img_width: '130px'
+  project_link: "https://github.com/pinakinathc/multiviewsketch-garment"
+  bibtex_link: ""
+  abstract: "Designing real and virtual garments is becoming extremely demanding with rapidly changing fashion trends and increasing need for synthesizing realistically dressed digital humans for various applications. However, traditionally designing real and virtual garments has been time-consuming. Sketch based modeling aims to bring the ease and immediacy of drawing to the 3D world thereby motivating faster iterations. 
+   We propose a novel sketch-based garment modeling framework that is specifically targeted to synchronize with the iterative process of garment ideation, e.g., adding or removing details from different views in each iteration.
+   At the core of our learning based approach is a view-aware feature aggregation module that fuses the features from the latest sketch with the thus far aggregated features to effective refine the generated 3D shape.
+   We evaluate our approach on a wide variety of garment types and iterative refinement scenarios. We also provide comparisons to alternative feature aggregation methods and demonstrate favorable results. 
+"
+  publ_id: "2022_6"
+  type: "c"
+
+- title: "Structure-Aware 3D VR Sketch to 3D Shape Retrieval"
+  authors: "Ling Luo, <b>Yulia Gryaditskaya</b>, Tao Xiang, Yi-Zhe Song"
+  venue: "Proceedings of International Conference on 3D Vision (3DV)"
+  year: 2022  
+  paper_link: ""
+  preview_img_link: "./Papers/22_3DV/VRSketch/preview.png"
+  img_width: '130px'
+  project_link: "https://github.com/Rowl1ng/Structure-Aware-VR-Sketch-Shape-Retrieval"
+  bibtex_link: ""
+  abstract: "We study the practical task of fine-grained 3D-VR-sketch-based 3D shape retrieval. This task is of particular interest as 2D sketches were shown to be effective queries for 2D images.
+However, due to the domain gap, it remains hard to achieve strong performance in 3D shape retrieval from 2D sketches. 
+Recent work demonstrated the advantage of 3D VR sketching on this task. 
+In our work, we focus on the challenge caused by inherent inaccuracies in 3D VR sketches.
+We observe that retrieval results obtained with a triplet loss with a fixed margin value, commonly used for retrieval tasks, contain many irrelevant shapes and often just one or few with a similar structure to the query.
+To mitigate this problem, we for the first time draw a connection between adaptive margin values and shape similarities.
+In particular, we propose to use a triplet loss with an adaptive margin value driven by a `fitting gap', which is the similarity of two shapes under structure-preserving deformations. 
+We also conduct a user study which confirms that this fitting gap is indeed a suitable criterion to evaluate the structural similarity of shapes. 
+Furthermore, we introduce a dataset of 202 VR sketches for 202 3D shapes drawn from memory rather than from observation.
+"
+  publ_id: "2022_5"
+  type: "c"
+  
+  
+
 - title: "FS-COCO: Towards Understanding of Freehand Sketches of Common Objects in Context"
   authors: "Pinaki Nath Chowdhury, Aneeshan Sain, Ayan Kumar Bhunia, Tao Xiang, <b>Yulia Gryaditskaya</b>, Yi-Zhe Song"
   venue: "ECCV"

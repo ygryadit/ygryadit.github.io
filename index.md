@@ -611,7 +611,11 @@ layout: main
 <div class="album py-5 bg-light">		
 	
 			<h3> Professional Activities </h3>
-             <p>
+			<p>
+				2022-2023 <a href = "https://www.wigraph.org/events/2022-rising-stars-workshop/">Rising Stars in Computer Graphics Mentor</a>
+			</p>
+			
+            <p>
 				<h4> Area Chair/Technical Papers Committee Member:</h4> 
 				<ul>
 				<li><a href="https://s2023.siggraph.org/"> SIGGRAPH North America'23 </a></li>
