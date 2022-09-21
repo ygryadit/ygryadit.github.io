@@ -48,6 +48,9 @@ layout: main
 				<div class="col-sm-2 ">			
 					<img src="img/icons/orcid.logo.icon.svg" style="width:20px;" /> <a href="https://orcid.org/0000-0002-1951-6475">ORCID</a>
 				</div>
+				<div class="col-sm-2 ">			
+					<img src="img/icons/twitter_logo.png" style="width:20px;" /> <a href="https://mobile.twitter.com/ygryaditskaya">Twitter</a>
+				</div>
 			</div>
 			
 	
