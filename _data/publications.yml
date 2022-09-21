@@ -2,7 +2,7 @@
   authors: "Pinaki Nath Chowdhury, Tuanfeng Wang, Duygu Ceylan, Yi-Zhe Song, <b>Yulia Gryaditskaya</b>"
   venue: "Proceedings of International Conference on 3D Vision (3DV) (oral)"
   year: 2022  
-  paper_link: ""
+  paper_link: "http://www.pinakinathc.me/assets/papers/3DV_2022.pdf"
   preview_img_link: "./Papers/22_3DV/Garment/preview.png"
   img_width: '130px'
   project_link: "https://github.com/pinakinathc/multiviewsketch-garment"
@@ -19,7 +19,7 @@
   authors: "Ling Luo, <b>Yulia Gryaditskaya</b>, Tao Xiang, Yi-Zhe Song"
   venue: "Proceedings of International Conference on 3D Vision (3DV)"
   year: 2022  
-  paper_link: ""
+  paper_link: "https://arxiv.org/pdf/2209.09043v1.pdf"
   preview_img_link: "./Papers/22_3DV/VRSketch/preview.png"
   img_width: '130px'
   project_link: "https://github.com/Rowl1ng/Structure-Aware-VR-Sketch-Shape-Retrieval"
