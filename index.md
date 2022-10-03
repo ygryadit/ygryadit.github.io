@@ -73,7 +73,7 @@ layout: main
 					I am primarily interested in <i>AI, sketching and CAD for creation and creativity</i>.
 				</p>
 				<p>
-					I am a lecturer (Assitant Professor) in Artificial Intelligence at CVSSP and Surrey Institute for People-Centred AI, UK, and I am co-director of the <a href='http://sketchx.ai/'>SketchX</a> group. 
+					I am a lecturer (Assistant Professor) in Artificial Intelligence at CVSSP and Surrey Institute for People-Centred AI, UK, and I am co-director of the <a href='http://sketchx.ai/'>SketchX</a> group. 
 					In 2020, I joined CVSSP and the SketchX group, 
 					led by <a href='https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en'>Prof. Yi-Zhe Song</a> as a Senior Research Fellow (2020-2022).
 					Since then I have been co-advising PhD students working on sketch-based modeling, retrieval, segmentation and sketch-generation for professional and quick 2D or 3D sketches. 
@@ -320,7 +320,7 @@ layout: main
 						<div class="card w-100">	
 						<div class="card-body">
 							<div class = 'title card-title'>
-								<a href='cvssp.org/data/fscoco'>FS-COCO: Scene sketches</a> <br>
+								<a href='http://cvssp.org/data/fscoco'>FS-COCO: Scene sketches</a> <br>
 								<a href='http://cvssp.org/data/fscoco/fscoco.tar.gz'>fscoco.tar.gz (2.2 GB)</a>
 							</div>
 							
