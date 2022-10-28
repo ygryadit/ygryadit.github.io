@@ -618,7 +618,54 @@ layout: main
 
 <section id="activities">
 <div class="album py-5 bg-light">		
-	
+			<h3> Students </h3>
+			
+			<p id = "students">
+				<h4> PhD Students:</h4>
+				<ul>
+					<li> 2022, October - 2026, September <a href="https://www.surrey.ac.uk/people/ahmed-bourouis">Ahmed Bourouis</a>
+						</li>
+					<li> 2022, July - 2022, December <a href="https://www.unibo.it/sitoweb/gianluca.berardi3/en">Gianluca Berardi</a> visiting PhD student from the University of Bologna
+						</li>
+					<li> 
+						2020 -- ongoing, <a href="https://rowl1ng.com/">Ling Luo</a> (coadvised with Yi-Zhe Song)
+					</li>
+					<li> 
+						2021 -- 2022, <a href="https://scholar.google.co.in/citations?hl=en&user=HE2nfp0AAAAJ&view_op=list_works&sortby=pubdate&inst=15262737669262836719">Pinaki Nath Chowdhury</a> (coadvised with Yi-Zhe Song)
+					</li>					
+					<li> 2019 -- 2022 <a href ="https://www-sop.inria.fr/members/Felix.Hahnlein/">Felix Hahnlein</a> (primary advisor Adrien Bousseau), <i>PhD thesis under review</i> </li>
+					<li> 2020 -- 2022, <a href="https://www.researchgate.net/scientific-contributions/Yue-Zhong-2149391947">Yue Zhong</a> (coadvised with Yi-Zhe Song),
+						<i>PhD thesis under review</i> </li>			
+					<li> 2020 -- 2021, <a href="https://dblp.org/pid/226/4981.html">Anran Qi</a> (coadvised with Yi-Zhe Song)
+						PhD student, <i>has defended her PhD thesis on 8th November 2021</i> <img src="img/icons/clap.svg" style="width:15px;"/>, Now: Postdoctoral Researcher at The University of Tokyo</li>
+					
+				</ul>
+				
+				<h4> Master students: </h4>
+				<ul>
+					<li> 2022, Praveen Kumaran Velliangiri,
+						Master thesis topic: "GANs for sketch to image translation task"
+					</li>
+					<li> 2022, Gavin Croft,
+						Master thesis topic: "Conditional Generative Flow"
+					</li>
+					<li> 2019, Felix Hahnlein (coadvised with Adrien Bousseau)
+							Research Internship: 'Sketch segmentation with geometric deep learning'</li>
+					<li> 2018, Adele Saint-Denis (coadvised with Adrien Bousseau)
+							Research Internship: 'Non-photorealistic rendering'</li>
+					<li> 2017, Marina Menghetti  (main advisor Adrien Bousseau)
+							Research Internship: 'Strokes extraction from input video'</li>
+				</ul>
+				
+				<h4> Under graduate students: </h4>
+				<ul>
+					<li> 2015, Juliette Pelletier
+						Engineering Internship: 'HDR Video Capture on a Mobile Device'
+					</li>
+				</ul>
+			</p>
+			
+			
 			<h3> Professional Activities </h3>
 			<p>
 				2022-2023 <a href = "https://www.wigraph.org/events/2022-rising-stars-workshop/">Rising Stars in Computer Graphics Mentor</a>
@@ -682,38 +729,37 @@ layout: main
 				12/2020 <a href="https://www.youtube.com/watch?v=TixJu8p9QZQ"> Christmas Colloquium on Computer Vision, Skolkovo, Moscow, Russia</a> 
 			</p> 
 			
-			<p id = "students">
-				<h4>Students:</h4>
-				<ul>
-					<li> 2022, July - 2022, December <a href="https://www.unibo.it/sitoweb/gianluca.berardi3/en">Gianluca Berardi</a> visiting PhD student from the University of Bologna
-						</li>
-					<li> 2021 -- ongoing, <a href="https://scholar.google.co.in/citations?hl=en&user=HE2nfp0AAAAJ&view_op=list_works&sortby=pubdate&inst=15262737669262836719">Pinaki Nath Chowdhury</a> (coadvised with Yi-Zhe Song)
-						PhD student</li>
-					<li> 2020 -- ongoing, <a href="https://rowl1ng.com/">Ling Luo</a> (coadvised with Yi-Zhe Song)
-						PhD student</li>
-					<li> 2020 -- 2022, <a href="https://www.researchgate.net/scientific-contributions/Yue-Zhong-2149391947">Yue Zhong</a> (coadvised with Yi-Zhe Song)
-						PhD student, <i>PhD thesis under review</i> </li>			
-					<li> 2020 -- 2021, <a href="https://dblp.org/pid/226/4981.html">Anran Qi</a> (coadvised with Yi-Zhe Song)
-						PhD student, <i>has defended her PhD thesis on 8th November 2021</i> <img src="img/icons/clap.svg" style="width:15px;"/>, Now: Postdoctoral Researcher at The University of Tokyo</li> 
-                    <li> 2019, Felix Hahnlein (coadvised with Adrien Bousseau)
-						Research Internship: 'Sketch segmentation with geometric deep learning'</li>
-					<li> 2018, Adele Saint-Denis (coadvised with Adrien Bousseau)
-						Research Internship: 'Non-photorealistic rendering'</li>
-					<li> 2017, Marina Menghetti  (main advisor Adrien Bousseau)
-						Research Internship: 'Strokes extraction from input video'</li>
-					<li> 2015, Juliette Pelletier
-						Engineering Internship: 'HDR Video Capture on a Mobile Device'</li>
-				</ul>
-			</p>
 			
-			<p>
+			
+			
+			
+			<h3> Academic activities </h3>
+			
 				<h4>Teaching:</h4>
 				<ul>
 					<li>2023 Semester 1, VR/AR and Metaverse, Department of Electrical and Electronic Engineering, University of Surrey</li>
 					<li>2022 Semester 2, EEE2041 Computer Vision and Graphics, Department of Electrical and Electronic Engineering, University of Surrey</li>
 					<li>2015,2016, <a href="https://graphics.cg.uni-saarland.de/courses/ris-2018/"> Realistic Image Synthesis </a> : HDR & Tone Mapping  at <a href="https://www.uni-saarland.de"> Saarland University </a></li>
-				</ul>				
-			</p>
+				</ul>	
+
+				<p>
+				<h4>Masters examiner</h4>
+				<ul>
+					<li>
+						2022, Alejandro Hernandez Dıaz, Master thesis topic: "Understanding Vision-Language Models"
+					</li>
+					<li> 2022, Gavin Croft, Master thesis topic: "Conditional Generative Flow"
+					</li>
+				</ul>	
+				<h4>PhD examiner</h4>
+				<ul>
+					<li>
+					2022, Tarek Ben Charrada, École Nationale Supérieure de l’Électronique et de ses Applications CY University, France. PhD thesis: "3D Reconstruction from Single RGB Images"
+					</li>
+				</ul>
+				</p> 
+							
+			
 </div>
 </section>		
 
