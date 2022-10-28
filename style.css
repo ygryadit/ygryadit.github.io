@@ -69,6 +69,7 @@ html {
 	color: var(--link_authors);
 }
 
+
 #publications .authors a:link{
 	text-decoration: none;
 	color: var(--link_authors);
@@ -83,6 +84,34 @@ html {
 	text-decoration: none;
 	color: var(--link_hover);
 }
+
+
+#affiliations a:link{
+	text-decoration: none;
+	color: #8fb814;
+}
+
+#affiliations a:visited{
+	text-decoration: none;
+	color: #8fb814;
+}
+
+
+#affiliations a:active{
+	text-decoration: unederline;
+	color: #758547;
+}
+
+
+
+#affiliations a:hover{
+	text-decoration: unederline;
+	color: #758547;
+}
+
+
+
+
 
 
 #students  a{

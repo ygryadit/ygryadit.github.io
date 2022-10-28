@@ -4,7 +4,8 @@ title: 'Yulia Gryaditskaya'
 layout: main
 ---
 
-<div id="about" class="row align-items-center">
+<section id="about" style="padding-top: 120px;">	
+<div class="row align-items-center">
 	<!-- Image -->
 	<div class="col-sm-3">
 		<img id="photo" src="Me_new.jpg" alt="Yulia Gryaditskaya"/>		
@@ -12,9 +13,12 @@ layout: main
 	
 	<div class="col-sm-8">			
 		<div id = "info" >
-		<h4 >Dr. Yulia Gryaditskaya</h4>
+		<h4>Dr. Yulia Gryaditskaya</h4>
 
-		<h5>Assistant Professor (Lecturer) in Artificial Intelligence at 
+		<h5>Assistant Professor (Lecturer) in Artificial Intelligence </h5>
+		<br>
+		
+		<h5 id="affiliations">
 			<a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing">CVSSP</a> and 
 			<a href ="https://www.surrey.ac.uk/artificial-intelligence">Surrey Institute for People-Centred AI</a>, UK
 			<br/>
@@ -58,11 +62,11 @@ layout: main
 
 	</div>
 </div>
-
+</section>
 
 <hr>
 
-<section id="about">			
+<section>			
 <div class="row align-items-center">			
 	<!-- Bio -->
 	<div id="bio" class="col-sm-12" >
@@ -113,35 +117,10 @@ layout: main
 </div>
 </section>
 
-<hr >
 
-<section id="news">			
-<div class="row align-items-center">			
-	<!-- Bio -->
-	<div class="col-sm-12" >
-		<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 300%; color:#2fb673"> News </h4>
-		<!-- <p> -->
-			<!-- <a href="http://drawingforproductdesigners.com/about/">Kevin Henry</a>, an Associate Professor of Design at Columbia College Chicago, will be visiting our group on 10th June 2022, and will give a talk: "Sketching Fast and Slow: Cognition, Heuristics, and the Challenge of Intuitive Workflows". -->
-		<!-- </p> -->
-		<p>
-			I will serve as an invited speaker at ECCV 2022 workshop: <a href="https://sites.google.com/view/eccv-dira">"Drawings and abstract Imagery: Representations and Analysis" (DIRA)</a>.
-		</p>
-		<!-- <p> -->
-			<!-- I will serve as an invited speaker at CogSci 2022 Workshop <a href="https://images2symbols.github.io/schedule/">"From Images to Symbols: Drawing as a Window into the Mind"</a> -->
-		<!-- </p> -->
-		<p>
-			<i>I am looking for highly motivated PhD and master students with strong technical background. PhD positions are fully funded and are based at CVSSP with PhD topics related to "AI, sketching, CAD and creativity".</i>
-			At the moment, all available PhD vacancies with start dates for the fall are filled, but there will be new calls soon <a href="./calls/PhD_call.pdf">Details</a>, do not hesitate to contact me in advance. 
-		</p>
-	
-	</div>
-</div>
-</section>
-	
-	
-	
-<hr >
+
 <section id="publications" >
+<hr>
 <div class="album py-5 bg-light">
     <div class="container">	
 
@@ -298,10 +277,11 @@ layout: main
 	</div>	
 </div>
 </section>	
-<hr>
+
 
 <section  id="datasets">
 <div class="album py-5 bg-light">
+	<hr>
 	<div class="container">		
 			<h3> Released datasets </h3>
 			
@@ -614,153 +594,157 @@ layout: main
 </div>	
 </section>       	
 		
-<hr>
 
-<section id="activities">
-<div class="album py-5 bg-light">		
-			<h3> Students </h3>
-			
-			<p id = "students">
-				<h4> PhD Students:</h4>
-				<ul>
-					<li> 2022, October - 2026, September <a href="https://www.surrey.ac.uk/people/ahmed-bourouis">Ahmed Bourouis</a>
-						</li>
-					<li> 2022, July - 2022, December <a href="https://www.unibo.it/sitoweb/gianluca.berardi3/en">Gianluca Berardi</a> visiting PhD student from the University of Bologna
-						</li>
-					<li> 
-						2020 -- ongoing, <a href="https://rowl1ng.com/">Ling Luo</a> (coadvised with Yi-Zhe Song)
+<section id="students">
+	<div class="album py-5 bg-light">		
+	<hr>
+		<h3> Students </h3>
+		
+		<p >
+			<h4> PhD Students:</h4>
+			<ul>
+				<li> 2022, October - 2026, September <a href="https://www.surrey.ac.uk/people/ahmed-bourouis">Ahmed Bourouis</a>
 					</li>
-					<li> 
-						2021 -- 2022, <a href="https://scholar.google.co.in/citations?hl=en&user=HE2nfp0AAAAJ&view_op=list_works&sortby=pubdate&inst=15262737669262836719">Pinaki Nath Chowdhury</a> (coadvised with Yi-Zhe Song)
-					</li>					
-					<li> 2019 -- 2022 <a href ="https://www-sop.inria.fr/members/Felix.Hahnlein/">Felix Hahnlein</a> (primary advisor Adrien Bousseau), <i>PhD thesis under review</i> </li>
-					<li> 2020 -- 2022, <a href="https://www.researchgate.net/scientific-contributions/Yue-Zhong-2149391947">Yue Zhong</a> (coadvised with Yi-Zhe Song),
-						<i>PhD thesis under review</i> </li>			
-					<li> 2020 -- 2021, <a href="https://dblp.org/pid/226/4981.html">Anran Qi</a> (coadvised with Yi-Zhe Song)
-						PhD student, <i>has defended her PhD thesis on 8th November 2021</i> <img src="img/icons/clap.svg" style="width:15px;"/>, Now: Postdoctoral Researcher at The University of Tokyo</li>
-					
-				</ul>
+				<li> 2022, July - 2022, December <a href="https://www.unibo.it/sitoweb/gianluca.berardi3/en">Gianluca Berardi</a> visiting PhD student from the University of Bologna
+					</li>
+				<li> 
+					2020 -- ongoing, <a href="https://rowl1ng.com/">Ling Luo</a> (coadvised with Yi-Zhe Song)
+				</li>
+				<li> 
+					2021 -- 2022, <a href="https://scholar.google.co.in/citations?hl=en&user=HE2nfp0AAAAJ&view_op=list_works&sortby=pubdate&inst=15262737669262836719">Pinaki Nath Chowdhury</a> (coadvised with Yi-Zhe Song)
+				</li>					
+				<li> 2019 -- 2022 <a href ="https://www-sop.inria.fr/members/Felix.Hahnlein/">Felix Hahnlein</a> (primary advisor Adrien Bousseau), <i>PhD thesis under review</i> </li>
+				<li> 2020 -- 2022, <a href="https://www.researchgate.net/scientific-contributions/Yue-Zhong-2149391947">Yue Zhong</a> (coadvised with Yi-Zhe Song),
+					<i>PhD thesis under review</i> </li>			
+				<li> 2020 -- 2021, <a href="https://dblp.org/pid/226/4981.html">Anran Qi</a> (coadvised with Yi-Zhe Song)
+					PhD student, <i>has defended her PhD thesis on 8th November 2021</i> <img src="img/icons/clap.svg" style="width:15px;"/>, Now: Postdoctoral Researcher at The University of Tokyo</li>
 				
-				<h4> Master students: </h4>
-				<ul>
-					<li> 2022, Praveen Kumaran Velliangiri,
-						Master thesis topic: "GANs for sketch to image translation task"
-					</li>
-					<li> 2022, Gavin Croft,
-						Master thesis topic: "Conditional Generative Flow"
-					</li>
-					<li> 2019, Felix Hahnlein (coadvised with Adrien Bousseau)
-							Research Internship: 'Sketch segmentation with geometric deep learning'</li>
-					<li> 2018, Adele Saint-Denis (coadvised with Adrien Bousseau)
-							Research Internship: 'Non-photorealistic rendering'</li>
-					<li> 2017, Marina Menghetti  (main advisor Adrien Bousseau)
-							Research Internship: 'Strokes extraction from input video'</li>
-				</ul>
-				
-				<h4> Under graduate students: </h4>
-				<ul>
-					<li> 2015, Juliette Pelletier
-						Engineering Internship: 'HDR Video Capture on a Mobile Device'
-					</li>
-				</ul>
-			</p>
+			</ul>
 			
-			
-			<h3> Professional Activities </h3>
-			<p>
-				2022-2023 <a href = "https://www.wigraph.org/events/2022-rising-stars-workshop/">Rising Stars in Computer Graphics Mentor</a>
-			</p>
-			
-            <p>
-				<h4> Area Chair/Technical Papers Committee Member:</h4> 
-				<ul>
-				<li><a href="https://s2023.siggraph.org/"> SIGGRAPH North America'23 </a></li>
-				<li><a href="https://sa2022.siggraph.org/en/"> SIGGRAPH Asia'22 </a></li>
-				<li><a href="https://s2022.siggraph.org/"> SIGGRAPH North America'22 </a> <br></li>
-				<li><a href="https://sa2021.siggraph.org/en/"> SIGGRAPH Asia'21 </a></li>
-				</ul>
-            </p>  
-            
-			<p>
-				<h4>Organizer:</h4> 
-                <ul>
-				<li><a href="https://she-workshop.github.io/"> 2nd Workshop on Sketching for Human Expressivity (SHE) ECCV 2022 </a></li>
-				<li><a href=""> CVMP 2022: Short papers and demos chair </a></li>
-                <li><a href="https://she-workshop.github.io/"> 1st Workshop on Sketching for Human Expressivity (SHE) ICCV 2021 </a></li>
-				<li> Weekly SketchX group meetings, 2021 </li> 
-                </ul>
-            </p> 
-			
-			
-			
-			<p>
-				<h4>Reviewer:</h4> 
-				<h6>Program/Paper Committee Member:</h6> 
-				<ul>
-				<li> Eurographics Symposium on Rendering (<a href="https://egsr.eu/2022/">EGSR 2022</a>), 
+			<h4> Master students: </h4>
+			<ul>
+				<li> 2022, Praveen Kumaran Velliangiri,
+					Master thesis topic: "GANs for sketch to image translation task"
 				</li>
-				<li> IEEE/CVF Conference on Computer Vision and Pattern Recognition (<a href="https://cvpr2022.thecvf.com/">CVPR 2022</a>), 
+				<li> 2022, Gavin Croft,
+					Master thesis topic: "Conditional Generative Flow"
 				</li>
-				<li> International Conference on Computer Vision (<a href="https://iccv2021.thecvf.com/home">ICCV 2021</a>), 
+				<li> 2019, Felix Hahnlein (coadvised with Adrien Bousseau)
+						Research Internship: 'Sketch segmentation with geometric deep learning'</li>
+				<li> 2018, Adele Saint-Denis (coadvised with Adrien Bousseau)
+						Research Internship: 'Non-photorealistic rendering'</li>
+				<li> 2017, Marina Menghetti  (main advisor Adrien Bousseau)
+						Research Internship: 'Strokes extraction from input video'</li>
+			</ul>
+			
+			<h4> Under graduate students: </h4>
+			<ul>
+				<li> 2015, Juliette Pelletier
+					Engineering Internship: 'HDR Video Capture on a Mobile Device'
 				</li>
-				<li> International Conference on 3D Vision (<a href="http://iccvm.org/2020/committee.htm">3DV 2021</a>),
-				</li>
-				<li> International Conference on Computational Visual Media (<a href="http://iccvm.org/2020/committee.htm">CVM 2020</a>)
-				</li>
-				</ul>
-				
-				<div>
-				<h6>Conferences:</h6> 				
-				SIGGRAPH, SIGGRAPH Asia, Eurographics, Pacific Graphics, VMV
-				</div>
-				<div>
-				<h6>Journals:</h6> 
-				ACM TOG, CAVW, Computers & Graphics, JEI, JVIP, Multimedia Systems, TCSVT, TIP, TVCG
-				</div>
-			</p>
-            
-			<p>
-				<h4>Invited talks</h4>
-				10/2022 ECCV 2022 workshop: <a href="https://sites.google.com/view/eccv-dira">"Drawings and abstract Imagery: Representations and Analysis" (DIRA)</a> <br>
-				07/2022 CogSci 2022 workshop <a href="https://images2symbols.github.io/schedule/">"From Images to Symbols: Drawing as a Window into the Mind"</a> <br>		
-				01/06/2022 <a href="https://complightlab.com/seminars/">Virtual Environments and Computer Graphics'</a> (VECG's) seminar series at UCL<br>						
-				06/2021 Autodesk, UK <br>
-				02/2021 University of Bath, UK <br>
-				12/2020 <a href="https://www.youtube.com/watch?v=TixJu8p9QZQ"> Christmas Colloquium on Computer Vision, Skolkovo, Moscow, Russia</a> 
-			</p> 
-			
-			
-			
-			
-			
-			<h3> Academic activities </h3>
-			
-				<h4>Teaching:</h4>
-				<ul>
-					<li>2023 Semester 1, VR/AR and Metaverse, Department of Electrical and Electronic Engineering, University of Surrey</li>
-					<li>2022 Semester 2, EEE2041 Computer Vision and Graphics, Department of Electrical and Electronic Engineering, University of Surrey</li>
-					<li>2015,2016, <a href="https://graphics.cg.uni-saarland.de/courses/ris-2018/"> Realistic Image Synthesis </a> : HDR & Tone Mapping  at <a href="https://www.uni-saarland.de"> Saarland University </a></li>
-				</ul>	
+			</ul>
+		</p>
+	</div>
+</section>			
 
-				<p>
-				<h4>Masters examiner</h4>
-				<ul>
-					<li>
-						2022, Alejandro Hernandez Dıaz, Master thesis topic: "Understanding Vision-Language Models"
-					</li>
-					<li> 2022, Gavin Croft, Master thesis topic: "Conditional Generative Flow"
-					</li>
-				</ul>	
-				<h4>PhD examiner</h4>
-				<ul>
-					<li>
-					2022, Tarek Ben Charrada, École Nationale Supérieure de l’Électronique et de ses Applications CY University, France. PhD thesis: "3D Reconstruction from Single RGB Images"
-					</li>
-				</ul>
-				</p> 
-							
+<section id="activities_prof">		
+	<hr />
+	<div>			
+		<h3> Professional Activities </h3>
+		<p>
+			2022-2023 <a href = "https://www.wigraph.org/events/2022-rising-stars-workshop/">Rising Stars in Computer Graphics Mentor</a>
+		</p>
+		
+		<p>
+			<h4> Area Chair/Technical Papers Committee Member:</h4> 
+			<ul>
+			<li><a href="https://s2023.siggraph.org/"> SIGGRAPH North America'23 </a></li>
+			<li><a href="https://sa2022.siggraph.org/en/"> SIGGRAPH Asia'22 </a></li>
+			<li><a href="https://s2022.siggraph.org/"> SIGGRAPH North America'22 </a> <br></li>
+			<li><a href="https://sa2021.siggraph.org/en/"> SIGGRAPH Asia'21 </a></li>
+			</ul>
+		</p>  
+		
+		<p>
+			<h4>Organizer:</h4> 
+			<ul>
+			<li><a href="https://she-workshop.github.io/"> 2nd Workshop on Sketching for Human Expressivity (SHE) ECCV 2022 </a></li>
+			<li><a href=""> CVMP 2022: Short papers and demos chair </a></li>
+			<li><a href="https://she-workshop.github.io/"> 1st Workshop on Sketching for Human Expressivity (SHE) ICCV 2021 </a></li>
+			<li> Weekly SketchX group meetings, 2021 </li> 
+			</ul>
+		</p> 
+		
+		
+		
+		<p>
+			<h4>Reviewer:</h4> 
+			<h6>Program/Paper Committee Member:</h6> 
+			<ul>
+			<li> Eurographics Symposium on Rendering (<a href="https://egsr.eu/2022/">EGSR 2022</a>), 
+			</li>
+			<li> IEEE/CVF Conference on Computer Vision and Pattern Recognition (<a href="https://cvpr2022.thecvf.com/">CVPR 2022</a>), 
+			</li>
+			<li> International Conference on Computer Vision (<a href="https://iccv2021.thecvf.com/home">ICCV 2021</a>), 
+			</li>
+			<li> International Conference on 3D Vision (<a href="http://iccvm.org/2020/committee.htm">3DV 2021</a>),
+			</li>
+			<li> International Conference on Computational Visual Media (<a href="http://iccvm.org/2020/committee.htm">CVM 2020</a>)
+			</li>
+			</ul>
 			
-</div>
+			<div>
+			<h6>Conferences:</h6> 				
+			SIGGRAPH, SIGGRAPH Asia, Eurographics, Pacific Graphics, VMV
+			</div>
+			<div>
+			<h6>Journals:</h6> 
+			ACM TOG, CAVW, Computers & Graphics, JEI, JVIP, Multimedia Systems, TCSVT, TIP, TVCG
+			</div>
+		</p>
+		
+		<p>
+			<h4>Invited talks</h4>
+			10/2022 ECCV 2022 workshop: <a href="https://sites.google.com/view/eccv-dira">"Drawings and abstract Imagery: Representations and Analysis" (DIRA)</a> <br>
+			07/2022 CogSci 2022 workshop <a href="https://images2symbols.github.io/schedule/">"From Images to Symbols: Drawing as a Window into the Mind"</a> <br>		
+			01/06/2022 <a href="https://complightlab.com/seminars/">Virtual Environments and Computer Graphics'</a> (VECG's) seminar series at UCL<br>						
+			06/2021 Autodesk, UK <br>
+			02/2021 University of Bath, UK <br>
+			12/2020 <a href="https://www.youtube.com/watch?v=TixJu8p9QZQ"> Christmas Colloquium on Computer Vision, Skolkovo, Moscow, Russia</a> 
+		</p> 
+			
+	</div>		
+			
+</section>			
+
+<section id="activities_ac">				
+	<hr />		
+<div>
+	<h3> Academic activities </h3>
+	
+		<h4>Teaching:</h4>
+		<ul>
+			<li>2023 Semester 1, VR/AR and Metaverse, Department of Electrical and Electronic Engineering, University of Surrey</li>
+			<li>2022 Semester 2, EEE2041 Computer Vision and Graphics, Department of Electrical and Electronic Engineering, University of Surrey</li>
+			<li>2015,2016, <a href="https://graphics.cg.uni-saarland.de/courses/ris-2018/"> Realistic Image Synthesis </a> : HDR & Tone Mapping  at <a href="https://www.uni-saarland.de"> Saarland University </a></li>
+		</ul>	
+		
+		<h4>Masters examiner</h4>
+		<ul>
+			<li>
+				2022, Alejandro Hernandez Dıaz, Master thesis topic: "Understanding Vision-Language Models"
+			</li>
+			<li> 2022, Gavin Croft, Master thesis topic: "Conditional Generative Flow"
+			</li>
+		</ul>	
+		
+		<h4>PhD examiner</h4>
+		<ul>
+			<li>
+			2022, Tarek Ben Charrada, École Nationale Supérieure de l’Électronique et de ses Applications CY University, France. PhD thesis: "3D Reconstruction from Single RGB Images"
+			</li>
+		</ul>
+</div>		
 </section>		
 
 <section id ="hobbies">
@@ -772,6 +756,5 @@ layout: main
 			Sketching and painting (<a href="http://illustrators.ru/users/wonderland/portfolio">personal page</a>), architecture, city planning, traveling, hiking, sports.
 		</ul>
 	</p>	
-
 </div>
 </section>
