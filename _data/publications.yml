@@ -126,7 +126,7 @@ Furthermore, we introduce a dataset of 202 VR sketches for 202 3D shapes drawn f
   authors: "Yue Zhong, Yonggang Qi, <b>Yulia Gryaditskaya</b>, Honggang Zhang, Yi-Zhe Song"
   venue: "IEEE Transactions on Circuits and Systems for Video Technology"
   year: 2020  
-  paper_link: "https://openresearch.surrey.ac.uk/esploro/outputs/journalArticle/Towards-Practical-Sketch-based-3D-Shape-Generation/99526523602346"
+  paper_link: "https://ieeexplore.ieee.org/iel7/76/9527373/09272370.pdf?casa_token=plKho3sVLQoAAAAA:n7gt0lSAxCR-AmkG9xoNdm_fKH5pCqfRA7HEv7uzk-I6_VCRX5NqYFO5rtlWaZmgHw0VUJ11rA"
   project_link: "https://github.com/Yueeey/sketcch3D"
   preview_img_link: "./Papers/ProSketch/preview.png"
   img_width: '130px'
