@@ -96,7 +96,7 @@ Furthermore, we introduce a dataset of 202 VR sketches for 202 3D shapes drawn f
   authors: "Ling Luo, <b>Yulia Gryaditskaya</b>, Yongxin Yang, Tao Xiang, Yi-Zhe Song"
   venue: "Proceedings of International Conference on 3D Vision (3DV)"
   year: 2021  
-  paper_link: "https://www.computer.org/csdl/proceedings-article/3dv/2021/268800b003/1zWE3NZ5Apq"
+  paper_link: "https://arxiv.org/pdf/2209.10008.pdf"
   preview_img_link: "./Papers/3DV_21/preview.PNG"
   img_width: '160px'  
   project_link: "https://tinyurl.com/VRSketch3DV21"
