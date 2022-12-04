@@ -621,7 +621,7 @@ layout: main
 				
 			</ul>
 			
-			<h4> Master students: </h4>
+			<h4> Master students (past): </h4>
 			<ul>
 				<li> 2022, Praveen Kumaran Velliangiri,
 					Master thesis topic: "GANs for sketch to image translation task"
