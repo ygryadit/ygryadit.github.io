@@ -81,8 +81,6 @@ layout: main
 					Before joining CVSSP, she was a postdoctoral researcher (2017-2020) at Inria, 
 					<a href="https://team.inria.fr/graphdeco/">GraphDeco</a>, under the guidance of <a href ='http://www-sop.inria.fr/members/Adrien.Bousseau/'>Dr. Adrien Bousseau</a>, 
 					where she studied concept sketching techniques and worked on sketch-based modeling.
-				</p>
-				<p>
 					She received my PhD (2012-2016) from <a href="https://www.mpi-inf.mpg.de/">MPI Informatik</a>, 
 					Germany, advised by <a href='https://people.mpi-inf.mpg.de/~karol/'>Prof. Karol Myszkowski</a> 
 					and <a href='https://scholar.google.de/citations?user=s2Ibok8AAAAJ&hl=en'>Prof. Hans-Peter Seidel</a>. 
