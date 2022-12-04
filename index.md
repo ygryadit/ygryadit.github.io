@@ -73,15 +73,15 @@ layout: main
 		
 				<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 300%;"> About </h4>
 				<p>	
-					Yulia Gryaditskaya is a Lecturer (Assistant Professor) in Artificial Intelligence at CVSSP and Surrey Institute for People-Centred AI, 
-					where she leads a CCDLab (Computational Creativity and Design Lab) and is a co-director of the <a href='http://sketchx.ai/'>SketchX</a> group. 
+					Yulia Gryaditskaya is an Assistant Professor in Artificial Intelligence at CVSSP and the Surrey Institute for People-Centred AI, 
+					where she leads the Computational Creativity and Design Lab (CCDLab) and is a co-director of the <a href='http://sketchx.ai/'>SketchX</a> group. 
 					Her main research interests lie in AI, sketching and CAD for creation and creativity. 
 				</p>
 				<p>					
 					Before joining CVSSP, she was a postdoctoral researcher (2017-2020) at Inria, 
 					<a href="https://team.inria.fr/graphdeco/">GraphDeco</a>, under the guidance of <a href ='http://www-sop.inria.fr/members/Adrien.Bousseau/'>Dr. Adrien Bousseau</a>, 
 					where she studied concept sketching techniques and worked on sketch-based modeling.
-					She received my PhD (2012-2016) from <a href="https://www.mpi-inf.mpg.de/">MPI Informatik</a>, 
+					She received her PhD (2012-2016) from <a href="https://www.mpi-inf.mpg.de/">MPI Informatik</a>, 
 					Germany, advised by <a href='https://people.mpi-inf.mpg.de/~karol/'>Prof. Karol Myszkowski</a> 
 					and <a href='https://scholar.google.de/citations?user=s2Ibok8AAAAJ&hl=en'>Prof. Hans-Peter Seidel</a>. 
 					Her PhD focused on High Dynamic Range (HDR) image calibration, capturing HDR video on a mobile device, 
@@ -94,10 +94,9 @@ layout: main
 				</p>
 				
 				<p>
-				Yulia’s work has been published in prestigious graphics and vision journals and conferences: 
-				ACM Transactions on Graphics (x3),  Computer Graphics Forum (CGF) (x2), IEEE Transactions on Circuits and Systems for Video Technology (x1), 
-				IEEE Transactions on Image Processing (TIP) (x2), ACM SIGGRAPH (x1), IEEE ECCV (x1),  IEEE 3DV (x5), and the  Conference  on  Vision,  Modeling  and Visualization (x1). 
-				She also co-authored a patent, based on her CGF publication.
+					Yulia’s work has been published in top graphics and vision journals and conferences: 
+					including multiple publications in ACM Transactions on Graphics, Computer Graphics Forum (CGF), IEEE Transactions on Image Processing (TIP), ACM SIGGRAPH, ECCV and IEEE 3DV. 
+					She also co-authored an international patent, based on her CGF publication.
 				</p>
 				<p>
 					She frequently serves as a reviewer, program committee member, area chair and organizer in a large range of journals and conferences. 
