@@ -749,7 +749,7 @@ layout: main
 			</li>
 		</ul>	
 		
-		<h4>PhD examiner/juty member</h4>
+		<h4>PhD examiner/jury member</h4>
 		<ul>
 			<li>				
 			2022, Felix Hähnlein, Inria, Universite C´ ote d’Azur, France. PhD thesis: "Binary Optimization for the Analysis and Synthesis
