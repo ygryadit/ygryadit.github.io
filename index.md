@@ -72,35 +72,46 @@ layout: main
 	<div id="bio" class="col-sm-12" >
 		
 				<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 300%;"> About </h4>
-				<p>
-					I am a Graphics and Vision Researcher, focusing on leveraging Graphics and Deep Learning for 2D and 3D sketch-related applications. 
-					I am primarily interested in <i>AI, sketching and CAD for creation and creativity</i>.
+				<p>	
+					Yulia Gryaditskaya is a Lecturer (Assistant Professor) in Artificial Intelligence at CVSSP and Surrey Institute for People-Centred AI, 
+					where she leads a CCDLab (Computational Creativity and Design Lab) and is a co-director of the <a href='http://sketchx.ai/'>SketchX</a> group. 
+					Her primarily research interests lie in AI, sketching and CAD for creation and creativity. 
 				</p>
-				<p>
-					I am a lecturer (Assistant Professor) in Artificial Intelligence at CVSSP and Surrey Institute for People-Centred AI, UK, and I am co-director of the <a href='http://sketchx.ai/'>SketchX</a> group. 
-					In 2020, I joined CVSSP and the SketchX group, 
-					led by <a href='https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en'>Prof. Yi-Zhe Song</a> as a Senior Research Fellow (2020-2022).
-					Since then I have been co-advising PhD students working on sketch-based modeling, retrieval, segmentation and sketch-generation for professional and quick 2D or 3D sketches. 
-			</p>
-				
 				<p>					
-					Before joining CVSSP, I was a postdoctoral researcher (2017-2020) at Inria, 
+					Before joining CVSSP, she was a postdoctoral researcher (2017-2020) at Inria, 
 					<a href="https://team.inria.fr/graphdeco/">GraphDeco</a>, under the guidance of <a href ='http://www-sop.inria.fr/members/Adrien.Bousseau/'>Dr. Adrien Bousseau</a>, 
-					where I studied concept sketching techniques and worked on sketch-based modeling.
+					where she studied concept sketching techniques and worked on sketch-based modeling.
 				</p>
 				<p>
-					I received my PhD (2012-2016) from <a href="https://www.mpi-inf.mpg.de/">MPI Informatik</a>, 
+					She received my PhD (2012-2016) from <a href="https://www.mpi-inf.mpg.de/">MPI Informatik</a>, 
 					Germany, advised by <a href='https://people.mpi-inf.mpg.de/~karol/'>Prof. Karol Myszkowski</a> 
 					and <a href='https://scholar.google.de/citations?user=s2Ibok8AAAAJ&hl=en'>Prof. Hans-Peter Seidel</a>. 
-					My PhD focused on High Dynamic Range (HDR) image calibration, capturing HDR video on a mobile device, 
+					Her PhD focused on High Dynamic Range (HDR) image calibration, capturing HDR video on a mobile device, 
 					tone mapping of HDR content, structured light fields, and editing materials in such light fields.
-					While working on my PhD, I spent half a year in the Color and HDR group in 
+					While working on her PhD, she spent half a year in the Color and HDR group in 
 					<a href="https://www.technicolor.com/contact/research-and-innovation"> Technicolor R&D</a>, Rennes, France, 
 					under the guidance of <a href='http://www.erikreinhard.com/about.html'>Dr. Erik Reinhard</a>. 
-					I received a degree (2007-2012) in <a href="http://www.msu.ru/en/info/struct/depts/vmc.html">Applied Mathematics and Computer Science</a>  with a specialization in Operation Research and System Analysis
+					She received a degree (2007-2012) in <a href="http://www.msu.ru/en/info/struct/depts/vmc.html">Applied Mathematics and Computer Science</a>  with a specialization in Operation Research and System Analysis
 					from <a href="http://www.msu.ru/en/info/">Lomonosov Moscow State University</a>, Russia.  
 				</p>
 				
+				<p>
+				Yulia’s work has been published in prestigious graphics and vision journals and conferences: 
+				ACM Transactions on Graphics (x3),  Computer Graphics Forum (CGF) (x2), IEEE Transactions on Circuits and Systems for Video Technology (x1), 
+				IEEE Transactions on Image Processing (TIP) (x2), ACM SIGGRAPH (x1), IEEE ECCV (x1),  IEEE 3DV (x5), and the  Conference  on  Vision,  Modeling  and Visualization (x1). 
+				She also co-authored a patent, based on her CGF publication.
+				</p>
+				<p>
+					She frequently serves as a reviewer, program committee member, area chair and organizer in a large range of journals and conferences. 
+					In particular, she served as a program committee member (area chair) for SIGGRAPH Asia 2021,2022 and SIGGRAPH 2022,2023.
+				</p>
+				<p>
+					She led the organization effort of the popular Sketching for Human Expressivity Workshop Series (ICCV’21 and ECCV’22). 
+					She is frequently invited as a speaker, thus, she gave keynote talks at the ECCV 2022 workshop: 
+					"Drawings and abstract Imagery: Representations and Analysis" (DIRA) 
+					and CogSci 2022 workshop "From Images to Symbols: Drawing as a Window into the Mind".
+				</p>
+
 				<!-- <p> -->
 					<!-- My research interests cover sketch-based modeling, sketch beautification, geometric deep learning, sketch classification, sketch generation, high dynamic range image and video capture, tone-mapping and calibration,  -->
 					<!-- depth estimation from the structured light-fields, materials representation and editing.	 -->
