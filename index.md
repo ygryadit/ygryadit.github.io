@@ -75,7 +75,7 @@ layout: main
 				<p>	
 					Yulia Gryaditskaya is a Lecturer (Assistant Professor) in Artificial Intelligence at CVSSP and Surrey Institute for People-Centred AI, 
 					where she leads a CCDLab (Computational Creativity and Design Lab) and is a co-director of the <a href='http://sketchx.ai/'>SketchX</a> group. 
-					Her primarily research interests lie in AI, sketching and CAD for creation and creativity. 
+					Her main research interests lie in AI, sketching and CAD for creation and creativity. 
 				</p>
 				<p>					
 					Before joining CVSSP, she was a postdoctoral researcher (2017-2020) at Inria, 
