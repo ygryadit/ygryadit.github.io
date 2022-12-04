@@ -613,7 +613,7 @@ layout: main
 				<li> 
 					2021 -- 2022, <a href="https://scholar.google.co.in/citations?hl=en&user=HE2nfp0AAAAJ&view_op=list_works&sortby=pubdate&inst=15262737669262836719">Pinaki Nath Chowdhury</a> (coadvised with Yi-Zhe Song)
 				</li>					
-				<li> 2019 -- 2022 <a href ="https://www-sop.inria.fr/members/Felix.Hahnlein/">Felix Hahnlein</a> (primary advisor Adrien Bousseau), <i>PhD thesis under review</i> </li>
+				<li> 2019 -- 2022 <a href ="https://www-sop.inria.fr/members/Felix.Hahnlein/">Felix Hahnlein</a> (primary advisor Adrien Bousseau), , <i> has defended his PhD thesis on 2nd December 2022</i> <img src="img/icons/clap.svg" style="width:15px;"/>, Now: Postdoctoral Researcher at the University of Washington</li>
 				<li> 2020 -- 2022, <a href="https://www.researchgate.net/scientific-contributions/Yue-Zhong-2149391947">Yue Zhong</a> (coadvised with Yi-Zhe Song),
 					<i>PhD thesis under review</i> </li>			
 				<li> 2020 -- 2021, <a href="https://dblp.org/pid/226/4981.html">Anran Qi</a> (coadvised with Yi-Zhe Song)
@@ -705,7 +705,8 @@ layout: main
 		
 		<p>
 			<h4>Invited talks</h4>
-			10/2022 ECCV 2022 workshop: <a href="https://sites.google.com/view/eccv-dira">"Drawings and abstract Imagery: Representations and Analysis" (DIRA)</a> <br>
+			12/2022 Inria Sophia Antipolis workshop -- <i>"Do you speak sketch?"</i> <br>
+			10/2022 ECCV 2022 workshop: <a href="https://sites.google.com/view/eccv-dira">"Drawings and abstract Imagery: Representations and Analysis" (DIRA)</a> -- <i>"Do you speak sketch?"</i> <br>
 			07/2022 CogSci 2022 workshop <a href="https://images2symbols.github.io/schedule/">"From Images to Symbols: Drawing as a Window into the Mind"</a> <br>		
 			01/06/2022 <a href="https://complightlab.com/seminars/">Virtual Environments and Computer Graphics'</a> (VECG's) seminar series at UCL<br>						
 			06/2021 Autodesk, UK <br>
@@ -734,13 +735,18 @@ layout: main
 			<li>
 				2022, Alejandro Hernandez Dıaz, Master thesis topic: "Understanding Vision-Language Models"
 			</li>
-			<li> 2022, Gavin Croft, Master thesis topic: "Conditional Generative Flow"
+			<li> 
+				2022, Gavin Croft, Master thesis topic: "Conditional Generative Flow"
 			</li>
 		</ul>	
 		
-		<h4>PhD examiner</h4>
+		<h4>PhD examiner/juty member</h4>
 		<ul>
-			<li>
+			<li>				
+			2022, Felix Hähnlein, Inria, Universite C´ ote d’Azur, France. PhD thesis: "Binary Optimization for the Analysis and Synthesis
+of Concept Sketches"
+			</li>
+			<li>				
 			2022, Tarek Ben Charrada, École Nationale Supérieure de l’Électronique et de ses Applications CY University, France. PhD thesis: "3D Reconstruction from Single RGB Images"
 			</li>
 		</ul>
