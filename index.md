@@ -691,7 +691,7 @@ layout: main
 			<ul>
 			<li> Eurographics Symposium on Rendering (<a href="https://egsr.eu/2022/">EGSR 2022</a>), 
 			</li>
-			<li> IEEE/CVF Conference on Computer Vision and Pattern Recognition (<a href="https://cvpr2022.thecvf.com/">CVPR 2022</a>), 
+			<li> IEEE/CVF Conference on Computer Vision and Pattern Recognition (<a href="https://cvpr2022.thecvf.com/">CVPR 2022</a>, <a href="https://cvpr2023.thecvf.com/">2023</a>), 
 			</li>
 			<li> International Conference on Computer Vision (<a href="https://iccv2021.thecvf.com/home">ICCV 2021</a>), 
 			</li>
