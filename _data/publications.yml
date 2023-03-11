@@ -1,6 +1,6 @@
 - title: "SketchXAI: A First Look at Explainability for Human Sketches"
   authors: "Zhiyu Qu, <b>Yulia Gryaditskaya</b>, Ke Li, Kaiyue Pang, Tao Xiang, Yi-Zhe Song"
-  venue: "Proceedings of CVPR"
+  venue: "CVPR"
   year: 2023  
   paper_link: ""
   preview_img_link: "./Papers/23_CVPR/SketchXAI/preview.png"
