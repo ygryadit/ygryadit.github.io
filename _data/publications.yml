@@ -1,3 +1,16 @@
+- title: "SketchXAI: A First Look at Explainability for Human Sketches"
+  authors: "Zhiyu Qu, <b>Yulia Gryaditskaya</b>, Ke Li, Kaiyue Pang, Tao Xiang, Yi-Zhe Song"
+  venue: "Proceedings of CVPR"
+  year: 2023  
+  paper_link: ""
+  preview_img_link: "./Papers/23_CVPR/SketchXAI/preview.png"
+  img_width: '130px'
+  project_link: ""
+  bibtex_link: ""
+  abstract: " Coming soon."
+  publ_id: "2023_1"
+  type: "c"
+  
 - title: "Garment Ideation: Iterative View-Aware Sketch-Based Garment Modeling"
   authors: "Pinaki Nath Chowdhury, Tuanfeng Wang, Duygu Ceylan, Yi-Zhe Song, <b>Yulia Gryaditskaya</b>"
   venue: "Proceedings of International Conference on 3D Vision (3DV) (oral)"
