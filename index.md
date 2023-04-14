@@ -718,7 +718,7 @@ layout: main
 			12/2022 Inria Sophia Antipolis workshop -- <i>"Do you speak sketch?"</i> <br>
 			10/2022 ECCV 2022 workshop: <a href="https://sites.google.com/view/eccv-dira">"Drawings and abstract Imagery: Representations and Analysis" (DIRA)</a> -- <i>"Do you speak sketch?"</i> <br>
 			07/2022 CogSci 2022 workshop <a href="https://images2symbols.github.io/schedule/">"From Images to Symbols: Drawing as a Window into the Mind"</a> <br>		
-			01/06/2022 <a href="https://complightlab.com/seminars/">Virtual Environments and Computer Graphics'</a> (VECG's) seminar series at UCL<br>						
+			06/2022 <a href="https://complightlab.com/seminars/">Virtual Environments and Computer Graphics'</a> (VECG's) seminar series at UCL<br>						
 			06/2021 Autodesk, UK <br>
 			02/2021 University of Bath, UK <br>
 			12/2020 <a href="https://www.youtube.com/watch?v=TixJu8p9QZQ"> Christmas Colloquium on Computer Vision, Skolkovo, Moscow, Russia</a> 
