@@ -7,7 +7,7 @@
   img_width: '130px'
   project_link: ""
   bibtex_link: ""
-  abstract: " Coming soon."
+  abstract: "This paper, for the very first time, introduces human sketches to the landscape of XAI (Explainable Artificial Intelligence). We argue that sketch as a "human-centered" data form, represents a natural interface to study explainability. We focus on cultivating sketch-specific explainability designs. This starts by identifying strokes as a unique building block that offers a degree of flexibility in object construction and manipulation impossible in photos. Following this, we design a simple explainability-friendly sketch encoder that accommodates the intrinsic properties of strokes: shape, location, and order. We then define the first ever XAI task for sketch, that of stroke location inversion (SLI). Just as we have heat maps for photos and correlation matrices for text, SLI offers an explainability angle to sketch by asking a network how well it can recover stroke locations of an unseen sketch. We provide qualitative results for readers to interpret as snapshots of the SLI process in the paper and as GIFs on the project page. A minor but exciting note is that thanks to its sketch-specific design, our sketch encoder also yields the best sketch recognition accuracy to date while having the smallest number of parameters. The code is available at https://sketchxai.github.io."
   publ_id: "2023_1"
   type: "c"
   
@@ -150,7 +150,7 @@ Furthermore, we introduce a dataset of 202 VR sketches for 202 3D shapes drawn f
   authors: "Ling Luo, <b>Yulia Gryaditskaya</b>, Yongxin Yang, Tao Xiang, Yi-Zhe Song"
   venue: "Proceedings of International Conference on 3D Vision (3DV) - (Oral)"
   year: 2020  
-  paper_link: "https://rowl1ng.com/assets/pdf/3DV_VRSketch.pdf"
+  paper_link: "https://ieeexplore.ieee.org/document/9320353"
   preview_img_link: "./Papers/3DV/Sketch3D/preview.png"
   img_width: '110px'  
   project_link: "https://tinyurl.com/3DSketch3DV"

@@ -95,7 +95,7 @@ layout: main
 				
 				<p>
 					Yulia’s work has been published in top graphics and vision journals and conferences: 
-					including multiple publications in ACM Transactions on Graphics, Computer Graphics Forum (CGF), IEEE Transactions on Image Processing (TIP), ACM SIGGRAPH, ECCV and IEEE 3DV. 
+					including multiple publications in ACM Transactions on Graphics, Computer Graphics Forum (CGF), IEEE Transactions on Image Processing (TIP), ACM SIGGRAPH, ECCV, CVPR and IEEE 3DV. 
 					She also co-authored an international patent, based on her CGF publication.
 				</p>
 				<p>
