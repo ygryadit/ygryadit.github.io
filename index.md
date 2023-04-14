@@ -680,7 +680,7 @@ layout: main
 			<li><a href="https://she-workshop.github.io/"> 2nd Workshop on Sketching for Human Expressivity (SHE), ECCV 2022 </a></li>
 			<li><a href="https://www.cvmp-conference.org/2022/committees/"> CVMP 2022: Short papers and demos chair </a></li>
 			<li><a href="https://she-workshop.github.io/"> 1st Workshop on Sketching for Human Expressivity (SHE), ICCV 2021 </a></li>
-			<li> Weekly SketchX group meetings, 2021 </li> 
+			<li> Weekly SketchX group meetings, 2021-2023 </li> 
 			</ul>
 		</p> 
 		
