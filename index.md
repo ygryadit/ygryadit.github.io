@@ -676,9 +676,10 @@ layout: main
 		<p>
 			<h4>Organizer:</h4> 
 			<ul>
-			<li><a href="https://she-workshop.github.io/"> 2nd Workshop on Sketching for Human Expressivity (SHE) ECCV 2022 </a></li>
+			<li> Solving CAD History and pArameters Recovery from Point clouds and 3D scans (SHARP), ICCV 2023 </li>
+			<li><a href="https://she-workshop.github.io/"> 2nd Workshop on Sketching for Human Expressivity (SHE), ECCV 2022 </a></li>
 			<li><a href="https://www.cvmp-conference.org/2022/committees/"> CVMP 2022: Short papers and demos chair </a></li>
-			<li><a href="https://she-workshop.github.io/"> 1st Workshop on Sketching for Human Expressivity (SHE) ICCV 2021 </a></li>
+			<li><a href="https://she-workshop.github.io/"> 1st Workshop on Sketching for Human Expressivity (SHE), ICCV 2021 </a></li>
 			<li> Weekly SketchX group meetings, 2021 </li> 
 			</ul>
 		</p> 
@@ -713,6 +714,7 @@ layout: main
 		
 		<p>
 			<h4>Invited talks</h4>
+			04/2023 Graphics and Imaging Lab - Universidad de Zaragoza -- <i>"Do you speak sketch?"</i> <br>
 			12/2022 Inria Sophia Antipolis workshop -- <i>"Do you speak sketch?"</i> <br>
 			10/2022 ECCV 2022 workshop: <a href="https://sites.google.com/view/eccv-dira">"Drawings and abstract Imagery: Representations and Analysis" (DIRA)</a> -- <i>"Do you speak sketch?"</i> <br>
 			07/2022 CogSci 2022 workshop <a href="https://images2symbols.github.io/schedule/">"From Images to Symbols: Drawing as a Window into the Mind"</a> <br>		
