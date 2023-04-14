@@ -609,7 +609,7 @@ layout: main
 		<h3> Students </h3>
 		
 		<p >
-			<h4> PhD Students:</h4>
+			<h4> PhD Students (ongoing):</h4>
 			<ul>
 				<li> 2022, October - 2026, September <a href="https://www.surrey.ac.uk/people/ahmed-bourouis">Ahmed Bourouis</a>
 					</li>
@@ -621,6 +621,10 @@ layout: main
 				<li> 
 					2021 -- 2022, <a href="https://scholar.google.co.in/citations?hl=en&user=HE2nfp0AAAAJ&view_op=list_works&sortby=pubdate&inst=15262737669262836719">Pinaki Nath Chowdhury</a> (coadvised with Yi-Zhe Song)
 				</li>					
+			</ul>
+			
+			<h4> PhD Students (past):</h4>
+			<ul>			
 				<li> 2019 -- 2022 <a href ="https://www-sop.inria.fr/members/Felix.Hahnlein/">Felix Hahnlein</a> (primary advisor Adrien Bousseau), <i> has defended his PhD thesis on 2nd December 2022</i> <img src="img/icons/clap.svg" style="width:15px;"/></li>
 				<li> 2020 -- 2022, <a href="https://www.researchgate.net/scientific-contributions/Yue-Zhong-2149391947">Yue Zhong</a> (coadvised with Yi-Zhe Song),
 					 <i>has defended her PhD thesis in 2022</i> <img src="img/icons/clap.svg" style="width:15px;"/></li>			
@@ -645,7 +649,7 @@ layout: main
 						Research Internship: 'Strokes extraction from input video'</li>
 			</ul>
 			
-			<h4> Under graduate students: </h4>
+			<h4> Under graduate students (past): </h4>
 			<ul>
 				<li> 2015, Juliette Pelletier
 					Engineering Internship: 'HDR Video Capture on a Mobile Device'
