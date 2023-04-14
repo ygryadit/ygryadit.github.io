@@ -173,13 +173,13 @@ layout: main
 							<!-- <img src="{{publ.preview_img_link}}" width = '{{publ.img_width}}'/> -->
 						<!-- </div>	 -->
 					<!-- </div> -->
-					<div class="col-md-2 align-items-stretch d-flex align-items-stretch">
+					<div class="col-sm-2 align-items-stretch d-flex align-items-stretch">
 						<div class="card align-items-center justify-content-center w-100">		
 							<img src="{{publ.preview_img_link}}" width = '99%' />						
 						</div>
 					</div>
 					
-					<div class="col-md-10 align-items-stretch d-flex align-items-stretch">
+					<div class="col-sm-10 align-items-stretch d-flex align-items-stretch">
 						<div class="card w-100">								
 							<div class="card-body">
 								<!-- Title -->
@@ -259,7 +259,7 @@ layout: main
 
 				
 				<div class="row mt-1 mb-1" id="ab{{publ.publ_id}}" style="display: none;">
-					<div class="col-md-10 ml-auto" >
+					<div class="col-sm-10 ml-auto" >
 					<div class="card w-100">								
 						<div class="card-body">
 							<b>Abstract</b>: {{publ.abstract}}
@@ -269,7 +269,7 @@ layout: main
 				</div>
 				
 				<div class="row mt-1 mb-1" id="bib{{publ.publ_id}}" style="display: none;">
-					<div class="col-md-10 ml-auto" >
+					<div class="col-sm-10 ml-auto" >
 					<div class="card w-100">								
 						<div class="card-body">
 							<object type="text/plain" data="{{publ.bibtex_link}}" width="100%">
