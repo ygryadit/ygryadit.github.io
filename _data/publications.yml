@@ -252,24 +252,7 @@ judge. The study shows that humans do gradually improve their strategies with tr
   paper_link: "https://repo-sam.inria.fr/d3/OpenSketch/Gryaditskaya_OpenSketch_AuthorsVersion.pdf"
   project_link: "https://ns.inria.fr/d3/OpenSketch/"
   bibtex_link: "./Papers/OpenSketch/gryaditskaya2019opensketch.txt"
-  abstract: "We present the first competitive drawing agent Pixelor that exhibits humanlevel performance at a Pictionary-like sketching game, where the participant
-whose sketch is recognized first is a winner. Our AI agent can autonomously
-sketch a given visual concept, and achieve a recognizable rendition as quickly
-or faster than a human competitor. The key to victory for the agents goal
-is to learn the optimal stroke sequencing strategies that generate the most
-recognizable and distinguishable strokes first. Training Pixelor is done in two
-steps. First, we infer the stroke order that maximizes early recognizability of
-human training sketches. Second, this order is used to supervise the training
-of a sequence-to-sequence stroke generator. Our key technical contributions
-are a tractable search of the exponential space of orderings using neural
-sorting; and an improved Seq2Seq Wasserstein (S2S-WAE) generator that
-uses an optimal-transport loss to accommodate the multi-modal nature of the
-optimal stroke distribution. Our analysis shows that Pixelor is better than the
-human players of the Quick, Draw! game, under both AI and human judging
-of early recognition. To analyze the impact of human competitors strategies,
-we conducted a further human study with participants being given unlimited
-thinking time and training in early recognizability by feedback from an AI
-judge. The study shows that humans do gradually improve their strategies with training, but overall Pixelor still matches human performance."
+  abstract: "Product designers extensively use sketches to create and communicate 3D shapes and thus form an ideal audience for sketch-based modeling, non-photorealistic rendering and sketch filtering. However, sketching requires significant expertise and time, making design sketches a scarce resource for the research community. We introduce OpenSketch, a dataset of product design sketches aimed at offering a rich source of information for a variety of computer-aided design tasks. OpenSketch contains more than 400 sketches representing 12 man-made objects drawn by 7 to 15 product designers of varying expertise. We provided participants with front, side and top views of these objects, and instructed them to draw from two novel perspective viewpoints. This drawing task forces designers to construct the shape from their mental vision rather than directly copy what they see. They achieve this task by employing a variety of sketching techniques and methods not observed in prior datasets. Together with industrial design teachers, we distilled a taxonomy of line types and used it to label each stroke of the 214 sketches drawn from one of the two viewpoints. While some of these lines have long been known in computer graphics, others remain to be reproduced algorithmically or exploited for shape inference. In addition, we also asked participants to produce clean presentation drawings from each of their sketches, resulting in aligned pairs of drawings of different styles. Finally, we registered each sketch to its reference 3D model by annotating sparse correspondences. We provide an analysis of our annotated sketches, which reveals systematic drawing strategies over time and shapes, as well as a positive correlation between presence of construction lines and accuracy. Our sketches, in combination with provided annotations, form challenging benchmarks for existing algorithms as well as a great source of inspiration for future developments. We illustrate the versatility of our data by using it to test a 3D reconstruction deep network trained on synthetic drawings, as well as to train a filtering network to convert concept sketches into presentation drawings."
   publ_id: "2019_2"
   type: "j"
   
