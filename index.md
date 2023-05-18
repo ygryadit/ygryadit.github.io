@@ -627,7 +627,7 @@ layout: main
 			<ul>			
 				<li> 2019 -- 2022 <a href ="https://www-sop.inria.fr/members/Felix.Hahnlein/">Felix Hahnlein</a> (primary advisor Adrien Bousseau), <i> has defended his PhD thesis on 2nd December 2022</i> <img src="img/icons/clap.svg" style="width:15px;"/></li>
 				<li> 2020 -- 2022, <a href="https://www.researchgate.net/scientific-contributions/Yue-Zhong-2149391947">Yue Zhong</a> (coadvised with Yi-Zhe Song),
-					 <i>has defended her PhD thesis in 2022</i> <img src="img/icons/clap.svg" style="width:15px;"/></li>			
+					 <i>has defended her PhD thesis on 27 September 2022</i> <img src="img/icons/clap.svg" style="width:15px;"/></li>						 
 				<li> 2020 -- 2021, <a href="https://dblp.org/pid/226/4981.html">Anran Qi</a> (coadvised with Yi-Zhe Song)
 					PhD student, <i>has defended her PhD thesis on 8th November 2021</i> <img src="img/icons/clap.svg" style="width:15px;"/></li>
 				
@@ -718,6 +718,8 @@ layout: main
 		
 		<p>
 			<h4>Invited talks</h4>
+			05/2023 Art and Science of Seeing Symposium, London -- <i>"From 2D to 3D concept sketches by relying on sketching principles and visual cues"</i> <br>
+			05/2023 CVI2 ResearchGroup, Luxembourg -- <i>"Do you speak sketch?"</i> <br>
 			04/2023 Graphics and Imaging Lab - Universidad de Zaragoza, Spain -- <i>"Do you speak sketch?"</i> <br>
 			12/2022 Inria Sophia Antipolis workshop -- <i>"Do you speak sketch?"</i> <br>
 			10/2022 ECCV 2022 workshop: <a href="https://sites.google.com/view/eccv-dira">"Drawings and abstract Imagery: Representations and Analysis" (DIRA)</a> -- <i>"Do you speak sketch?"</i> <br>
