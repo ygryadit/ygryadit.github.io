@@ -1,0 +1,6 @@
+@inproceedings{qu2023sketchxai,
+  title={{SketchXAI: A First Look at Explainability for Human Sketches}},
+  author={Qu, Zhiyu and Gryaditskaya, Yulia and Li, Ke and Pang, Kaiyue and Xiang, Tao and Song, Yi-Zhe},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2023}
+}
