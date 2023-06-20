@@ -1,0 +1,7 @@
+@inproceedings{chowdhury2022garment,
+  title={Garment ideation: Iterative view-aware sketch-based garment modeling},
+  author={Chowdhury, Pinaki Nath and Wang, Tuanfeng and Ceylan, Duygu and Song, Yi-Zhe and Gryaditskaya, Yulia},
+  booktitle={International Conference on 3D Vision (3DV)},
+  year={2022},
+  organization={IEEE}
+}
