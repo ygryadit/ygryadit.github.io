@@ -73,13 +73,13 @@ layout: main
 		
 				<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 300%;"> About </h4>
 				<p>	
-					Yulia Gryaditskaya is an Assistant Professor in Artificial Intelligence at CVSSP and the Surrey Institute for People-Centred AI, 
+					Yulia Gryaditskaya is Assistant Professor at CVSSP and the Surrey Institute for People-Centred AI, 
 					where she leads the Computational Creativity and Modeling Lab (CCMLab) and is a co-director of the <a href='http://sketchx.ai/'>SketchX</a> group. 
 					Her main research interests lie in AI, sketching and CAD for creation and creativity. 
 				</p>
 				<p>					
 					Before joining CVSSP, she was a postdoctoral researcher (2017-2020) at Inria, 
-					<a href="https://team.inria.fr/graphdeco/">GraphDeco</a>, under the guidance of <a href ='http://www-sop.inria.fr/members/Adrien.Bousseau/'>Dr. Adrien Bousseau</a>, 
+					<a href="https://team.inria.fr/graphdeco/">GraphDeco</a>, under <a href ='http://www-sop.inria.fr/members/Adrien.Bousseau/'>Dr. Adrien Bousseau</a>, 
 					where she studied concept sketching techniques and worked on sketch-based modeling.
 					She received her PhD (2012-2016) from <a href="https://www.mpi-inf.mpg.de/">MPI Informatik</a>, 
 					Germany, advised by <a href='https://people.mpi-inf.mpg.de/~karol/'>Prof. Karol Myszkowski</a> 
@@ -103,8 +103,8 @@ layout: main
 					In particular, she served as a program committee member (area chair) for SIGGRAPH Asia 2021,2022 and SIGGRAPH 2022,2023.
 				</p>
 				<p>
-					She led the organization effort of the popular Sketching for Human Expressivity Workshop Series (ICCV’21 and ECCV’22). 
-					She is frequently invited as a speaker, thus, she gave keynote talks at the ECCV 2022 workshop: 
+					She led the organization of the popular Sketching for Human Expressivity Workshop Series (ICCV’21 and ECCV’22). 
+					She is frequently invited as a speaker. Among others she gave keynote talks at the ECCV 2022 workshop: 
 					"Drawings and abstract Imagery: Representations and Analysis" (DIRA) 
 					and CogSci 2022 workshop "From Images to Symbols: Drawing as a Window into the Mind".
 				</p>
