@@ -611,25 +611,58 @@ layout: main
 		<p >
 			<h4> PhD Students (ongoing):</h4>
 			<ul>
-				<li> 2022, October - 2026, September <a href="https://www.surrey.ac.uk/people/ahmed-bourouis">Ahmed Bourouis</a>
-					</li>
-				<li> 2022, July - 2022, December <a href="https://www.unibo.it/sitoweb/gianluca.berardi3/en">Gianluca Berardi</a> visiting PhD student from the University of Bologna
-					</li>
 				<li> 
-					2020 -- ongoing, <a href="https://rowl1ng.com/">Ling Luo</a> (coadvised with Yi-Zhe Song)
+					2022, October - 2026, September 
+					<a href="https://www.surrey.ac.uk/people/ahmed-bourouis">Ahmed Bourouis</a> 
+					(coadvised with 
+						<a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a>, 
+						<a href="https://scholar.google.co.uk/citations?user=NjZsLZwAAAAJ&hl=en&inst=15262737669262836719&oi=ao">Judith Fan</a>)  
+						-- <i>primary advisor</i>					
+				</li>
+				
+				<li>
+					2022, December - ongoing, <a href="https://scholar.google.com/citations?user=XItbCLgAAAAJ&hl=en&inst=15262737669262836719"> Gizem Esra Ünlü</a> (advised by <a href="https://scholar.google.com/citations?user=CZiTv0gAAAAJ&hl=en&inst=15262737669262836719&oi=ao">Gabriel Brostow)</a> 
+					-- <i>external collaborator</i>
 				</li>
 				<li> 
-					2021 -- 2022, <a href="https://scholar.google.co.in/citations?hl=en&user=HE2nfp0AAAAJ&view_op=list_works&sortby=pubdate&inst=15262737669262836719">Pinaki Nath Chowdhury</a> (coadvised with Yi-Zhe Song)
-				</li>					
+					2020 -- ongoing, 
+						<a href="https://rowl1ng.com/">Ling Luo</a> 
+						(coadvised with 
+							<a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a>) 
+						-- <i>primary advisor</i>
+				</li>
+								
 			</ul>
 			
 			<h4> PhD Students (past):</h4>
 			<ul>			
-				<li> 2019 -- 2022 <a href ="https://www-sop.inria.fr/members/Felix.Hahnlein/">Felix Hahnlein</a> (primary advisor Adrien Bousseau), <i> has defended his PhD thesis on 2nd December 2022</i> <img src="img/icons/clap.svg" style="width:15px;"/></li>
-				<li> 2020 -- 2022, <a href="https://www.researchgate.net/scientific-contributions/Yue-Zhong-2149391947">Yue Zhong</a> (coadvised with Yi-Zhe Song),
-					 <i>has defended her PhD thesis on 27 September 2022</i> <img src="img/icons/clap.svg" style="width:15px;"/></li>						 
-				<li> 2020 -- 2021, <a href="https://dblp.org/pid/226/4981.html">Anran Qi</a> (coadvised with Yi-Zhe Song)
-					PhD student, <i>has defended her PhD thesis on 8th November 2021</i> <img src="img/icons/clap.svg" style="width:15px;"/></li>
+				<li> 2022, July - 2023, June <a href="https://www.unibo.it/sitoweb/gianluca.berardi3/en">Gianluca Berardi</a> visiting PhD student from the University of Bologna
+					-- <i>internship advisor</i>
+				</li>
+				<li> 
+					2021 -- 2022, 
+						<a href="https://scholar.google.co.in/citations?hl=en&user=HE2nfp0AAAAJ&view_op=list_works&sortby=pubdate&inst=15262737669262836719">Pinaki Nath Chowdhury</a> 
+							(advised by <a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a>)
+						-- <i>collaborator/advisor</i>
+				</li>
+				<li> 
+					2019 -- 2022 
+						<a href ="https://www-sop.inria.fr/members/Felix.Hahnlein/">Felix Hahnlein</a> 
+						(primary advisor 
+							<a href="https://scholar.google.co.uk/citations?user=KdX5MN4AAAAJ&hl=en&inst=15262737669262836719&oi=ao">Adrien Bousseau</a>), 						
+						<i> has defended his PhD thesis on 2nd December 2022</i> <img src="img/icons/clap.svg" style="width:15px;"/>
+						-- <i>collaborator/advisor</i>
+				</li>
+				<li> 2020 -- 2022, 
+						<a href="https://www.researchgate.net/scientific-contributions/Yue-Zhong-2149391947">Yue Zhong</a> 
+						(coadvised with <a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a>)						
+						<i>has defended her PhD thesis on 27 September 2022</i> <img src="img/icons/clap.svg" style="width:15px;"/></li>						 
+						-- <i>primary advisor</i>
+				<li> 2020 -- 2021, 
+					<a href="https://dblp.org/pid/226/4981.html">Anran Qi</a> 
+						(coadvised with <a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a>)						
+						<i>has defended her PhD thesis on 8th November 2021</i> <img src="img/icons/clap.svg" style="width:15px;"/></li>
+						-- <i>primary advisor</i>
 				
 			</ul>
 			
@@ -639,7 +672,7 @@ layout: main
 					Master thesis topic: "GANs for sketch to image translation task"
 				</li>
 				<li> 2022, Gavin Croft,
-					Master thesis topic: "Conditional Generative Flow"
+					Master thesis topic: "Conditional Generative Flow for 3D Shape Generation"
 				</li>
 				<li> 2019, Felix Hahnlein (coadvised with Adrien Bousseau)
 						Research Internship: 'Sketch segmentation with geometric deep learning'</li>
