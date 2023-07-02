@@ -646,7 +646,7 @@ layout: main
 						-- <i>collaborator/advisor</i>
 				</li>
 				<li> 
-					2019 -- 2022 
+					2019 -- 2022,
 						<a href ="https://www-sop.inria.fr/members/Felix.Hahnlein/">Felix Hahnlein</a> 
 						(primary advisor 
 							<a href="https://scholar.google.co.uk/citations?user=KdX5MN4AAAAJ&hl=en&inst=15262737669262836719&oi=ao">Adrien Bousseau</a>), 						
@@ -666,6 +666,26 @@ layout: main
 				
 			</ul>
 			
+			<h4> Master students (ongoing): </h4>
+			<ul>
+				<li>
+					2023, Yaswanth Morisetty
+				</li>
+				<li> 
+					2023, Rutwik Shete					
+				</li>
+				<li> 
+					2023, Kodai Toyoki
+				</li>
+				<li> 
+					2023, Sanket Jadhav
+				</li>
+				<li> 
+					2023, Aishwarya Jayanthraj
+				</li>
+			</ul>
+			
+			
 			<h4> Master students (past): </h4>
 			<ul>
 				<li> 2022, Praveen Kumaran Velliangiri,
@@ -680,6 +700,13 @@ layout: main
 						Research Internship: 'Non-photorealistic rendering'</li>
 				<li> 2017, Marina Menghetti  (main advisor Adrien Bousseau)
 						Research Internship: 'Strokes extraction from input video'</li>
+			</ul>
+			
+			<h4> Under graduate students (ongoing): </h4>
+			<ul>
+				<li> 
+					2023, Rongqing Yuan					
+				</li>
 			</ul>
 			
 			<h4> Under graduate students (past): </h4>
@@ -697,7 +724,7 @@ layout: main
 	<div>			
 		<h3> Professional Activities </h3>
 		<p>
-			2022-2023 <a href = "https://www.wigraph.org/events/2022-rising-stars-workshop/">Rising Stars in Computer Graphics Mentor</a>
+			2022-2023 <img src="img/icons/wigraph.svg" style="width:17px;"/> <a href = "https://www.wigraph.org/events/2022-rising-stars-workshop/">Rising Stars in Computer Graphics Mentor</a>
 		</p>
 		
 		<p>
@@ -743,6 +770,7 @@ layout: main
 			<h6>Conferences:</h6> 				
 			SIGGRAPH, SIGGRAPH Asia, Eurographics, Pacific Graphics, VMV
 			</div>
+			<br>	
 			<div>
 			<h6>Journals:</h6> 
 			ACM TOG, CAVW, Computers & Graphics, JEI, JVIP, Multimedia Systems, TCSVT, TIP, TVCG
@@ -750,7 +778,7 @@ layout: main
 		</p>
 		
 		<p>
-			<h4>Invited talks</h4>
+			<h4>Invited talks </h4> 
 			05/2023 Art and Science of Seeing Symposium, London -- <i>"From 2D to 3D concept sketches by relying on sketching principles and visual cues"</i> <br>
 			05/2023 CVI2 Research Group, Luxembourg -- <i>"Do you speak sketch?"</i> <br>
 			05/2023 The University of Tokyo -- <i>"Do you speak sketch?"</i> <br>
@@ -762,7 +790,8 @@ layout: main
 			06/2022 <a href="https://complightlab.com/seminars/">Virtual Environments and Computer Graphics'</a> (VECG's) seminar series at UCL, London, UK<br>						
 			06/2021 Autodesk, London, UK <br>
 			02/2021 University of Bath, UK <br>
-			12/2020 <a href="https://www.youtube.com/watch?v=TixJu8p9QZQ"> Christmas Colloquium on Computer Vision, Skolkovo, Moscow, Russia</a> 
+			12/2020 <a href="https://www.youtube.com/watch?v=TixJu8p9QZQ"> Christmas Colloquium on Computer Vision, Skolkovo, Moscow, Russia</a> <br>
+			11/2018 MIT CSAIL, Boston, US
 		</p> 
 			
 	</div>		
@@ -781,17 +810,7 @@ layout: main
 			<li>2015,2016, <a href="https://graphics.cg.uni-saarland.de/courses/ris-2018/"> Realistic Image Synthesis </a> : HDR & Tone Mapping  at <a href="https://www.uni-saarland.de"> Saarland University </a></li>
 		</ul>	
 		
-		<h4>Masters examiner</h4>
-		<ul>
-			<li>
-				2022, Alejandro Hernandez Dıaz, Master thesis topic: "Understanding Vision-Language Models"
-			</li>
-			<li> 
-				2022, Gavin Croft, Master thesis topic: "Conditional Generative Flow"
-			</li>
-		</ul>	
-		
-		<h4>PhD examiner/jury member</h4>
+		<h4>PhD examiner/jury member (External)</h4>
 		<ul>
 			<li>				
 			2022, Felix Hähnlein, Inria, Universite C´ ote d’Azur, France. PhD thesis: "Binary Optimization for the Analysis and Synthesis
@@ -801,6 +820,25 @@ of Concept Sketches"
 			2022, Tarek Ben Charrada, École Nationale Supérieure de l’Électronique et de ses Applications CY University, France. PhD thesis: "3D Reconstruction from Single RGB Images"
 			</li>
 		</ul>
+		
+		<h4>Masters examiner (Internal)</h4>
+		<ul>
+			<li>
+				2023:  Hadeel Alsadoun,  Sooraj Biju
+			</li>
+			<li>
+				2022: Alejandro Hernandez Dıaz, Gavin Croft			
+			</li>
+		</ul>	
+		
+		<h4>Undergraduates examiner (Internal)</h4>
+		<ul>
+			<li>
+				2023: Alfie Walding, Alp Orgun, Charley Watts
+			</li>
+		</ul>	
+		
+		
 </div>		
 </section>		
 
