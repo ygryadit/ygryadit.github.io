@@ -688,11 +688,12 @@ layout: main
 			
 			<h4> Master students (past): </h4>
 			<ul>
-				<li> 2022, Praveen Kumaran Velliangiri,
-					Master thesis topic: "GANs for sketch to image translation task"
+				<li>
+					2022, Harichander Singaravelu: "Perceptual losses for skecthes"
 				</li>
-				<li> 2022, Gavin Croft,
-					Master thesis topic: "Conditional Generative Flow for 3D Shape Generation"
+				<li> 2022, Praveen Kumaran Velliangiri: "GANs for sketch to image translation task"
+				</li>
+				<li> 2022, Gavin Croft: "Conditional Generative Flow for 3D Shape Generation"
 				</li>
 				<li> 2019, Felix Hahnlein (coadvised with Adrien Bousseau)
 						Research Internship: 'Sketch segmentation with geometric deep learning'</li>
