@@ -80,7 +80,7 @@ layout: main
 				<p>					
 					Before joining CVSSP, she was a postdoctoral researcher (2017-2020) at Inria, 
 					<a href="https://team.inria.fr/graphdeco/">GraphDeco</a>, under <a href ='http://www-sop.inria.fr/members/Adrien.Bousseau/'>Dr. Adrien Bousseau</a>, 
-					where she studied concept sketching techniques and worked on sketch-based modeling.
+					where she studied concept sketching techniques and worked on problems of sketch understanding and sketch-based modeling.
 					She received her PhD (2012-2016) from <a href="https://www.mpi-inf.mpg.de/">MPI Informatik</a>, 
 					Germany, advised by <a href='https://people.mpi-inf.mpg.de/~karol/'>Prof. Karol Myszkowski</a> 
 					and <a href='https://scholar.google.de/citations?user=s2Ibok8AAAAJ&hl=en'>Prof. Hans-Peter Seidel</a>. 
@@ -90,7 +90,7 @@ layout: main
 					<a href="https://www.technicolor.com/contact/research-and-innovation"> Technicolor R&D</a>, Rennes, France, 
 					under the guidance of <a href='http://www.erikreinhard.com/about.html'>Dr. Erik Reinhard</a>. 
 					She received a degree (2007-2012) in <a href="http://www.msu.ru/en/info/struct/depts/vmc.html">Applied Mathematics and Computer Science</a>  with a specialization in Operation Research and System Analysis
-					from <a href="http://www.msu.ru/en/info/">Lomonosov Moscow State University</a>, Russia.  
+					from the most prestigious university in Russia: <a href="http://www.msu.ru/en/info/">Lomonosov Moscow State University</a>, Faculty of Computational Mathematics and Cybernetics. 
 				</p>
 				
 				<p>
