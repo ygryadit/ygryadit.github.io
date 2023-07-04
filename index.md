@@ -849,7 +849,7 @@ of Concept Sketches"
 	<p>
 		<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 250%;">Grants</h4> 
 		<ul>
-			<li>CoSTAR Creative Industries R&D National Lab, Collaborative grant, £59m</li>			
+			<li>CoSTAR Creative Industries R&D National Lab, Collaborative grant, £51m</li>			
 		</ul>
 	</p>	
 </div>
