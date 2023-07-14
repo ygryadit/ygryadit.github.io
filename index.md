@@ -472,7 +472,7 @@ layout: main
 			<div class="row mt-3 mb-1">
 				<div class="col-sm-3 align-items-stretch d-flex align-items-stretch">
 					<div class="card align-items-center justify-content-center w-100">	
-					<img src='DatasetsThumbs/3DVR.png'  width = '99%'  />
+					<img src='DatasetsThumbs/Bathtubs-Chairs.png'  width = '99%'  />
 					</div>
 				</div>
 				
