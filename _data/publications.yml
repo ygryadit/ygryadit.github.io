@@ -1,3 +1,16 @@
+- title: "3D VR Sketch Guided 3D Shape Prototyping and Exploration"
+  authors: "Ling Luo, Pinaki Nath Chowdhury, Tao Xiang, Yi-Zhe Song, <b>Yulia Gryaditskaya</b>"
+  venue: "ICCV"
+  year: 2023  
+  paper_link: "https://arxiv.org/abs/2306.10830"
+  preview_img_link: "./Papers/23_ICCV/3DPrototype/preview.png"
+  img_width: '130px'
+  project_link: ""
+  bibtex_link: ""
+  abstract: ""
+  publ_id: "2023_2"
+  type: "c"
+  
 - title: "SketchXAI: A First Look at Explainability for Human Sketches"
   authors: "Zhiyu Qu, <b>Yulia Gryaditskaya</b>, Ke Li, Kaiyue Pang, Tao Xiang, Yi-Zhe Song"
   venue: "CVPR"
@@ -214,7 +227,8 @@ including novel view synthesis and 3D-aware scaling of the depicted shape."
   preview_img_link: "./Papers/Pixelor/preview.jpg"
   img_width: '110px'  
   title_link: "http://sketchx.ai/pixelor"
-  authors: "Ayan Kumar Bhunia, Ayan Das, Umar Riaz Muhammad, Yongxin Yang, Timothy Hospedales, Tao Xiang, <b>Yulia Gryaditskaya</b>, Yi-Zhe Song"
+  authors: "Ayan Kumar Bhunia*, Ayan Das*, Umar Riaz Muhammad*, Yongxin Yang, Timothy Hospedales, Tao Xiang, <b>Yulia Gryaditskaya</b>, Yi-Zhe Song <br />
+               *Joint first authour"
   venue: "ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia)"
   year: 2020  
   paper_link: "https://dl.acm.org/doi/pdf/10.1145/3414685.3417840"

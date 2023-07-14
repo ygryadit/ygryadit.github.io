@@ -95,7 +95,7 @@ layout: main
 				
 				<p>
 					Yulia’s work has been published in top graphics and vision journals and conferences: 
-					including multiple publications in ACM Transactions on Graphics, Computer Graphics Forum (CGF), IEEE Transactions on Image Processing (TIP), ACM SIGGRAPH, ECCV, CVPR and IEEE 3DV. 
+					including multiple publications in ACM Transactions on Graphics, Computer Graphics Forum (CGF), IEEE Transactions on Image Processing (TIP), ACM SIGGRAPH, ECCV, ICCV, CVPR and IEEE 3DV. 
 					She also co-authored an international patent, based on her CGF publication.
 				</p>
 				<p>
@@ -636,38 +636,40 @@ layout: main
 			
 			<h4> PhD Students (past):</h4>
 			<ul>			
-				<li> 2022, July - 2023, June <a href="https://www.unibo.it/sitoweb/gianluca.berardi3/en">Gianluca Berardi</a> visiting PhD student from the University of Bologna
-					-- <i>internship advisor</i>
+				<li> 2022 - 2023 (<i>internship advisor</i>) <a href="https://www.unibo.it/sitoweb/gianluca.berardi3/en">Gianluca Berardi</a> visiting PhD student from the University of Bologna,
+					<br />
+					<i> Defended his PhD thesis on 5th July 2023</i> <img src="img/icons/clap.svg" style="width:15px;"/>				
 				</li>
 				<li> 
-					2021 -- 2022, 
+					2021 -- 2022 (<i>collaborator/advisor</i>)
 						<a href="https://scholar.google.co.in/citations?hl=en&user=HE2nfp0AAAAJ&view_op=list_works&sortby=pubdate&inst=15262737669262836719">Pinaki Nath Chowdhury</a> 
 							(advised by <a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a>)
-						-- <i>collaborator/advisor</i>
 				</li>
 				<li> 
-					2019 -- 2022,
+					2019 -- 2022 (<i>collaborator/advisor</i>)
 						<a href ="https://www-sop.inria.fr/members/Felix.Hahnlein/">Felix Hahnlein</a> 
 						(primary advisor 
-							<a href="https://scholar.google.co.uk/citations?user=KdX5MN4AAAAJ&hl=en&inst=15262737669262836719&oi=ao">Adrien Bousseau</a>), 						
-						<i> has defended his PhD thesis on 2nd December 2022</i> <img src="img/icons/clap.svg" style="width:15px;"/>
-						-- <i>collaborator/advisor</i>
+							<a href="https://scholar.google.co.uk/citations?user=KdX5MN4AAAAJ&hl=en&inst=15262737669262836719&oi=ao">Adrien Bousseau</a>), 					
+						<br />						
+						<i> Defended his PhD thesis on 2nd December 2022</i> <img src="img/icons/clap.svg" style="width:15px;"/>
 				</li>
-				<li> 2020 -- 2022, 
+				<li> 2020 -- 2022 (<i>primary advisor</i>), 
 						<a href="https://www.researchgate.net/scientific-contributions/Yue-Zhong-2149391947">Yue Zhong</a> 
-						(coadvised with <a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a>)						
-						<i>has defended her PhD thesis on 27 September 2022</i> <img src="img/icons/clap.svg" style="width:15px;"/></li>						 
-						-- <i>primary advisor</i>
-				<li> 2020 -- 2021, 
+						(coadvised with <a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a>)		
+						<br />
+						<i>Defended her PhD thesis on 27 September 2022</i> <img src="img/icons/clap.svg" style="width:15px;"/></li>						 						
+				<li> 2020 -- 2021 (<i>primary advisor</i>) 
 					<a href="https://dblp.org/pid/226/4981.html">Anran Qi</a> 
 						(coadvised with <a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a>)						
-						<i>has defended her PhD thesis on 8th November 2021</i> <img src="img/icons/clap.svg" style="width:15px;"/></li>
-						-- <i>primary advisor</i>
-				
+						<br />
+						<i>Defended her PhD thesis on 8th November 2021</i> <img src="img/icons/clap.svg" style="width:15px;"/></li>				
 			</ul>
 			
 			<h4> Master students (ongoing): </h4>
 			<ul>
+				<li>
+					2023, Sam Gouhary
+				</li>
 				<li>
 					2023, Yaswanth Morisetty
 				</li>
