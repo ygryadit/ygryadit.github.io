@@ -5,9 +5,24 @@
   paper_link: "https://arxiv.org/abs/2306.10830"
   preview_img_link: "./Papers/23_ICCV/3DPrototype/preview.png"
   img_width: '130px'
+  project_link: "https://github.com/Rowl1ng/3Dsketch2shape"
+  bibtex_link: ""
+  abstract: "3D shape modeling is labor-intensive, time-consuming, and requires years of expertise. To facilitate 3D shape modeling, we propose a 3D shape generation network that takes a 3D VR sketch as a condition. We assume that sketches are created by novices without art training and aim to reconstruct geometrically realistic 3D shapes of a given category. To handle potential sketch ambiguity, our method creates multiple 3D shapes that align with the original sketch’s structure. We carefully design our method, training the model step-by-step and leveraging multi-modal 3D shape representation to support training with limited training data. To guarantee the realism of generated 3D shapes we leverage the normalizing flow that models the distribution of the latent space of 3D shapes. To encourage the fidelity of the generated 3D shapes to an input sketch, we propose a dedicated loss that we deploy at different stages of the training process."
+  publ_id: "2023_3"
+  type: "c"
+  
+- title: "Fine-Tuned but Zero-Shot 3D Shape Sketch View Similarity and Retrieval"
+  authors: "Gianluca Berardi, <b>Yulia Gryaditskaya</b>"
+  venue: "ICCV SHARP Workshop (ICCVW)"
+  year: 2023  
+  paper_link: "https://arxiv.org/abs/2306.08541"
+  preview_img_link: "./Papers/23_ICCV/Zero_shot_but_fine_tuned/preview.PNG"
+  img_width: '130px'
   project_link: ""
   bibtex_link: ""
-  abstract: ""
+  abstract: "Recently, encoders like ViT (vision transformer) and ResNet have been trained on vast datasets and utilized as perceptual metrics for comparing sketches and images, as well as multi-domain encoders in a zero-shot setting. However, there has been limited effort to quantify the granularity of these encoders. Our work addresses this gap by focusing on multi-modal 2D projections of individual 3D instances. This task holds crucial implications for retrieval and sketch-based modeling. We show that in a zero-shot setting (without retraining on a specific shape category or sketch style), the more abstract the sketch, the higher the likelihood of incorrect image matches. Even within the same sketch domain, sketches of the same object drawn in different styles, for example by distinct individuals, might not be accurately matched.
+One of the key findings of our research is that meticulous fine-tuning on one class of 3D shapes leads to improved performance on other shape classes (fine-tuned but zero-shot), reaching or surpassing the accuracy of supervised methods. We compare and discuss several fine-tuning strategies. Additionally, we delve deeply into how the scale of an object in a sketch influences the similarity of features at different network layers, helping us identify which network layers provide the most accurate matching.
+Significantly, we discover that ViT and ResNet perform best when dealing with similar object scales. We believe that our work will have a significant impact on research in the sketch domain, providing insights and guidance on how to adopt large pretrained models as perceptual losses."
   publ_id: "2023_2"
   type: "c"
   
