@@ -81,7 +81,7 @@ layout: main
 					Before joining CVSSP, she was a postdoctoral researcher (2017-2020) at Inria, 
 					<a href="https://team.inria.fr/graphdeco/">GraphDeco</a>, under <a href ='http://www-sop.inria.fr/members/Adrien.Bousseau/'>Dr. Adrien Bousseau</a>, 
 					where she studied concept sketching techniques and worked on problems of sketch understanding and sketch-based modeling.
-					She received her PhD (2012-2016) from <a href="https://www.mpi-inf.mpg.de/">MPI Informatik</a>, 
+					She received her PhD in 2017 from <a href="https://www.mpi-inf.mpg.de/">MPI Informatik</a>, 
 					Germany, advised by <a href='https://people.mpi-inf.mpg.de/~karol/'>Prof. Karol Myszkowski</a> 
 					and <a href='https://scholar.google.de/citations?user=s2Ibok8AAAAJ&hl=en'>Prof. Hans-Peter Seidel</a>. 
 					Her PhD focused on High Dynamic Range (HDR) image calibration, capturing HDR video on a mobile device, 
