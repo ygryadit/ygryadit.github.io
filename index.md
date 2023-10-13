@@ -741,15 +741,7 @@ layout: main
 			2022-2023 <img src="img/icons/wigraph.svg" style="width:17px;"/> <a href = "https://www.wigraph.org/events/2022-rising-stars-workshop/">Rising Stars in Computer Graphics Mentor</a>
 		</p>
 		
-		<p>
-			<h4> Area Chair/Technical Papers Committee Member:</h4> 
-			<ul>
-			<li><a href="https://s2023.siggraph.org/"> SIGGRAPH North America'23 </a></li>
-			<li><a href="https://sa2022.siggraph.org/en/"> SIGGRAPH Asia'22 </a></li>
-			<li><a href="https://s2022.siggraph.org/"> SIGGRAPH North America'22 </a> <br></li>
-			<li><a href="https://sa2021.siggraph.org/en/"> SIGGRAPH Asia'21 </a></li>
-			</ul>
-		</p>  
+		
 		
 		<p>
 			<h4>Organizer:</h4> 
@@ -763,6 +755,16 @@ layout: main
 		</p> 
 		
 		
+		<p>
+			<h4> Area Chair/Technical Papers Committee Member:</h4> 
+			<ul>
+			<li><a href="https://eg2024.cyens.org.cy/full-papers-ipc/"> Eurographics'24 </a></li>
+			<li><a href="https://s2023.siggraph.org/"> SIGGRAPH North America'23 </a></li>
+			<li><a href="https://sa2022.siggraph.org/en/"> SIGGRAPH Asia'22 </a></li>
+			<li><a href="https://s2022.siggraph.org/"> SIGGRAPH North America'22 </a> <br></li>
+			<li><a href="https://sa2021.siggraph.org/en/"> SIGGRAPH Asia'21 </a></li>
+			</ul>
+		</p>  
 		
 		<p>
 			<h4>Reviewer:</h4> 
