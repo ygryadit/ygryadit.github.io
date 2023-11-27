@@ -612,41 +612,47 @@ layout: main
 			<h4> PhD Students (ongoing):</h4>
 			<ul>
 				<li> 
-					2022, October - 2026, September 
+					2022, October - 2026, September, 
+					(<i>advisor</i>),
 					<a href="https://www.surrey.ac.uk/people/ahmed-bourouis">Ahmed Bourouis</a> 
-					(coadvised with 
-						<a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a>, 
+					(exteral collaborator:   
 						<a href="https://scholar.google.co.uk/citations?user=NjZsLZwAAAAJ&hl=en&inst=15262737669262836719&oi=ao">Judith Fan</a>)  
-						-- <i>primary advisor</i>					
+											
+				</li>
+				
+				<li>
+					2022, December - ongoing, 
+					(<i>external collaborator</i>),
+					<a href="https://scholar.google.com/citations?user=XItbCLgAAAAJ&hl=en&inst=15262737669262836719"> Gizem Esra Ünlü</a> (advised by <a href="https://scholar.google.com/citations?user=CZiTv0gAAAAJ&hl=en&inst=15262737669262836719&oi=ao">Gabriel Brostow)</a> 
+					
 				</li>
 				
 				
 				<li> 
-					2022, October - 2026, September 
+					2022, October - 2026, September, 
+					(<i>secondary advisor</i>),
 					<a href="https://www.surrey.ac.uk/people/alexander-ashcroft">Alexander Ashcroft</a> 
 					(coadvised with 
-						<a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a>, 
+						<a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a> 
 					)  
-						-- <i>secondary advisor</i>					
+											
 				</li>
 			
 			
-				<li>
-					2022, December - ongoing, <a href="https://scholar.google.com/citations?user=XItbCLgAAAAJ&hl=en&inst=15262737669262836719"> Gizem Esra Ünlü</a> (advised by <a href="https://scholar.google.com/citations?user=CZiTv0gAAAAJ&hl=en&inst=15262737669262836719&oi=ao">Gabriel Brostow)</a> 
-					-- <i>external collaborator</i>
-				</li>
-				<li> 
-					2020 -- ongoing, 
-						<a href="https://rowl1ng.com/">Ling Luo</a> 
-						(coadvised with 
-							<a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a>) 
-						-- <i>primary advisor</i>
-				</li>
+				
 								
 			</ul>
 			
 			<h4> PhD Students (past):</h4>
 			<ul>			
+				<li> 
+					2020 -- 2023
+					(<i>primary advisor</i>)					
+						<a href="https://rowl1ng.com/">Ling Luo</a> 
+						(coadvised with 
+							<a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a>) 
+						
+				</li>
 				<li> 2022 - 2023 (<i>internship advisor</i>) <a href="https://www.unibo.it/sitoweb/gianluca.berardi3/en">Gianluca Berardi</a> visiting PhD student from the University of Bologna,
 					<br />
 					<i> Defended his PhD thesis on 5th July 2023</i> <img src="img/icons/clap.svg" style="width:15px;"/>				
@@ -657,7 +663,7 @@ layout: main
 							(advised by <a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a>)
 				</li>
 				<li> 
-					2019 -- 2022 (<i>collaborator/advisor</i>)
+					2019 -- 2022 (<i>collaborator/co-advisor</i>)
 						<a href ="https://www-sop.inria.fr/members/Felix.Hahnlein/">Felix Hahnlein</a> 
 						(primary advisor 
 							<a href="https://scholar.google.co.uk/citations?user=KdX5MN4AAAAJ&hl=en&inst=15262737669262836719&oi=ao">Adrien Bousseau</a>), 					
@@ -676,43 +682,31 @@ layout: main
 						<i>Defended her PhD thesis on 8th November 2021</i> <img src="img/icons/clap.svg" style="width:15px;"/></li>				
 			</ul>
 			
-			<h4> Master students (ongoing): </h4>
-			<ul>
-				<li>
-					2023, Sam Gouhary
-				</li>
-				<li>
-					2023, Yaswanth Morisetty
-				</li>
-				<li> 
-					2023, Rutwik Shete					
-				</li>
-				<li> 
-					2023, Kodai Toyoki
-				</li>
-				<li> 
-					2023, Sanket Jadhav
-				</li>
-				<li> 
-					2023, Aishwarya Jayanthraj
-				</li>
-			</ul>
+			<!-- <h4> Master students (ongoing): </h4> -->
+			<!-- <ul> -->
+				<!-- <li> -->
+					
+				<!-- </li> -->
+			<!-- </ul> -->
 			
 			
 			<h4> Master students (past): </h4>
 			<ul>
 				<li>
-					2022, Harichander Singaravelu: "Perceptual losses for skecthes"
+					2023: Sam Gouhary, Yaswanth Morisetty, Rutwik Shete, Kodai Toyoki, Sanket Jadhav, Aishwarya Jayanthraj.				
 				</li>
-				<li> 2022, Praveen Kumaran Velliangiri: "GANs for sketch to image translation task"
+				<li>
+					2022: Harichander Singaravelu: "Perceptual losses for skecthes"
 				</li>
-				<li> 2022, Gavin Croft: "Conditional Generative Flow for 3D Shape Generation"
+				<li> 2022: Praveen Kumaran Velliangiri: "GANs for sketch to image translation task"
 				</li>
-				<li> 2019, Felix Hahnlein (coadvised with Adrien Bousseau)
+				<li> 2022: Gavin Croft: "Conditional Generative Flow for 3D Shape Generation"
+				</li>
+				<li> 2019: Felix Hahnlein (coadvised with Adrien Bousseau)
 						Research Internship: 'Sketch segmentation with geometric deep learning'</li>
-				<li> 2018, Adele Saint-Denis (coadvised with Adrien Bousseau)
+				<li> 2018: Adele Saint-Denis (coadvised with Adrien Bousseau)
 						Research Internship: 'Non-photorealistic rendering'</li>
-				<li> 2017, Marina Menghetti  (main advisor Adrien Bousseau)
+				<li> 2017: Marina Menghetti  (main advisor Adrien Bousseau)
 						Research Internship: 'Strokes extraction from input video'</li>
 			</ul>
 			
@@ -858,7 +852,7 @@ of Concept Sketches"
 </div>		
 </section>		
 
-<section id ="grants">
+<!-- <section id ="grants">
 <div >
 	<hr />
 	<p>
@@ -868,7 +862,7 @@ of Concept Sketches"
 		</ul>
 	</p>	
 </div>
-</section>
+</section> -->
 
 
 <section id ="hobbies">
