@@ -615,7 +615,7 @@ layout: main
 					2022, October - 2026, September, 
 					(<i>advisor</i>),
 					<a href="https://www.surrey.ac.uk/people/ahmed-bourouis">Ahmed Bourouis</a> 
-					(exteral collaborator:   
+					(external collaborator:   
 						<a href="https://scholar.google.co.uk/citations?user=NjZsLZwAAAAJ&hl=en&inst=15262737669262836719&oi=ao">Judith Fan</a>)  
 											
 				</li>
