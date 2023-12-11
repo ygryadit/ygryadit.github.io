@@ -57,7 +57,6 @@ layout: main
 				</div>
 			</div>
 			
-	
 		</div>
 
 	</div>
@@ -119,12 +118,29 @@ layout: main
 					<a href="https://www.rsipvision.com/ICCV2021-Friday/20/"> Interview at ICCV Daily </a>
 				</p>
 				
-				
-				
 	</div>
 </div>
 </section>
 
+<hr>
+<section>			
+<div class="row align-items-center">			
+	
+	<div id="positions" class="col-sm-12" >
+		
+		<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 300%; color:#D50AC6  "> Open positions </h4>
+		<p> 
+			Fully funded PhD studentships for outstanding Chinese students: <a href = "https://www.surrey.ac.uk/fees-and-funding/studentships/china-scholarship-council-surrey-awards">Full info</a>.
+			<br>
+			Start date: 1 October 2024 
+			<br>
+			Duration: 4 years
+			<br>
+			<span style="color:#D50AC6"> Application deadline: 12 January 2024 </span>
+		</p> 
+	</div>
+</div>
+</section>
 
 
 <section id="publications" >
