@@ -653,7 +653,7 @@ layout: main
 							<a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a>) 
 						
 				</li>
-				<li> 2022 - 2023 (<i>internship advisor</i>) <a href="https://www.unibo.it/sitoweb/gianluca.berardi3/en">Gianluca Berardi</a> visiting PhD student from the University of Bologna,
+				<li> 2022 - 2023 (<i>internship advisor</i>) <a href="linkedin.com/in/gianluca-berardi-phd">Gianluca Berardi</a> visiting PhD student from the University of Bologna,
 					<br />
 					<i> Defended his PhD thesis on 5th July 2023</i> <img src="img/icons/clap.svg" style="width:15px;"/>				
 				</li>
