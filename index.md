@@ -428,7 +428,8 @@ layout: main
 					<div class="card w-100">	
 						<div class="card-body">
 							<div class = 'title card-title'>
-								<a href='http://personal.ee.surrey.ac.uk/Personal/Y.Song/ProSketch-3Dchair.zip'> ProSketch-3DChair </a>
+								 <!-- <a href='http://personal.ee.surrey.ac.uk/Personal/Y.Song/ProSketch-3Dchair.zip'> ProSketch-3DChair </a> -->
+								<a href='https://drive.google.com/file/d/1lcGzenXmoaynl-lKlewZrU_4T9KipaGr/view?usp=sharing'> ProSketch-3DChair </a>
 							</div>
 							
 							<div class = 'DatasetDesc card-text'>
