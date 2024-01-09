@@ -122,7 +122,7 @@ layout: main
 </div>
 </section>
 
-<hr>
+<!-- <hr>
 <section>			
 <div class="row align-items-center">			
 	
@@ -140,7 +140,7 @@ layout: main
 		</p> 
 	</div>
 </div>
-</section>
+</section> -->
 
 
 <section id="publications" >
@@ -664,13 +664,15 @@ layout: main
 			<ul>			
 				<li> 
 					2020 -- 2023
-					(<i>primary advisor</i>)					
+					(<i>advisor</i>)					
 						<a href="https://rowl1ng.com/">Ling Luo</a> 
 						(coadvised with 
 							<a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a>) 
+					<br/>
+					<i> Defended her PhD thesis on 8th January 2024</i> <img src="img/icons/clap.svg" style="width:15px;"/>						
 						
 				</li>
-				<li> 2022 - 2023 (<i>internship advisor</i>) <a href="linkedin.com/in/gianluca-berardi-phd">Gianluca Berardi</a> visiting PhD student from the University of Bologna,
+				<li> 2022 -- 2023 (<i>internship advisor</i>) <a href="linkedin.com/in/gianluca-berardi-phd">Gianluca Berardi</a> visiting PhD student from the University of Bologna,
 					<br />
 					<i> Defended his PhD thesis on 5th July 2023</i> <img src="img/icons/clap.svg" style="width:15px;"/>				
 				</li>
@@ -680,19 +682,19 @@ layout: main
 							(advised by <a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a>)
 				</li>
 				<li> 
-					2019 -- 2022 (<i>collaborator/co-advisor</i>)
+					2019 -- 2022 (<i>collaborator</i>)
 						<a href ="https://www-sop.inria.fr/members/Felix.Hahnlein/">Felix Hahnlein</a> 
-						(primary advisor 
+						(advisor 
 							<a href="https://scholar.google.co.uk/citations?user=KdX5MN4AAAAJ&hl=en&inst=15262737669262836719&oi=ao">Adrien Bousseau</a>), 					
 						<br />						
 						<i> Defended his PhD thesis on 2nd December 2022</i> <img src="img/icons/clap.svg" style="width:15px;"/>
 				</li>
-				<li> 2020 -- 2022 (<i>primary advisor</i>), 
+				<li> 2020 -- 2022 (<i>advisor</i>), 
 						<a href="https://www.researchgate.net/scientific-contributions/Yue-Zhong-2149391947">Yue Zhong</a> 
 						(coadvised with <a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a>)		
 						<br />
 						<i>Defended her PhD thesis on 27 September 2022</i> <img src="img/icons/clap.svg" style="width:15px;"/></li>						 						
-				<li> 2020 -- 2021 (<i>primary advisor</i>) 
+				<li> 2020 -- 2021 (<i>advisor</i>) 
 					<a href="https://dblp.org/pid/226/4981.html">Anran Qi</a> 
 						(coadvised with <a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a>)						
 						<br />
