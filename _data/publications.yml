@@ -1,6 +1,6 @@
 - title: "Open Vocabulary Scene Sketch Semantic Understanding"
   authors: "Ahmed Bourouis, Judith Ellen Fan, <b>Yulia Gryaditskaya</b>"
-  venue: "ArXiv"
+  venue: "CVPR"
   year: 2024  
   paper_link: "https://ahmedbourouis.github.io/Scene_Sketch_Segmentation/"
   preview_img_link: "./Papers/24_CVPR/OVSSS/preview-01.png"
@@ -8,8 +8,29 @@
   project_link: "https://ahmedbourouis.github.io/Scene_Sketch_Segmentation/"
   bibtex_link: ""
   abstract: "We study the underexplored but fundamental vision problem of machine understanding of abstract freehand scene sketches. We introduce a sketch encoder that results in semantically- aware feature space, which we evaluate by testing its performance on a semantic sketch seg- mentation task. To train our model we rely only on the availability of bitmap sketches with their brief captions and do not require any pixel-level annotations. To obtain generalization to a large set of sketches and categories, we build on a vision transformer encoder pretrained with the CLIP model. We freeze the text encoder and perform visual-prompt tuning of the visual encoder branch while introducing a set of critical modifications. Firstly, we augment the classical key-query (k-q) self-attention blocks with value-value (v-v) self-attention blocks. Central to our model is a two-level hierarchical network design that enables efficient semantic disentanglement: The first level ensures holistic scene sketch encoding, and the second level focuses on individual categories. We, then, in the second level of the hierarchy, introduce a cross-attention between textual and visual branches. Our method outperforms zero-shot CLIP pixel accuracy of segmentation results by 37 points, reaching an accuracy of 85.5% on the FS-COCO sketch dataset. Finally, we conduct a user study that allows us to identify further improvements needed over our method to reconcile machine and human understanding of scene sketches."
+  publ_id: "2024_2"
+  type: "c"
+  
+- title: "Modeling Complex Vector Drawings with Stroke Clouds"
+  authors: "Alexander Ashcroft, Ayan Das, <b>Yulia Gryaditskaya</b>, Zhiyu Qu, Yi-Zhe Song"
+  venue: "ICLR"
+  year: 2024  
+  paper_link: ""
+  preview_img_link: "./Papers/24_ICLR/preview.png"
+  img_width: '130px'
+  project_link: ""
+  bibtex_link: ""
+  abstract: "   Vector representations offer scalability, editability, and storage efficiency, making them indispensable for a wide range of digital applications.
+                Yet, generative models for vector drawings remain under-explored, in particular for modeling complex vector drawings. 
+                This is in part due to the primarily sequential and auto-regressive nature of existing approaches failing to scale beyond simple drawings. 
+                In this paper, we introduce a generative model for complex vector drawings, representing them as ``stroke clouds'' -- sets of arbitrary cardinality comprised of n-dimensional Bézier curves. 
+                Stroke dimensionality is a design choice that allows the model to adapt to different levels of sketch complexity. 
+                We learn to encode this set of strokes into compact latent codes by a probabilistic reconstruction procedure based on De-Finetti's Theorem of Exchangeability. 
+                A generative model is then defined over the latent vectors of the encoded stroke clouds. 
+                Thus, the resulting ``Latent stroke cloud generator (LSG)'' captures the distribution of complex vector drawings in an implicit set space.
+                We demonstrate the efficacy of our model in the generation of complex Anime line-art drawings."
   publ_id: "2024_1"
-  type: "n"
+  type: "c"
   
 - title: "3D VR Sketch Guided 3D Shape Prototyping and Exploration"
   authors: "Ling Luo, Pinaki Nath Chowdhury, Tao Xiang, Yi-Zhe Song, <b>Yulia Gryaditskaya</b>"
