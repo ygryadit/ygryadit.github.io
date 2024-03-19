@@ -15,10 +15,10 @@
   authors: "Alexander Ashcroft, Ayan Das, <b>Yulia Gryaditskaya</b>, Zhiyu Qu, Yi-Zhe Song"
   venue: "ICLR"
   year: 2024  
-  paper_link: ""
+  paper_link: "https://openreview.net/pdf?id=O2jyuo89CK"
   preview_img_link: "./Papers/24_ICLR/preview.png"
   img_width: '130px'
-  project_link: ""
+  project_link: "https://github.com/Co-do/Stroke-Cloud"
   bibtex_link: ""
   abstract: "   Vector representations offer scalability, editability, and storage efficiency, making them indispensable for a wide range of digital applications.
                 Yet, generative models for vector drawings remain under-explored, in particular for modeling complex vector drawings. 
