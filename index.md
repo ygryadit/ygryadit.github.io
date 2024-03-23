@@ -73,7 +73,7 @@ layout: main
 				<h4 style="font-family: 'atlandsketchesbb_reg'; font-size: 300%;"> About </h4>
 				<p>	
 					Yulia Gryaditskaya is Assistant Professor at CVSSP and the Surrey Institute for People-Centred AI, 
-					where she leads the Computational Creativity and Modeling Lab (CCMLab) and is a co-director of the <a href='http://sketchx.ai/'>SketchX</a> group. 
+					where she leads the Computational Creativity and Modeling Lab (CCMLab). 
 					Her main research interests lie in 2D and 3D generative AI. 
 				</p>
 				<p>					
