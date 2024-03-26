@@ -8,7 +8,7 @@
   project_link: "https://ahmedbourouis.github.io/Scene_Sketch_Segmentation/"
   bibtex_link: ""
   abstract: "We study the underexplored but fundamental vision problem of machine understanding of abstract freehand scene sketches. We introduce a sketch encoder that results in semantically- aware feature space, which we evaluate by testing its performance on a semantic sketch seg- mentation task. To train our model we rely only on the availability of bitmap sketches with their brief captions and do not require any pixel-level annotations. To obtain generalization to a large set of sketches and categories, we build on a vision transformer encoder pretrained with the CLIP model. We freeze the text encoder and perform visual-prompt tuning of the visual encoder branch while introducing a set of critical modifications. Firstly, we augment the classical key-query (k-q) self-attention blocks with value-value (v-v) self-attention blocks. Central to our model is a two-level hierarchical network design that enables efficient semantic disentanglement: The first level ensures holistic scene sketch encoding, and the second level focuses on individual categories. We, then, in the second level of the hierarchy, introduce a cross-attention between textual and visual branches. Our method outperforms zero-shot CLIP pixel accuracy of segmentation results by 37 points, reaching an accuracy of 85.5% on the FS-COCO sketch dataset. Finally, we conduct a user study that allows us to identify further improvements needed over our method to reconcile machine and human understanding of scene sketches."
-  publ_id: "2024_2"
+  publ_id: "2024_3"
   type: "c"
   
 - title: "Modeling Complex Vector Drawings with Stroke Clouds"
@@ -29,8 +29,30 @@
                 A generative model is then defined over the latent vectors of the encoded stroke clouds. 
                 Thus, the resulting ``Latent stroke cloud generator (LSG)'' captures the distribution of complex vector drawings in an implicit set space.
                 We demonstrate the efficacy of our model in the generation of complex Anime line-art drawings."
+  publ_id: "2024_2"
+  type: "c"
+  
+  
+- title: "3D Reconstruction from Sketch with Hidden Lines by Two-Branch Diffusion Model"
+  authors: "Yuta Fukushima, Anran Qi, I-Chao Shen, <b>Yulia Gryaditskaya</b>, Takeo Igarashi"
+  venue: "Eurographics 2024 Short Paper"
+  year: 2024  
+  paper_link: ""
+  preview_img_link: "./Papers/24_EG/preview.png"
+  img_width: '130px'
+  project_link: ""
+  bibtex_link: ""
+  abstract: "   We present a method for sketch-based modelling of 3D man-made shapes that exploits not only the commonly considered visible surface lines but also the hidden lines typical for technical drawings.
+                Hidden lines are used by artists and designers to communicate holistic shape structure. 
+                Given a single viewpoint sketch, leveraging such lines allows us to resolve the ambiguity of the shape's surfaces hidden from the observer.
+                We assume that the separation into visible and hidden lines is given, and focus solely on how to leverage this information. 
+                Our strategy is to mingle two distinct diffusion networks: one generates denoized occupancy grid estimates from a visible line image, whilst the other generates occupancy grid estimates based on contextualized hidden lines unveiling the occluded shape structure. 
+                We iteratively merge noisy estimates from both models in a reverse diffusion process. 
+                Importantly, we demonstrate the importance of what we call a contextualized hidden lines image over just a hidden lines image. 
+                Our contextualized hidden lines image contains hidden lines and silhouette lines. Such contextualization allows us to achieve superior performance to a range of alternative configurations and reconstruct hidden holes and hidden surfaces."
   publ_id: "2024_1"
   type: "c"
+  
   
 - title: "3D VR Sketch Guided 3D Shape Prototyping and Exploration"
   authors: "Ling Luo, Pinaki Nath Chowdhury, Tao Xiang, Yi-Zhe Song, <b>Yulia Gryaditskaya</b>"
