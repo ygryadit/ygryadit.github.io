@@ -233,7 +233,7 @@ Furthermore, we introduce a dataset of 202 VR sketches for 202 3D shapes drawn f
   paper_link: "https://ieeexplore.ieee.org/document/9320353"
   preview_img_link: "./Papers/3DV/Sketch3D/preview.png"
   img_width: '110px'  
-  project_link: "https://tinyurl.com/3DSketch3DV"
+  project_link: "https://github.com/ygryadit/Towards3DVRSketch"
   bibtex_link: "./Papers/3DV/Sketch3D/luo2020towards.txt"  
   publ_id: "2020_2"
   abstract: "Growing free online 3D shapes collections dictated research on 3D retrieval. Active debate has however been had
