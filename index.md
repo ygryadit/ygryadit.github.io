@@ -308,6 +308,41 @@ layout: main
 	<hr>
 	<div class="container">		
 			<h3> Released datasets </h3>
+						<!-- ---- -->
+			<div class='publ_year'> 2024 </div>
+			
+			<div class="row mt-3 mb-1">
+			
+				<div class="col-sm-3 align-items-stretch d-flex align-items-stretch">
+					<div class="card align-items-center justify-content-center w-100">		
+						<img src='DatasetsThumbs/fscoco-seg.png'  width = '99%'  />
+					</div>
+				</div>
+				
+				<div class="col-sm-9 align-items-stretch d-flex align-items-stretch">
+						<div class="card w-100">	
+						<div class="card-body">
+							<div class = 'title card-title'>
+								FSCOCO-seg: Annotated scene sketches <a href='http://cvssp.org/data/fscoco-seg'>(Webpage link)</a> 								
+							</div>
+							
+							<div class = 'DatasetDesc card-text' >
+								It contains our split of the sketches from the <a href="http://cvssp.org/data/fscoco">FSCOCO dataset</a> into training, 
+								validation and test sets. For the validation and test sets, 
+								we provide stroke-level annotations into different categories, as shown in the teaser image. 
+								<br>
+								This datset is a part of the paper:
+													
+								<div style="color:grey">
+								Open Vocabulary Scene Sketch Semantic Understanding <br>
+								Ahmed Bourouis, Judith Ellen Fan, Yulia Gryaditskaya, CVPR, 2024.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
 			
 			<!-- ---- -->
 			<div class='publ_year'> 2022 </div>
