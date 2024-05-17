@@ -678,25 +678,19 @@ layout: main
 					<a href="https://scholar.google.com/citations?user=XItbCLgAAAAJ&hl=en&inst=15262737669262836719"> Gizem Esra Ünlü</a> (advised by <a href="https://scholar.google.com/citations?user=CZiTv0gAAAAJ&hl=en&inst=15262737669262836719&oi=ao">Gabriel Brostow)</a> 
 					
 				</li>
-				
-				
-				<li> 
-					2022, October - 2026, September, 
-					(<i>secondary advisor</i>),
-					<a href="https://www.surrey.ac.uk/people/alexander-ashcroft">Alexander Ashcroft</a> 
-					(coadvised with 
-						<a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a> 
-					)  
-											
-				</li>
-			
-			
-				
 								
 			</ul>
 			
 			<h4> PhD Students (past):</h4>
-			<ul>			
+			<ul>
+				<li> 
+					2022 -- 2024, 
+					(<i>collaborator</i>),
+					<a href="https://www.surrey.ac.uk/people/alexander-ashcroft">Alexander Ashcroft</a> 
+					(advised by 
+						<a href="https://scholar.google.co.uk/citations?user=irZFP_AAAAAJ&hl=en&inst=15262737669262836719">Yi-Zhe Song</a> 
+					)  											
+				</li>			
 				<li> 
 					2020 -- 2023
 					(<i>advisor</i>)					
