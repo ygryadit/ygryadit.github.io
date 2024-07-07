@@ -1,3 +1,16 @@
+- title: "GroundUp: Rapid Sketch-Based 3D City Massing"
+  authors: "Gizem Unlu, Mohamed Sayed, <b>Yulia Gryaditskaya</b>, Gabriel Brostow"
+  venue: "ECCV"
+  year: 2024  
+  paper_link: ""
+  preview_img_link: "./Papers/24_ECCV/GroundUp/preview.png"
+  img_width: '130px'
+  project_link: ""
+  bibtex_link: ""
+  abstract: ""
+  publ_id: "2024_4"
+  type: "c"
+  
 - title: "Open Vocabulary Scene Sketch Semantic Understanding"
   authors: "Ahmed Bourouis, Judith Ellen Fan, <b>Yulia Gryaditskaya</b>"
   venue: "CVPR"
