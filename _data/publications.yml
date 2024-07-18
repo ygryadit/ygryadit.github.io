@@ -2,7 +2,7 @@
   authors: "Gizem Unlu, Mohamed Sayed, <b>Yulia Gryaditskaya</b>, Gabriel Brostow"
   venue: "ECCV"
   year: 2024  
-  paper_link: ""
+  paper_link: "http://visual.cs.ucl.ac.uk/pubs/groundup/GroundUp_paper.pdf"
   preview_img_link: "./Papers/24_ECCV/GroundUp/preview.png"
   img_width: '130px'
   project_link: "http://visual.cs.ucl.ac.uk/pubs/groundup/index.html"
