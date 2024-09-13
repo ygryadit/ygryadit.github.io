@@ -741,14 +741,13 @@ layout: main
 			<h4> Master students (past): </h4>
 			<ul>
 				<li>
+					2024: James Davidson, Sharvari Maheshwar Gaitonde, Rakshita Kumar Ieyer, Swedel Lasrado, Oluwatola Shobande.				
+				</li>
+				<li>
 					2023: Sam Gouhary, Yaswanth Morisetty, Rutwik Shete, Kodai Toyoki, Sanket Jadhav, Aishwarya Jayanthraj.				
 				</li>
 				<li>
-					2022: Harichander Singaravelu: "Perceptual losses for skecthes"
-				</li>
-				<li> 2022: Praveen Kumaran Velliangiri: "GANs for sketch to image translation task"
-				</li>
-				<li> 2022: Gavin Croft: "Conditional Generative Flow for 3D Shape Generation"
+					2022: Harichander Singaravelu, Praveen Kumaran Velliangiri, Gavin Croft
 				</li>
 				<li> 2019: Felix Hahnlein (coadvised with Adrien Bousseau)
 						Research Internship: 'Sketch segmentation with geometric deep learning'</li>
@@ -837,6 +836,7 @@ layout: main
 		
 		<p>
 			<h4>Invited talks </h4> 
+			09/2024 Czech Technical University in Prague -- <i>"Human-centered approach to generative tasks: Sketch to X"</i> <br>
 			05/2023 Art and Science of Seeing Symposium, London -- <i>"From 2D to 3D concept sketches by relying on sketching principles and visual cues"</i> <br>
 			05/2023 CVI2 Research Group, Luxembourg -- <i>"Do you speak sketch?"</i> <br>
 			05/2023 The University of Tokyo -- <i>"Do you speak sketch?"</i> <br>
@@ -863,19 +863,22 @@ layout: main
 	
 		<h4>Teaching:</h4>
 		<ul>
-			<li>2023 Semester 1, VR/AR and Metaverse, Department of Electrical and Electronic Engineering, University of Surrey</li>
-			<li>2022 Semester 2, EEE2041 Computer Vision and Graphics, Department of Electrical and Electronic Engineering, University of Surrey</li>
+			<li>2023,2024 Semester 1, VR/AR and Metaverse, Department of Electrical and Electronic Engineering, University of Surrey</li>
+			<li>2023,2024 Semester 2, EEE2041 Computer Vision and Graphics, Department of Electrical and Electronic Engineering, University of Surrey</li>
 			<li>2015,2016, <a href="https://graphics.cg.uni-saarland.de/courses/ris-2018/"> Realistic Image Synthesis </a> : HDR & Tone Mapping  at <a href="https://www.uni-saarland.de"> Saarland University </a></li>
 		</ul>	
 		
 		<h4>PhD examiner/jury member (External)</h4>
 		<ul>
+			<li>	
+				2024, Michal Kučera, Czech Technical University in Prague. PhD thesis: "Towards Interactive, Robust, and Stereoscopic Style Transfer"		
+			</li>
 			<li>				
-			2022, Felix Hähnlein, Inria, Universite C´ ote d’Azur, France. PhD thesis: "Binary Optimization for the Analysis and Synthesis
+				2022, Felix Hähnlein, Inria, Universite C´ ote d’Azur, France. PhD thesis: "Binary Optimization for the Analysis and Synthesis
 of Concept Sketches"
 			</li>
 			<li>				
-			2022, Tarek Ben Charrada, École Nationale Supérieure de l’Électronique et de ses Applications CY University, France. PhD thesis: "3D Reconstruction from Single RGB Images"
+				2022, Tarek Ben Charrada, École Nationale Supérieure de l’Électronique et de ses Applications CY University, France. PhD thesis: "3D Reconstruction from Single RGB Images"
 			</li>
 		</ul>
 		
