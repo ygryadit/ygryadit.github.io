@@ -115,7 +115,7 @@ Significantly, we discover that ViT and ResNet perform best when dealing with si
   preview_img_link: "./Papers/23_CVPR/SketchXAI/preview.png"
   img_width: '130px'
   project_link: "https://sketchxai.github.io/"
-  bibtex_link: "./Papers/bibtex_entries/23_CVPR_SketchXAI.txt"
+  bibtex_link: "/Papers/bibtex_entries/23_CVPR_SketchXAI.txt"
   abstract: "This paper, for the very first time, introduces human sketches to the landscape of XAI (Explainable Artificial Intelligence). We argue that sketch as a human-centered data form, represents a natural interface to study explainability. We focus on cultivating sketch-specific explainability designs. This starts by identifying strokes as a unique building block that offers a degree of flexibility in object construction and manipulation impossible in photos. Following this, we design a simple explainability-friendly sketch encoder that accommodates the intrinsic properties of strokes: shape, location, and order. We then define the first ever XAI task for sketch, that of stroke location inversion (SLI). Just as we have heat maps for photos and correlation matrices for text, SLI offers an explainability angle to sketch by asking a network how well it can recover stroke locations of an unseen sketch. We provide qualitative results for readers to interpret as snapshots of the SLI process in the paper and as GIFs on the project page. A minor but exciting note is that thanks to its sketch-specific design, our sketch encoder also yields the best sketch recognition accuracy to date while having the smallest number of parameters."
   publ_id: "2023_1"
   type: "c"
@@ -128,7 +128,7 @@ Significantly, we discover that ViT and ResNet perform best when dealing with si
   preview_img_link: "./Papers/22_3DV/Garment/preview.png"
   img_width: '130px'
   project_link: "https://github.com/pinakinathc/multiviewsketch-garment"
-  bibtex_link: "./Papers/bibtex_entries/22_3DV_Garment.txt"
+  bibtex_link: "/Papers/bibtex_entries/22_3DV_Garment.txt"
   abstract: "Designing real and virtual garments is becoming extremely demanding with rapidly changing fashion trends and increasing need for synthesizing realistically dressed digital humans for various applications. However, traditionally designing real and virtual garments has been time-consuming. Sketch based modeling aims to bring the ease and immediacy of drawing to the 3D world thereby motivating faster iterations. We propose a novel sketch-based garment modeling framework that is specifically targeted to synchronize with the iterative process of garment ideation, e.g., adding or removing details from different views in each iteration. At the core of our learning based approach is a view-aware feature aggregation module that fuses the features from the latest sketch with the thus far aggregated features to effective refine the generated 3D shape. We evaluate our approach on a wide variety of garment types and iterative refinement scenarios. We also provide comparisons to alternative feature aggregation methods and demonstrate favorable results."
   publ_id: "2022_6"
   type: "c"
@@ -188,7 +188,7 @@ Furthermore, we introduce a dataset of 202 VR sketches for 202 3D shapes drawn f
   paper_link: "https://arxiv.org/abs/2112.10838"
   preview_img_link: "./Papers/22_Sketch_Segmentation/preview.png"
   img_width: '130px'
-  bibtex_link: "./Papers/22_Sketch_Segmentation/qi2021OneSketch4All.txt"
+  bibtex_link: "/Papers/22_Sketch_Segmentation/qi2021OneSketch4All.txt"
   abstract: "We present the first one-shot personalized sketch segmentation method. We aim to segment all sketches belonging to the same category provisioned with a single sketch with a given part annotation while (i) preserving the parts semantics embedded in the exemplar, and (ii) being robust to input style and abstraction. We refer to this scenario as personalized. With that, we importantly enable a much-desired personalization capability for downstream fine-grained sketch analysis tasks. To train a robust segmentation module, we deform the exemplar sketch to each of the available sketches of the same category. Our method generalizes to sketches not observed during training. Our central contribution is a sketch-specific hierarchical deformation network. Given a multi-level sketch-strokes encoding obtained via a graph convolutional network, our method estimates rigid-body transformation from the reference to the exemplar, on the upper level. Finer deformation from the exemplar to the globally warped reference sketch is further obtained through stroke-wise deformations, on the lower level. Both levels of deformation are guided by mean squared distances between the keypoints learned without supervision, ensuring that the stroke semantics are preserved. We evaluate our method against the state-of-the-art segmentation and perceptual grouping baselines re-purposed for the one-shot setting and against two few-shot 3D shape segmentation methods. We show that our method outperforms all the alternatives by more than 10% on average. Ablation studies further demonstrate that our method is robust to personalization: changes in input part semantics and style differences."
   publ_id: "2022_2"
   type: "j"  
@@ -201,7 +201,7 @@ Furthermore, we introduce a dataset of 202 VR sketches for 202 3D shapes drawn f
   preview_img_link: "./Papers/22_SBM_journal/preview.png"
   project_link: "https://github.com/Yueeey/deepsketchSDFs"
   img_width: '130px'
-  bibtex_link: "./Papers/22_SBM_journal/22_SBM_journal.txt"
+  bibtex_link: "/Papers/22_SBM_journal/22_SBM_journal.txt"
   abstract: "Deep image-based modeling has received a lot of attention in recent years. Sketch-based modeling in particular has gained popularity given the ubiquitous nature of touchscreen devices. In this paper, we (i) study and compare diverse single-image reconstruction methods on sketch input, comparing the different 3D shape representations: multi-view, voxel- and point-cloud-based, mesh-based and implicit ones; and (ii) analyze the main challenges and requirements of sketch-based modeling systems. We introduce the regression loss and provide two variants of its formulation for the two most promising 3D shape representations: point clouds and signed distance functions. We show that this loss can increase general reconstruction accuracy, and the view- and style-robustness of the reconstruction methods. Moreover, we demonstrate that this loss can benefit the disentanglement of latent space to view-invariant and view-specific information, resulting in further improved performance. To address the figure-ground ambiguity typical for sparse human sketches, we propose a two-branch architecture that exploits sparse user labeling. We hope that our work will inform future research on sketch-based modeling. We will release our datasets and their splits to establish the first benchmark in sketch- based modeling."
   publ_id: "2022_1"
   doi: "https://doi.org/10.1016/j.cag.2022.06.005"
@@ -215,7 +215,7 @@ Furthermore, we introduce a dataset of 202 VR sketches for 202 3D shapes drawn f
   preview_img_link: "./Papers/3DV_21/preview.PNG"
   img_width: '160px'  
   project_link: "https://tinyurl.com/VRSketch3DV21"
-  bibtex_link: "./Papers/3DV_21/luo2021FineGrainedVR.txt"  
+  bibtex_link: "/Papers/3DV_21/luo2021FineGrainedVR.txt"  
   abstract: "We present the first fine-grained dataset of 1,497 3D VR sketch and 3D shape pairs of a chair category with large shapes diversity. Our dataset supports the recent trend in the sketch community on fine-grained data analysis, and extends it to an actively developing 3D domain. We argue for the most convenient sketching scenario where the sketch consists of sparse lines and does not require any sketching skills, prior training or time-consuming accurate drawing. We then, for the first time, study the scenario of fine-grained 3D VR sketch to 3D shape retrieval, as a novel VR sketching application and a proving ground to drive out generic insights to inform future research. By experimenting with carefully selected combinations of design factors on this new problem, we draw important conclusions to help follow-on work. We hope our dataset will enable other novel applications, especially those that require a fine-grained angle such as fine-grained 3D shape reconstruction."
   publ_id: "2021_2"
   type: "c"
@@ -228,7 +228,7 @@ Furthermore, we introduce a dataset of 202 VR sketches for 202 3D shapes drawn f
   paper_link: "https://ieeexplore.ieee.org/document/9573376?source=authoralert"
   preview_img_link: "./Papers/TIP_Retrieval/preview.png"
   img_width: '130px'
-  bibtex_link: "./Papers/TIP_Retrieval/qi2021Retrieval.txt"
+  bibtex_link: "/Papers/TIP_Retrieval/qi2021Retrieval.txt"
   abstract: "In this paper we study, for the first time, the problem1of fine-grained sketch-based 3D shape retrieval. We advocate the use of sketches as a fine-grained input modality to retrieve 3D shapes at instance-level e.g., given a sketch of a chair, we set out to retrieve a specific chair from a gallery of all chairs. Fine-grained sketch-based 3D shape retrieval (FG-SBSR) has not been possible till now due to a lack of datasets that exhibit one-to-one sketch-3D correspondences. The first key contribution of this paper is two new datasets, consisting a total of 4,680 sketch-3D pairings from two object categories. Even with the datasets, FG-SBSR is still highly challenging because (i) the inherent domain gap between 2D sketch and 3D shape is large, and (ii) retrieval needs to be conducted at the instance level instead of the coarse category level matching as in traditional SBSR. Thus, the second contribution of the paper is the first cross-modal deep embedding model for FG-SBSR, which specifically tackles the unique challenges presented by this new problem. Core to the deep embedding model is a novel cross-modal view attention module which automatically computes the optimal combination of 2D projections of a 3D shape given a query sketch."
   publ_id: "2021_1"
   type: "j"
@@ -245,7 +245,7 @@ Furthermore, we introduce a dataset of 202 VR sketches for 202 3D shapes drawn f
   project_link: "https://github.com/Yueeey/sketcch3D"
   preview_img_link: "./Papers/ProSketch/preview.png"
   img_width: '130px'
-  bibtex_link: "./Papers/ProSketch/zhong2020towards.txt"
+  bibtex_link: "/Papers/ProSketch/zhong2020towards.txt"
   abstract: "In this paper, for the first time, we investigate the problem of generating 3D shapes from professional 2D sketches via deep learning. We target sketches done by professional artists, as these sketches are likely to contain more details than the ones produced by novices, and thus the reconstruction from such sketches poses a higher demand on the level of detail in the reconstructed models. This is importantly different to previous work, where the training and testing was conducted on either synthetic sketches or sketches done by novices. Novices sketches often depict shapes that are physically unrealistic, while models trained with synthetic sketches could not cope with the level of abstraction and style found in real sketches. To address this problem, we collected the first large-scale dataset of professional sketches, where each sketch is paired with a reference 3D shape, with a total of 1,500 professional sketches collected across 500 3D shapes. The dataset is available at http://sketchx.ai/downloads/. We introduce two bespoke designs within a deep adversarial network to tackle the imprecision of human sketches and the unique figure/ground ambiguity problem inherent to sketch-based reconstruction. We show that existing 3D shapes generation methods designed for images fail to be naively applied to our problem, and demonstrate the effectiveness of our method both qualitatively and quantitatively."
   publ_id: "2020_1"
   type: "j"
@@ -259,7 +259,7 @@ Furthermore, we introduce a dataset of 202 VR sketches for 202 3D shapes drawn f
   preview_img_link: "./Papers/3DV/Sketch3D/preview.png"
   img_width: '110px'  
   project_link: "https://github.com/ygryadit/Towards3DVRSketch"
-  bibtex_link: "./Papers/3DV/Sketch3D/luo2020towards.txt"  
+  bibtex_link: "/Papers/3DV/Sketch3D/luo2020towards.txt"  
   publ_id: "2020_2"
   abstract: "Growing free online 3D shapes collections dictated research on 3D retrieval. Active debate has however been had
 on (i) what the best input modality is to trigger retrieval,
@@ -288,7 +288,7 @@ shape retrieval due to the sparse and abstract nature of
   year: 2020  
   paper_link: "https://arxiv.org/pdf/2011.06133.pdf"
   project_link: "https://tinyurl.com/DeepSketchModeling"
-  bibtex_link: "./Papers/3DV/DeepSketch/zhong2020deep.txt"
+  bibtex_link: "/Papers/3DV/DeepSketch/zhong2020deep.txt"
   publ_id: "2020_3"
   abstract: "Deep image-based modeling received lots of attention in recent years, yet the parallel problem of sketch-based modeling has only been briefly studied, often as a potential application. In this work, for the first time, we identify the main differences between sketch and image inputs: (i) style variance, (ii) imprecise perspective, and (iii) sparsity. We discuss why each of these differences can pose a challenge, and even make a certain class of image-based methods inapplicable. We study alternative solutions to address each of the difference. By doing so, we drive out a few important insights: (i) sparsity commonly results in an incorrect prediction of foreground versus background, (ii) diversity of human styles, if not taken into account, can lead to very poor generalization properties, and finally (iii) unless a dedicated sketching interface is used, one can not expect sketches to match a perspective of a fixed viewpoint. Finally, we compare a set of representative deep single-image modeling solutions and show how their performance can be improved to tackle sketch input by taking into consideration the identified critical differences."
   type: "c"
@@ -302,7 +302,7 @@ shape retrieval due to the sparse and abstract nature of
   year: 2020  
   paper_link: "https://repo-sam.inria.fr/d3/Lift3D/Gryaditskaya_SigAsia20_Lifting%20_Freehand_Concept_Sketches_into_3D.pdf"
   project_link: "https://ns.inria.fr/d3/Lift3D"
-  bibtex_link: "./Papers/Lift3D/gryaditskaya2020lifting.txt"
+  bibtex_link: "/Papers/Lift3D/gryaditskaya2020lifting.txt"
   publ_id: "2020_5"
   abstract: "We present the first algorithm capable of automatically lifting real-world, vector-format, industrial design sketches into 3D. Targeting real-world sketches raises numerous challenges due to inaccuracies, use of overdrawn strokes, and construction lines. In particular, while construction lines convey important 3D information, they add significant clutter and introduce multiple accidental 2D intersections. Our algorithm exploits the geometric cues
 provided by the construction lines and lifts them to 3D by computing their
@@ -329,7 +329,7 @@ including novel view synthesis and 3D-aware scaling of the depicted shape."
   year: 2020  
   paper_link: "https://dl.acm.org/doi/pdf/10.1145/3414685.3417840"
   project_link: "http://sketchx.ai/pixelor"
-  bibtex_link: "./Papers/Pixelor/bhunia2020pixelor.txt"
+  bibtex_link: "/Papers/Pixelor/bhunia2020pixelor.txt"
   abstract: "We present the first competitive drawing agent Pixelor that exhibits humanlevel performance at a Pictionary-like sketching game, where the participant
 whose sketch is recognized first is a winner. Our AI agent can autonomously
 sketch a given visual concept, and achieve a recognizable rendition as quickly
@@ -361,7 +361,7 @@ judge. The study shows that humans do gradually improve their strategies with tr
   year: 2019  
   paper_link: "https://repo-sam.inria.fr/d3/OpenSketch/Gryaditskaya_OpenSketch_AuthorsVersion.pdf"
   project_link: "https://repo-sam.inria.fr/d3/OpenSketch/"
-  bibtex_link: "./Papers/OpenSketch/gryaditskaya2019opensketch.txt"
+  bibtex_link: "/Papers/OpenSketch/gryaditskaya2019opensketch.txt"
   abstract: "Product designers extensively use sketches to create and communicate 3D shapes and thus form an ideal audience for sketch-based modeling, non-photorealistic rendering and sketch filtering. However, sketching requires significant expertise and time, making design sketches a scarce resource for the research community. We introduce OpenSketch, a dataset of product design sketches aimed at offering a rich source of information for a variety of computer-aided design tasks. OpenSketch contains more than 400 sketches representing 12 man-made objects drawn by 7 to 15 product designers of varying expertise. We provided participants with front, side and top views of these objects, and instructed them to draw from two novel perspective viewpoints. This drawing task forces designers to construct the shape from their mental vision rather than directly copy what they see. They achieve this task by employing a variety of sketching techniques and methods not observed in prior datasets. Together with industrial design teachers, we distilled a taxonomy of line types and used it to label each stroke of the 214 sketches drawn from one of the two viewpoints. While some of these lines have long been known in computer graphics, others remain to be reproduced algorithmically or exploited for shape inference. In addition, we also asked participants to produce clean presentation drawings from each of their sketches, resulting in aligned pairs of drawings of different styles. Finally, we registered each sketch to its reference 3D model by annotating sparse correspondences. We provide an analysis of our annotated sketches, which reveals systematic drawing strategies over time and shapes, as well as a positive correlation between presence of construction lines and accuracy. Our sketches, in combination with provided annotations, form challenging benchmarks for existing algorithms as well as a great source of inspiration for future developments. We illustrate the versatility of our data by using it to test a 3D reconstruction deep network trained on synthetic drawings, as well as to train a filtering network to convert concept sketches into presentation drawings."
   publ_id: "2019_2"
   type: "j"

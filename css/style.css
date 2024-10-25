@@ -1,0 +1,193 @@
+
+
+@font-face {
+  font-family: "EBGaramond-Regular";
+  src: 	url('/EB_Garamond/static/EBGaramond-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "EBGaramond-Medium";
+	src: 	url('/EB_Garamond/static/EBGaramond-Medium.ttf') format('truetype');
+  }
+
+/* navbar start */
+
+	.navbar {
+		border-bottom: 2px solid #e0e0e0; /* Horizontal line underneath the navbar */
+		font-family: 'EBGaramond-Regular';
+	}
+
+	.nav-link {
+		color: #333; /* Text color */
+		padding-bottom: 10px;
+	}
+
+	/* Underline the active link */
+	.nav-link.active {
+		border-bottom: 2px solid grey;
+	}
+
+	.nav-link:hover {
+		color: #555;
+		text-decoration: none; /* Remove underline on hover */
+	}
+
+	.navbar-brand
+	{
+	font-family: 'EBGaramond-Regular';
+	font-size: 100%;
+	}
+
+/* navbar end */
+
+body {
+	font-family: 'EB Garamond', serif;
+	text-align: justify;
+}
+
+
+/* section {
+    padding-top: 56px;
+    margin-top: -56px;
+} */
+
+/* about start*/
+	#about {
+		padding-top: 40px;
+	}
+
+	#photo{	
+		max-width: 100%;
+		border-radius: 8px;
+	}
+
+	#info h4 {
+		font-weight: bold;
+		margin-top: 0;
+	}
+
+	#main-downloads a {
+		color: #007bff;
+		text-decoration: none;
+	}
+
+	#main-downloads a:hover {
+		text-decoration: underline;
+	}
+
+	.icon-link img {
+		width: 20px;
+		margin-right: 8px;
+	}
+
+	
+	/* Evenly spaced social links */
+	.social-links .col {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+/* about end*/
+
+#bio {
+	margin-top: 20px; /* Spacing above the Bio section */
+}
+
+
+h3
+{
+  font-family: 'EBGaramond-Regular';  
+}
+
+/* html {
+  font-size: 14px;
+} */
+
+
+/* Authors */
+
+#publications .authors a{
+	text-decoration: none;
+	color: var(--link_authors);
+}
+
+
+#publications .authors a:link{
+	text-decoration: none;
+	color: var(--link_authors);
+}
+
+#publications .authors a:visited {
+	text-decoration: none;
+	color: var(--link_authors);
+}
+
+#publications .authors a:hover {
+	text-decoration: none;
+	color: var(--link_hover);
+}
+
+
+#affiliations a:link{
+	text-decoration: none;
+	color: #8fb814;
+}
+
+#affiliations a:visited{
+	text-decoration: none;
+	color: #8fb814;
+}
+
+
+#affiliations a:active{
+	text-decoration: unederline;
+	color: #758547;
+}
+
+
+
+#affiliations a:hover{
+	text-decoration: unederline;
+	color: #758547;
+}
+
+
+
+
+
+
+#students  a{
+	text-decoration: none;
+	color: #758ca3;
+}
+
+#students  a:link{
+	text-decoration: none;
+	color: #758ca3;
+}
+
+#students  a:visited {
+	text-decoration: none;
+	color: #758ca3;
+}
+
+#students  a:hover {
+	text-decoration: none;
+	color: #758ca3;
+}
+
+button[name="abstract_btn"]
+{
+	background: none;
+	border: none;
+	padding: 0;			
+	text-decoration: none;
+	cursor: pointer;
+	color: #758ca3;
+}
+
+button[name="abstract_btn"]:hover{
+	text-decoration: underline;
+	color: #758ca3;
+}

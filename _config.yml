@@ -19,8 +19,9 @@ plugins:
 # Contact
 email: "yulia.gryaditskaya@gmail.com"
 
-
-
+collections:
+  pages:
+    output: true
 
 # Use this for production
 sass:

@@ -1,24 +1,25 @@
-<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 	<!-- Insures middle area -->
 	<!-- <div class="container d-flex justify-content-between">  -->
 		
-		<!-- <a class="navbar-brand" href="#" style="color:#e6ac00">YULIA GRYADITSKAYA</a> -->
-		<a class="navbar-brand" href="#" >Computational Creativity and Modeling Lab</a>
+		<a class="navbar-brand" href="#">DR. YULIA GRYADITSKAYA</a>
+		<!-- <a class="navbar-brand" href="{{ site.baseurl }}/" >Computational Creativity and Modeling Lab</a> -->
 		
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_main">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		
 		<div class="collapse navbar-collapse" id="navbar_main"> 
-			<ul class="navbar-nav">				
-					<li class="nav-item"><a class="nav-link" href="/#about">About</a></li>
-					<li class="nav-item"><a class="nav-item nav-link" href="#publications">Publications</a></li> 
-					<!-- <li class="nav-item"><a class="nav-item nav-link" href="/publications">Publications</a></li> -->
-					<li class="nav-item"><a class="nav-item nav-link" href="/#datasets">Released datasets</a></li>
-					<li class="nav-item"><a class="nav-item nav-link" href="/#students">Students</a></li>
-					<li class="nav-item"><a class="nav-item nav-link" href="/#activities_prof">Professional activities</a></li>
-					<li class="nav-item"><a class="nav-item nav-link" href="/#activities_ac">Academic activities</a></li>
+			<ul class="navbar-nav ml-auto">				
+					<li class="nav-item">
+						<a class="nav-link {% if page.title == 'Yulia Gryaditskaya' %}active{% endif %}" href="{{ site.baseurl }}/">About</a>
+					</li>
+					<li class="nav-item"><a class="nav-link {% if page.title == 'Publications' %}active{% endif %}" href="{{ site.baseurl }}/publications">Publications</a></li> 
+					<li class="nav-item"><a class="nav-link {% if page.title == 'Datasets' %}active{% endif %}" href="{{ site.baseurl }}/datasets">Datasets</a></li>
+					<li class="nav-item"><a class="nav-link {% if page.title == 'Students' %}active{% endif %}" href="{{ site.baseurl }}/students">Students</a></li>
+					<li class="nav-item"><a class="nav-link {% if page.title == 'Activities_Prof' %}active{% endif %}" href="{{ site.baseurl }}/activities_prof">Professional activities</a></li>
+					<li class="nav-item"><a class="nav-link {% if page.title == 'Activities_Ac' %}active{% endif %}" href="{{ site.baseurl }}/activities_academic">Academic activities</a></li>
 					<!-- <li class="nav-item"><a class="nav-item nav-link" href="#hobbies">Hobbies</a></li> -->
 			</ul>					
 		 </div> 
