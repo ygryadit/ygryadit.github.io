@@ -59,8 +59,8 @@ layout: main
     
     <p><strong>I’m also looking for strong PhD students</strong> to collaborate with for the <span style="color: red;">2025 Adobe 3-month Summer Internship Program</span>.</p>
     
-    <p>If you're interested in exploring how to <strong>add control to generative processes, specifically related to raster/vector imaging and video</strong>, please reach out!
-	Please include your research interests, your current stage in your PhD and what you’d like to work on during the internship. </p>
+    <p>If you're interested in exploring how to <strong>add control to generative processes, specifically related to raster/vector imaging, 3D, and video</strong>, please reach out!
+	Please include your research interests, your current stage in your PhD, and what you’d like to work on during the internship. </p>
     
     <p>Looking forward to hearing from you!</p>
 </section>
