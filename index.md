@@ -92,7 +92,7 @@ layout: main
 	</p>
 
 	<p>She earned her <strong>PhD in 2017</strong> from 
-		<a href="https://www.mpi-inf.mpg.de/">MPI Informatik</a>, Germany, under the guidance of 
+		<a href="https://www.mpi-inf.mpg.de/">MPI Informatics</a>, Germany, under the guidance of 
 		<a href="https://people.mpi-inf.mpg.de/~karol/">Prof. Karol Myszkowski</a> and 
 		<a href="https://scholar.google.de/citations?user=s2Ibok8AAAAJ&hl=en">Prof. Hans-Peter Seidel</a>. 
 		Her PhD research focused on <i>High Dynamic Range (HDR) imaging</i>, covering topics such as 
