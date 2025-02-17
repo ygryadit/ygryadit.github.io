@@ -15,10 +15,11 @@ layout: main
         <div class="col-sm-8 d-flex flex-column justify-content-between h-100">
             <div id="info">
                 <p><strong>Dr. Yulia Gryaditskaya</strong></p>
-                <p>Assistant Professor</p>
-                <p id="affiliations">
-                    CVSSP and 
-                    Surrey Institute for People-Centred AI, UK
+                <p>Senior Research Scientist at Adobe, UK</p>
+                <p>
+                    Visiting Academic at 
+					CVSSP and 
+					Surrey Institute for People-Centred AI, UK
                 </p>
                 <span>Email address: <script src="myaddress.js" type="text/javascript"></script></span>
             </div>
@@ -55,29 +56,65 @@ layout: main
 <section class="container mt-4">
     <h3><i class="fa fa-newspaper-o" aria-hidden="true"></i> <span style="color: red;">News</span></h3>
     
-    <p><strong>I’m excited to share that I’ll be joining Adobe Research, UK, as a Senior Research Scientist!</strong> I’m looking forward to this opportunity to impact the future of creative tools.</p>
+    <p><strong>I am looking for strong PhD students</strong> to collaborate with for the <span style="color: red;">2025 Adobe 3-month Summer Internship Program</span>.</p>
     
-    <p><strong>I’m also looking for strong PhD students</strong> to collaborate with for the <span style="color: red;">2025 Adobe 3-month Summer Internship Program</span>.</p>
-    
-    <p>If you're interested in exploring how to <strong>add control to generative processes, specifically related to raster/vector imaging, 3D, and video</strong>, please reach out!
-	Please include your research interests, your current stage in your PhD, and what you’d like to work on during the internship. </p>
+    <p>If you are interested in exploring how to <strong>add control to generative processes, specifically related to raster/vector imaging, video and 3D</strong>, please reach out!
+	Please include your research interests, your current stage in your PhD, and what you would like to work on during the internship. </p>
     
     <p>Looking forward to hearing from you!</p>
 </section>
 
 <!-- Bio Section -->
 <section id="bio" class="container mt-4">
-    <h3>Bio</h3>
-    <p>Yulia Gryaditskaya is an Assistant Professor at <a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing">CVSSP</a> and the <a href="https://www.surrey.ac.uk/artificial-intelligence">Surrey Institute for People-Centred AI</a>. She will be leaving her current role to join Adobe Research as a Senior Research Scientist in February 2025.</p>
+	<h3>Bio</h3>
+	<p>Yulia Gryaditskaya is a <strong>Senior Research Scientist</strong> at Adobe, UK.</p>
+
+	<p>Prior to that, she was an <strong>Assistant Professor</strong> (2022–2024) at the 
+		<a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing">Centre for Vision, Speech and Signal Processing (CVSSP)</a> 
+		and the <a href="https://www.surrey.ac.uk/artificial-intelligence">Surrey Institute for People-Centred AI</a>. 
+		During this time, she supervised PhD, master's, and bachelor's students and taught two modules: 
+		(1) Computer Graphics and Vision and (2) VR, AR, and the Metaverse. 
+		
+		She developed the <i>VR, AR, and the Metaverse</i> module from scratch, which is now part of the 
+		University of Surrey’s online master's program. Additionally, she earned a 
+		<i>Postgraduate Degree in Learning and Teaching in Higher Education</i>.
+		
+		She initially joined CVSSP as a <strong>Senior Research Fellow</strong> (2020–2022) on a research-only track. 
+		During her time at Surrey, she supervised and co-supervised eight PhD students in areas such as 
+		<i>sketch-based modeling and retrieval, sketch understanding, and sketch generation</i>.
+	</p>
 	
-
-
-    <p>	Before joining CVSSP, she was a postdoctoral researcher (2017-2020) at Inria, <a href="https://team.inria.fr/graphdeco/">GraphDeco</a>, under <a href="http://www-sop.inria.fr/members/Adrien.Bousseau/">Dr. Adrien Bousseau</a>, where she studied concept sketching techniques and worked on problems of sketch understanding and sketch-based modeling. She received her PhD in 2017 from <a href="https://www.mpi-inf.mpg.de/">MPI Informatik</a>, Germany, advised by <a href="https://people.mpi-inf.mpg.de/~karol/">Prof. Karol Myszkowski</a> and <a href="https://scholar.google.de/citations?user=s2Ibok8AAAAJ&hl=en">Prof. Hans-Peter Seidel</a>. Her PhD focused on High Dynamic Range (HDR) image calibration, capturing HDR video on a mobile device, tone mapping of HDR content, structured light fields, and editing materials in such light fields.</p>
-    <p>While working on her PhD, she spent half a year in the Color and HDR group at <a href="https://www.technicolor.com/contact/research-and-innovation">Technicolor R&D</a>, Rennes, France, under the guidance of <a href="http://www.erikreinhard.com/about.html">Dr. Erik Reinhard</a>. She received a degree (2007-2012) in <a href="http://www.msu.ru/en/info/struct/depts/vmc.html">Applied Mathematics and Computer Science</a> with a specialization in Operations Research and System Analysis from the Faculty of Computational Mathematics and Cybernetics at <a href="http://www.msu.ru/en/info/">Lomonosov Moscow State University</a>.
+	
+	<p>Before joining CVSSP, she was a <strong>Postdoctoral Researcher</strong> (2017–2020) at Inria, 
+		working in the <a href="https://team.inria.fr/graphdeco/">GraphDeco</a> group under the supervision of 
+		<a href="http://www-sop.inria.fr/members/Adrien.Bousseau/">Dr. Adrien Bousseau</a>. 
+		Her research focused on <i>concept sketching techniques, sketch understanding, and sketch-based modeling</i>.
 	</p>
 
-	<p>
-	Yulia’s work has been published in top graphics and vision journals and conferences: including multiple publications in ACM Transactions on Graphics, Computer Graphics Forum (CGF), IEEE Transactions on Image Processing (TIP), ACM SIGGRAPH, ECCV, ICCV, ICLR, CVPR and IEEE 3DV. She also co-authored an international patent, based on her CGF publication.
+	<p>She earned her <strong>PhD in 2017</strong> from 
+		<a href="https://www.mpi-inf.mpg.de/">MPI Informatik</a>, Germany, under the guidance of 
+		<a href="https://people.mpi-inf.mpg.de/~karol/">Prof. Karol Myszkowski</a> and 
+		<a href="https://scholar.google.de/citations?user=s2Ibok8AAAAJ&hl=en">Prof. Hans-Peter Seidel</a>. 
+		Her PhD research focused on <i>High Dynamic Range (HDR) imaging</i>, covering topics such as 
+		HDR calibration, HDR video capture on mobile devices, tone mapping, structured light fields, 
+		and material editing in such light fields.
+	</p>
+
+	<p>During her PhD, she spent six months with the <strong>Color and HDR Group</strong> at 
+		<a href="https://www.technicolor.com/contact/research-and-innovation">Technicolor R&D</a>, Rennes, France, 
+		under the mentorship of <a href="http://www.erikreinhard.com/about.html">Dr. Erik Reinhard</a>.
+	</p>
+
+	<p>She holds a degree (2007–2012) in 
+		<a href="http://www.msu.ru/en/info/struct/depts/vmc.html">Applied Mathematics and Computer Science</a> 
+		with a specialization in <strong>Operations Research and System Analysis</strong> from the 
+		<a href="http://www.msu.ru/en/info/">Lomonosov Moscow State University</a>.
+	</p>
+
+	<p>Yulia’s research has been published in top computer graphics and vision venues, 
+		including <strong>ACM Transactions on Graphics (TOG), Computer Graphics Forum (CGF), IEEE Transactions on Image Processing (TIP), 
+		ACM SIGGRAPH, ECCV, ICCV, ICLR, CVPR, and IEEE 3DV</strong>. 
+		She is also a co-author of an <strong>international patent</strong> based on her CGF publication.
 	</p>
 
 	<p>
@@ -90,7 +127,8 @@ layout: main
 		<li>Sketch-Based Modeling</li>
 		<li>Sketch-Based Image Generation</li>
 		<li>Spatial Guidance in the Generative Process</li>		
-		<li>Image Editing and Manipulation</li>
+		<li>Image/Video Editing and Manipulation</li>
+		<li>Generative AI</li>
 		<li>Semantic Understanding</li>
 	</ul>
 </section>
