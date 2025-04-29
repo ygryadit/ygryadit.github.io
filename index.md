@@ -53,15 +53,13 @@ layout: main
     </div>
 </section>
 
-<section class="container mt-4">
-    <h3><i class="fa fa-newspaper-o" aria-hidden="true"></i> <span style="color: red;">News</span></h3>
-    
-    <p><strong>I am looking for strong PhD students</strong> to collaborate with for the <span style="color: red;">2025 Adobe 3-month Summer Internship Program</span>.</p>
-    
-    <p>If you are interested in exploring how to <strong>add control to generative processes, specifically related to raster/vector imaging, video and 3D</strong>, please reach out!
-	Please include your research interests, your current stage in your PhD, and what you would like to work on during the internship. </p>
-    
-    <p>Looking forward to hearing from you!</p>
+<section class="container mt-4">  
+    <p>
+  		I am currently most interested in <strong>controllable video generation</strong>, with a focus on <em>spatial control</em> and the <em>coherent generation of storyboards and video segments</em>.
+	</p>
+	<p>
+	If you are interested in collaborations, please don’t hesitate to reach out. We are also hiring for internships — the next application cycle will be for <strong>2026</strong>.
+	</p>
 </section>
 
 <!-- Bio Section -->
