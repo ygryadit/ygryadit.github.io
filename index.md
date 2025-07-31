@@ -71,7 +71,7 @@ layout: main
 		<a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing">Centre for Vision, Speech and Signal Processing (CVSSP)</a> 
 		and the <a href="https://www.surrey.ac.uk/artificial-intelligence">Surrey Institute for People-Centred AI</a>. 
 		During this time, she supervised PhD, master's, and bachelor's students and taught two modules: 
-		(1) Computer Graphics and Vision and (2) VR, AR, and the Metaverse. 
+		(1) Computer Graphics and Vision (with labs on OpenGL) and (2) VR, AR, and the Metaverse (with labs on Unity). 
 		
 		She developed the <i>VR, AR, and the Metaverse</i> module from scratch, which is now part of the 
 		University of Surrey’s online master's program. Additionally, she earned a 
@@ -86,6 +86,8 @@ layout: main
 	<p>Before joining CVSSP, she was a <strong>Postdoctoral Researcher</strong> (2017–2020) at Inria, 
 		working in the <a href="https://team.inria.fr/graphdeco/">GraphDeco</a> group under the supervision of 
 		<a href="http://www-sop.inria.fr/members/Adrien.Bousseau/">Dr. Adrien Bousseau</a>. 
+  		During this time, she spent several weeks at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>, US, hosted by <a href="https://people.csail.mit.edu/fredo/">Prof. Fredo Durand</a>.
+		She also spent several weeks in <a href= "https://www.tudelft.nl/en/">TU Delft</a>, Netherlands, working closely with <a href="https://www.tudelft.nl/en/ide/about-ide/people/sypesteyn-m">Mark Sypesteyn</a> and <a href="https://www.tudelft.nl/io/over-io/personen/hoftijzer-jw">Jan Willem Hoftijzer</a>.
 		Her research focused on <i>concept sketching techniques, sketch understanding, and sketch-based modeling</i>.
 	</p>
 
