@@ -1,3 +1,27 @@
+- title: "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time"
+  authors: "Zhening Huang, Hyeonho Jeong, Xuelin Chen, <b>Yulia Gryaditskaya</b>, Tuanfeng Y. Wang, Joan Lasenby, Chun-Hao Huang"
+  venue: "Preprint"
+  year: 2026  
+  paper_link: "https://arxiv.org/abs/2512.25075"
+  preview_img_link: "./Papers/2026/SpaceTimePilot/preview.png"
+  img_width: '130px'
+  project_link: "https://zheninghuang.github.io/Space-Time-Pilot/"
+  bibtex_link: ""
+  abstract: "We present SpaceTimePilot, a video diffusion model that disentangles space and time for controllable generative rendering. 
+    Given a monocular video, SpaceTimePilot can independently alter the camera viewpoint and the motion sequence within the generative process, 
+    re-rendering the scene for continuous and arbitrary exploration across space and time. To achieve this, we introduce an effective animation 
+    time-embedding mechanism in the diffusion process, allowing explicit control of the output video's motion sequence with respect to that of 
+    the source video. As no datasets provide paired videos of the same dynamic scene with continuous temporal variations, we propose a simple 
+    yet effective temporal-warping training scheme that repurposes existing multi-view datasets to mimic temporal differences. This strategy 
+    effectively supervises the model to learn temporal control and achieve robust space-time disentanglement. To further enhance the precision 
+    of dual control, we introduce two additional components: an improved camera-conditioning mechanism that allows altering the camera from the 
+    first frame, and CamxTime, the first synthetic space-and-time full-coverage rendering dataset that provides fully free space-time video 
+    trajectories within a scene. Joint training on the temporal-warping scheme and the CamxTime dataset yields more precise temporal control. 
+    We evaluate SpaceTimePilot on both real-world and synthetic data, demonstrating clear space-time disentanglement and strong results compared to prior work."
+  publ_id: "2026_1"
+  type: "p"
+
+
 - title: "GroundUp: Rapid Sketch-Based 3D City Massing"
   authors: "Gizem Unlu, Mohamed Sayed, <b>Yulia Gryaditskaya</b>, Gabriel Brostow"
   venue: "ECCV"
