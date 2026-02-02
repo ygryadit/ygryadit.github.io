@@ -34,7 +34,7 @@
       As underlying models grow more powerful, researchers are exploring increasingly diverse conditioning signals—such as depth maps, edge maps, 
       camera parameters, and reference images—to give users finer control over generation. Among different modalities, sketches are a natural and long-standing 
       form of human communication, enabling rapid expression of visual concepts. Previous literature has largely focused on edge maps, often misnamed 
-      ''sketches''; however, algorithms that effectively handle true freehand sketches --- with their inherent abstraction and distortions --- remain underexplored.
+      ''sketches''; however, algorithms that effectively handle true freehand sketches-with their inherent abstraction and distortions-remain underexplored.
       We pursue the challenging goal of balancing photorealism with sketch adherence when generating images from freehand input. A key obstacle is the absence 
       of ground-truth, pixel-aligned images: by their nature, freehand sketches do not have a single correct alignment. 
       To address this, we propose a modulation-based approach that prioritizes semantic interpretation of the sketch over strict adherence to individual edge positions. 
