@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: "EBGaramond-Regular";
-  src: 	url('/EB_Garamond/static/EBGaramond-Regular.ttf') format('truetype');
+  src: 	url('/fonts/EB_Garamond/static/EBGaramond-Regular.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: "EBGaramond-Medium";
-	src: 	url('/EB_Garamond/static/EBGaramond-Medium.ttf') format('truetype');
+	src: 	url('/fonts/EB_Garamond/static/EBGaramond-Medium.ttf') format('truetype');
   }
 
 /* navbar start */
