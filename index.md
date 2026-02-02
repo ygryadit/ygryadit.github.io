@@ -26,10 +26,10 @@ layout: main
 
             <!-- Social Links Section -->
             <div id="main-downloads">
-                <div>
+                <!-- <div>
                     <img src="img/icons/pdfIcon.png" style="width:25px;" /> <a href="Gryaditskaya_cv.pdf">Curriculum Vitae (108 KB)</a>
                 </div>
-                
+                 -->
                 <br>
                 <div class="row justify-content-between">
                     <div class="col text-center">
