@@ -1,0 +1,9 @@
+@inproceedings{gryaditskaya2015motion,
+  title={Motion aware exposure bracketing for HDR video},
+  author={Gryaditskaya, Yulia and Pouli, Tania and Reinhard, Erik and Myszkowski, Karol and Seidel, Hans-Peter},
+  booktitle={Computer Graphics Forum},
+  volume={34},
+  number={4},
+  pages={119--130},
+  year={2015}
+}

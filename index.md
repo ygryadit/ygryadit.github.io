@@ -62,75 +62,174 @@ layout: main
 	</p>
 </section>
 
+	
+
 <!-- Bio Section -->
 <section id="bio" class="container mt-4">
-	<h3>Bio</h3>
-	<p>Yulia Gryaditskaya is a <strong>Senior Research Scientist</strong> at Adobe, UK.</p>
-
-	<p>Prior to that, she was an <strong>Assistant Professor</strong> (2022–2024) at the 
-		<a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing">Centre for Vision, Speech and Signal Processing (CVSSP)</a> 
-		and the <a href="https://www.surrey.ac.uk/artificial-intelligence">Surrey Institute for People-Centred AI</a>. 
-		During this time, she supervised PhD, master's, and bachelor's students and taught two modules: 
-		(1) Computer Graphics and Vision (with labs on OpenGL) and (2) VR, AR, and the Metaverse (with labs on Unity). 
-		
-		She developed the <i>VR, AR, and the Metaverse</i> module from scratch, which is now part of the 
-		University of Surrey’s online master's program. Additionally, she earned a 
-		<i>Postgraduate Degree in Learning and Teaching in Higher Education</i>.
-		
-		She initially joined CVSSP as a <strong>Senior Research Fellow</strong> (2020–2022) on a research-only track. 
-		During her time at Surrey, she supervised and co-supervised eight PhD students in areas such as 
-		<i>sketch-based modeling and retrieval, sketch understanding, and sketch generation</i>.
-	</p>
-	
-	
-	<p>Before joining CVSSP, she was a <strong>Postdoctoral Researcher</strong> (2017–2020) at Inria, 
-		working in the <a href="https://team.inria.fr/graphdeco/">GraphDeco</a> group under the supervision of 
-		<a href="http://www-sop.inria.fr/members/Adrien.Bousseau/">Dr. Adrien Bousseau</a>. 
-  		During this time, she spent several weeks at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>, US, hosted by <a href="https://people.csail.mit.edu/fredo/">Prof. Fredo Durand</a>.
-		She also spent several weeks in <a href= "https://www.tudelft.nl/en/">TU Delft</a>, Netherlands, working closely with <a href="https://www.tudelft.nl/en/ide/about-ide/people/sypesteyn-m">Mark Sypesteyn</a> and <a href="https://www.tudelft.nl/io/over-io/personen/hoftijzer-jw">Jan Willem Hoftijzer</a>.
-		Her research focused on <i>concept sketching techniques, sketch understanding, and sketch-based modeling</i>.
-	</p>
-
-	<p>She earned her <strong>PhD in 2017</strong> from 
-		<a href="https://www.mpi-inf.mpg.de/">MPI Informatics</a>, Germany, under the guidance of 
-		<a href="https://people.mpi-inf.mpg.de/~karol/">Prof. Karol Myszkowski</a> and 
-		<a href="https://scholar.google.de/citations?user=s2Ibok8AAAAJ&hl=en">Prof. Hans-Peter Seidel</a>. 
-		Her PhD research focused on <i>High Dynamic Range (HDR) imaging</i>, covering topics such as 
-		HDR calibration, HDR video capture on mobile devices, tone mapping, structured light fields, 
-		and material editing in such light fields.
-	</p>
-
-	<p>During her PhD, she spent six months with the <strong>Color and HDR Group</strong> at 
-		<a href="https://www.technicolor.com/contact/research-and-innovation">Technicolor R&D</a>, Rennes, France, 
-		under the mentorship of <a href="http://www.erikreinhard.com/about.html">Dr. Erik Reinhard</a>.
-	</p>
-
-	<p>She holds a degree (2007–2012) in 
-		<a href="http://www.msu.ru/en/info/struct/depts/vmc.html">Applied Mathematics and Computer Science</a> 
-		with a specialization in <strong>Operations Research and System Analysis</strong> from the 
-		<a href="http://www.msu.ru/en/info/">Lomonosov Moscow State University</a>.
-	</p>
-
-	<p>Yulia’s research has been published in top computer graphics and vision venues, 
-		including <strong>ACM Transactions on Graphics (TOG), Computer Graphics Forum (CGF), IEEE Transactions on Image Processing (TIP), 
-		ACM SIGGRAPH, ECCV, ICCV, ICLR, CVPR, and IEEE 3DV</strong>. 
-		She is also a co-author of an <strong>international patent</strong> based on her CGF publication.
-	</p>
-
-	<p>
-		<a href="https://www.rsipvision.com/ICCV2021-Friday/20/"> Interview at ICCV Daily </a>
-	</p>
 
 	<h3>Research Interests</h3>
-	<p>Yulia's main research interests lie in controllable 2D and 3D generative AI, focusing on the intersection of creativity and technology.</p>
-	<ul>
-		<li>Sketch-Based Modeling</li>
-		<li>Sketch-Based Image Generation</li>
-		<li>Spatial Guidance in the Generative Process</li>		
-		<li>Image/Video Editing and Manipulation</li>
-		<li>Generative AI</li>
-		<li>Semantic Understanding</li>
-	</ul>
+		<p>Yulia's main research interests lie in controllable 2D and 3D generative AI, focusing on the intersection of creativity and technology.</p>
+		<ul>
+			<li>Sketch-Based Modeling</li>
+			<li>Sketch-Based Image Generation</li>
+			<li>Spatial Guidance in the Generative Process</li>		
+			<li>Image/Video Editing and Manipulation</li>
+			<li>Generative AI</li>
+			<li>Semantic Understanding</li>
+		</ul>
+
+	<h3>Bio</h3>
+		<p>Yulia Gryaditskaya is a <strong>Senior Research Scientist</strong> at Adobe, UK.</p>
+
+		<p>Prior to that, she was an <strong>Assistant Professor</strong> (2022–2024) at the 
+			<a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing">Centre for Vision, Speech and Signal Processing (CVSSP)</a> 
+			and the <a href="https://www.surrey.ac.uk/artificial-intelligence">Surrey Institute for People-Centred AI</a>. 
+			During this time, she supervised PhD, master's, and bachelor's students and taught two modules: 
+			(1) Computer Graphics and Vision (with labs on OpenGL) and (2) VR, AR, and the Metaverse (with labs on Unity). 
+			
+			She developed the <i>VR, AR, and the Metaverse</i> module from scratch, which is now part of the 
+			University of Surrey’s online master's program. Additionally, she earned a 
+			<i>Postgraduate Degree in Learning and Teaching in Higher Education</i>.
+			
+			She initially joined CVSSP as a <strong>Senior Research Fellow</strong> (2020–2022) on a research-only track. 
+			During her time at Surrey, she supervised and co-supervised eight PhD students in areas such as 
+			<i>sketch-based modeling and retrieval, sketch understanding, and sketch generation</i>.
+		</p>
+		
+	
+		<p>Before joining CVSSP, she was a <strong>Postdoctoral Researcher</strong> (2017–2020) at Inria, 
+			working in the <a href="https://team.inria.fr/graphdeco/">GraphDeco</a> group under the supervision of 
+			<a href="http://www-sop.inria.fr/members/Adrien.Bousseau/">Dr. Adrien Bousseau</a>. 
+			During this time, she spent several weeks at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>, US, hosted by <a href="https://people.csail.mit.edu/fredo/">Prof. Fredo Durand</a>.
+			She also spent several weeks in <a href= "https://www.tudelft.nl/en/">TU Delft</a>, Netherlands, working closely with <a href="https://www.tudelft.nl/en/ide/about-ide/people/sypesteyn-m">Mark Sypesteyn</a> and <a href="https://www.tudelft.nl/io/over-io/personen/hoftijzer-jw">Jan Willem Hoftijzer</a>.
+			Her research focused on <i>concept sketching techniques, sketch understanding, and sketch-based modeling</i>.
+		</p>
+
+		<p>She earned her <strong>PhD in 2017</strong> from 
+			<a href="https://www.mpi-inf.mpg.de/">MPI Informatics</a>, Germany, under the guidance of 
+			<a href="https://people.mpi-inf.mpg.de/~karol/">Prof. Karol Myszkowski</a> and 
+			<a href="https://scholar.google.de/citations?user=s2Ibok8AAAAJ&hl=en">Prof. Hans-Peter Seidel</a>. 
+			Her PhD research focused on <i>High Dynamic Range (HDR) imaging</i>, covering topics such as 
+			HDR calibration, HDR video capture on mobile devices, tone mapping, structured light fields, 
+			and material editing in such light fields.
+		</p>
+
+		<p>During her PhD, she spent six months with the <strong>Color and HDR Group</strong> at 
+			<a href="https://www.technicolor.com/contact/research-and-innovation">Technicolor R&D</a>, Rennes, France, 
+			under the mentorship of <a href="http://www.erikreinhard.com/about.html">Dr. Erik Reinhard</a>.
+		</p>
+
+		<p>She holds a degree (2007–2012) in 
+			<a href="http://www.msu.ru/en/info/struct/depts/vmc.html">Applied Mathematics and Computer Science</a> 
+			with a specialization in <strong>Operations Research and System Analysis</strong> from the 
+			<a href="http://www.msu.ru/en/info/">Lomonosov Moscow State University</a>.
+		</p>
+
+		<p>Yulia’s research has been published in top computer graphics and vision venues, 
+			including <strong>ACM Transactions on Graphics (TOG), Computer Graphics Forum (CGF), IEEE Transactions on Image Processing (TIP), 
+			ACM SIGGRAPH, ECCV, ICCV, ICLR, CVPR, and IEEE 3DV</strong>. 
+			She is also a co-author of an <strong>international patent</strong> based on her CGF publication.
+		</p>
+
+		<p>
+			<a href="https://www.rsipvision.com/ICCV2021-Friday/20/"> Interview at ICCV Daily </a>
+		</p>
+
+
+</section>
+
+<section class="timeline">
+  <h3>Employment</h3> <!-- flush with other h3 in your page -->
+
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <div class="timeline-content">
+      <span class="timeline-date">02/2025 – Present</span>
+      <h4>Senior Research Scientist</h4>
+      <h5>Adobe, London, UK</h5>
+	  	<ul>
+			<li>Research and development in controllable video, image, and vector graphics generation</li>
+			<li>Supervision of interns</li>
+		</ul>	
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <div class="timeline-content">
+      <span class="timeline-date">02/2022 – 11/2024</span>
+      <h4>Lecturer in AI</h4>
+      <h5>CVSSP & Surrey Institute for People-Centred AI, Surrey, UK</h5>
+      <ul>
+        <li>Research in sketch-based image generation, 3D shape generation & retrieval</li>
+        <li>Publications at ICCV, CVPR, ECCV, ICLR, SIGGRAPH, 3DV, Eurographics, IEEE TIP</li>
+        <li>Released datasets for scene sketches and pixel-level segmentation</li>
+        <li>Advised PhD, MSc, and undergraduate students</li>
+        <li>Developed and taught “VR/AR and Metaverse” and “Computer Vision and Graphics”</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <div class="timeline-content">
+      <span class="timeline-date">02/2020 – 01/2022</span>
+      <h4>Senior Research Fellow</h4>
+      <h5>CVSSP, Surrey, UK</h5>
+      <ul>
+        <li>Research in 3D shape generation, retrieval, and sketch understanding</li>
+        <li>Publications at SIGGRAPH, SIGGRAPH Asia, 3DV, IEEE TIP, TCSVT</li>
+        <li>Released multiple sketch–3D datasets</li>
+        <li>Co-advised 4 PhD and 3 MSc students</li>
+        <li>Implemented research in Python, C++, PyTorch, MATLAB</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <div class="timeline-content">
+      <span class="timeline-date">02/2017 – 01/2020</span>
+      <h4>Postdoctoral Researcher</h4>
+      <h5>Inria,  Sophia Antipolis, France</h5>
+      <p><strong>Advisor:</strong> Dr. Adrien Bousseau</p>
+      <ul>
+        <li>Concept sketch understanding, 3D generation & NPR rendering</li>
+        <li>First-author SIGGRAPH Asia publications (2019, 2020)</li>
+        <li>Released OpenSketch industrial design dataset</li>
+        <li>Co-advised 3 MSc students</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <div class="timeline-content">
+      <span class="timeline-date">04/2014 – 09/2014</span>
+      <h4>Research Intern</h4>
+      <h5>Technicolor R&D, Rennes, France</h5>
+      <p><strong>Advisor:</strong> Dr. Erik Reinhard</p>
+      <ul>
+        <li>HDR video capture on mobile devices</li>
+        <li>Publication at Computer Graphics Forum & international patent</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-dot"></div>
+    <div class="timeline-content">
+      <span class="timeline-date">11/2012 – 12/2016</span>
+      <h4>PhD Candidate</h4>
+      <h5>Max Planck Institute for Informatics, Saarbrücken, Germany</h5>
+      <p><strong>Advisors:</strong> Dr. Erik Reinhard, Prof. Karol Myszkowski, Prof. Hans-Peter Seidel</p>
+      <ul>
+        <li>HDR imaging, video capture, materials editing</li>
+        <li>Publications at CGF (EGSR, PG) & VMV</li>
+        <li>Released calibrated HDR image dataset</li>
+      </ul>
+    </div>
+  </div>
 </section>
 
 <!-- <hr>

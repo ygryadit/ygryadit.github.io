@@ -1,0 +1,685 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>sky based light metering for high dynamic range images</title>
+<!-- TemplateEndEditable -->
+
+<link rel="SHORTCUT ICON" href="http://www.mpii.mpg.de/favicon.ico"/>
+<link rel="stylesheet" type="text/css" media="screen" href="mpii.css"/>
+<link rel="stylesheet" type="text/css" media="print" href="http://www.mpii.mpg.de/c/print.css"/>
+
+<!-- TemplateBeginEditable name="head" -->
+<style type="text/css" media="screen">
+a#n4-departments, a:link#n1-departments, a:visited#n1-departments {color: #fff;}
+a#n2-departments, a:link#n2-departments, a:visited#n2-departments {background: rgb(80%,85%,90%);}
+a#d4-homepage, a:link#d4-homepage, a:visited#d4-homepage {background: rgb(80%,85%,90%);}
+a#d4-people, a:link#d4-people, a:visited#d4-people {background: rgb(80%,85%,90%);}
+li.hps {margin-top:10px;}
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover{color: red;}
+.excelIcon {background-image:url(../../img/icons/excelIcon.png); width: 38px; height: 38px;}
+</style>
+<!-- TemplateEndEditable -->
+
+</head>
+
+<body>
+<center>
+
+<div id="head2o2">
+	<div id="mpiitext">max planck institut informatik</div>
+	<img id="mpiilogo" src="http://people.mpi-inf.mpg.de/g/mpii.jpg" alt="mpii" usemap="#Map" width="300" height="100"/>
+	<map name="Map" id="Map">
+		<area shape="rect" coords="97,14,296,70" href="/" alt="mpii logo" />
+		<area shape="circle" coords="41,49,40" href="http://www.mpg.de/" alt="Minerva of the Max Planck Society" />
+	</map>
+</div>
+	
+<div id="headerspacer"></div>
+
+<div id="">
+<div id="col2o2content">
+
+
+<center>
+
+<h1 id="PG14">
+	<b>Sky Based Light Metering for High Dynamic Range Images</b><br/>
+	<a href="http://graphics.ewha.ac.kr/PG14/">&#64; 22nd Pacific Conference on Computer Graphics and Applications (Pacific
+	Graphics 2014)</a>
+</h1>
+<br/>
+<h3>
+	<a href="http://people.mpi-inf.mpg.de/~jgryadit/">Yulia Gryaditskaya<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="http://taniapouli.co.uk/index.html">Tania Pouli<sup>2</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="http://www.erikreinhard.com/about.html">Erik Reinhard<sup>2</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="http://people.mpi-inf.mpg.de/~hpseidel/">Hans-Peter Seidel<sup>1</sup></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<br/>
+	<sup>1</sup>MPI Informatik&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<sup>2</sup>Technicolor R&D &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</h3>
+
+<div style="width:900px; margin-top:20px; padding:0px; text-align:justify;">
+	<img style="float:none; margin:0px; margin-top:5px; margin-bottom:15px; max-width:100%; max-height:100%;" src="teaser.png" alt="2014"/>
+	<br/>
+	<span style="font-style:italic">
+	Our algorithm employs sky models to estimate a scaling that can convert images to absolute luminance values. (a) We detect and
+segment sky pixels, which are (b) analysed to determine properties of the
+sky dome and camera parameters. (c) By scaling the image with our
+estimation, we obtain absolute radiometric values, allowing images to be processed by appearance models such as <a href="http://dl.acm.org/citation.cfm?id=2366220">Reinhard et al. 2012.</a> (d) 
+The same processing was applied to the
+image after scaling it with the ground truth scale factor. (e) The CIE &#916E94 differences between (c) and (d) indicate good correspondence between our
+estimate and the ground truth.
+	</span>
+</div>
+
+<br/>
+<br/>
+
+</center>
+
+<h1>Abstract</h1>
+<p style="padding:10.0px 20.0px 10.0px 20.0px; text-align:justify;">
+Image calibration requires both linearization of pixel values and scaling so
+that values in the image correspond to real-world luminances. In this paper we
+focus on the latter and rather than rely on camera characterization, we
+calibrate images by analysing their content and metadata, obviating the need for
+expensive measuring devices or modeling of lens and camera combinations. Our
+analysis correlates sky pixel values to luminances that would be
+expected based on geographical metadata. Combined with high dynamic range (HDR)
+imaging, which gives us linear pixel data, our algorithm allows us to find
+absolute luminance values for each pixel - effectively turning digital cameras
+into absolute light meters. To validate our algorithm we have collected and
+annotated a calibrated set of HDR images and compared our estimation with
+several other approaches, showing that our approach is able to more accurately
+recover absolute luminance. We discuss various applications and demonstrate the utility of our method in the
+context of calibrated color appearance reproduction and lighting design.
+</p>
+
+<h1 id="downloads">Downloads</h1>
+<br/>
+
+
+<table align="center">
+	<tr>
+		<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="LM.pdf"><img src="../../img/icons/pdfIcon.png" width="40px" alt="2014"/></a></td>
+		<td style="vertical-align:middle; padding:0px;"><a href="LM.pdf"><b>Paper<br/>(9 MB)</b></a></td>
+		
+		<td style="width:30px;"></td>
+		
+		<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="LM_Supp.pdf"><img src="../../img/icons/pdfIcon.png" width="40px" alt="2014"/></a></td>
+		<td style="vertical-align:middle; padding:0px;"><a href="LM_Supp.pdf">Supplemental<br/>(3 MB)</a></td>
+		
+		<td style="width:30px;"></td>
+		
+		<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="https://drive.google.com/file/d/12qovT3CuJIVHVdM2wtA4RXi62-4sVoDO/view?usp=sharing><img src="../../img/icons/zipIcon.png" alt="2014"/></a></td>
+		<td style="vertical-align:middle; padding:0px;"><a href="https://drive.google.com/file/d/12qovT3CuJIVHVdM2wtA4RXi62-4sVoDO/view?usp=sharing">Calibrated HDR Images<br/>(399 MB)</a></td>
+		
+	</tr>
+</table>
+<br/>
+
+
+
+<h1>Calibrated HDR Images</h1>
+<br/>
+<p style="padding:10.0px 20.0px 10.0px 20.0px; text-align:justify;">
+Our HDR dataset was photographed with a tripod-mounted Nikon D2h
+digital SLR camera, which acquires up to 9 images each spaced 1 EV
+apart, using autobracketing. The white point was set to a fixed 6700K
+(nearest to D65 that this camera supports) and the exposures were
+saved in the sRGB color space. Images were assembled into linear HDRs
+using Greg Ward's Photosphere application, which we have also used to
+derive the response curve of the Nikon D2h. We placed both an 18%
+grey card and a GretagMacbeth color checker in each scene for
+calibration. To scale the HDR images to absolute values, measurements of Yxy 
+components of the grey card and several patches from the ColorChecker were taken with a Minolta CS100
+color and luminance meter. We also
+transformed the images to the D65 white point, as per the sRGB
+standard. 
+</p>
+
+<div style="text-align:center;">
+	<span>
+	<b>&mdash;&mdash;&mdash;&mdash;&mdash;&nbsp;&nbsp; Images with Clear Skies &nbsp;&nbsp;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</b>
+	</span>
+</div>
+<br/>
+	<table>
+			
+		<tr class="Images">
+			<td><img style="width:200px; padding:0px 0px 7px 7px;" src="OurImagesDatabase/ClearSky/11/11_tonemapped.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\11\11.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\11\11.exr">HDR image<br/>(13 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\11\11.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\11\11.ods">Data<br/>(6 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+			
+			<td><img style="width:200px; padding:0px 0px 7px 27px;" src="OurImagesDatabase/ClearSky/12/12_tonemapped.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\12\12.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\12\12.exr">HDR image<br/>(12.5 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\12\12.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\12\12.ods">Data<br/>(6 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+		</tr>
+		
+		<tr>	
+			<td><img style="width:200px; padding:0px 0px 7px 7px;" src="OurImagesDatabase/ClearSky/13/13_tonemapped.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\13\13.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\13\13.exr">HDR image<br/>(13.5 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\13\13.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\13\13.ods">Data<br/>(6 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+			
+			<td><img style="width:200px; padding:0px 0px 7px 27px;" src="OurImagesDatabase/ClearSky/14/14.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\14\14.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\14\14.exr">HDR image<br/>(13 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\14\14.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\14\14.ods">Data<br/>(6 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+		</tr>
+		<tr>	
+			<td><img style="width:200px; padding:0px 0px 7px 7px;" src="OurImagesDatabase/ClearSky/15/15.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\15\15.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\15\15.exr">HDR image<br/>(14.2 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\15\15.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\15\15.ods">Data<br/>(6 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+			
+			<td><img style="width:200px; padding:0px 0px 7px 27px;" src="OurImagesDatabase/ClearSky/16/16.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\16\16.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\16\16.exr">HDR image<br/>(13.6 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\16\16.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\16\16.ods">Data<br/>(6 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+		</tr>	
+		
+		<tr>	
+			<td><img style="width:200px; padding:0px 0px 7px 7px;" src="OurImagesDatabase/ClearSky/17/17.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\17\17.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\17\17.exr">HDR image<br/>(12.8 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\17\17.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\17\17.ods">Data<br/>(6 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+			
+			<td><img style="width:200px; padding:0px 0px 7px 27px;" src="OurImagesDatabase/ClearSky/18/18.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\18\18.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\18\18.exr">HDR image<br/>(12.7 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\18\18.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\18\18.ods">Data<br/>(6 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+		</tr>	
+		
+		<tr>	
+			<td><img style="width:200px; padding:0px 0px 7px 7px;" src="OurImagesDatabase/ClearSky/19/19.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\19\19.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\19\19.exr">HDR image<br/>(13.5 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\19\19.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\19\19.ods">Data<br/>(6 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+			
+			<td><img style="width:200px; padding:0px 0px 7px 27px;" src="OurImagesDatabase/ClearSky/20/20.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\20\20.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\20\20.exr">HDR image<br/>(13.3 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\20\20.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\20\20.ods">Data<br/>(6 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+		</tr>	
+		
+		<tr>	
+			<td><img style="width:200px; padding:0px 0px 7px 7px;" src="OurImagesDatabase/ClearSky/21/21.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\21\21.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\21\21.exr">HDR image<br/>(13.6 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\21\21.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\21\21.ods">Data<br/>(7 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+			
+			<td><img style="width:200px; padding:0px 0px 7px 27px;" src="OurImagesDatabase/ClearSky/22/22.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\22\22.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\22\22.exr">HDR image<br/>(13.6 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\22\22.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\22\22.ods">Data<br/>(6 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+		</tr>	
+		
+		<tr>	
+			<td><img style="width:200px; padding:0px 0px 7px 7px;" src="OurImagesDatabase/ClearSky/23/23.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\23\23.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\23\23.exr">HDR image<br/>(14.2 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\23\23.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\23\23.ods">Data<br/>(6 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+			
+			<td><img style="width:200px; padding:0px 0px 7px 27px;" src="OurImagesDatabase/ClearSky/24/24.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\24\24.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\24\24.exr">HDR image<br/>(13.7 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\24\24.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\24\24.ods">Data<br/>(7 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+		</tr>	
+		
+		<tr>	
+			<td><img style="width:200px; padding:0px 0px 7px 7px;" src="OurImagesDatabase/ClearSky/25/25.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\25\25.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\25\25.exr">HDR image<br/>(13.6 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\25\25.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\25\25.ods">Data<br/>(7 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+			
+			<td><img style="width:200px; padding:0px 0px 7px 27px;" src="OurImagesDatabase/ClearSky/26/26.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\26\26.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\26\26.exr">HDR image<br/>(13 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\26\26.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\26\26.ods">Data<br/>(6 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+		</tr>	
+		
+		<tr>	
+			<td><img style="width:200px; padding:0px 0px 7px 7px;" src="OurImagesDatabase/ClearSky/27/27.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\27\27.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\27\27.exr">HDR image<br/>(14.2 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\27\27.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\27\27.ods">Data<br/>(6 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+			
+			<td><img style="width:200px; padding:0px 0px 7px 27px;" src="OurImagesDatabase/ClearSky/28/28.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\28\28.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\28\28.exr">HDR image<br/>(13.1 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\28\28.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\28\28.ods">Data<br/>(6 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+		</tr>	
+		
+		<tr>	
+			<td><img style="width:200px; padding:0px 0px 7px 7px;" src="OurImagesDatabase/ClearSky/29/29.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\29\29.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\29\29.exr">HDR image<br/>(14 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\29\29.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\29\29.ods">Data<br/>(6 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+			
+			<td><img style="width:200px; padding:0px 0px 7px 27px;" src="OurImagesDatabase/ClearSky/30/30.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\30\30.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\30\30.exr">HDR image<br/>(12.8 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\ClearSky\30\30.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\ClearSky\30\30.ods">Data<br/>(6 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+		</tr>	
+		
+		<!--<tr>
+			<table><tr>
+			<td style="vertical-align:middle; padding:7px 7px 7px 10px;"> More is coming soon... </td>
+			</tr></table>
+		</tr>-->
+	</table>
+<br/>
+<br/>
+<div style="text-align:center;">
+	<span>
+	<b>&mdash;&mdash;&mdash;&mdash;&mdash;&nbsp;&nbsp; Images with Overcast Skies &nbsp;&nbsp;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</b>
+	</span>
+</div>
+
+<table>
+			
+		<tr class="Images">
+			<td><img style="width:200px; padding:0px 0px 7px 7px;" src="OurImagesDatabase\OvercastSky\Overcast1\Overcast1.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\OvercastSky\Overcast1\Overcast1.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\OvercastSky\Overcast1\Overcast1.exr">HDR image<br/>(13.3 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\OvercastSky\Overcast1\Overcast1.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\OvercastSky\Overcast1\Overcast1.ods">Data<br/>(5 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+			
+			<td><img style="width:200px; padding:0px 0px 7px 27px;" src="OurImagesDatabase\OvercastSky\Overcast2\Overcast2.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\OvercastSky\Overcast2\Overcast2.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\OvercastSky\Overcast2\Overcast2.exr">HDR image<br/>(13.4 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\OvercastSky\Overcast2\Overcast2.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\OvercastSky\Overcast2\Overcast2.ods">Data<br/>(5 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+		</tr>
+		
+		<tr class="Images">
+			<td><img style="width:200px; padding:0px 0px 7px 7px;" src="OurImagesDatabase\OvercastSky\Overcast3\Overcast3.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\OvercastSky\Overcast3\Overcast3.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\OvercastSky\Overcast3\Overcast3.exr">HDR image<br/>(13.1 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\OvercastSky\Overcast3\Overcast3.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\OvercastSky\Overcast3\Overcast3.ods">Data<br/>(5 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+			
+			<td><img style="width:200px; padding:0px 0px 7px 27px;" src="OurImagesDatabase\OvercastSky\Overcast4\Overcast4.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\OvercastSky\Overcast4\Overcast4.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\OvercastSky\Overcast4\Overcast4.exr">HDR image<br/>(14 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\OvercastSky\Overcast4\Overcast4.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\OvercastSky\Overcast4\Overcast4.ods">Data<br/>(5 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+		</tr>
+		
+		<tr class="Images">
+			<td><img style="width:200px; padding:0px 0px 7px 7px;" src="OurImagesDatabase\OvercastSky\Overcast5\Overcast5.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\OvercastSky\Overcast5\Overcast5.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\OvercastSky\Overcast5\Overcast5.exr">HDR image<br/>(13.2 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\OvercastSky\Overcast5\Overcast5.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\OvercastSky\Overcast5\Overcast5.ods">Data<br/>(5 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+			
+			<td><img style="width:200px; padding:0px 0px 7px 27px;" src="OurImagesDatabase\OvercastSky\Overcast6\Overcast6.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\OvercastSky\Overcast6\Overcast6.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\OvercastSky\Overcast6\Overcast6.exr">HDR image<br/>(12 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\OvercastSky\Overcast6\Overcast6.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\OvercastSky\Overcast6\Overcast6.ods">Data<br/>(5 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+		</tr>
+		
+		<tr class="Images">
+			<td><img style="width:200px; padding:0px 0px 7px 7px;" src="OurImagesDatabase\OvercastSky\Overcast7\Overcast7.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\OvercastSky\Overcast7\Overcast7.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\OvercastSky\Overcast7\Overcast7.exr">HDR image<br/>(12.9 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\OvercastSky\Overcast7\Overcast7.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\OvercastSky\Overcast7\Overcast7.ods">Data<br/>(5 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+			
+			<td><img style="width:200px; padding:0px 0px 7px 27px;" src="OurImagesDatabase\OvercastSky\Overcast8\Overcast8.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\OvercastSky\Overcast8\Overcast8.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\OvercastSky\Overcast8\Overcast8.exr">HDR image<br/>(14 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\OvercastSky\Overcast8\Overcast8.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\OvercastSky\Overcast8\Overcast8.ods">Data<br/>(5 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+		</tr>
+		
+		<tr class="Images">
+			<td><img style="width:200px; padding:0px 0px 7px 7px;" src="OurImagesDatabase\OvercastSky\Overcast9\Overcast9.png" alt="2014"/></td>
+			<td>
+				<table><tr>
+					<!--<td class="homeIcon"></td>
+					<td class="publicationLinkText"><a href="Papers/SpectralDifferentials/index.html#vmv2014">Homepage</a></td>
+					-->
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\OvercastSky\Overcast9\Overcast9.exr"><img src="../../img/icons/hdrImgIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\OvercastSky\Overcast9\Overcast9.exr">HDR image<br/>(13.6 MB)</a></td>
+					
+					<td style="vertical-align:middle; padding:0px 0px 7px 0px;"><a href="OurImagesDatabase\OvercastSky\Overcast9\Overcast9.ods"><img src="../../img/icons/excelIcon.png" alt="2014"/></a></td>
+					<td style="vertical-align:middle; padding:0px;"><a href="OurImagesDatabase\OvercastSky\Overcast9\Overcast9.ods">Data<br/>(5 KB)</a></td>
+				<td></td>
+				</tr></table>
+			</td>
+		</tr>
+	</table>
+</br>
+<h1>Citation</h1>
+<div style = "padding:0px 0px 0px 0px;">
+	<table><tr>
+		<td><img src="rep_img_sm.png" height="80px" alt="2014"/></td>
+		<td>
+		<i>Yulia Gryaditskaya, Tania Pouli, Erik Reinhard, Hans-Peter Seidel</i><br/>
+		<b>Sky Based Light Metering for High Dynamic Range Images</b><br/>
+		Computer Graphics Forum (Proc. Pacific Graphics), 2014<br/>
+		
+		</td>
+	</tr></table>
+	<div style = "padding: 0px 0px 0px 30px;">
+	<pre>
+<code>@ARTICLE{CGF:Gryad:14,
+  author = {Gryaditskaya, Yulia and Pouli, Tania and Reinhard, Erik and Seidel,
+	Hans-Peter},
+  title = {Sky Based Light Metering for High Dynamic Range Images},
+  journal = {Computer Graphics Forum (Proc. Pacific Graphics)},
+  year = {2014},
+  volume = {33},
+  pages = {61--69},
+  number = {7},
+  address = {Oxford, UK},
+  booktitle = {22nd Pacific Conference on Computer Graphics and Applications (Pacific
+	Graphics 2014)},
+  date = {2014},
+  doi = {10.1111/cgf.12474},
+  issn = {1467-8659},
+  publisher = {Wiley-Blackwell},
+  url = {http://people.mpi-inf.mpg.de/~jgryadit/Papers/LightMetering/}
+}
+</code>
+	</pre>
+	</div>
+</div>
+
+
+	
+<div id="footer">Copyright 2014 by <a href="/" title="Home Page of the Max-Planck-Institute Informatik">Max-Planck-Institut&nbsp;Informatik</a> | <a href="/impressum.html" title="Impressum and legal notices, Umsatzsteuer ID, Swift Code, BIC">Impressum</a><br />
+<!-- hhmts start -->Last modified:<!-- hhmts end -->
+<!--#echo var="LAST_MODIFIED" -->
+</div>
+
+</div>
+</div>
+
+</center>
+
+</body>
+</html>

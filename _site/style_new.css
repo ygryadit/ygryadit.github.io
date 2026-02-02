@@ -1,0 +1,407 @@
+:root {  
+  --paper_title: #0099cc;
+  --paper_title_hover: #33ccff;
+  --link_hover: #33ccff;
+  --link_authors: #000000;
+  --link_data: #8c8c8c;
+  --datasets_title: #0099cc;
+}
+
+#main-downloads{
+	margin-top: 2em;
+}
+
+a,body,h1,h2,h3,table,td,th,p {
+	color:#14140f;
+	/* font-size:14px; */
+	margin:0;
+	padding:0;
+}
+
+h1,table,td ,th {
+	text-align:center;
+}
+
+p {
+	text-align: justify;
+	padding-top: 1em;
+}
+
+
+
+body {
+	padding-top:60px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+/* h1 { */
+	/* font-size:22px; */
+	/* padding: 0.5em; */
+/* } */
+
+/* h2{ */
+	/* text-align: center; */
+	/* font-size: 16px; */
+    /* font-weight: bold; */
+	/* text-align: left; */
+	/* line-height: 1.5; */
+	/* vertical-align: text-top; */
+	/* padding: 0px 0px 00px 0px; */
+	
+/* } */
+
+/* h3{ */
+	/* text-align: center; */
+	/* font-size: 14px; */
+    /* font-weight: bold; */
+	/* text-align: left; */
+	/* line-height: 1.5; */
+	/* vertical-align: text-top; */
+	/* padding: 0px 0px 00px 0px; */
+/* } */
+
+/* h4{ */
+	/* font-weight: bold; */
+	/* text-align: left; */
+	/* line-height: 1; */
+	/* vertical-align: text-top; */
+	/* padding: 0px 0px 00px 0px; */
+}
+
+a {
+	text-decoration:none;  	
+} 
+
+a:link {
+	text-decoration:none;
+	color: rgb(100, 100, 100);
+}
+
+/* a:visited { */
+	/* text-decoration:none; */
+	/* color: rgb(100, 100, 100); */
+/* } */
+
+a:hover {
+	text-decoration:none;
+	color: var(--link_hover);
+}
+	
+/* a:active { */
+	/* text-decoration:none; */
+/* } */
+
+.main{
+    margin: 10px;
+}
+
+
+.thumb {
+	position: relative;
+	float: left;
+	padding: 3px;
+    padding-bottom: 0px;
+    margin: 0px;
+	margin-right: 20px;
+    /* box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.15), 0 4px 4px 0 rgba(0, 0, 0, 0.14);  */
+}
+
+.thumb img{
+	border: thin;
+}
+
+
+.thumbD {
+	padding-top: 10px;
+	text-align:left;
+	position: relative;
+	float: left;
+	padding: 3px;
+    padding-bottom: 0px;
+    margin: 0px;
+	margin-right: 20px;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.15), 0 4px 4px 0 rgba(0, 0, 0, 0.14); 
+}
+
+.thumbD img{
+	border: thin;
+}
+
+
+.authors,.conf
+{
+	color: #2E2E2E;
+	font-size: 14px;	
+}
+
+/* .authors a,.conf a
+{
+	color:#14140f;
+	font-size: 14px;	
+} */
+
+.papers{
+	margin-top: 2em;
+    margin-left: 2em;
+}
+
+.ref{
+	height: 130px; 
+	padding-top: 10px;
+    text-align:left;
+    line-height: 1.5;
+}
+
+.refS{
+	height: 90px; 
+	padding-top: 10px;
+    text-align:left;
+    line-height: 1.5;
+}
+
+.refB{
+	height: 140px; 
+	padding-top: 10px;
+    text-align:left;
+    line-height: 1.5;
+}
+
+
+
+.publ_year{
+	text-align: left;
+/* 	border-radius: 5px;
+	border: 0.1px solid grey; */
+	padding: 1px; 		
+	margin-bottom: 5px; 		
+	margin-top: 10px; 		
+	color: #73AD21
+	background-color: white;
+/* 	box-shadow: 1px 1px 2px grey; */
+}
+
+
+#photo{
+	height: 256px;
+}
+
+#info {
+	text-align: left;
+	margin: 0px 1em 10px 10px; 
+}
+
+#hobbies
+{
+	text-align: left;
+	margin: 0px 1em 10px 10px; 
+	/* font-size : 80%; */
+	color: rgb(130,130,130);
+}
+
+
+#publications {
+	text-align: left;
+	margin: 0px 00px 00px 00px; 
+}
+
+/* #bio { */
+	/* text-align: left; */
+	/* vertical-align: text-top; */
+	/* margin: 0px 0px 0px 30px;  */
+/* } */
+
+
+#address {
+	text-align: left;
+	padding: 0px 0px 0px 00px;
+	line-height: 1.4;
+	font-style: italic;
+}
+
+#publications a{
+	text-decoration: none;
+}
+
+/* Publications Title */
+
+#publications .title a{
+	text-decoration: none;
+	color: var(--paper_title);
+}
+
+#publications .title a:link{
+	text-decoration: none;
+	color: var(--paper_title);
+}
+
+#publications .title a:visited {
+	text-decoration: none;
+	color: var(--paper_title);
+}
+
+#publications .title a:hover {
+	text-decoration: none;
+	color: var(--paper_title_hover);
+}
+
+/* Datasets Title */
+#datasets .title{
+	font-size: 16px;
+}
+
+#datasets .title a{
+	text-decoration: none;
+	color: var(--datasets_title);
+}
+
+#datasets .title a:link{
+	text-decoration: none;
+	color: var(--datasets_title);
+}
+
+#datasets .title a:visited {
+	text-decoration: none;
+	color: var(--datasets_title);
+}
+
+#datasets .title a:hover {
+	text-decoration: none;
+	color: var(--link_hover);
+}
+
+
+
+
+/* Authors */
+
+#publications .authors a{
+	text-decoration: none;
+	color: var(--link_authors);
+}
+
+#publications .authors a:link{
+	text-decoration: none;
+	color: var(--link_authors);
+}
+
+#publications .authors a:visited {
+	text-decoration: none;
+	color: var(--link_authors);
+}
+
+#publications .authors a:hover {
+	text-decoration: none;
+	color: var(--link_hover);
+}
+
+
+
+/* Data */
+
+#publications .data a{
+	text-decoration: none;
+	color: var(--link_data);
+}
+
+#publications .data a:link{
+	text-decoration: none;
+	color: var(--link_data);
+}
+
+#publications .data a:visited {
+	text-decoration: none;
+	color: var(--link_data);
+}
+
+#publications .data a:hover {
+	text-decoration: none;
+	color: var(--link_hover);
+}
+
+
+
+/* Bio links */
+
+#bio a{
+	text-decoration: none;
+	color: var(--link_data);
+}
+
+#bio a:link{
+	text-decoration: none;
+	color: var(--link_data);
+}
+
+#bio a:visited {
+	text-decoration: none;
+	color: var(--link_data);
+}
+
+#bio a:hover {
+	text-decoration: none;
+	color: var(--link_hover);
+}
+
+
+
+
+
+
+#hobbies a:link{
+	text-decoration: none;
+	color: rgb(36, 143, 36);
+	font-weight: 400;
+}
+#hobbies a:visited {
+	text-decoration: none;
+	color: rgb(36, 143, 36);
+	font-weight: 400;
+}
+#hobbies a:hover {
+	text-decoration: none;
+	color: rgb(112, 219, 112);
+	font-weight: 400;
+}
+
+#hobbies {
+	text-align: left;
+}
+
+#activities {
+	text-align: left;
+}
+
+
+#activities a{
+	text-decoration: none;
+	color: var(--link_data);
+}
+
+#activities a:link{
+	text-decoration: none;
+	color: var(--link_data);
+}
+
+#activities a:visited {
+	text-decoration: none;
+	color: var(--link_data);
+}
+
+#activities a:hover {
+	text-decoration: none;
+	color: var(--link_hover);
+}
+
+
+
+ul{
+	text-align: left;
+}
+
+
+.pdfIcon {background-image:url("img/icons/pdfIcon.png"); height: 35px;}
+.htmlIcon {background-image:url(img/icons/htmlIcon.png); height: 35px;}
+.zipIcon {background-image:url(img/icons/zipIcon.png); height: 35px;}

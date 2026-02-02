@@ -1,0 +1,84 @@
+.timeline {
+    position: relative;
+    max-width: 900px;
+    /* margin: 2rem auto; */
+    left: 15px;
+    font-family: 'EBGaramond-Regular', 'EB Garamond', serif;
+  }
+  
+  .timeline h3 {
+    margin-left: 0; /* flush with other h3 on the page */
+    /* font-size: 1.3rem;
+    margin-bottom: 1.5rem; */
+  }
+  
+  /* Timeline item grid */
+  .timeline-item {
+    display: grid;
+    grid-template-columns: 40px 1fr; /* 40px for line/dot, rest for content */
+    gap: 10px;
+    position: relative;
+    margin-bottom: 2rem;
+  }
+  
+  /* Vertical line: extends for all items */
+  .timeline-item::before {
+    content: '';
+    grid-column: 1;
+    position: absolute;
+    left: 5px; /* half of column width */
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #d0d0d0;
+    z-index: 0;
+  }
+  
+  /* Dot */
+  .timeline-line-container {
+    grid-column: 1;
+    display: flex;
+    justify-content: center; /* centers dot on line */
+    position: relative;
+  }
+  
+  .timeline-dot {
+    width: 12px;
+    height: 12px;
+    background: #8fb814;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* Content column */
+  .timeline-content {
+    grid-column: 2;
+  }
+  
+  .timeline-date {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.2rem;
+  }
+  
+  .timeline-content h4 {
+    font-family: 'EBGaramond-Medium';
+    font-size: 1.05rem;
+    margin: 0.1rem 0;
+  }
+  
+  .timeline-content h5 {
+    font-family: 'EBGaramond-Regular';
+    font-size: 1rem;
+    margin: 0;
+    font-weight: normal;
+    color: #444;
+  }
+  
+  .timeline-content p,
+  .timeline-content ul {
+    font-size: 0.95rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }

@@ -1,0 +1,6 @@
+@inproceedings{qi2022,
+  title={{One Sketch for All: One-Shot Personalized Sketch Segmentation}},
+  author={ Qi, Anran and Gryaditskaya, Yulia and Xiang, Tao and Song, Yi-Zhe},
+  booktitle={IEEE Transactions on Image Processing},
+  year={2022}
+}

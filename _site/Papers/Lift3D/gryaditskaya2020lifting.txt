@@ -1,0 +1,6 @@
+@article{gryaditskaya2020lifting,
+  title={Lifting Freehand Concept Sketches into 3D},
+  author={Gryaditskaya, Yulia and H{\"a}hnlein, Felix and Liu, Chenxi and Sheffer, Alla and Bousseau, Adrien},
+  journal={ACM Transactions on Graphics (Proceedings of Siggraph Asia)},
+  year={2020}
+}

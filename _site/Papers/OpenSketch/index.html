@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>OpenSketch: A Richly-Annotated Dataset of Product Design Sketches</title>
+<link href="project_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<h1>OpenSketch: A Richly-Annotated Dataset of Product Design Sketches</h1>
+
+<div id="author-list">  
+	<a href="http://yulia.gryaditskaya/">Yulia Gryaditskaya</a>
+    <a href='https://www.marksypesteyn.com/'>Mark Sypesteyn</a>
+    <a href='https://www.tudelft.nl/io/over-io/persoonlijke-profielen/docenten/hoftijzer-jw/'>Jan Willem Hoftijzer</a>
+    <a href='https://www.tudelft.nl/en/ide/about-ide/personal-profiles/professors/pont-sc/'>Sylvia Pont</a>
+    <a href='http://people.csail.mit.edu/fredo/'>Fr&eacute;do Durand</a>
+    <a href='http://www-sop.inria.fr/members/Adrien.Bousseau/'>Adrien Bousseau</a>
+</div>
+
+
+<div id="venue">
+	Conditionally accepted to SIGGRAPH Asia 2019.
+	<p><a href="">[Paper/Coming soon]</a></p>
+</div>
+
+
+<div id="teaser-part">
+Teaser/Coming soon
+</div>
+<div>
+Video/Coming soon
+</div>
+
+<!-- <div id="teaser-part"> -->
+<!-- <img src="teaser.png" width="800px"></img> -->
+<!-- <p>Our method takes as input multiple sketches of an object (a). We first apply existing deep neural networks to predict a volumetric reconstruction of the shape as well as one normal map per sketch (b). We re-project the normal maps on the voxel grid (c, blue and yellow needles), which complement the surface normal computed from the volumetric prediction (c, pink needles). We aggregate these different normals into a distribution represented by a mean vector and a standard deviation (d, colors denote low variance in green and high variance in red). We optimize this normal field to make it piecewise smooth (e) and use it to regularize the surface (f). The final surface preserves the overall shape of the predicted voxel grid as well as the sharp features of the predicted normal maps.</p> -->
+	<!-- <center> -->
+	<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/BNfMG5P8Qpc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+	<!-- </center> -->
+          		
+<!-- </div> -->
+
+
+  <h2>Abstract</h2>
+  <p> Product designers extensively use sketches to create and communicate 3D
+shapes and thus form an ideal audience for sketch-based modeling, nonphotorealistic
+rendering and sketch filtering. However, sketching requires
+significant expertise and time, making design sketches a scarce resource
+for the research community. We introduce OpenSketch, a dataset of product
+design sketches aimed at offering a rich source of information for a variety
+of computer-aided design tasks. OpenSketch contains more than 400 sketches
+representing 12 man-made objects drawn by 7 to 15 product designers of
+varying expertise. We provided participants with front, side and top views
+of these objects, and instructed them to draw from two novel perspective
+viewpoints. This drawing task forces designers to construct the shape from
+their mental vision rather than directly copy what they see. They achieve
+this task by employing a variety of sketching techniques and methods not
+observed in prior datasets. Together with industrial design teachers, we
+distilled a taxonomy of line types and used it to label each stroke of the
+214 sketches drawn from one of the two viewpoints. While some of these lines have long been known in computer graphics, others remain to be
+reproduced algorithmically or exploited for shape inference. In addition, we
+also asked participants to produce clean presentation drawings from each
+of their sketches, resulting in aligned pairs of drawings of different styles.
+Finally, we registered each sketch to its reference 3D model by annotating
+sparse correspondences. We provide an analysis of our annotated sketches,
+which reveals systematic drawing strategies over time and shapes, as well as
+a positive correlation between presence of construction lines and accuracy.
+Our sketches, in combination with provided annotations, form challenging
+benchmarks for existing algorithms as well as a great source of inspiration
+for future developments. We illustrate the versatility of our data by using it to
+test a 3D reconstruction deep network trained on synthetic drawings, as well
+as to train a filtering network to convert concept sketches into presentation
+drawings. We distribute our dataset under the Creative Commons CC0
+license: <a href="https://repo-sam.inria.fr/d3/OpenSketch/">https://repo-sam.inria.fr/d3/OpenSketch</a>. </p>
+
+<h2>Code</h2>
+<ul>
+    <li><a href="">Gitlab repo (Coming soon)</a>: contains the code and tools used in the paper.</li>
+</ul>
+
+
+
+<h2>BibTex</h2>
+<pre class='bibtex'>
+@Article{OpenSkecth19,
+  author       = "Yulia Gryaditskaya and Mark Sypesteyn and Jan Willem Hoftijzer and Sylvia Pont and Fr\'{e}do Durand and Adrien Bousseau",
+  title        = "OpenSketch: A Richly-Annotated Dataset of Product Design Sketches",
+  journal      = "ACM Transactions on Graphics (Proc. SIGGRAPH Asia)",
+  year         = "2019",
+  volume       = "",
+  pages        = "",
+  month        = "",
+}
+</pre>
+
+</body>
+</html>

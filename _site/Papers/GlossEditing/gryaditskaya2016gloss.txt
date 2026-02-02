@@ -1,0 +1,7 @@
+@inproceedings{gryaditskaya2016gloss,
+  title={Gloss Editing in Light Fields},
+  author={Gryaditskaya, Yulia and Masia, Belen and Didyk, Piotr and Myszkowski, Karol and Seidel, Hans-Peter},
+  booktitle={International Workshop on Vision, Modeling and Visualization (VMV)},
+  year={2016},
+  organization={The Eurographics Association}
+}

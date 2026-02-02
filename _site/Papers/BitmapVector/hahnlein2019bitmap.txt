@@ -1,0 +1,6 @@
+@inproceedings{hahnlein2019bitmap,
+  title={Bitmap or Vector? A study on sketch representations for deep stroke segmentation},
+  author={H{\"a}hnlein, Felix and Gryaditskaya, Yulia and Bousseau, Adrien},
+  booktitle={Journees Francaises d'Informatique Graphique et de Realite virtuelle},
+  year={2019}
+}

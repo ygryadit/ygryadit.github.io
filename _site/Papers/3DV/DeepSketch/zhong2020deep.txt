@@ -1,0 +1,6 @@
+@inproceedings{zhong2020deep,
+  title={Deep Sketch-Based Modeling: Tips and Tricks},
+  author={Zhong, Yue and Gryaditskaya, Yulia and Zhang, Honggang and Song, Yi-Zhe},
+  booktitle={ Proceedings of International Conference on 3D Vision (3DV) },
+  year={2020}
+}

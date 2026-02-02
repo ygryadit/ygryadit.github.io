@@ -1,0 +1,10 @@
+@article{gryaditskaya2019opensketch,
+  title={OpenSketch: A Richly-Annotated Dataset of Product Design Sketches},
+  author={Gryaditskaya, Yulia and Sypesteyn, Mark and Hoftijzer, Jan Willem and Pont, Sylvia and Durand, Fredo and Bousseau, Adrien},
+  journal={ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia)},
+  volume={38},
+  number={6},
+  pages={232},
+  year={2019},
+  publisher={ACM}
+}

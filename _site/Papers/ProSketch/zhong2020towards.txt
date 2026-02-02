@@ -1,0 +1,7 @@
+@Article{zhong2020towards,
+  author    = {Zhong, Yue and Qi, Yonggang and Gryaditskaya, Yulia and Zhang, Honggang and Song, Yi-Zhe},
+  journal   = {IEEE Transactions on Circuits and Systems for Video Technology},
+  title     = {Towards Practical Sketch-based 3D Shape Generation: The Role of Professional Sketches},
+  year      = {2020},
+  publisher = {IEEE},
+}
