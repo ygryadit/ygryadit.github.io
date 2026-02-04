@@ -18,8 +18,22 @@
     first frame, and CamxTime, the first synthetic space-and-time full-coverage rendering dataset that provides fully free space-time video 
     trajectories within a scene. Joint training on the temporal-warping scheme and the CamxTime dataset yields more precise temporal control. 
     We evaluate SpaceTimePilot on both real-world and synthetic data, demonstrating clear space-time disentanglement and strong results compared to prior work."
-  publ_id: "2026_1"
+  publ_id: "2026_2"
   type: "p"
+
+- title: "SketchingReality: From Freehand Scene Sketches to Photorealistic Images"
+  authors: "Ahmed Bourouis, Mikhail Bessmeltsev, <b>Yulia Gryaditskaya</b>"
+  venue: "ICLR"
+  year: 2026  
+  paper_link: ""
+  preview_img_link: ""
+  img_width: '130px'
+  project_link: ""
+  bibtex_link: ""
+  abstract: ""
+  publ_id: "2026_1"
+  type: "c"
+
 
 # - title: "SketchingReality: From Freehand Scene Sketches to Photorealistic Images"
 #   authors: "Ahmed Bourouis, Mikhail Bessmeltsev, <b>Yulia Gryaditskaya</b>"
