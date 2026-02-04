@@ -18,30 +18,30 @@
     first frame, and CamxTime, the first synthetic space-and-time full-coverage rendering dataset that provides fully free space-time video 
     trajectories within a scene. Joint training on the temporal-warping scheme and the CamxTime dataset yields more precise temporal control. 
     We evaluate SpaceTimePilot on both real-world and synthetic data, demonstrating clear space-time disentanglement and strong results compared to prior work."
-  publ_id: "2026_2"
+  publ_id: "2026_1"
   type: "p"
 
-- title: "SketchingReality: From Freehand Scene Sketches to Photorealistic Images"
-  authors: "Ahmed Bourouis, Mikhail Bessmeltsev, <b>Yulia Gryaditskaya</b>"
-  venue: "ICLR"
-  year: 2026  
-  paper_link: ""
-  preview_img_link: "./Papers/2026/SketchingReality/preview.png"
-  img_width: '130px'
-  project_link: "https://ahmedbourouis.github.io/SketchingReality_ICLR26/"
-  bibtex_link: ""
-  abstract: "Recent years have witnessed remarkable progress in generative AI, with natural language emerging as the most common conditioning input. 
-      As underlying models grow more powerful, researchers are exploring increasingly diverse conditioning signals—such as depth maps, edge maps, 
-      camera parameters, and reference images—to give users finer control over generation. Among different modalities, sketches are a natural and long-standing 
-      form of human communication, enabling rapid expression of visual concepts. Previous literature has largely focused on edge maps, often misnamed 
-      ''sketches''; however, algorithms that effectively handle true freehand sketches—with their inherent abstraction and distortions—remain underexplored.
-      We pursue the challenging goal of balancing photorealism with sketch adherence when generating images from freehand input. A key obstacle is the absence 
-      of ground-truth, pixel-aligned images: by their nature, freehand sketches do not have a single correct alignment. 
-      To address this, we propose a modulation-based approach that prioritizes semantic interpretation of the sketch over strict adherence to individual edge positions. 
-      We further introduce a novel loss that enables training on freehand sketches without requiring ground-truth pixel-aligned images. We show that our method 
-      outperforms existing approaches in both semantic alignment with freehand sketch inputs and in the realism and overall quality of the generated images."
-  publ_id: "2026_1"
-  type: "c"
+# - title: "SketchingReality: From Freehand Scene Sketches to Photorealistic Images"
+#   authors: "Ahmed Bourouis, Mikhail Bessmeltsev, <b>Yulia Gryaditskaya</b>"
+#   venue: "ICLR"
+#   year: 2026  
+#   paper_link: ""
+#   preview_img_link: "./Papers/2026/SketchingReality/preview.png"
+#   img_width: '130px'
+#   project_link: "https://ahmedbourouis.github.io/SketchingReality_ICLR26/"
+#   bibtex_link: ""
+#   abstract: "Recent years have witnessed remarkable progress in generative AI, with natural language emerging as the most common conditioning input. 
+#       As underlying models grow more powerful, researchers are exploring increasingly diverse conditioning signals—such as depth maps, edge maps, 
+#       camera parameters, and reference images—to give users finer control over generation. Among different modalities, sketches are a natural and long-standing 
+#       form of human communication, enabling rapid expression of visual concepts. Previous literature has largely focused on edge maps, often misnamed 
+#       ''sketches''; however, algorithms that effectively handle true freehand sketches—with their inherent abstraction and distortions—remain underexplored.
+#       We pursue the challenging goal of balancing photorealism with sketch adherence when generating images from freehand input. A key obstacle is the absence 
+#       of ground-truth, pixel-aligned images: by their nature, freehand sketches do not have a single correct alignment. 
+#       To address this, we propose a modulation-based approach that prioritizes semantic interpretation of the sketch over strict adherence to individual edge positions. 
+#       We further introduce a novel loss that enables training on freehand sketches without requiring ground-truth pixel-aligned images. We show that our method 
+#       outperforms existing approaches in both semantic alignment with freehand sketch inputs and in the realism and overall quality of the generated images."
+#   publ_id: "2026_1"
+#   type: "c"
 
 - title: "GroundUp: Rapid Sketch-Based 3D City Massing"
   authors: "Gizem Unlu, Mohamed Sayed, <b>Yulia Gryaditskaya</b>, Gabriel Brostow"
