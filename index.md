@@ -54,11 +54,15 @@ layout: main
 </section>
 
 <section class="container mt-4">  
-    <p>
-  		I am currently most interested in <strong>controllable video generation</strong>, with a focus on <em>spatial control</em> and the <em>coherent generation of storyboards and video segments</em>.
+  <p>
+      <em>I am on maternity leave until the end of July</em>.
+      During this time, responses may be slower than usual. 
+  </p>
+  <p>
+    I am currently most interested in <strong>controllable video and image generation</strong>, with a particular focus on <em>spatial and disentangled control</em> and the <em>coherent generation of storyboards and video segments</em>.
 	</p>
 	<p>
-	If you are interested in collaborations, please don’t hesitate to reach out. We are also hiring for internships — the next application cycle will be for <strong>2026</strong>.
+	If you are interested in collaborations, please don’t hesitate to reach out. We are also hiring for internships — the next application cycle will be for <strong>2027</strong>.
 	</p>
 </section>
 
