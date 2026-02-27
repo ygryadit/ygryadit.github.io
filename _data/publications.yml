@@ -1,6 +1,6 @@
 - title: "SpaceTimePilot: Generative Rendering of Dynamic Scenes Across Space and Time"
   authors: "Zhening Huang, Hyeonho Jeong, Xuelin Chen, <b>Yulia Gryaditskaya</b>, Tuanfeng Y. Wang, Joan Lasenby, Chun-Hao Huang"
-  venue: "Preprint"
+  venue: "CVPR"
   year: 2026  
   paper_link: "https://arxiv.org/abs/2512.25075"
   preview_img_link: "./Papers/2026/SpaceTimePilot/preview.png"
@@ -15,8 +15,8 @@
     yet effective temporal-warping training scheme that repurposes existing multi-view datasets to mimic temporal differences. This strategy 
     effectively supervises the model to learn temporal control and achieve robust space-time disentanglement. To further enhance the precision 
     of dual control, we introduce two additional components: an improved camera-conditioning mechanism that allows altering the camera from the 
-    first frame, and CamxTime, the first synthetic space-and-time full-coverage rendering dataset that provides fully free space-time video 
-    trajectories within a scene. Joint training on the temporal-warping scheme and the CamxTime dataset yields more precise temporal control. 
+    first frame, and Cam x Time, the first synthetic space-and-time full-coverage rendering dataset that provides fully free space-time video 
+    trajectories within a scene. Joint training on the temporal-warping scheme and the Cam x Time dataset yields more precise temporal control. 
     We evaluate SpaceTimePilot on both real-world and synthetic data, demonstrating clear space-time disentanglement and strong results compared to prior work."
   publ_id: "2026_2"
   type: "p"
@@ -25,7 +25,7 @@
   authors: "Ahmed Bourouis, Mikhail Bessmeltsev, <b>Yulia Gryaditskaya</b>"
   venue: "ICLR"
   year: 2026  
-  paper_link: ""
+  paper_link: "https://arxiv.org/abs/2602.14648"
   preview_img_link: "./Papers/2026/SketchingReality/preview.png"
   img_width: '130px'
   project_link: "https://ahmedbourouis.github.io/SketchingReality_ICLR26/"
