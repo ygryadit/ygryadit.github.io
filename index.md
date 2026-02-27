@@ -74,12 +74,10 @@ layout: main
 	<h3>Research Interests</h3>
 		<p>Yulia's main research interests lie in controllable 2D and 3D generative AI, focusing on the intersection of creativity and technology.</p>
 		<ul>
-			<li>Sketch-Based Modeling</li>
-			<li>Sketch-Based Image Generation</li>
-			<li>Spatial Guidance in the Generative Process</li>		
-			<li>Image/Video Editing and Manipulation</li>
 			<li>Generative AI</li>
-			<li>Semantic Understanding</li>
+      <li>Image/Video Generation and Editing</li>
+      <li>Sketch-Based Modeling</li>
+			<li>Sketch-Based Image Generation</li>
 		</ul>
 
 	<h3>Bio</h3>
