@@ -16,11 +16,11 @@ layout: main
             <div id="info">
                 <p><strong>Dr. Yulia Gryaditskaya</strong></p>
                 <p>Senior Research Scientist at Adobe, UK</p>
-                <p>
+                <!-- <p>
                     Visiting Academic at 
 					CVSSP and 
 					Surrey Institute for People-Centred AI, UK
-                </p>
+                </p> -->
                 <span>Email address: <script src="myaddress.js" type="text/javascript"></script></span>
             </div>
 
